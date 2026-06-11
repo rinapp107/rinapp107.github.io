@@ -131,6 +131,51 @@
     background-size:200% 100%;animation:sk 1.2s infinite}
   @keyframes sk{to{background-position:-200% 0}}
 
+  /* ===== Giao viec cho AI ===== */
+  .task-panel{border:2px solid var(--green-light);position:relative}
+  .task-area{display:flex;flex-direction:column;gap:10px}
+  .task-input{
+    width:100%;min-height:74px;resize:vertical;padding:13px 15px;border-radius:14px;
+    border:1.5px solid var(--line);background:var(--bg);color:var(--text);
+    font-family:inherit;font-size:14px;font-weight:500;line-height:1.55;outline:none;
+  }
+  .task-input:focus{border-color:var(--green-light);box-shadow:0 0 0 3px rgba(67,160,71,.14)}
+  .task-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .btn-send{
+    padding:11px 26px;border:none;border-radius:13px;cursor:pointer;
+    background:linear-gradient(135deg,var(--green-light),var(--green-dark));color:#fff;
+    font-family:'Be Vietnam Pro';font-weight:800;font-size:14px;letter-spacing:.3px;
+    box-shadow:0 6px 18px rgba(46,125,50,.35);transition:transform .15s;
+  }
+  .btn-send:hover{transform:translateY(-2px)}
+  .btn-send:disabled{opacity:.55;cursor:wait;transform:none}
+  .btn-gear{
+    padding:10px 14px;border-radius:13px;border:1px solid var(--line);background:var(--chip);
+    color:var(--muted);font-weight:700;font-size:12.5px;cursor:pointer;font-family:inherit;
+  }
+  .task-hint{font-size:12px;color:var(--muted);font-weight:600}
+  .task-hint b{color:var(--green)}
+  .task-result{font-size:13.5px;font-weight:600;line-height:1.6}
+  .task-result a{color:var(--green);font-weight:800}
+  .pat-box{display:none;flex-direction:column;gap:8px;background:var(--chip);border-radius:14px;padding:14px}
+  .pat-box.open{display:flex}
+  .pat-box input{
+    padding:10px 13px;border-radius:11px;border:1px solid var(--line);background:var(--card);
+    color:var(--text);font-family:'JetBrains Mono',monospace;font-size:12px;outline:none;
+  }
+  .pat-box small{font-size:11.5px;color:var(--muted);font-weight:600;line-height:1.6}
+  .pat-box small a{color:var(--green)}
+  .pat-actions{display:flex;gap:8px}
+  .pat-actions button{padding:8px 16px;border-radius:10px;border:none;cursor:pointer;font-weight:700;font-size:12px;font-family:inherit}
+  .pat-save{background:var(--green);color:#fff}
+  .pat-del{background:transparent;color:#dc2626;border:1px solid #dc262644 !important}
+  .recent-jobs{display:flex;flex-direction:column;gap:7px;margin-top:4px}
+  .job{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:600;padding:8px 11px;border-radius:11px;background:var(--chip)}
+  .job a{color:var(--text);text-decoration:none;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .job .st{font-size:11px;font-weight:800;padding:2px 9px;border-radius:99px}
+  .st-open{background:rgba(234,179,8,.15);color:#b45309}
+  .st-closed{background:rgba(34,197,94,.15);color:#15803d}
+
   @media(max-width:900px){
     .stats{grid-template-columns:repeat(2,1fr)}
     .row{grid-template-columns:1fr}
@@ -165,6 +210,31 @@
   <div id="loading" class="skeleton"></div>
 
   <div id="app" style="display:none">
+    <div class="panel task-panel" style="margin-bottom:14px">
+      <h2><span class="ico">🤖</span> Giao việc cho AI</h2>
+      <div class="task-area">
+        <textarea class="task-input" id="task-input" placeholder="Gõ yêu cầu cho AI... VD: Sửa màn hình Lịch Làm Việc, cột Họ Tên trên mobile cho rộng thêm chút"></textarea>
+        <div class="task-row">
+          <button class="btn-send" id="btn-send">Gửi việc cho AI ➤</button>
+          <button class="btn-gear" id="btn-pat">⚙️ Token</button>
+          <span class="task-hint" id="task-hint"></span>
+        </div>
+        <div class="pat-box" id="pat-box">
+          <small>Dán <b>Fine-grained Personal Access Token</b> để gửi việc 1 chạm + theo dõi tiến độ ngay tại đây.
+          Tạo tại <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>:
+          chọn repo <b>zentea-qlch</b> → Permissions → <b>Issues: Read and write</b> → Generate.
+          Token chỉ lưu trong trình duyệt này (localStorage), không nằm trong code.</small>
+          <input type="password" id="pat-input" placeholder="github_pat_...">
+          <div class="pat-actions">
+            <button class="pat-save" id="pat-save">Lưu token</button>
+            <button class="pat-del" id="pat-del">Xóa token</button>
+          </div>
+        </div>
+        <div class="task-result" id="task-result"></div>
+        <div class="recent-jobs" id="recent-jobs"></div>
+      </div>
+    </div>
+
     <div class="stats">
       <div class="stat"><div class="lbl">Tổng lần sửa code</div><div class="val" id="s-total">0</div><div class="sub">commit trên repo</div></div>
       <div class="stat"><div class="lbl">Hôm nay</div><div class="val" id="s-today">0</div><div class="sub" id="s-today-sub">lần sửa</div></div>
@@ -370,6 +440,90 @@ $('btn-dark').onclick = () => {
 if (localStorage.getItem('zt-dark') === '1' || (localStorage.getItem('zt-dark') === null && matchMedia('(prefers-color-scheme: dark)').matches)){
   document.documentElement.classList.add('dark');
 }
+
+// ===== Giao viec cho AI =====
+const REPO = 'rinapp107/zentea-qlch';
+const getPat = () => localStorage.getItem('zt-ghpat') || '';
+
+function updateHint(){
+  $('task-hint').textContent = getPat()
+    ? '⚡ Chế độ 1 chạm: gửi thẳng + theo dõi tại đây'
+    : 'Chưa có token: bấm Gửi sẽ mở GitHub điền sẵn, anh chỉ cần Submit';
+}
+
+$('btn-pat').onclick = () => $('pat-box').classList.toggle('open');
+$('pat-save').onclick = () => {
+  const v = $('pat-input').value.trim();
+  if (!v) return alert('Dán token vào ô trước đã');
+  localStorage.setItem('zt-ghpat', v);
+  $('pat-input').value = '';
+  $('pat-box').classList.remove('open');
+  updateHint(); loadJobs();
+};
+$('pat-del').onclick = () => {
+  localStorage.removeItem('zt-ghpat');
+  $('recent-jobs').innerHTML = '';
+  updateHint();
+};
+
+async function sendTask(){
+  const txt = $('task-input').value.trim();
+  if (!txt) { $('task-input').focus(); return; }
+  const title = 'AI: ' + (txt.length > 64 ? txt.slice(0, 64) + '…' : txt);
+  const body = '@claude ' + txt + '\n\n---\n*Giao việc từ ZENTEA AI Dashboard*';
+  const pat = getPat();
+
+  if (!pat){
+    window.open(`https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`, '_blank');
+    $('task-result').innerHTML = '↗️ Đã mở GitHub với nội dung điền sẵn — bấm <b>Submit new issue</b> để AI bắt đầu.';
+    return;
+  }
+
+  const btn = $('btn-send');
+  btn.disabled = true; btn.textContent = 'Đang gửi...';
+  try{
+    const res = await fetch(`https://api.github.com/repos/${REPO}/issues`, {
+      method: 'POST',
+      headers: { 'Authorization': 'Bearer ' + pat, 'Accept': 'application/vnd.github+json' },
+      body: JSON.stringify({ title, body })
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const issue = await res.json();
+    $('task-result').innerHTML = `✅ Đã giao việc! AI đang chạy tại <a href="${issue.html_url}" target="_blank" rel="noopener">#${issue.number}</a> — kết quả sẽ là câu trả lời hoặc Pull Request để anh Merge.`;
+    $('task-input').value = '';
+    setTimeout(loadJobs, 1500);
+  }catch(e){
+    $('task-result').innerHTML = `⚠️ Gửi lỗi (${esc(e.message)}). Token còn hạn và đủ quyền Issues không? Thử bấm ⚙️ dán lại, hoặc xóa token để dùng cách mở GitHub.`;
+  }
+  btn.disabled = false; btn.textContent = 'Gửi việc cho AI ➤';
+}
+$('btn-send').onclick = sendTask;
+$('task-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) sendTask();
+});
+
+async function loadJobs(){
+  const pat = getPat();
+  if (!pat) return;
+  try{
+    const res = await fetch(`https://api.github.com/repos/${REPO}/issues?state=all&per_page=6&sort=created&direction=desc`, {
+      headers: { 'Authorization': 'Bearer ' + pat, 'Accept': 'application/vnd.github+json' }
+    });
+    if (!res.ok) return;
+    const items = (await res.json()).filter(x => !x.pull_request);
+    if (!items.length) return;
+    $('recent-jobs').innerHTML = items.map(x => `
+      <div class="job">
+        <span class="st ${x.state === 'open' ? 'st-open' : 'st-closed'}">${x.state === 'open' ? 'ĐANG LÀM' : 'XONG'}</span>
+        <a href="${x.html_url}" target="_blank" rel="noopener">#${x.number} · ${esc(x.title)}</a>
+        <span style="color:var(--muted);font-size:11.5px">${timeAgo(x.created_at)}</span>
+      </div>`).join('');
+  }catch(e){ /* im lang */ }
+}
+
+updateHint();
+loadJobs();
+setInterval(loadJobs, 45000);
 
 load();
 setInterval(load, 60000);
