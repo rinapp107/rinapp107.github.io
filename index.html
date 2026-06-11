@@ -170,11 +170,27 @@
   .pat-save{background:var(--green);color:#fff}
   .pat-del{background:transparent;color:#dc2626;border:1px solid #dc262644 !important}
   .recent-jobs{display:flex;flex-direction:column;gap:7px;margin-top:4px}
-  .job{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:600;padding:8px 11px;border-radius:11px;background:var(--chip)}
+  .job{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:600;padding:8px 11px;border-radius:11px;background:var(--chip);cursor:pointer;transition:.15s}
+  .job:hover{outline:1.5px solid var(--green-light)}
   .job a{color:var(--text);text-decoration:none;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .job .st{font-size:11px;font-weight:800;padding:2px 9px;border-radius:99px}
   .st-open{background:rgba(234,179,8,.15);color:#b45309}
   .st-closed{background:rgba(34,197,94,.15);color:#15803d}
+
+  /* ===== Console theo doi AI chay ===== */
+  .console{display:none;flex-direction:column;margin-top:10px;border:1px solid #1f3d24;border-radius:14px;overflow:hidden;background:#0a120c}
+  .console.open{display:flex}
+  .con-head{display:flex;align-items:center;gap:8px;padding:10px 14px;background:#0f1a11;font-size:12.5px;font-weight:700;color:#9fd8a6;border-bottom:1px solid #1f3d24;flex-wrap:wrap}
+  .con-head .x{margin-left:auto;cursor:pointer;border:none;background:none;color:#6b8f72;font-size:15px;font-weight:800}
+  .con-steps{display:flex;flex-direction:column;gap:4px;padding:12px 16px;border-bottom:1px dashed #1f3d24}
+  .con-step{font-family:'JetBrains Mono',monospace;font-size:12px;color:#b9e4bf;display:flex;gap:8px;align-items:center}
+  .con-step.run{color:#ffd166}
+  .con-step.fail{color:#ff7b72}
+  .con-log{padding:13px 16px;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.8;color:#cde9d1;max-height:340px;overflow:auto;white-space:pre-wrap;word-break:break-word}
+  .con-log a{color:#7ed286}
+  .con-foot{padding:8px 16px;font-size:11px;color:#5e7f64;border-top:1px solid #1f3d24;display:flex;align-items:center;gap:8px}
+  .blink{display:inline-block;width:7px;height:13px;background:#7ed286;animation:blinkc 1s steps(1) infinite}
+  @keyframes blinkc{50%{opacity:0}}
 
   @media(max-width:900px){
     .stats{grid-template-columns:repeat(2,1fr)}
@@ -220,9 +236,9 @@
           <span class="task-hint" id="task-hint"></span>
         </div>
         <div class="pat-box" id="pat-box">
-          <small>Dán <b>Fine-grained Personal Access Token</b> để gửi việc 1 chạm + theo dõi tiến độ ngay tại đây.
+          <small>Dán <b>Fine-grained Personal Access Token</b> để gửi việc 1 chạm + xem màn hình AI chạy trực tiếp tại đây.
           Tạo tại <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>:
-          chọn repo <b>zentea-qlch</b> → Permissions → <b>Issues: Read and write</b> → Generate.
+          chọn repo <b>zentea-qlch</b> → Permissions → <b>Issues: Read and write</b> + <b>Actions: Read-only</b> → Generate.
           Token chỉ lưu trong trình duyệt này (localStorage), không nằm trong code.</small>
           <input type="password" id="pat-input" placeholder="github_pat_...">
           <div class="pat-actions">
@@ -232,6 +248,13 @@
         </div>
         <div class="task-result" id="task-result"></div>
         <div class="recent-jobs" id="recent-jobs"></div>
+        <div class="console" id="console">
+          <div class="con-head">🖥️ <span id="con-title"></span> <span id="con-status"></span>
+            <button class="x" id="con-close" title="Đóng">✕</button></div>
+          <div class="con-steps" id="con-steps"></div>
+          <div class="con-log" id="con-log"></div>
+          <div class="con-foot" id="con-cursor-row"><span class="blink"></span> đang theo dõi trực tiếp — tự làm mới mỗi 7 giây</div>
+        </div>
       </div>
     </div>
 
@@ -489,9 +512,10 @@ async function sendTask(){
     });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const issue = await res.json();
-    $('task-result').innerHTML = `✅ Đã giao việc! AI đang chạy tại <a href="${issue.html_url}" target="_blank" rel="noopener">#${issue.number}</a> — kết quả sẽ là câu trả lời hoặc Pull Request để anh Merge.`;
+    $('task-result').innerHTML = `✅ Đã giao việc! AI đang chạy tại <a href="${issue.html_url}" target="_blank" rel="noopener">#${issue.number}</a> — theo dõi trực tiếp ngay bên dưới 👇`;
     $('task-input').value = '';
     setTimeout(loadJobs, 1500);
+    openConsole(issue.number, title);
   }catch(e){
     $('task-result').innerHTML = `⚠️ Gửi lỗi (${esc(e.message)}). Token còn hạn và đủ quyền Issues không? Thử bấm ⚙️ dán lại, hoặc xóa token để dùng cách mở GitHub.`;
   }
@@ -513,13 +537,89 @@ async function loadJobs(){
     const items = (await res.json()).filter(x => !x.pull_request);
     if (!items.length) return;
     $('recent-jobs').innerHTML = items.map(x => `
-      <div class="job">
+      <div class="job" data-num="${x.number}" data-title="${esc(x.title)}" title="Bấm để xem AI chạy trực tiếp">
         <span class="st ${x.state === 'open' ? 'st-open' : 'st-closed'}">${x.state === 'open' ? 'ĐANG LÀM' : 'XONG'}</span>
         <a href="${x.html_url}" target="_blank" rel="noopener">#${x.number} · ${esc(x.title)}</a>
         <span style="color:var(--muted);font-size:11.5px">${timeAgo(x.created_at)}</span>
       </div>`).join('');
+    $('recent-jobs').querySelectorAll('.job').forEach(el => {
+      el.onclick = (e) => { if (e.target.tagName === 'A') return; openConsole(+el.dataset.num, el.dataset.title); };
+    });
   }catch(e){ /* im lang */ }
 }
+
+// ===== Console: man hinh AI chay truc tiep =====
+let conTimer = null, conIssue = null;
+const gh = path => fetch('https://api.github.com' + path, {
+  headers: { 'Authorization': 'Bearer ' + getPat(), 'Accept': 'application/vnd.github+json' }
+}).then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)));
+
+const stepIcon = s => s.status === 'completed'
+  ? (s.conclusion === 'success' ? '✓' : (s.conclusion === 'skipped' ? '·' : '✗'))
+  : (s.status === 'in_progress' ? '▶' : '…');
+
+function mdLite(s){
+  return esc(s)
+    .replace(/- \[x\]/gi, '✅').replace(/- \[ \]/g, '⬜')
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/^### (.+)$/gm, '<b style="color:#9fd8a6">$1</b>')
+    .replace(/^---+$/gm, '─────────────');
+}
+
+async function refreshConsole(){
+  if (!conIssue) return;
+  try{
+    const runs = await gh(`/repos/${REPO}/actions/workflows/claude.yml/runs?per_page=20`);
+    const run = (runs.workflow_runs || []).find(r => (r.display_title || '').trim() === conIssue.title.trim());
+    let running = true;
+    if (run){
+      running = run.status !== 'completed';
+      $('con-status').textContent = running
+        ? '🔄 ' + run.status.replace('_', ' ').toUpperCase()
+        : (run.conclusion === 'success' ? '✅ HOÀN THÀNH' : '❌ ' + String(run.conclusion).toUpperCase());
+      const jobs = await gh(`/repos/${REPO}/actions/runs/${run.id}/jobs`);
+      const steps = ((jobs.jobs || [])[0] || {}).steps || [];
+      $('con-steps').innerHTML = steps.map(s =>
+        `<div class="con-step ${s.status === 'in_progress' ? 'run' : (s.conclusion && s.conclusion !== 'success' && s.conclusion !== 'skipped' ? 'fail' : '')}">${stepIcon(s)} ${esc(s.name)}</div>`
+      ).join('') || '<div class="con-step run">▶ Máy chủ GitHub đang chuẩn bị...</div>';
+    } else {
+      $('con-status').textContent = '⏳ KHỞI ĐỘNG';
+      $('con-steps').innerHTML = '<div class="con-step run">▶ Đang chờ Action khởi động (vài giây)...</div>';
+    }
+    const comments = await gh(`/repos/${REPO}/issues/${conIssue.number}/comments?per_page=30`);
+    const bots = comments.filter(c => c.user && /github-actions|claude/i.test(c.user.login));
+    const last = bots[bots.length - 1];
+    const el = $('con-log');
+    const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 60;
+    el.innerHTML = last ? mdLite(last.body) : '<i style="color:#5e7f64">Claude chưa gửi cập nhật — tiến độ chi tiết sẽ hiện ở đây ngay khi bắt đầu…</i>';
+    if (nearBottom) el.scrollTop = el.scrollHeight;
+    if (!running){
+      $('con-cursor-row').innerHTML = '✔ Đã xong — bấm vào tiêu đề việc để mở issue xem kết quả / PR';
+      clearInterval(conTimer); conTimer = null;
+    }
+  }catch(e){
+    $('con-log').innerHTML = '<i style="color:#ff7b72">Không đọc được tiến trình (' + esc(e.message) + '). Token cần quyền Issues: Read-write + Actions: Read — bấm ⚙️ Token kiểm tra lại.</i>';
+  }
+}
+
+function openConsole(num, title){
+  conIssue = { number: num, title };
+  $('console').classList.add('open');
+  $('con-title').textContent = '#' + num + ' · ' + (title.length > 70 ? title.slice(0, 70) + '…' : title);
+  $('con-status').textContent = '⏳';
+  $('con-steps').innerHTML = ''; $('con-log').innerHTML = '';
+  $('con-cursor-row').innerHTML = '<span class="blink"></span> đang theo dõi trực tiếp — tự làm mới mỗi 7 giây';
+  $('console').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  refreshConsole();
+  if (conTimer) clearInterval(conTimer);
+  conTimer = setInterval(refreshConsole, 7000);
+}
+$('con-close').onclick = () => {
+  $('console').classList.remove('open');
+  if (conTimer) clearInterval(conTimer);
+  conTimer = null; conIssue = null;
+};
 
 updateHint();
 loadJobs();
