@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-11T13:47:01.658Z",
+ "generated": "2026-06-11T14:13:39.034Z",
  "repo": "zentea-qlch",
  "appVer": "260611encodingfix1",
- "totalCommits": 1,
+ "totalCommits": 3,
  "commits": [
+  {
+   "hash": "71450b0",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-11T21:13:20+07:00",
+   "message": "Fix workflow: chong CRLF trong deploy key + Node24 [loai:Fix bug] [tokens:8000] [ver:260611splash1]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260611splash1",
+   "files": 1,
+   "additions": 3,
+   "deletions": 0
+  },
+  {
+   "hash": "a8b68ec",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-11T21:05:52+07:00",
+   "message": "Them GitHub Action sync dashboard + quy trinh git cho agents [loai:Config] [tokens:60000] [ver:260611splash1]",
+   "loai": "Config",
+   "tokens": 60000,
+   "ver": "260611splash1",
+   "files": 3,
+   "additions": 156,
+   "deletions": 0
+  },
   {
    "hash": "511ce81",
    "agent": "Người",
