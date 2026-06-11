@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-11T14:29:06.314Z",
+ "generated": "2026-06-11T14:54:05.057Z",
  "repo": "zentea-qlch",
  "appVer": "260611encodingfix1",
- "totalCommits": 4,
+ "totalCommits": 5,
  "commits": [
+  {
+   "hash": "e1fcec2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-11T21:53:45+07:00",
+   "message": "Fix claude.yml: dung GITHUB_TOKEN thay app exchange [loai:Fix bug] [tokens:6000] [ver:260611splash1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260611splash1",
+   "files": 1,
+   "additions": 3,
+   "deletions": 0
+  },
   {
    "hash": "32809bc",
    "agent": "Claude Code",
