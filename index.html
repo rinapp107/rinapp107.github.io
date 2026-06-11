@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZENTEA · AI Dashboard</title>
+<meta name="description" content="Theo dõi hoạt động AI Agents trên dự án ZENTEA QLCH — tự động cập nhật từ GitHub.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --green:#2e7d32; --green-dark:#1b5e20; --green-light:#43a047;
+    --bg:#f3f8f3; --bg-grad:linear-gradient(165deg,#ffffff 0%,#f2f9f2 55%,#e8f5e9 100%);
+    --card:#ffffff; --text:#16241a; --muted:#6b7280; --line:#e3eee4;
+    --shadow:0 6px 24px rgba(27,94,32,.07);
+    --chip:#eef6ee; --chip-on:#2e7d32;
+    --claude:#d97757; --codex:#10a37f; --anti:#4285f4; --human:#9ca3af;
+  }
+  html.dark{
+    --bg:#0f1711; --bg-grad:linear-gradient(165deg,#101a12 0%,#0e1810 55%,#0b130d 100%);
+    --card:#16211a; --text:#e7f0e8; --muted:#94a39a; --line:#22301f;
+    --shadow:0 8px 28px rgba(0,0,0,.35);
+    --chip:#1d2b20; --chip-on:#66bb6a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Plus Jakarta Sans',system-ui,sans-serif;
+    background:var(--bg-grad);background-attachment:fixed;
+    color:var(--text);min-height:100vh;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:20px 18px 60px}
+
+  /* ===== Topbar ===== */
+  .topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 0 22px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand-badge{
+    width:46px;height:46px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,var(--green-light),var(--green-dark));
+    color:#fff;font-family:'Be Vietnam Pro';font-weight:900;font-size:15px;letter-spacing:.5px;
+    box-shadow:0 6px 18px rgba(46,125,50,.35);
+  }
+  .brand h1{font-family:'Be Vietnam Pro';font-size:21px;font-weight:800;letter-spacing:.4px}
+  .brand h1 span{color:var(--green-light)}
+  .brand small{display:block;font-size:12px;color:var(--muted);font-weight:600;margin-top:1px}
+  .top-actions{margin-left:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .pill{
+    display:inline-flex;align-items:center;gap:7px;padding:7px 13px;border-radius:99px;
+    background:var(--card);border:1px solid var(--line);font-size:12.5px;font-weight:600;color:var(--muted);
+    box-shadow:var(--shadow);
+  }
+  .pill b{color:var(--text);font-weight:700}
+  .dot{width:8px;height:8px;border-radius:50%;background:#22c55e;animation:blink 1.6s infinite}
+  @keyframes blink{50%{opacity:.35}}
+  .iconbtn{
+    width:38px;height:38px;border-radius:12px;border:1px solid var(--line);background:var(--card);
+    cursor:pointer;font-size:16px;box-shadow:var(--shadow);color:var(--text);
+    display:flex;align-items:center;justify-content:center;transition:transform .15s;
+  }
+  .iconbtn:hover{transform:translateY(-2px)}
+
+  /* ===== Stat cards ===== */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:14px}
+  .stat{
+    background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;
+    box-shadow:var(--shadow);position:relative;overflow:hidden;
+  }
+  .stat::after{
+    content:'';position:absolute;right:-26px;top:-26px;width:90px;height:90px;border-radius:50%;
+    background:radial-gradient(circle,rgba(67,160,71,.13),transparent 70%);
+  }
+  .stat .lbl{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.8px}
+  .stat .val{font-family:'Be Vietnam Pro';font-size:30px;font-weight:800;margin-top:6px;color:var(--green);line-height:1.1}
+  html.dark .stat .val{color:#7ed286}
+  .stat .sub{font-size:12px;color:var(--muted);margin-top:4px;font-weight:600}
+
+  /* ===== Panels ===== */
+  .row{display:grid;grid-template-columns:1.7fr 1fr;gap:14px;margin-bottom:14px}
+  .panel{
+    background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;box-shadow:var(--shadow);
+  }
+  .panel h2{font-family:'Be Vietnam Pro';font-size:15px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .panel h2 .ico{font-size:16px}
+  .chartbox{position:relative;height:240px}
+
+  /* ===== Timeline ===== */
+  .toolrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .chip{
+    padding:7px 14px;border-radius:99px;background:var(--chip);border:1px solid transparent;
+    font-size:12.5px;font-weight:700;color:var(--muted);cursor:pointer;transition:.15s;user-select:none;
+  }
+  .chip.on{background:var(--chip-on);color:#fff;box-shadow:0 4px 12px rgba(46,125,50,.3)}
+  .search{
+    flex:1;min-width:180px;max-width:330px;margin-left:auto;
+    padding:9px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);
+    font-family:inherit;font-size:13px;color:var(--text);outline:none;
+  }
+  .search:focus{border-color:var(--green-light)}
+  .commit{
+    display:flex;gap:14px;padding:14px 6px;border-bottom:1px dashed var(--line);align-items:flex-start;
+  }
+  .commit:last-child{border-bottom:none}
+  .avatar{
+    flex:none;width:40px;height:40px;border-radius:13px;display:flex;align-items:center;justify-content:center;
+    font-weight:800;color:#fff;font-size:13.5px;font-family:'Be Vietnam Pro';
+  }
+  .c-claude{background:linear-gradient(135deg,#e08a64,#c75b33)}
+  .c-codex{background:linear-gradient(135deg,#2bbd96,#0c8a6a)}
+  .c-anti{background:linear-gradient(135deg,#5e97f5,#2a6fe8)}
+  .c-human{background:linear-gradient(135deg,#a8b0ba,#7d8590)}
+  .cbody{flex:1;min-width:0}
+  .cmsg{font-size:14px;font-weight:600;line-height:1.45;word-break:break-word}
+  .cmeta{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;font-size:12px;color:var(--muted);font-weight:600;align-items:center}
+  .tag{padding:2.5px 9px;border-radius:99px;font-size:11px;font-weight:700}
+  .tag-agent{background:var(--chip);color:var(--green)}
+  html.dark .tag-agent{color:#7ed286}
+  .tag-loai{background:rgba(66,133,244,.12);color:#3b78e7}
+  .hash{font-family:'JetBrains Mono',monospace;font-size:11.5px;opacity:.85}
+  .adds{color:#16a34a}.dels{color:#dc2626}
+  .more{display:block;margin:16px auto 2px;padding:10px 26px;border-radius:12px;border:1px solid var(--line);
+    background:var(--chip);color:var(--green);font-weight:700;font-size:13px;cursor:pointer}
+  html.dark .more{color:#7ed286}
+  .empty{padding:34px;text-align:center;color:var(--muted);font-weight:600}
+
+  footer{margin-top:26px;text-align:center;font-size:12px;color:var(--muted);font-weight:600;line-height:1.9}
+  footer a{color:var(--green);text-decoration:none;font-weight:700}
+
+  .skeleton{height:120px;border-radius:18px;background:linear-gradient(100deg,var(--card) 40%,var(--chip) 50%,var(--card) 60%);
+    background-size:200% 100%;animation:sk 1.2s infinite}
+  @keyframes sk{to{background-position:-200% 0}}
+
+  @media(max-width:900px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .row{grid-template-columns:1fr}
+    .chartbox{height:210px}
+  }
+  @media(max-width:480px){
+    .wrap{padding:14px 12px 50px}
+    .stat .val{font-size:24px}
+    .search{max-width:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-badge">ZEN</div>
+      <div>
+        <h1>ZENTEA <span>· AI Dashboard</span></h1>
+        <small>Theo dõi hoạt động AI Agents — tự động cập nhật từ GitHub</small>
+      </div>
+    </div>
+    <div class="top-actions">
+      <span class="pill"><span class="dot"></span> Cập nhật: <b id="t-gen">—</b></span>
+      <span class="pill">Version web: <b id="t-ver">—</b></span>
+      <button class="iconbtn" id="btn-refresh" title="Làm mới">⟳</button>
+      <button class="iconbtn" id="btn-dark" title="Sáng / Tối">🌗</button>
+    </div>
+  </div>
+
+  <div id="loading" class="skeleton"></div>
+
+  <div id="app" style="display:none">
+    <div class="stats">
+      <div class="stat"><div class="lbl">Tổng lần sửa code</div><div class="val" id="s-total">0</div><div class="sub">commit trên repo</div></div>
+      <div class="stat"><div class="lbl">Hôm nay</div><div class="val" id="s-today">0</div><div class="sub" id="s-today-sub">lần sửa</div></div>
+      <div class="stat"><div class="lbl">Token ước tính</div><div class="val" id="s-tokens">0</div><div class="sub">từ commit có ghi [tokens]</div></div>
+      <div class="stat"><div class="lbl">Chi phí ước tính</div><div class="val" id="s-cost">0₫</div><div class="sub">≈0,126₫ / token</div></div>
+    </div>
+
+    <div class="row">
+      <div class="panel">
+        <h2><span class="ico">📈</span> Hoạt động 14 ngày gần nhất</h2>
+        <div class="chartbox"><canvas id="chart-days"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2><span class="ico">🤖</span> Phân bố theo Agent</h2>
+        <div class="chartbox"><canvas id="chart-agents"></canvas></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2><span class="ico">📜</span> Nhật ký thay đổi</h2>
+      <div class="toolrow">
+        <div class="chips" id="chips"></div>
+        <input class="search" id="search" placeholder="Tìm theo mô tả, file, version...">
+      </div>
+      <div id="list"></div>
+      <button class="more" id="btn-more" style="display:none">Xem thêm ↓</button>
+    </div>
+
+    <footer>
+      Nguồn dữ liệu: repo private <b>zentea-qlch</b> → GitHub Action build <code>data/log.json</code><br>
+      Web vận hành: <a href="https://zenteaqlch.io.vn" target="_blank" rel="noopener">zenteaqlch.io.vn</a> · Dashboard tự làm mới mỗi 60 giây
+    </footer>
+  </div>
+</div>
+
+<script>
+const COST_PER_TOKEN_VND = 0.126;
+const AGENTS = [
+  { key:'all',        label:'Tất cả' },
+  { key:'Claude Code',label:'Claude Code', cls:'c-claude', color:'#d97757', short:'CL' },
+  { key:'Codex',      label:'Codex',       cls:'c-codex',  color:'#10a37f', short:'CX' },
+  { key:'Antigravity',label:'Antigravity', cls:'c-anti',   color:'#4285f4', short:'AG' },
+  { key:'Người',      label:'Người',       cls:'c-human',  color:'#9ca3af', short:'NG' },
+];
+const agentMeta = k => AGENTS.find(a => a.key === k) || AGENTS[4];
+
+let DATA = null, filterAgent = 'all', query = '', shown = 30;
+let chDays = null, chAgents = null;
+
+const $ = id => document.getElementById(id);
+const fmt = n => (n || 0).toLocaleString('vi-VN');
+
+function timeAgo(iso){
+  const s = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (s < 60) return 'vừa xong';
+  if (s < 3600) return Math.floor(s/60) + ' phút trước';
+  if (s < 86400) return Math.floor(s/3600) + ' giờ trước';
+  if (s < 7*86400) return Math.floor(s/86400) + ' ngày trước';
+  return new Date(iso).toLocaleDateString('vi-VN');
+}
+const dayKey = d => { const x = new Date(d); return x.getFullYear()+'-'+String(x.getMonth()+1).padStart(2,'0')+'-'+String(x.getDate()).padStart(2,'0'); };
+
+async function load(){
+  try{
+    const res = await fetch('data/log.json?t=' + Date.now());
+    DATA = await res.json();
+    render();
+  }catch(e){
+    $('loading').outerHTML = '<div class="panel empty">⚠️ Chưa tải được dữ liệu (data/log.json). Hãy chờ GitHub Action chạy lần đầu.</div>';
+  }
+}
+
+function render(){
+  const c = DATA.commits || [];
+  $('loading').style.display = 'none';
+  $('app').style.display = 'block';
+
+  $('t-gen').textContent = new Date(DATA.generated).toLocaleString('vi-VN', {hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'});
+  $('t-ver').textContent = DATA.appVer || '—';
+
+  const today = dayKey(new Date());
+  const todayC = c.filter(x => dayKey(x.date) === today);
+  const tokens = c.reduce((s,x) => s + (x.tokens || 0), 0);
+
+  $('s-total').textContent = fmt(c.length);
+  $('s-today').textContent = fmt(todayC.length);
+  $('s-today-sub').textContent = todayC.length ? ('mới nhất ' + timeAgo(todayC[0].date)) : 'chưa có hôm nay';
+  $('s-tokens').textContent = tokens >= 1e6 ? (tokens/1e6).toFixed(2)+'M' : fmt(tokens);
+  $('s-cost').textContent = fmt(Math.round(tokens * COST_PER_TOKEN_VND)) + '₫';
+
+  renderCharts(c);
+  renderChips();
+  renderList();
+}
+
+function renderCharts(c){
+  const css = getComputedStyle(document.documentElement);
+  const lineCol = css.getPropertyValue('--line').trim();
+  const mutedCol = css.getPropertyValue('--muted').trim();
+
+  // --- 14 ngay ---
+  const days = [];
+  for (let i = 13; i >= 0; i--){
+    const d = new Date(); d.setDate(d.getDate() - i);
+    days.push(dayKey(d));
+  }
+  const perDayAgent = {};
+  AGENTS.slice(1).forEach(a => perDayAgent[a.key] = days.map(() => 0));
+  c.forEach(x => {
+    const i = days.indexOf(dayKey(x.date));
+    if (i >= 0 && perDayAgent[x.agent]) perDayAgent[x.agent][i]++;
+  });
+  if (chDays) chDays.destroy();
+  chDays = new Chart($('chart-days'), {
+    type: 'bar',
+    data: {
+      labels: days.map(d => d.slice(8) + '/' + d.slice(5,7)),
+      datasets: AGENTS.slice(1).map(a => ({
+        label: a.label, data: perDayAgent[a.key], backgroundColor: a.color,
+        stack: 's', borderRadius: 4, barPercentage: .72
+      }))
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: mutedCol, font: { family: 'Plus Jakarta Sans', weight: 600 }, boxWidth: 12, boxHeight: 12 } } },
+      scales: {
+        x: { stacked: true, grid: { display: false }, ticks: { color: mutedCol, font: { size: 10.5 } } },
+        y: { stacked: true, grid: { color: lineCol }, ticks: { color: mutedCol, precision: 0 } }
+      }
+    }
+  });
+
+  // --- Donut agent ---
+  const counts = AGENTS.slice(1).map(a => c.filter(x => x.agent === a.key).length);
+  if (chAgents) chAgents.destroy();
+  chAgents = new Chart($('chart-agents'), {
+    type: 'doughnut',
+    data: {
+      labels: AGENTS.slice(1).map(a => a.label),
+      datasets: [{ data: counts, backgroundColor: AGENTS.slice(1).map(a => a.color), borderWidth: 0, hoverOffset: 6 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '62%',
+      plugins: { legend: { position: 'bottom', labels: { color: mutedCol, font: { family: 'Plus Jakarta Sans', weight: 600 }, boxWidth: 12, boxHeight: 12, padding: 14 } } }
+    }
+  });
+}
+
+function renderChips(){
+  $('chips').innerHTML = AGENTS.map(a =>
+    `<span class="chip ${filterAgent === a.key ? 'on' : ''}" data-k="${a.key}">${a.label}</span>`
+  ).join('');
+  $('chips').querySelectorAll('.chip').forEach(el =>
+    el.onclick = () => { filterAgent = el.dataset.k; shown = 30; renderChips(); renderList(); }
+  );
+}
+
+function matched(){
+  let c = DATA.commits || [];
+  if (filterAgent !== 'all') c = c.filter(x => x.agent === filterAgent);
+  if (query){
+    const q = query.toLowerCase();
+    c = c.filter(x => (x.message + ' ' + (x.ver||'') + ' ' + (x.loai||'') + ' ' + x.author).toLowerCase().includes(q));
+  }
+  return c;
+}
+
+function renderList(){
+  const c = matched();
+  if (!c.length){ $('list').innerHTML = '<div class="empty">Không có kết quả phù hợp 🍃</div>'; $('btn-more').style.display = 'none'; return; }
+  $('list').innerHTML = c.slice(0, shown).map(x => {
+    const m = agentMeta(x.agent);
+    return `<div class="commit">
+      <div class="avatar ${m.cls}">${m.short}</div>
+      <div class="cbody">
+        <div class="cmsg">${esc(x.message)}</div>
+        <div class="cmeta">
+          <span class="tag tag-agent">${x.agent}</span>
+          ${x.loai ? `<span class="tag tag-loai">${esc(x.loai)}</span>` : ''}
+          ${x.ver ? `<span class="tag tag-loai" style="background:rgba(46,125,50,.1);color:var(--green)">v ${esc(x.ver)}</span>` : ''}
+          <span>📄 ${x.files} file</span>
+          <span><span class="adds">+${fmt(x.additions)}</span> / <span class="dels">−${fmt(x.deletions)}</span></span>
+          ${x.tokens ? `<span>🔋 ${fmt(x.tokens)} tk</span>` : ''}
+          <span class="hash">#${x.hash}</span>
+          <span>🕐 ${timeAgo(x.date)}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  $('btn-more').style.display = c.length > shown ? 'block' : 'none';
+}
+
+const esc = s => (s || '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+
+$('search').addEventListener('input', e => { query = e.target.value.trim(); shown = 30; renderList(); });
+$('btn-more').onclick = () => { shown += 40; renderList(); };
+$('btn-refresh').onclick = () => load();
+$('btn-dark').onclick = () => {
+  document.documentElement.classList.toggle('dark');
+  localStorage.setItem('zt-dark', document.documentElement.classList.contains('dark') ? '1' : '0');
+  if (DATA) renderCharts(DATA.commits || []);
+};
+if (localStorage.getItem('zt-dark') === '1' || (localStorage.getItem('zt-dark') === null && matchMedia('(prefers-color-scheme: dark)').matches)){
+  document.documentElement.classList.add('dark');
+}
+
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>

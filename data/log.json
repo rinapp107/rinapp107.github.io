@@ -1,0 +1,21 @@
+{
+ "generated": "2026-06-11T13:47:01.658Z",
+ "repo": "zentea-qlch",
+ "appVer": "260611encodingfix1",
+ "totalCommits": 1,
+ "commits": [
+  {
+   "hash": "511ce81",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-11T20:40:20+07:00",
+   "message": "Initial commit: ZENTEA QLCH source code",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 325,
+   "additions": 156826,
+   "deletions": 0
+  }
+ ]
+}
