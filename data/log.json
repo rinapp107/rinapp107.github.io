@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-11T14:13:39.034Z",
+ "generated": "2026-06-11T14:29:06.314Z",
  "repo": "zentea-qlch",
  "appVer": "260611encodingfix1",
- "totalCommits": 3,
+ "totalCommits": 4,
  "commits": [
+  {
+   "hash": "32809bc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-11T21:28:48+07:00",
+   "message": "Them CI/CD: auto-deploy VPS khi merge main + @claude trong issue/PR [loai:Config] [tokens:25000] [ver:260611splash1]",
+   "loai": "Config",
+   "tokens": 25000,
+   "ver": "260611splash1",
+   "files": 2,
+   "additions": 121,
+   "deletions": 0
+  },
   {
    "hash": "71450b0",
    "agent": "Claude Code",
