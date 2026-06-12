@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-12T02:51:04.150Z",
+ "generated": "2026-06-12T03:26:16.235Z",
  "repo": "zentea-qlch",
  "appVer": "260612hover1",
- "totalCommits": 9,
+ "totalCommits": 11,
  "commits": [
+  {
+   "hash": "d8bd20a",
+   "agent": "Người",
+   "author": "poscf",
+   "date": "2026-06-12T10:26:03+07:00",
+   "message": "fix: Dashboard Google Sheets - chi phí đúng giá, nhật ký hiển thị đầy đủ [loai:Fix bug] [tokens:0] [ver:260612hover1]",
+   "loai": "Fix bug",
+   "tokens": 0,
+   "ver": "260612hover1",
+   "files": 0,
+   "additions": 0,
+   "deletions": 0
+  },
+  {
+   "hash": "6270ee9",
+   "agent": "Claude Code",
+   "author": "claude[bot]",
+   "date": "2026-06-12T03:07:35Z",
+   "message": "fix: sua dashboard Google Sheets - chi phi dung gia, nhat ky hien day du [loai:Fix bug] [tokens:8000] [ver:260612dash1]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260612dash1",
+   "files": 2,
+   "additions": 23,
+   "deletions": 15
+  },
   {
    "hash": "14fe2af",
    "agent": "Claude Code",
