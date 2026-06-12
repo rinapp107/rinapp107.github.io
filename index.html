@@ -362,8 +362,9 @@ function render(){
   const today = dayKey(new Date());
   const todayC = c.filter(x => dayKey(x.date) === today);
   const commitTokens = c.reduce((s,x) => s + (x.tokens || 0), 0);
-  const tokens = STATS ? STATS.totalTokens : commitTokens;
-  const cost   = STATS ? STATS.totalCostVnd
+  const hasRealStats = STATS && STATS.totalTokens > 0;
+  const tokens = hasRealStats ? STATS.totalTokens : commitTokens;
+  const cost   = hasRealStats ? STATS.totalCostVnd
     : Math.round(c.reduce((s,x) => s + (x.tokens||0) * (AGENT_COST_PER_TOKEN[x.agent]||0), 0));
 
   $('s-total').textContent = fmt(c.length);
@@ -371,7 +372,7 @@ function render(){
   $('s-today-sub').textContent = todayC.length ? ('mới nhất ' + timeAgo(todayC[0].date)) : 'chưa có hôm nay';
   $('s-tokens').textContent = tokens >= 1e6 ? (tokens/1e6).toFixed(2)+'M' : fmt(tokens);
   $('s-cost').textContent = fmt(cost) + '₫';
-  if (STATS) {
+  if (hasRealStats) {
     $('s-tokens-sub').textContent = 'thực tế từ Google Sheets';
     $('s-cost-sub').textContent   = 'theo giá Claude/Codex thực tế';
   } else {
