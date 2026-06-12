@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-12T01:57:31.248Z",
+ "generated": "2026-06-12T02:51:04.150Z",
  "repo": "zentea-qlch",
- "appVer": "260611encodingfix2",
- "totalCommits": 8,
+ "appVer": "260612hover1",
+ "totalCommits": 9,
  "commits": [
+  {
+   "hash": "14fe2af",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-12T09:50:52+07:00",
+   "message": "Hieu ung crosshair hover bang Topping & Huy (merge tay PR #3 do conflict voi encoding fix) [loai:Them tinh nang] [tokens:30000] [ver:260612hover1]",
+   "loai": "Them tinh nang",
+   "tokens": 30000,
+   "ver": "260612hover1",
+   "files": 5,
+   "additions": 43,
+   "deletions": 7
+  },
   {
    "hash": "6eb2cb3",
    "agent": "Codex",
