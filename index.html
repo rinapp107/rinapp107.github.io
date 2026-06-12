@@ -272,7 +272,7 @@
       <div class="stat"><div class="lbl">Tổng lần sửa code</div><div class="val" id="s-total">0</div><div class="sub">commit trên repo</div></div>
       <div class="stat"><div class="lbl">Hôm nay</div><div class="val" id="s-today">0</div><div class="sub" id="s-today-sub">lần sửa</div></div>
       <div class="stat"><div class="lbl">Token ước tính</div><div class="val" id="s-tokens">0</div><div class="sub">từ commit có ghi [tokens]</div></div>
-      <div class="stat"><div class="lbl">Chi phí ước tính</div><div class="val" id="s-cost">0₫</div><div class="sub">≈0,126₫ / token</div></div>
+      <div class="stat"><div class="lbl">Chi phí ước tính</div><div class="val" id="s-cost">0₫</div><div class="sub">Claude ≈0,31₫ · Codex ≈0,21₫ / tk</div></div>
     </div>
 
     <div class="row">
@@ -304,7 +304,13 @@
 </div>
 
 <script>
-const COST_PER_TOKEN_VND = 0.126;
+// Giá theo agent: (input_price×0.25 + output_price×0.75) × 25500đ / 1M token
+const AGENT_COST_PER_TOKEN = {
+  'Claude Code': (3.00 * 0.25 + 15.0 * 0.75) * 25500 / 1e6,  // $12/M → ≈0,306₫
+  'Codex':       (2.50 * 0.25 + 10.0 * 0.75) * 25500 / 1e6,  // $8.125/M → ≈0,207₫
+  'Antigravity': 0,
+  'Người':       0,
+};
 const AGENTS = [
   { key:'all',        label:'Tất cả' },
   { key:'Claude Code',label:'Claude Code', cls:'c-claude', color:'#d97757', short:'CL' },
@@ -356,7 +362,8 @@ function render(){
   $('s-today').textContent = fmt(todayC.length);
   $('s-today-sub').textContent = todayC.length ? ('mới nhất ' + timeAgo(todayC[0].date)) : 'chưa có hôm nay';
   $('s-tokens').textContent = tokens >= 1e6 ? (tokens/1e6).toFixed(2)+'M' : fmt(tokens);
-  $('s-cost').textContent = fmt(Math.round(tokens * COST_PER_TOKEN_VND)) + '₫';
+  const cost = c.reduce((s,x) => s + (x.tokens || 0) * (AGENT_COST_PER_TOKEN[x.agent] || 0), 0);
+  $('s-cost').textContent = fmt(Math.round(cost)) + '₫';
 
   renderCharts(c);
   renderChips();
