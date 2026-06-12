@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-12T01:33:37.610Z",
+ "generated": "2026-06-12T01:57:31.248Z",
  "repo": "zentea-qlch",
- "appVer": "260611encodingfix1",
- "totalCommits": 7,
+ "appVer": "260611encodingfix2",
+ "totalCommits": 8,
  "commits": [
+  {
+   "hash": "6eb2cb3",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-12T08:57:16+07:00",
+   "message": "Sua loi hien thi tieng Viet sau deploy [loai:Fix bug] [tokens:n/a] [ver:260611encodingfix2]",
+   "loai": "Fix bug",
+   "tokens": null,
+   "ver": "260611encodingfix2",
+   "files": 2,
+   "additions": 4,
+   "deletions": 4
+  },
   {
    "hash": "2ff3b9b",
    "agent": "Claude Code",
