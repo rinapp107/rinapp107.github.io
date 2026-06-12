@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-12T06:29:28.788Z",
+ "generated": "2026-06-12T06:30:16.141Z",
  "repo": "zentea-qlch",
- "appVer": "260612hover1",
- "totalCommits": 13,
+ "appVer": "260612llvposabbr1",
+ "totalCommits": 14,
  "commits": [
+  {
+   "hash": "bc70270",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-12T13:30:03+07:00",
+   "message": "Rut gon hien thi cot vi tri LLV [loai:Fix bug] [tokens:n/a] [ver:260612llvposabbr1]",
+   "loai": "Fix bug",
+   "tokens": null,
+   "ver": "260612llvposabbr1",
+   "files": 4,
+   "additions": 79,
+   "deletions": 52
+  },
   {
    "hash": "9cc5771",
    "agent": "Người",
