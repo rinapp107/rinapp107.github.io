@@ -271,8 +271,8 @@
     <div class="stats">
       <div class="stat"><div class="lbl">Tổng lần sửa code</div><div class="val" id="s-total">0</div><div class="sub">commit trên repo</div></div>
       <div class="stat"><div class="lbl">Hôm nay</div><div class="val" id="s-today">0</div><div class="sub" id="s-today-sub">lần sửa</div></div>
-      <div class="stat"><div class="lbl">Token ước tính</div><div class="val" id="s-tokens">0</div><div class="sub">từ commit có ghi [tokens]</div></div>
-      <div class="stat"><div class="lbl">Chi phí ước tính</div><div class="val" id="s-cost">0₫</div><div class="sub">Claude ≈0,31₫ · Codex ≈0,21₫ / tk</div></div>
+      <div class="stat"><div class="lbl">Token ước tính</div><div class="val" id="s-tokens">0</div><div class="sub" id="s-tokens-sub">từ commit có ghi [tokens]</div></div>
+      <div class="stat"><div class="lbl">Chi phí ước tính</div><div class="val" id="s-cost">0₫</div><div class="sub" id="s-cost-sub">Claude ≈0,31₫ · Codex ≈0,21₫ / tk</div></div>
     </div>
 
     <div class="row">
@@ -320,7 +320,7 @@ const AGENTS = [
 ];
 const agentMeta = k => AGENTS.find(a => a.key === k) || AGENTS[4];
 
-let DATA = null, filterAgent = 'all', query = '', shown = 30;
+let DATA = null, STATS = null, filterAgent = 'all', query = '', shown = 30;
 let chDays = null, chAgents = null;
 
 const $ = id => document.getElementById(id);
@@ -338,8 +338,13 @@ const dayKey = d => { const x = new Date(d); return x.getFullYear()+'-'+String(x
 
 async function load(){
   try{
-    const res = await fetch('data/log.json?t=' + Date.now());
-    DATA = await res.json();
+    const t = Date.now();
+    const [logRes, statsRes] = await Promise.all([
+      fetch('data/log.json?t=' + t),
+      fetch('data/stats.json?t=' + t).catch(() => null),
+    ]);
+    DATA = await logRes.json();
+    STATS = (statsRes && statsRes.ok) ? await statsRes.json().catch(() => null) : null;
     render();
   }catch(e){
     $('loading').outerHTML = '<div class="panel empty">⚠️ Chưa tải được dữ liệu (data/log.json). Hãy chờ GitHub Action chạy lần đầu.</div>';
@@ -356,14 +361,23 @@ function render(){
 
   const today = dayKey(new Date());
   const todayC = c.filter(x => dayKey(x.date) === today);
-  const tokens = c.reduce((s,x) => s + (x.tokens || 0), 0);
+  const commitTokens = c.reduce((s,x) => s + (x.tokens || 0), 0);
+  const tokens = STATS ? STATS.totalTokens : commitTokens;
+  const cost   = STATS ? STATS.totalCostVnd
+    : Math.round(c.reduce((s,x) => s + (x.tokens||0) * (AGENT_COST_PER_TOKEN[x.agent]||0), 0));
 
   $('s-total').textContent = fmt(c.length);
   $('s-today').textContent = fmt(todayC.length);
   $('s-today-sub').textContent = todayC.length ? ('mới nhất ' + timeAgo(todayC[0].date)) : 'chưa có hôm nay';
   $('s-tokens').textContent = tokens >= 1e6 ? (tokens/1e6).toFixed(2)+'M' : fmt(tokens);
-  const cost = c.reduce((s,x) => s + (x.tokens || 0) * (AGENT_COST_PER_TOKEN[x.agent] || 0), 0);
-  $('s-cost').textContent = fmt(Math.round(cost)) + '₫';
+  $('s-cost').textContent = fmt(cost) + '₫';
+  if (STATS) {
+    $('s-tokens-sub').textContent = 'thực tế từ Google Sheets';
+    $('s-cost-sub').textContent   = 'theo giá Claude/Codex thực tế';
+  } else {
+    $('s-tokens-sub').textContent = 'từ commit có ghi [tokens]';
+    $('s-cost-sub').textContent   = 'Claude ≈0,31₫ · Codex ≈0,21₫ / tk';
+  }
 
   renderCharts(c);
   renderChips();
