@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-12T06:30:16.141Z",
+ "generated": "2026-06-13T03:56:58.644Z",
  "repo": "zentea-qlch",
- "appVer": "260612llvposabbr1",
- "totalCommits": 14,
+ "appVer": "260613llvfit1",
+ "totalCommits": 15,
  "commits": [
+  {
+   "hash": "5c64e6b",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-13T10:55:57+07:00",
+   "message": "Tune LLV name and forecast sizing",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 5,
+   "additions": 21,
+   "deletions": 15
+  },
   {
    "hash": "bc70270",
    "agent": "Codex",
