@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-15T06:41:15.966Z",
+ "generated": "2026-06-15T09:08:24.121Z",
  "repo": "zentea-qlch",
- "appVer": "260613inventory1",
- "totalCommits": 17,
+ "appVer": "260615inventoryui1",
+ "totalCommits": 18,
  "commits": [
+  {
+   "hash": "4c69f8f",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-15T16:07:06+07:00",
+   "message": "Fix store inventory import UI visibility",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 6,
+   "additions": 116,
+   "deletions": 5
+  },
   {
    "hash": "c65fc19",
    "agent": "Codex",
