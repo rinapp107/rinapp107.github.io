@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-15T09:08:24.121Z",
+ "generated": "2026-06-15T16:23:46.689Z",
  "repo": "zentea-qlch",
- "appVer": "260615inventoryui1",
- "totalCommits": 18,
+ "appVer": "260615inventorycost1",
+ "totalCommits": 19,
  "commits": [
+  {
+   "hash": "377a00f",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-15T23:22:07+07:00",
+   "message": "Restore cost nav and harden inventory UI",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 9,
+   "additions": 445,
+   "deletions": 18
+  },
   {
    "hash": "4c69f8f",
    "agent": "Người",
