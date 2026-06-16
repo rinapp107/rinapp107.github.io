@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-15T16:23:46.689Z",
+ "generated": "2026-06-16T11:24:56.219Z",
  "repo": "zentea-qlch",
- "appVer": "260615inventorycost1",
- "totalCommits": 19,
+ "appVer": "260616nv1",
+ "totalCommits": 20,
  "commits": [
+  {
+   "hash": "b8ee8bc",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-16T18:23:26+07:00",
+   "message": "Restyle inventory header actions",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 6,
+   "additions": 40,
+   "deletions": 25
+  },
   {
    "hash": "377a00f",
    "agent": "Người",
