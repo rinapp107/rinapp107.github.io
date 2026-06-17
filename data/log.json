@@ -1,9 +1,48 @@
 {
- "generated": "2026-06-16T11:24:56.219Z",
+ "generated": "2026-06-17T05:37:48.012Z",
  "repo": "zentea-qlch",
- "appVer": "260616nv1",
- "totalCommits": 20,
+ "appVer": "260616nk8",
+ "totalCommits": 23,
  "commits": [
+  {
+   "hash": "736f656",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-17T12:27:40+07:00",
+   "message": "feat: redesign form Nhat Ky (Loai dropdown doc lap tab, mobile the doc, brand SVG) + AI auto-parse /api/nk-parse (Gemini, fallback regex) + Bao cao Hang ngay responsive mobile [loai:Them tinh nang] [ver:260617commit3]",
+   "loai": "Them tinh nang",
+   "tokens": null,
+   "ver": "260617commit3",
+   "files": 3,
+   "additions": 205,
+   "deletions": 94
+  },
+  {
+   "hash": "418fe5e",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-17T12:27:20+07:00",
+   "message": "feat: API dung URL tuyet doi (window.BASE_URL); an NV nghi viec (isActiveEmployee) khoi cac module; hien thi ngay dd/mm/yy; go trung nav Gia Von; bump cache [loai:Sua tinh nang] [ver:260617commit2]",
+   "loai": "Sua tinh nang",
+   "tokens": null,
+   "ver": "260617commit2",
+   "files": 14,
+   "additions": 96,
+   "deletions": 53
+  },
+  {
+   "hash": "3affb43",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-17T12:22:14+07:00",
+   "message": "feat: app mobile Capacitor + date-utils (dd/mm/yy + datepicker chung) + chuan icon/ngay vao skill + tai lieu NK auto-parse [loai:Them tinh nang] [ver:260617commit1]",
+   "loai": "Them tinh nang",
+   "tokens": null,
+   "ver": "260617commit1",
+   "files": 14,
+   "additions": 5525,
+   "deletions": 4
+  },
   {
    "hash": "b8ee8bc",
    "agent": "Người",
