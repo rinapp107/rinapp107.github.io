@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-17T05:37:48.012Z",
+ "generated": "2026-06-17T12:36:29.243Z",
  "repo": "zentea-qlch",
- "appVer": "260616nk8",
- "totalCommits": 23,
+ "appVer": "260617empdelete1",
+ "totalCommits": 24,
  "commits": [
+  {
+   "hash": "1144a69",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-17T19:34:49+07:00",
+   "message": "them modal xac nhan xoa nhan vien 2 buoc (header do, ten NV, canh bao) [loai:Them tinh nang] [tokens:6000] [ver:260617empdelete1]",
+   "loai": "Them tinh nang",
+   "tokens": 6000,
+   "ver": "260617empdelete1",
+   "files": 10,
+   "additions": 676,
+   "deletions": 140
+  },
   {
    "hash": "736f656",
    "agent": "Người",
