@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-17T13:47:56.591Z",
+ "generated": "2026-06-17T14:04:35.979Z",
  "repo": "zentea-qlch",
- "appVer": "260617canhan3",
- "totalCommits": 27,
+ "appVer": "260617canhan4",
+ "totalCommits": 28,
  "commits": [
+  {
+   "hash": "63ba12b",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-17T21:02:51+07:00",
+   "message": "Thêm nút gỡ ảnh đại diện, ảnh bìa, ảnh nền loading và cập nhật hiển thị tự động lên thẻ header [loai:Thêm tính năng] [tokens:12000] [ver:260617canhan4]",
+   "loai": "Thêm tính năng",
+   "tokens": 12000,
+   "ver": "260617canhan4",
+   "files": 7,
+   "additions": 115,
+   "deletions": 44
+  },
   {
    "hash": "3c81910",
    "agent": "Antigravity",
