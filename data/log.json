@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-17T12:36:29.243Z",
+ "generated": "2026-06-17T13:00:13.196Z",
  "repo": "zentea-qlch",
- "appVer": "260617empdelete1",
- "totalCommits": 24,
+ "appVer": "260617empdelete2",
+ "totalCommits": 25,
  "commits": [
+  {
+   "hash": "93043fd",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-17T19:58:52+07:00",
+   "message": "them nut xoa o cuoi ho so nhan vien cho quan ly [loai:Fix bug] [tokens:9000] [ver:260617empdelete2]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260617empdelete2",
+   "files": 7,
+   "additions": 65,
+   "deletions": 7
+  },
   {
    "hash": "1144a69",
    "agent": "Antigravity",
