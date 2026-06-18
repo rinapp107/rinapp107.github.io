@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-18T04:38:40.075Z",
+ "generated": "2026-06-18T04:46:03.991Z",
  "repo": "zentea-qlch",
- "appVer": "260618vuon1",
- "totalCommits": 35,
+ "appVer": "260618drmobile1",
+ "totalCommits": 36,
  "commits": [
+  {
+   "hash": "78c29f2",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-18T11:45:40+07:00",
+   "message": "Bump index.html APP_VER to 260618drmobile1 để cache-bust daily-reports.js [loai:Config] [tokens:500] [ver:260618drmobile1]",
+   "loai": "Config",
+   "tokens": 500,
+   "ver": "260618drmobile1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 2
+  },
   {
    "hash": "2163b5f",
    "agent": "Antigravity",
