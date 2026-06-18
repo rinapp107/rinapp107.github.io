@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-17T15:23:39.758Z",
+ "generated": "2026-06-18T04:00:15.744Z",
  "repo": "zentea-qlch",
- "appVer": "260617anhbia1",
- "totalCommits": 31,
+ "appVer": "260618vuon1",
+ "totalCommits": 32,
  "commits": [
+  {
+   "hash": "58d2690",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-18T10:58:03+07:00",
+   "message": "Đồng bộ code ảnh bìa nhân viên từ GitHub, tích hợp game Vườn ZEN, và deploy phiên bản 260617anhbia2 [loai:Deploy] [tokens:6000] [ver:260617anhbia2]",
+   "loai": "Deploy",
+   "tokens": 6000,
+   "ver": "260617anhbia2",
+   "files": 8,
+   "additions": 749,
+   "deletions": 41
+  },
   {
    "hash": "f273faa",
    "agent": "Người",
