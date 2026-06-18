@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-18T04:52:25.778Z",
+ "generated": "2026-06-18T04:56:48.408Z",
  "repo": "zentea-qlch",
  "appVer": "260618drmobile1",
- "totalCommits": 37,
+ "totalCommits": 38,
  "commits": [
+  {
+   "hash": "111bcd3",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-18T11:56:31+07:00",
+   "message": "Thêm js/garden-game.js vào script deploy-http.bat [loai:Config] [tokens:500] [ver:260618drmobile1]",
+   "loai": "Config",
+   "tokens": 500,
+   "ver": "260618drmobile1",
+   "files": 1,
+   "additions": 1,
+   "deletions": 0
+  },
   {
    "hash": "71f52cf",
    "agent": "Antigravity",
