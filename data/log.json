@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-18T14:44:16.049Z",
+ "generated": "2026-06-18T15:57:29.697Z",
  "repo": "zentea-qlch",
- "appVer": "260618chamcong1",
- "totalCommits": 41,
+ "appVer": "260618champrofile1",
+ "totalCommits": 43,
  "commits": [
+  {
+   "hash": "e417400",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-18T22:56:24+07:00",
+   "message": "Dua cham cong vao ho so nhan vien [loai:Thêm tính năng] [tokens:9000] [ver:260618champrofile1]",
+   "loai": "Thêm tính năng",
+   "tokens": 9000,
+   "ver": "260618champrofile1",
+   "files": 8,
+   "additions": 329,
+   "deletions": 88
+  },
+  {
+   "hash": "6307157",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-18T22:37:06+07:00",
+   "message": "Nang cap Vuon ZEN: nhiem vu (ngay/chuoi/thanh tuu) + qua trang tri/chau/nen/khung cua so + hieu ung [loai:Them tinh nang] [tokens:9000] [ver:260618vuonshop2]",
+   "loai": "Them tinh nang",
+   "tokens": 9000,
+   "ver": "260618vuonshop2",
+   "files": 3,
+   "additions": 159,
+   "deletions": 19
+  },
   {
    "hash": "ed2efc6",
    "agent": "Codex",
