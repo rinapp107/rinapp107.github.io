@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-19T17:13:57.112Z",
+ "generated": "2026-06-19T17:39:14.884Z",
  "repo": "zentea-qlch",
- "appVer": "260620chamgrid2",
- "totalCommits": 57,
+ "appVer": "260620chamgrid4",
+ "totalCommits": 59,
  "commits": [
+  {
+   "hash": "e184492",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-20T00:34:41+07:00",
+   "message": "Thiet ke luoi lich cham cong va keo tha dong tua Phan Ca [loai:Them tinh nang] [tokens:3000] [ver:260620chamgrid4]",
+   "loai": "Them tinh nang",
+   "tokens": 3000,
+   "ver": "260620chamgrid4",
+   "files": 3,
+   "additions": 385,
+   "deletions": 88
+  },
+  {
+   "hash": "d25c0ab",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-20T00:15:17+07:00",
+   "message": "LLV: fix hover lam o nhay len chen len bang (bo z-index/do bong noi o hover-cell, chi giu vien xanh trong o) [loai:Fix bug] [tokens:1500] [ver:260620llvhover5]",
+   "loai": "Fix bug",
+   "tokens": 1500,
+   "ver": "260620llvhover5",
+   "files": 1,
+   "additions": 2,
+   "deletions": 2
+  },
   {
    "hash": "54ff912",
    "agent": "Antigravity",
