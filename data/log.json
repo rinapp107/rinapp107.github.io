@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-18T15:57:29.697Z",
+ "generated": "2026-06-19T10:46:59.399Z",
  "repo": "zentea-qlch",
- "appVer": "260618champrofile1",
- "totalCommits": 43,
+ "appVer": "260619llvcolor1",
+ "totalCommits": 45,
  "commits": [
+  {
+   "hash": "864af5f",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-19T17:46:28+07:00",
+   "message": "Sua UI cham cong trong ho so theo web ZENTEA [loai:Fix bug] [tokens:6000] [ver:260619llvcolor1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260619llvcolor1",
+   "files": 6,
+   "additions": 758,
+   "deletions": 35
+  },
+  {
+   "hash": "f093692",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-19T14:19:09+07:00",
+   "message": "LLV Phase 1: recolor toan bo sang bo mau chuyen nghiep (xanh la/xam/do), bo xanh duong/cam/nau/teal/tim [loai:Sua giao dien] [tokens:7000] [ver:260619llvcolor1]",
+   "loai": "Sua giao dien",
+   "tokens": 7000,
+   "ver": "260619llvcolor1",
+   "files": 2,
+   "additions": 150,
+   "deletions": 150
+  },
   {
    "hash": "e417400",
    "agent": "Codex",
