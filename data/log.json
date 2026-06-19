@@ -1,9 +1,48 @@
 {
- "generated": "2026-06-19T10:46:59.399Z",
+ "generated": "2026-06-19T11:12:09.376Z",
  "repo": "zentea-qlch",
- "appVer": "260619llvcolor1",
- "totalCommits": 45,
+ "appVer": "260619llvcolor2",
+ "totalCommits": 48,
  "commits": [
+  {
+   "hash": "c7e0272",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-19T18:11:38+07:00",
+   "message": "Ghi nhan flow cham cong bang chup hinh [loai:Fix bug] [tokens:6500] [ver:260619llvcolor3]",
+   "loai": "Fix bug",
+   "tokens": 6500,
+   "ver": "260619llvcolor3",
+   "files": 0,
+   "additions": 0,
+   "deletions": 0
+  },
+  {
+   "hash": "9ca4f7b",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-19T18:04:17+07:00",
+   "message": "LLV: doi mau ten nhan vien sang den de doc hon [loai:Sua giao dien] [tokens:1500] [ver:260619llvcolor3]",
+   "loai": "Sua giao dien",
+   "tokens": 1500,
+   "ver": "260619llvcolor3",
+   "files": 7,
+   "additions": 54,
+   "deletions": 59
+  },
+  {
+   "hash": "0133709",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-19T17:49:06+07:00",
+   "message": "LLV: thong nhat mau cuoi tuan T7+CN (1 tint xanh nhe) + tang co chu header ngay/thu ~15% [loai:Sua giao dien] [tokens:3000] [ver:260619llvcolor2]",
+   "loai": "Sua giao dien",
+   "tokens": 3000,
+   "ver": "260619llvcolor2",
+   "files": 2,
+   "additions": 27,
+   "deletions": 27
+  },
   {
    "hash": "864af5f",
    "agent": "Codex",
