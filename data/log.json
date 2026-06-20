@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-20T16:39:52.169Z",
+ "generated": "2026-06-20T16:50:26.202Z",
  "repo": "zentea-qlch",
  "appVer": "260620whoami1",
- "totalCommits": 81,
+ "totalCommits": 82,
  "commits": [
+  {
+   "hash": "e5827ac",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-20T23:50:06+07:00",
+   "message": "deploy-vps.yml: sau khi upload HTTPS, goi web console deploy de VPS git-sync (tranh xung dot HTTPS-upload vs git-pull, giu VPS trung khop GitHub); bo qua neu thieu CONSOLE_TOKEN secret [loai:Config] [tokens:1200] [ver:260620console5]",
+   "loai": "Config",
+   "tokens": 1200,
+   "ver": "260620console5",
+   "files": 1,
+   "additions": 13,
+   "deletions": 0
+  },
   {
    "hash": "190b6fe",
    "agent": "Claude Code",
