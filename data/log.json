@@ -1,9 +1,48 @@
 {
- "generated": "2026-06-20T16:50:26.202Z",
+ "generated": "2026-06-20T17:39:33.651Z",
  "repo": "zentea-qlch",
- "appVer": "260620whoami1",
- "totalCommits": 82,
+ "appVer": "260621vhtsbadge2",
+ "totalCommits": 85,
  "commits": [
+  {
+   "hash": "0e03e1a",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-21T00:38:56+07:00",
+   "message": "Sua badge Tai San bao do khi khong co phieu [loai:Fix bug] [tokens:3500] [ver:260621vhtsbadge2]",
+   "loai": "Fix bug",
+   "tokens": 3500,
+   "ver": "260621vhtsbadge2",
+   "files": 5,
+   "additions": 25,
+   "deletions": 14
+  },
+  {
+   "hash": "8883a11",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-21T00:36:21+07:00",
+   "message": "Bao cao Hang ngay > Thiet Bi & DC: can doi bang - co dinh cot ten (inner div het balloon), bo width:100%, o ngay 32px (re-apply sau revert) [loai:Sua giao dien] [tokens:1500] [ver:260620equipwidth1]",
+   "loai": "Sua giao dien",
+   "tokens": 1500,
+   "ver": "260620equipwidth1",
+   "files": 1,
+   "additions": 5,
+   "deletions": 5
+  },
+  {
+   "hash": "8c9c45d",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-21T00:34:37+07:00",
+   "message": "Bao cao Hang ngay > Thiet Bi & DC: can doi bang - co dinh cot ten (inner div, het balloon), bo width:100%, o ngay 28->32px de tic ro hon [loai:Sua giao dien] [tokens:1500] [ver:260620equipwidth1]",
+   "loai": "Sua giao dien",
+   "tokens": 1500,
+   "ver": "260620equipwidth1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 2
+  },
   {
    "hash": "e5827ac",
    "agent": "Claude Code",
