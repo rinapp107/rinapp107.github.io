@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-20T15:34:44.974Z",
+ "generated": "2026-06-20T15:41:18.086Z",
  "repo": "zentea-qlch",
  "appVer": "260620whoami1",
- "totalCommits": 78,
+ "totalCommits": 79,
  "commits": [
+  {
+   "hash": "5462fc5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-20T22:40:59+07:00",
+   "message": "Web Console: them /api/console/set-token (dat CONSOLE_TOKEN tu xa qua HTTPS, bao ve bang DEPLOY_TOKEN, chi sua dong CONSOLE_TOKEN trong .env, hieu luc ngay khong can restart) - cho phep bat console ma khong can SSH vao VPS [loai:Them tinh nang] [tokens:2500] [ver:260620console2]",
+   "loai": "Them tinh nang",
+   "tokens": 2500,
+   "ver": "260620console2",
+   "files": 1,
+   "additions": 25,
+   "deletions": 1
+  },
   {
    "hash": "be536e8",
    "agent": "Claude Code",
