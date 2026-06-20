@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ZENTEA Console</title>
+<style>
+  /* ===== Theme tokens (dark mac dinh, sang qua [data-theme=light]) ===== */
+  :root{
+    --bg:#0d1117; --bg2:#010409; --panel:#161b22; --fg:#e6edf3; --dim:#8b949e;
+    --green:#3fb950; --red:#ff6b63; --yellow:#e3b341; --blue:#79c0ff;
+    --purple:#d2a8ff; --border:#30363d; --prompt:#56d364; --chipbg:#21262d;
+    --fontsize:15px;
+  }
+  html[data-theme="light"]{
+    --bg:#ffffff; --bg2:#f6f8fa; --panel:#eef1f4; --fg:#1f2328; --dim:#656d76;
+    --green:#1a7f37; --red:#cf222e; --yellow:#9a6700; --blue:#0969da;
+    --purple:#8250df; --border:#d0d7de; --prompt:#1a7f37; --chipbg:#eaeef2;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg2);
+    font-family:"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+    font-size:var(--fontsize);color:var(--fg)}
+  #app{display:flex;flex-direction:column;height:100vh}
+
+  header{display:flex;align-items:center;gap:10px;padding:10px 16px;background:var(--bg);
+    border-bottom:1px solid var(--border);user-select:none}
+  header .dot{width:12px;height:12px;border-radius:50%}
+  .dot.r{background:#ff5f56}.dot.y{background:#ffbd2e}.dot.g{background:#27c93f}
+  header .title{margin-left:8px;color:var(--dim);font-size:.9em}
+  header .right{margin-left:auto;display:flex;align-items:center;gap:14px}
+  .conn{font-size:.82em;display:flex;align-items:center;gap:6px;color:var(--dim)}
+  .conn .led{width:9px;height:9px;border-radius:50%;background:var(--dim)}
+  .conn.ok .led{background:var(--green);box-shadow:0 0 7px var(--green)}
+  .conn.bad .led{background:var(--red)}
+  .iconbtn{cursor:pointer;background:transparent;border:1px solid var(--border);color:var(--fg);
+    border-radius:7px;padding:5px 10px;font:inherit;font-size:.82em;line-height:1}
+  .iconbtn:hover{background:var(--panel)}
+
+  /* ===== Toolbar nut bam ===== */
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;padding:8px 16px;background:var(--bg);
+    border-bottom:1px solid var(--border)}
+  .toolbar button{cursor:pointer;background:var(--panel);border:1px solid var(--border);
+    color:var(--fg);border-radius:7px;padding:6px 13px;font:inherit;font-size:.85em}
+  .toolbar button:hover{border-color:var(--blue);color:var(--blue)}
+  .toolbar .sep{flex:1}
+
+  #term{flex:1;overflow-y:auto;padding:16px 18px;line-height:1.6;white-space:pre-wrap;word-break:break-word}
+  #term::-webkit-scrollbar{width:11px}
+  #term::-webkit-scrollbar-thumb{background:var(--border);border-radius:6px}
+  .line{white-space:pre-wrap}
+  .c-prompt{color:var(--prompt);font-weight:600}.c-cmd{color:var(--fg)}
+  .c-ok{color:var(--green)}.c-err{color:var(--red)}.c-warn{color:var(--yellow)}
+  .c-info{color:var(--blue)}.c-dim{color:var(--dim)}.c-acc{color:var(--purple);font-weight:600}
+  .term-img{max-width:280px;max-height:200px;border:1px solid var(--border);border-radius:8px;margin:6px 0;display:block}
+
+  /* ===== Khu vuc file da dinh ===== */
+  #attachBar{display:none;gap:10px;flex-wrap:wrap;padding:10px 16px;background:var(--panel);
+    border-top:1px solid var(--border)}
+  #attachBar.show{display:flex}
+  .att{position:relative;display:flex;align-items:center;gap:8px;background:var(--chipbg);
+    border:1px solid var(--border);border-radius:9px;padding:6px 10px;max-width:230px}
+  .att img{width:38px;height:38px;object-fit:cover;border-radius:6px;flex:none}
+  .att .ico{width:38px;height:38px;display:flex;align-items:center;justify-content:center;
+    background:var(--bg2);border-radius:6px;font-size:18px;flex:none}
+  .att .meta{overflow:hidden;line-height:1.3}
+  .att .nm{font-size:.82em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .att .sz{font-size:.72em;color:var(--dim)}
+  .att .x{cursor:pointer;color:var(--dim);font-size:1.1em;padding:0 2px}
+  .att .x:hover{color:var(--red)}
+
+  /* ===== Dong nhap lenh ===== */
+  .inputrow{display:flex;align-items:center;gap:10px;padding:10px 16px 16px;background:var(--bg2);
+    border-top:1px solid var(--border)}
+  .inputrow.drag{outline:2px dashed var(--blue);outline-offset:-6px;background:var(--panel)}
+  .ps1{color:var(--prompt);font-weight:600;white-space:nowrap}
+  #clip{cursor:pointer;color:var(--dim);font-size:1.2em;padding:2px 4px}
+  #clip:hover{color:var(--blue)}
+  #cmd{flex:1;background:transparent;border:none;outline:none;color:var(--fg);
+    font:inherit;caret-color:var(--green)}
+  .hint{padding:4px 16px 10px;color:var(--dim);font-size:.75em;background:var(--bg2)}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+    <span class="title">zentea@console — rinapp107.github.io</span>
+    <span class="right">
+      <span class="conn" id="conn"><span class="led"></span><span id="connText">backend chưa bật</span></span>
+      <button class="iconbtn" id="themeBtn" title="Đổi sáng/tối">☀︎ Sáng</button>
+      <button class="iconbtn" id="fontBtn" title="Cỡ chữ">A+</button>
+    </span>
+  </header>
+
+  <div class="toolbar">
+    <button data-cmd="deploy">⬆ Deploy</button>
+    <button data-cmd="pull">⟳ Pull</button>
+    <button data-cmd="status">◇ Status</button>
+    <button data-cmd="log 10">☰ Log</button>
+    <button data-cmd="ver"># Ver</button>
+    <span class="sep"></span>
+    <button id="attachBtn">📎 Đính file</button>
+    <button data-cmd="clear">✕ Xóa</button>
+  </div>
+
+  <div id="term"></div>
+
+  <div id="attachBar"></div>
+
+  <div class="inputrow" id="inputrow">
+    <span class="ps1">zentea $</span>
+    <span id="clip" title="Đính file/ảnh">📎</span>
+    <input id="cmd" autocomplete="off" autocapitalize="off" spellcheck="false" autofocus
+           placeholder="gõ lệnh… (paste ảnh / kéo-thả file để đính kèm)">
+  </div>
+  <div class="hint">Mẹo: Ctrl+V dán ảnh từ clipboard · kéo-thả file vào đây · ↑/↓ lịch sử lệnh · Ctrl+L xóa màn hình</div>
+
+  <input type="file" id="fileInput" multiple hidden>
+</div>
+
+<script>
+/* =========================================================================
+   ZENTEA Web Console — frontend (giai doan 1: giao dien + dinh kem file)
+   - Terminal CLI, go lenh stream lien tuc khi backend bat.
+   - Dinh kem: paste anh (Ctrl+V), keo-tha file, hoac nut 📎.
+   - File dinh kem se gui kem khi chay lenh backend (vd deploy/upload).
+   ========================================================================= */
+const CFG = {
+  apiBase: 'https://zenteaqlch.io.vn/api/console',  // backend giai doan 2 (server.js)
+  logUrl: '../data/log.json',   // console o /console/, log.json o /data/ (cap tren)
+  tokenKey: 'zentea_console_token',
+  themeKey: 'zentea_console_theme',
+  fontKey: 'zentea_console_font'
+};
+
+const $=id=>document.getElementById(id);
+const termEl=$('term'), cmdEl=$('cmd'), connEl=$('conn'), connTextEl=$('connText');
+const attachBar=$('attachBar'), inputRow=$('inputrow');
+const history=[]; let histIdx=-1;
+let attachments=[];           // {id,name,size,type,dataUrl|null,file}
+
+/* ---------- in ra terminal ---------- */
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function print(text,cls){
+  const d=document.createElement('div'); d.className='line'+(cls?(' '+cls):'');
+  d.innerHTML=esc(text); termEl.appendChild(d); termEl.scrollTop=termEl.scrollHeight; return d;
+}
+function printImg(dataUrl,caption){
+  const wrap=document.createElement('div'); wrap.className='line';
+  if(caption) wrap.innerHTML='<span class="c-dim">'+esc(caption)+'</span>';
+  const img=document.createElement('img'); img.className='term-img'; img.src=dataUrl;
+  wrap.appendChild(img); termEl.appendChild(wrap); termEl.scrollTop=termEl.scrollHeight;
+}
+function printEcho(cmd){
+  const d=document.createElement('div'); d.className='line';
+  d.innerHTML='<span class="c-prompt">zentea $</span> <span class="c-cmd">'+esc(cmd)+'</span>';
+  termEl.appendChild(d); termEl.scrollTop=termEl.scrollHeight;
+}
+function setConn(state,text){ connEl.className='conn'+(state?(' '+state):''); connTextEl.textContent=text; }
+
+/* ---------- token ---------- */
+const getToken=()=>localStorage.getItem(CFG.tokenKey)||'';
+const setToken=t=>t?localStorage.setItem(CFG.tokenKey,t):localStorage.removeItem(CFG.tokenKey);
+
+/* ---------- theme + font ---------- */
+function applyTheme(t){ document.documentElement.dataset.theme=t; localStorage.setItem(CFG.themeKey,t);
+  $('themeBtn').textContent = t==='dark' ? '☀︎ Sáng' : '☾ Tối'; }
+function applyFont(px){ document.documentElement.style.setProperty('--fontsize',px+'px');
+  localStorage.setItem(CFG.fontKey,px); }
+$('themeBtn').onclick=()=>applyTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+const FONTS=[14,15,17,19];
+$('fontBtn').onclick=()=>{ let cur=parseInt(localStorage.getItem(CFG.fontKey)||15,10);
+  let i=(FONTS.indexOf(cur)+1)%FONTS.length; applyFont(FONTS[i]); };
+
+/* ---------- dinh kem file ---------- */
+function fmtSize(b){ return b<1024?b+' B':b<1048576?(b/1024).toFixed(1)+' KB':(b/1048576).toFixed(1)+' MB'; }
+function renderAttachments(){
+  attachBar.innerHTML='';
+  attachBar.classList.toggle('show', attachments.length>0);
+  for(const a of attachments){
+    const el=document.createElement('div'); el.className='att';
+    const thumb = a.dataUrl && a.type.startsWith('image/')
+      ? '<img src="'+a.dataUrl+'" alt="">'
+      : '<div class="ico">'+(a.type.startsWith('image/')?'🖼':'📄')+'</div>';
+    el.innerHTML=thumb+'<div class="meta"><div class="nm">'+esc(a.name)+'</div>'+
+      '<div class="sz">'+fmtSize(a.size)+'</div></div><span class="x" data-id="'+a.id+'">✕</span>';
+    attachBar.appendChild(el);
+  }
+}
+function addFiles(fileList){
+  const arr=Array.from(fileList||[]);
+  if(!arr.length) return;
+  let pending=arr.length;
+  arr.forEach(file=>{
+    const id='f'+Date.now()+Math.random().toString(36).slice(2,6);
+    const item={id,name:file.name||'paste.png',size:file.size,type:file.type||'application/octet-stream',dataUrl:null,file};
+    attachments.push(item);
+    if(item.type.startsWith('image/')){
+      const fr=new FileReader();
+      fr.onload=()=>{ item.dataUrl=fr.result; if(--pending===0) renderAttachments(); else renderAttachments(); };
+      fr.onerror=()=>{ if(--pending===0) renderAttachments(); };
+      fr.readAsDataURL(file);
+    } else { if(--pending===0) renderAttachments(); }
+  });
+  renderAttachments();
+  print('Đã đính '+arr.length+' file ('+arr.map(f=>f.name).join(', ')+'). Gõ lệnh để gửi kèm, vd: upload','c-info');
+}
+attachBar.addEventListener('click',e=>{
+  const x=e.target.closest('.x'); if(!x) return;
+  attachments=attachments.filter(a=>a.id!==x.dataset.id); renderAttachments();
+});
+
+/* nut 📎 + input file */
+$('attachBtn').onclick=$('clip').onclick=()=>$('fileInput').click();
+$('fileInput').addEventListener('change',e=>{ addFiles(e.target.files); e.target.value=''; });
+
+/* paste anh tu clipboard */
+document.addEventListener('paste',e=>{
+  const items=e.clipboardData&&e.clipboardData.items; if(!items) return;
+  const files=[];
+  for(const it of items){ if(it.kind==='file'){ const f=it.getAsFile(); if(f) files.push(f); } }
+  if(files.length){ e.preventDefault(); addFiles(files); }
+});
+
+/* keo-tha file vao dong nhap */
+['dragenter','dragover'].forEach(ev=>inputRow.addEventListener(ev,e=>{
+  e.preventDefault(); inputRow.classList.add('drag'); }));
+['dragleave','drop'].forEach(ev=>inputRow.addEventListener(ev,e=>{
+  e.preventDefault(); inputRow.classList.remove('drag'); }));
+inputRow.addEventListener('drop',e=>{ if(e.dataTransfer&&e.dataTransfer.files.length) addFiles(e.dataTransfer.files); });
+
+/* ---------- banner + help ---------- */
+function banner(){
+  print('ZENTEA Web Console  v0.2', 'c-acc');
+  print('Gõ "help" xem lệnh · paste ảnh / kéo-thả file để đính kèm · nút trên thanh công cụ.', 'c-dim');
+  print('Backend: '+(CFG.apiBase||'(chưa cấu hình — giai đoạn 2)'), 'c-dim');
+  print('');
+}
+
+const COMMANDS={
+  help(){
+    print('Lệnh khả dụng:','c-info');
+    print('  help            — danh sách lệnh');
+    print('  clear           — xóa màn hình');
+    print('  token <chuỗi>   — lưu token deploy (chỉ máy này). "token" trống = xem trạng thái');
+    print('  files           — xem file đang đính kèm');
+    print('  show            — hiện preview ảnh đã đính ngay trong terminal');
+    print('  log [n]         — n commit gần nhất từ dashboard (mặc định 10)');
+    print('  ver             — APP_VER mới nhất trong dashboard log');
+    print('  status          — [backend] trạng thái git trên VPS');
+    print('  pull            — [backend] git pull --rebase origin main trên VPS');
+    print('  upload          — [backend] upload các file đang đính lên server (web thật)');
+    print('  deploy          — [backend] git pull code mới từ GitHub + restart zentea-api');
+    print('  ping            — kiểm tra kết nối backend');
+    print('');
+    print('Lệnh [backend] cần /api/console (giai đoạn 2) + token hợp lệ.','c-dim');
+  },
+  clear(){ termEl.innerHTML=''; },
+  token(arg){
+    if(!arg){ const t=getToken();
+      print(t?('Token đã lưu (…'+t.slice(-4)+').'):'Chưa có token. Gõ: token <chuỗi>', t?'c-ok':'c-warn'); return; }
+    if(arg==='--clear'){ setToken(''); print('Đã xóa token.','c-warn'); return; }
+    setToken(arg); print('Đã lưu token (…'+arg.slice(-4)+').','c-ok');
+  },
+  files(){
+    if(!attachments.length){ print('Chưa đính file nào.','c-dim'); return; }
+    print(attachments.length+' file đang đính:','c-info');
+    attachments.forEach(a=>print('  '+a.name+'  '+fmtSize(a.size)+'  '+a.type,'c-dim'));
+  },
+  show(){
+    const imgs=attachments.filter(a=>a.dataUrl);
+    if(!imgs.length){ print('Không có ảnh đã đính để hiển thị.','c-dim'); return; }
+    imgs.forEach(a=>printImg(a.dataUrl, a.name));
+  },
+  async log(arg){
+    const n=Math.max(1,Math.min(50,parseInt(arg,10)||10));
+    print('Đang tải '+n+' commit…','c-dim');
+    try{ const r=await fetch(CFG.logUrl+'?t='+Date.now()); if(!r.ok) throw new Error('HTTP '+r.status);
+      const d=await r.json(); const cs=(d.commits||[]).slice(0,n);
+      if(!cs.length){ print('(không có commit)','c-warn'); return; }
+      for(const c of cs){
+        const date=(c.date||'').slice(0,16).replace('T',' ');
+        print(c.hash+'  '+date+'  '+(c.agent||'?'));
+        const tags=[c.loai&&('['+c.loai+']'),c.ver&&('['+c.ver+']')].filter(Boolean).join(' ');
+        print('   '+c.message+(tags?('  '+tags):''),'c-dim');
+      }
+      print('— '+cs.length+'/'+(d.totalCommits||cs.length)+' commit · APP_VER: '+(d.appVer||'?'),'c-info');
+    }catch(e){ print('Lỗi tải log.json: '+e.message,'c-err'); }
+  },
+  async ver(){ try{ const d=await(await fetch(CFG.logUrl+'?t='+Date.now())).json();
+    print('APP_VER (dashboard): '+(d.appVer||'?'),'c-ok'); }catch(e){ print('Lỗi: '+e.message,'c-err'); } },
+  async ping(){ await backend('ping'); },
+  async status(){ await backend('status'); },
+  async pull(){ await backend('pull'); },
+  async deploy(){ await backend('deploy'); },
+  async upload(){
+    if(!attachments.length){ print('Chưa có file để upload. Đính file trước (paste/kéo-thả/📎).','c-warn'); return; }
+    await backend('upload');
+  }
+};
+
+/* ---------- goi backend co stream + gui kem file ---------- */
+async function backend(cmd){
+  if(!CFG.apiBase){
+    print('Backend chưa bật (giai đoạn 2 chưa triển khai). Lệnh "'+cmd+'" cần /api/console trên VPS.','c-warn');
+    if(attachments.length) print('('+attachments.length+' file đang chờ — sẽ gửi kèm khi backend sẵn sàng.)','c-dim');
+    return;
+  }
+  const token=getToken();
+  if(!token){ print('Chưa có token. Gõ: token <chuỗi> trước.','c-err'); return; }
+  print('▶ '+cmd+(attachments.length?(' (+'+attachments.length+' file)'):'')+' …','c-info');
+  try{
+    const form=new FormData();
+    form.append('cmd',cmd);
+    attachments.forEach(a=>form.append('files', a.file, a.name));
+    const r=await fetch(CFG.apiBase,{method:'POST',headers:{'x-console-token':token},body:form});
+    setConn(r.ok?'ok':'bad', r.ok?'đã kết nối':'backend lỗi');
+    if(r.status===401||r.status===403){ print('Token bị từ chối.','c-err'); return; }
+    if(!r.ok){ print('Backend HTTP '+r.status,'c-err'); return; }
+    const reader=r.body.getReader(), dec=new TextDecoder(); let buf='';
+    for(;;){ const {value,done}=await reader.read(); if(done) break;
+      buf+=dec.decode(value,{stream:true}); let nl;
+      while((nl=buf.indexOf('\n'))>=0){ const line=buf.slice(0,nl); buf=buf.slice(nl+1);
+        const cls=/fail|lỗi|error|✗/i.test(line)?'c-err':/ok|done|hoàn tất|✓/i.test(line)?'c-ok':''; print(line,cls); } }
+    if(buf) print(buf);
+    print('✓ '+cmd+' xong','c-ok');
+    if(cmd==='upload'){ attachments=[]; renderAttachments(); }
+  }catch(e){ setConn('bad','mất kết nối'); print('Lỗi mạng: '+e.message,'c-err'); }
+}
+
+/* ---------- REPL ---------- */
+async function run(raw){
+  const input=raw.trim(); if(!input) return;
+  printEcho(input); history.unshift(input); histIdx=-1;
+  const [name,...rest]=input.split(/\s+/); const arg=rest.join(' ');
+  const fn=COMMANDS[name.toLowerCase()];
+  if(!fn){ print('Lệnh không hợp lệ: '+name+'. Gõ "help".','c-err'); return; }
+  try{ await fn(arg); }catch(e){ print('Lỗi: '+e.message,'c-err'); }
+}
+cmdEl.addEventListener('keydown',e=>{
+  if(e.key==='Enter'){ const v=cmdEl.value; cmdEl.value=''; run(v); }
+  else if(e.key==='ArrowUp'){ if(histIdx<history.length-1){histIdx++;cmdEl.value=history[histIdx]||'';} e.preventDefault(); }
+  else if(e.key==='ArrowDown'){ if(histIdx>0){histIdx--;cmdEl.value=history[histIdx]||'';}else{histIdx=-1;cmdEl.value='';} e.preventDefault(); }
+  else if(e.key==='l'&&e.ctrlKey){ termEl.innerHTML=''; e.preventDefault(); }
+});
+document.querySelectorAll('.toolbar button[data-cmd]').forEach(b=>b.onclick=()=>run(b.dataset.cmd));
+document.addEventListener('click',e=>{ if(!e.target.closest('button,.att,.iconbtn,#clip')) cmdEl.focus(); });
+
+/* ---------- init ---------- */
+applyTheme(localStorage.getItem(CFG.themeKey)||'dark');
+applyFont(parseInt(localStorage.getItem(CFG.fontKey)||15,10));
+banner();
+setConn('', CFG.apiBase?'backend cấu hình — gõ ping':'backend chưa bật');
+</script>
+</body>
+</html>
