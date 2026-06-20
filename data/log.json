@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-20T15:41:18.086Z",
+ "generated": "2026-06-20T15:48:02.649Z",
  "repo": "zentea-qlch",
  "appVer": "260620whoami1",
- "totalCommits": 79,
+ "totalCommits": 80,
  "commits": [
+  {
+   "hash": "aa590f8",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-20T22:47:43+07:00",
+   "message": "Web Console: VPS web khong phai git repo -> doi deploy=restart zentea-api (bo git pull), bo lenh pull; cap nhat help frontend [loai:Fix bug] [tokens:1500] [ver:260620console3]",
+   "loai": "Fix bug",
+   "tokens": 1500,
+   "ver": "260620console3",
+   "files": 2,
+   "additions": 7,
+   "deletions": 7
+  },
   {
    "hash": "5462fc5",
    "agent": "Claude Code",
