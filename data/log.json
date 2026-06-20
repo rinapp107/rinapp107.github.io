@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-19T17:39:14.884Z",
+ "generated": "2026-06-20T03:26:23.820Z",
  "repo": "zentea-qlch",
- "appVer": "260620chamgrid4",
- "totalCommits": 59,
+ "appVer": "260620offquota1",
+ "totalCommits": 61,
  "commits": [
+  {
+   "hash": "7c80458",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-20T10:25:55+07:00",
+   "message": "Sua goi y nghi LLV theo dinh du bao [loai:Fix bug] [tokens:5500] [ver:260620offquota1]",
+   "loai": "Fix bug",
+   "tokens": 5500,
+   "ver": "260620offquota1",
+   "files": 5,
+   "additions": 56,
+   "deletions": 6
+  },
+  {
+   "hash": "fb548a6",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-20T09:43:27+07:00",
+   "message": "Them he thong huong dan su dung: nut ? canh tieu de module mo modal huong dan chi tiet (dot 1: 13 module cot loi van hanh) [loai:Them tinh nang] [tokens:6000] [ver:260620help1]",
+   "loai": "Them tinh nang",
+   "tokens": 6000,
+   "ver": "260620help1",
+   "files": 3,
+   "additions": 425,
+   "deletions": 1
+  },
   {
    "hash": "e184492",
    "agent": "Antigravity",
