@@ -1,9 +1,48 @@
 {
- "generated": "2026-06-20T17:39:33.651Z",
+ "generated": "2026-06-21T07:26:10.882Z",
  "repo": "zentea-qlch",
- "appVer": "260621vhtsbadge2",
- "totalCommits": 85,
+ "appVer": "260621ca03lock1",
+ "totalCommits": 88,
  "commits": [
+  {
+   "hash": "976d025",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-21T14:11:44+07:00",
+   "message": "LLV CA03/CA04 khi khoa lich (staff read-only): o ngay hien dash full-fill nhu CA012 thay vi o box nho -> dong nhat giao dien [loai:Sua giao dien] [tokens:1500] [ver:260621ca03lock1]",
+   "loai": "Sua giao dien",
+   "tokens": 1500,
+   "ver": "260621ca03lock1",
+   "files": 6,
+   "additions": 197,
+   "deletions": 59
+  },
+  {
+   "hash": "d85de84",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-21T09:02:01+07:00",
+   "message": "Fix cong 'Ban la ai?': verify lay ten NV tu option (het loi 'khong tim thay NV' khi employeesData reset); sau khi vao tu dung sidebar + dieu huong khoi Checklist khoa (khoi tai lai) [loai:Fix bug] [tokens:2500] [ver:260621whoami2]",
+   "loai": "Fix bug",
+   "tokens": 2500,
+   "ver": "260621whoami2",
+   "files": 2,
+   "additions": 16,
+   "deletions": 6
+  },
+  {
+   "hash": "48161d8",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-21T00:55:38+07:00",
+   "message": "Bao cao Hang ngay > Thiet Bi & DC: o ngay linh hoat + table width:100% -> tic gian lap chuc trong ben phai, cot ten van co dinh [loai:Sua giao dien] [tokens:900] [ver:260620equipwidth2]",
+   "loai": "Sua giao dien",
+   "tokens": 900,
+   "ver": "260620equipwidth2",
+   "files": 2,
+   "additions": 4,
+   "deletions": 4
+  },
   {
    "hash": "0e03e1a",
    "agent": "Codex",
