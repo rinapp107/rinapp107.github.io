@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-23T04:55:34.063Z",
+ "generated": "2026-06-23T06:55:21.284Z",
  "repo": "zentea-qlch",
- "appVer": "260623sepvt2",
- "totalCommits": 98,
+ "appVer": "260623sepvt3",
+ "totalCommits": 100,
  "commits": [
+  {
+   "hash": "8181a6a",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-23T13:54:22+07:00",
+   "message": "Ho tro Ctrl+Click chon le va nhap nhanh so tren Du bao ca [loai:Fix bug] [tokens:3000] [ver:260623sepvt3]",
+   "loai": "Fix bug",
+   "tokens": 3000,
+   "ver": "260623sepvt3",
+   "files": 5,
+   "additions": 166,
+   "deletions": 17
+  },
+  {
+   "hash": "4e83a9a",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-23T12:30:00+07:00",
+   "message": "Fix dang nhap vao bi 'khong tim thay nhan vien': mac dinh vao Muc Ca Nhan, khong khoi phuc/route vao emp-kpi-profile (trang chi tiet can chon NV) [loai:Fix bug] [tokens:1000] [ver:260623canhanland1]",
+   "loai": "Fix bug",
+   "tokens": 1000,
+   "ver": "260623canhanland1",
+   "files": 2,
+   "additions": 8,
+   "deletions": 6
+  },
   {
    "hash": "f2cafab",
    "agent": "Antigravity",
