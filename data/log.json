@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-24T03:59:49.561Z",
+ "generated": "2026-06-24T04:01:28.751Z",
  "repo": "zentea-qlch",
- "appVer": "260624fcdrop2",
- "totalCommits": 118,
+ "appVer": "260624fcdrop3",
+ "totalCommits": 119,
  "commits": [
+  {
+   "hash": "5e0055c",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-24T11:01:10+07:00",
+   "message": "LLV cau hinh ma ca: dropdown chon ca loc bo ky hieu 0h X/x/OFF/C/Le + hien kem so gio, muc Loai ca du bao them placeholder chon ca, bang Quan Ly Ma Ca tach nhom Ca lam viec vs Ky hieu dac biet va an bi danh trung x/CA4 [loai:Cai thien UI] [tokens:1500] [ver:260624fcdrop3]",
+   "loai": "Cai thien UI",
+   "tokens": 1500,
+   "ver": "260624fcdrop3",
+   "files": 3,
+   "additions": 34,
+   "deletions": 26
+  },
   {
    "hash": "1fddbf1",
    "agent": "Người",
