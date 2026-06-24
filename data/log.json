@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-24T01:38:28.718Z",
+ "generated": "2026-06-24T03:09:07.940Z",
  "repo": "zentea-qlch",
- "appVer": "260624fcdrop1",
- "totalCommits": 116,
+ "appVer": "260624fcdrop2",
+ "totalCommits": 117,
  "commits": [
+  {
+   "hash": "23f0fca",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-24T10:08:49+07:00",
+   "message": "LLV: dropdown doi loai ca du bao keo dai full chieu ngang dung nhu dai bang goc (select width:100% box-sizing) thay vi co ngan bang noi dung [loai:Fix bug] [tokens:700] [ver:260624fcdrop2]",
+   "loai": "Fix bug",
+   "tokens": 700,
+   "ver": "260624fcdrop2",
+   "files": 3,
+   "additions": 10,
+   "deletions": 10
+  },
   {
    "hash": "09ce115",
    "agent": "Người",
