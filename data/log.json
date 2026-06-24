@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-24T04:01:28.751Z",
+ "generated": "2026-06-24T05:02:39.992Z",
  "repo": "zentea-qlch",
- "appVer": "260624fcdrop3",
- "totalCommits": 119,
+ "appVer": "260624merge1",
+ "totalCommits": 120,
  "commits": [
+  {
+   "hash": "4981b47",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-24T11:42:04+07:00",
+   "message": "Gop Quan Ly Cua Hang + Quan Ly Tai Khoan -> 1 module 'Quan Ly & Phan Quyen': them tab Cua Hang (them/sua/xoa cua hang, tai dung hr.js + backend /api/stores) + chan xoa cua hang con tai khoan gan; go nut sidebar Quan Ly Cua Hang (bo phan ca QL) [loai:Them tinh nang] [tokens:2500] [ver:260624merge1]",
+   "loai": "Them tinh nang",
+   "tokens": 2500,
+   "ver": "260624merge1",
+   "files": 4,
+   "additions": 73,
+   "deletions": 29
+  },
   {
    "hash": "5e0055c",
    "agent": "Người",
