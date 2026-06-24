@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-24T03:09:07.940Z",
+ "generated": "2026-06-24T03:59:49.561Z",
  "repo": "zentea-qlch",
  "appVer": "260624fcdrop2",
- "totalCommits": 117,
+ "totalCommits": 118,
  "commits": [
+  {
+   "hash": "1fddbf1",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-24T10:20:42+07:00",
+   "message": "AGENTS.md: them luat so 1 - khi chua chac 100% y user thi PHAI hoi lai bang Tieng Viet de hieu truoc khi lam (ap dung moi AI) [loai:Config] [tokens:300] [ver:260624champgps1]",
+   "loai": "Config",
+   "tokens": 300,
+   "ver": "260624champgps1",
+   "files": 1,
+   "additions": 7,
+   "deletions": 0
+  },
   {
    "hash": "23f0fca",
    "agent": "Người",
