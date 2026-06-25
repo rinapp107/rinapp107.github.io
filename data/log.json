@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-25T12:27:04.235Z",
+ "generated": "2026-06-25T15:17:50.826Z",
  "repo": "zentea-qlch",
- "appVer": "260625llvauto1",
- "totalCommits": 130,
+ "appVer": "260625pos1",
+ "totalCommits": 132,
  "commits": [
+  {
+   "hash": "dcbeefa",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-25T22:17:13+07:00",
+   "message": "Tích hợp nhóm POS riêng biệt chốt ca 12 3 4 in bill và VietQR [loai:Thêm tính năng] [tokens:4500] [ver:260625pos1]",
+   "loai": "Thêm tính năng",
+   "tokens": 4500,
+   "ver": "260625pos1",
+   "files": 10,
+   "additions": 3354,
+   "deletions": 710
+  },
+  {
+   "hash": "b86a7f4",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-25T21:52:11+07:00",
+   "message": "Ghi chu tren o LLV khi duyet lam the/doi ca/doi lich: o nguoi lam the hien 'The <ten>', doi ca/lich hien 'doi <ten>' (badge tim goc o) - luu sectionPerms o cell.nkNote, hien moi o ca, huy duyet tu xoa [loai:Them tinh nang] [tokens:1200] [ver:260625nknote1]",
+   "loai": "Them tinh nang",
+   "tokens": 1200,
+   "ver": "260625nknote1",
+   "files": 4,
+   "additions": 51,
+   "deletions": 30
+  },
   {
    "hash": "1f6d55f",
    "agent": "Người",
