@@ -1,9 +1,48 @@
 {
- "generated": "2026-06-26T14:10:42.941Z",
+ "generated": "2026-06-26T17:19:15.178Z",
  "repo": "zentea-qlch",
- "appVer": "260625invcogs1",
- "totalCommits": 135,
+ "appVer": "260626pos1",
+ "totalCommits": 138,
  "commits": [
+  {
+   "hash": "7d3a75a",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-27T00:18:13+07:00",
+   "message": "Cai tien layout 2 cot POS, thanh toan hon hop, VietQR cho chuyen khoan [loai:Them tinh nang] [tokens:3000] [ver:260626pos1]",
+   "loai": "Them tinh nang",
+   "tokens": 3000,
+   "ver": "260626pos1",
+   "files": 4,
+   "additions": 823,
+   "deletions": 422
+  },
+  {
+   "hash": "3356ff0",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-26T22:55:13+07:00",
+   "message": "Ton Kho: dinh gia FIFO (nhap truoc xuat truoc) - replay so kho theo thoi gian tinh gia tri ton + gia von con lai (stockValue/cot gia von/gia tri deu dung FIFO, khong doi schema); chuyen kho doc lai danh muc cua hang nhan ngay truoc khi ghi + merge tranh ghi de; num() hieu dung dau phan nhom nghin (50,000 -> 50000) [loai:Them tinh nang] [tokens:1800] [ver:260625invfifo1]",
+   "loai": "Them tinh nang",
+   "tokens": 1800,
+   "ver": "260625invfifo1",
+   "files": 3,
+   "additions": 39,
+   "deletions": 10
+  },
+  {
+   "hash": "be2a5c4",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-26T22:23:15+07:00",
+   "message": "Fix bug an module Ton Kho: (1) chan nhan dup -> tao phieu/doi ton 2 lan (co _invBusy + finally) cho nhap/xuat/chuyen kho/kiem ke; (2) so phieu = max seq+1 tranh trung khi xoa; (3) guard quyen dau ham luu (canEdit/canConfig); (4) chan xoa mat hang con ton; (5) chuyen kho vao item da an thi kich hoat lai [loai:Fix bug] [tokens:1500] [ver:260625invfix1]",
+   "loai": "Fix bug",
+   "tokens": 1500,
+   "ver": "260625invfix1",
+   "files": 3,
+   "additions": 38,
+   "deletions": 19
+  },
   {
    "hash": "4f0abd6",
    "agent": "Claude Code",
