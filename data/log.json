@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-25T15:32:06.681Z",
+ "generated": "2026-06-26T13:07:35.678Z",
  "repo": "zentea-qlch",
- "appVer": "260625pos1",
- "totalCommits": 133,
+ "appVer": "260625invxnt1",
+ "totalCommits": 134,
  "commits": [
+  {
+   "hash": "1cd923e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-26T20:02:40+07:00",
+   "message": "Lam lai module Ton Kho thanh he xuat-nhap-ton brand-agnostic: danh muc, nhap, xuat, chuyen kho giua cua hang, kiem ke, ton realtime, canh bao ton toi thieu; bo doc Excel hardcode (bundle kem WIP nkNote llv/violations) [loai:Them tinh nang] [tokens:9000] [ver:260625invxnt1]",
+   "loai": "Them tinh nang",
+   "tokens": 9000,
+   "ver": "260625invxnt1",
+   "files": 3,
+   "additions": 92,
+   "deletions": 9
+  },
   {
    "hash": "7e1844c",
    "agent": "Antigravity",
