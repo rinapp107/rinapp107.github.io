@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-26T13:07:35.678Z",
+ "generated": "2026-06-26T14:10:42.941Z",
  "repo": "zentea-qlch",
- "appVer": "260625invxnt1",
- "totalCommits": 134,
+ "appVer": "260625invcogs1",
+ "totalCommits": 135,
  "commits": [
+  {
+   "hash": "4f0abd6",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-26T21:10:07+07:00",
+   "message": "Noi gia von Ton Kho -> COGS mot chieu: nut TK trong tab Nguyen Lieu (Gia Von) lay costPrice khop theo ten, canh bao neu khac DVT [loai:Them tinh nang] [tokens:1500] [ver:260625invcogs1]",
+   "loai": "Them tinh nang",
+   "tokens": 1500,
+   "ver": "260625invcogs1",
+   "files": 3,
+   "additions": 8,
+   "deletions": 4
+  },
   {
    "hash": "1cd923e",
    "agent": "Claude Code",
