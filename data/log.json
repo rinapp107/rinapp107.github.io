@@ -1,9 +1,35 @@
 {
- "generated": "2026-06-27T14:38:57.115Z",
+ "generated": "2026-06-27T16:02:39.743Z",
  "repo": "zentea-qlch",
- "appVer": "260627posmenu1",
- "totalCommits": 147,
+ "appVer": "260627brand6",
+ "totalCommits": 149,
  "commits": [
+  {
+   "hash": "4f0cf74",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-27T22:35:59+07:00",
+   "message": "Brand: them 2 o chinh 'Mau nen nut' + 'Mau nen muc/nen mo' (toan web, co tick bat/tat) trong panel Thuong hieu; token-hoa cac hex xanh cung (nut #2d7a2d/#4aab3a -> var(--zt-btn), nen mo #f0fdf4/#e8f5e9/#dcfce7 -> var(--zt-pale), vach active sidebar theo --green); giu fallback goc nen chua tick khong doi gi [loai:Them tinh nang] [tokens:9000] [ver:260627brand6]",
+   "loai": "Them tinh nang",
+   "tokens": 9000,
+   "ver": "260627brand6",
+   "files": 6,
+   "additions": 160,
+   "deletions": 86
+  },
+  {
+   "hash": "be9c373",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-27T21:55:12+07:00",
+   "message": "Tab Cua Hang (Quan Ly & Phan Quyen): hien nut Xoa cho MOI cua hang (bo guard !isBuiltin, van chan neu con tai khoan gan); doi Cum 1<->2 bam ngay tren bang (hrSetCluster); trang thai THAT Dang hoat dong/Tam dong (luu doc storeStatus global) + bam de bat/tat, cua hang tam dong hien '(tam dong)' o dropdown chi nhanh + lam mo dong [loai:Them tinh nang] [tokens:1500] [ver:260627storecrud1]",
+   "loai": "Them tinh nang",
+   "tokens": 1500,
+   "ver": "260627storecrud1",
+   "files": 2,
+   "additions": 61,
+   "deletions": 10
+  },
   {
    "hash": "f6738a1",
    "agent": "Codex",
