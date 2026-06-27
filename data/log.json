@@ -1,9 +1,48 @@
 {
- "generated": "2026-06-27T02:14:25.437Z",
+ "generated": "2026-06-27T05:13:08.652Z",
  "repo": "zentea-qlch",
- "appVer": "260626pos2",
- "totalCommits": 139,
+ "appVer": "260627quizfix1",
+ "totalCommits": 142,
  "commits": [
+  {
+   "hash": "4cf8e57",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-27T12:12:17+07:00",
+   "message": "Quiz Vuon ZEN dong bo Ngan Hang Cau Hoi tu server truoc khi dung de (het lech cau/dap an do doc cache cu); an o dap an trong [loai:Fix bug] [tokens:9000] [ver:260627quizfix1]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260627quizfix1",
+   "files": 6,
+   "additions": 69,
+   "deletions": 52
+  },
+  {
+   "hash": "137b807",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-27T10:02:43+07:00",
+   "message": "deploy-http.bat: them js/theme.js vao danh sach upload [loai:Cau hinh] [tokens:200] [ver:260627brand1]",
+   "loai": "Cau hinh",
+   "tokens": 200,
+   "ver": "260627brand1",
+   "files": 1,
+   "additions": 1,
+   "deletions": 0
+  },
+  {
+   "hash": "eed2a12",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-06-27T09:59:01+07:00",
+   "message": "Them cau hinh Thuong hieu (Cau Hinh He Thong): logo tuy chinh (dang nhap+splash+topbar+sidebar) + doi mau sidebar/chu/icon/mau nhan + font toan web; luu trong global_system_config (giu nguyen bgLinks), ap som truoc login qua js/theme.js (cache+fetch khong can auth) [loai:Them tinh nang] [tokens:2500] [ver:260627brand1]",
+   "loai": "Them tinh nang",
+   "tokens": 2500,
+   "ver": "260627brand1",
+   "files": 4,
+   "additions": 267,
+   "deletions": 11
+  },
   {
    "hash": "02923a8",
    "agent": "Antigravity",
