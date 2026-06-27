@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-26T17:19:15.178Z",
+ "generated": "2026-06-27T02:14:25.437Z",
  "repo": "zentea-qlch",
- "appVer": "260626pos1",
- "totalCommits": 138,
+ "appVer": "260626pos2",
+ "totalCommits": 139,
  "commits": [
+  {
+   "hash": "02923a8",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-27T00:26:02+07:00",
+   "message": "Thay the cac emoji giao dien POS bang icon SVG tieu chuan [loai:Fix bug] [tokens:2000] [ver:260626pos2]",
+   "loai": "Fix bug",
+   "tokens": 2000,
+   "ver": "260626pos2",
+   "files": 3,
+   "additions": 108,
+   "deletions": 34
+  },
   {
    "hash": "7d3a75a",
    "agent": "Antigravity",
