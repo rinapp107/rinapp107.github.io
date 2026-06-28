@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-28T10:05:16.573Z",
+ "generated": "2026-06-28T10:52:49.478Z",
  "repo": "zentea-qlch",
- "appVer": "260628zalo1",
- "totalCommits": 151,
+ "appVer": "260628vuonfire1",
+ "totalCommits": 152,
  "commits": [
+  {
+   "hash": "caf53ee",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-06-28T17:52:06+07:00",
+   "message": "Them dom lua chuoi diem danh Vuon ZEN [loai:Thêm tính năng] [tokens:7000] [ver:260628vuonfire1]",
+   "loai": "Thêm tính năng",
+   "tokens": 7000,
+   "ver": "260628vuonfire1",
+   "files": 6,
+   "additions": 77,
+   "deletions": 11
+  },
   {
    "hash": "fc4108d",
    "agent": "Claude Code",
