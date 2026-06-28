@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-28T11:35:44.546Z",
+ "generated": "2026-06-28T13:30:43.676Z",
  "repo": "zentea-qlch",
- "appVer": "260628vuoncanvas1",
- "totalCommits": 154,
+ "appVer": "280626vuon3d",
+ "totalCommits": 155,
  "commits": [
+  {
+   "hash": "bacde3b",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-28T20:30:16+07:00",
+   "message": "Nâng cấp giao diện Vườn ZEN sang 3D thực tế và tối ưu hóa chuyển động Canvas [loai:Thêm tính năng] [tokens:5000] [ver:280626vuon3d]",
+   "loai": "Thêm tính năng",
+   "tokens": 5000,
+   "ver": "280626vuon3d",
+   "files": 3,
+   "additions": 532,
+   "deletions": 87
+  },
   {
    "hash": "682b671",
    "agent": "Claude Code",
