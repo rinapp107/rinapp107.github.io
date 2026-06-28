@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-28T02:01:48.175Z",
+ "generated": "2026-06-28T10:05:16.573Z",
  "repo": "zentea-qlch",
- "appVer": "260628brand7",
- "totalCommits": 150,
+ "appVer": "260628zalo1",
+ "totalCommits": 151,
  "commits": [
+  {
+   "hash": "fc4108d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-06-28T16:43:21+07:00",
+   "message": "Them muc Zalo Chat AI (admin-only): giao dien mo phong Zalo trong web + backend proxy /api/zalo/* goi OpenClaw (self/conversations/messages/send) + nut AI goi y; dang ky section vao NAV_SECTIONS/sidebar/router, gate canViewSection admin-only, bump APP_VER+sw [loai:Them tinh nang] [tokens:18000] [ver:260628zalo1]",
+   "loai": "Them tinh nang",
+   "tokens": 18000,
+   "ver": "260628zalo1",
+   "files": 8,
+   "additions": 342,
+   "deletions": 2
+  },
   {
    "hash": "2975eed",
    "agent": "Claude Code",
