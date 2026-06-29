@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-29T18:18:04.529Z",
+ "generated": "2026-06-29T18:34:43.351Z",
  "repo": "zentea-qlch",
- "appVer": "290626vuon3d_final_v2",
- "totalCommits": 162,
+ "appVer": "290626vuon3d_final_v3",
+ "totalCommits": 163,
  "commits": [
+  {
+   "hash": "199071b",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-30T01:34:14+07:00",
+   "message": "Phân tách nền đất ngang trang, thêm tùy chọn Trồng trực tiếp dưới đất, Z-sorting 3D phụ kiện và sửa lỗi camera NaN [loai:Thêm tính năng] [tokens:10000] [ver:290626vuon3d_final_v3]",
+   "loai": "Thêm tính năng",
+   "tokens": 10000,
+   "ver": "290626vuon3d_final_v3",
+   "files": 3,
+   "additions": 548,
+   "deletions": 345
+  },
   {
    "hash": "5887d08",
    "agent": "Antigravity",
