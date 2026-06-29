@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-29T18:00:39.644Z",
+ "generated": "2026-06-29T18:18:04.529Z",
  "repo": "zentea-qlch",
- "appVer": "290626vuon3d_global_bxh",
- "totalCommits": 161,
+ "appVer": "290626vuon3d_final_v2",
+ "totalCommits": 162,
  "commits": [
+  {
+   "hash": "5887d08",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-30T01:17:24+07:00",
+   "message": "Cập nhật đồ họa chi tiết 3D cho toàn bộ 11 phụ kiện và nút gỡ trang trí trong Cửa hàng [loai:Thêm tính năng] [tokens:10000] [ver:290626vuon3d_final_v2]",
+   "loai": "Thêm tính năng",
+   "tokens": 10000,
+   "ver": "290626vuon3d_final_v2",
+   "files": 3,
+   "additions": 351,
+   "deletions": 41
+  },
   {
    "hash": "4426ec1",
    "agent": "Antigravity",
