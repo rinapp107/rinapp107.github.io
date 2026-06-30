@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-29T18:40:42.546Z",
+ "generated": "2026-06-30T05:42:32.062Z",
  "repo": "zentea-qlch",
- "appVer": "290626vuon3d_final_v4",
- "totalCommits": 164,
+ "appVer": "290626vuon3d_final_v5",
+ "totalCommits": 165,
  "commits": [
+  {
+   "hash": "5836054",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-30T12:42:03+07:00",
+   "message": "Sửa lỗi IndexSizeError vỡ hình canvas khi xoay dọc Vườn Zen bằng wrapper ellipse bảo vệ bán kính âm [loai:Fix bug] [tokens:8000] [ver:290626vuon3d_final_v5]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "290626vuon3d_final_v5",
+   "files": 3,
+   "additions": 12,
+   "deletions": 3
+  },
   {
    "hash": "a395931",
    "agent": "Antigravity",
