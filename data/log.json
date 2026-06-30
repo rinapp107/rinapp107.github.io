@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-30T07:38:53.032Z",
+ "generated": "2026-06-30T07:52:58.355Z",
  "repo": "zentea-qlch",
- "appVer": "300626three_garden_v1",
- "totalCommits": 168,
+ "appVer": "300626three_garden_v2",
+ "totalCommits": 169,
  "commits": [
+  {
+   "hash": "5af418f",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-06-30T14:52:41+07:00",
+   "message": "Sua loi radius NaN trong TubeGeometry va thay the SVG load bang canvas texture cho tuyet [loai:Fix bug] [tokens:4000] [ver:300626three_garden_v2]",
+   "loai": "Fix bug",
+   "tokens": 4000,
+   "ver": "300626three_garden_v2",
+   "files": 3,
+   "additions": 18,
+   "deletions": 6
+  },
   {
    "hash": "63a4867",
    "agent": "Antigravity",
