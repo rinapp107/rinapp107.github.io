@@ -1,9 +1,22 @@
 {
- "generated": "2026-06-30T12:50:39.506Z",
+ "generated": "2026-07-01T00:18:28.715Z",
  "repo": "zentea-qlch",
- "appVer": "300626three_garden_v6",
- "totalCommits": 174,
+ "appVer": "300626three_garden_v7",
+ "totalCommits": 175,
  "commits": [
+  {
+   "hash": "f3644dd",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-07-01T07:15:09+07:00",
+   "message": "Phat trien Phase 5: Them 5 phu kien phong canh Nhat Ban va thu cung (Torii, Bridge, Pavilion, Catpost, Doghouse) vao Cua hang Shop va canh quan 3D [loai:Them tinh nang] [tokens:3000] [ver:300626three_garden_v7]",
+   "loai": "Them tinh nang",
+   "tokens": 3000,
+   "ver": "300626three_garden_v7",
+   "files": 4,
+   "additions": 312,
+   "deletions": 6
+  },
   {
    "hash": "e70e6f3",
    "agent": "Antigravity",
