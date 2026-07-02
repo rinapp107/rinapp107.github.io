@@ -1,9 +1,35 @@
 {
- "generated": "2026-07-02T11:33:49.136Z",
+ "generated": "2026-07-02T11:46:59.941Z",
  "repo": "zentea-qlch",
- "appVer": "260702recipe1",
- "totalCommits": 180,
+ "appVer": "260702syscfg1",
+ "totalCommits": 182,
  "commits": [
+  {
+   "hash": "1e3395c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-02T18:46:27+07:00",
+   "message": "Redesign UI Cau hinh he thong: chia card co header icon SVG (bo emoji), nhom mau theo khu vuc Sidebar/Header/Nut&Nhan/Font dang cot [loai:Cai thien UI] [tokens:5000] [ver:260702syscfg1]",
+   "loai": "Cai thien UI",
+   "tokens": 5000,
+   "ver": "260702syscfg1",
+   "files": 2,
+   "additions": 71,
+   "deletions": 41
+  },
+  {
+   "hash": "ff08e3e",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-02T18:36:01+07:00",
+   "message": "Vuon ZEN Buoc 1 (100 cap): bo tran cap 8 -> MAX_LEVEL=100, doi mang LEVEL_EXP -> ham expForLevel (cap 0-7 giu goc, tu cap 8 luy tien 1.085/cap - duong cham/thu thach); STAGE_NAME[] -> stageName() an toan toi cap 100 + them ten giai doan cao cap (Co Thu Ngan Nam...Than Moc Toi Thuong); thanh tuu cap 100 thuong 500 la [loai:Them tinh nang] [tokens:1800] [ver:260702lvl100e1]",
+   "loai": "Them tinh nang",
+   "tokens": 1800,
+   "ver": "260702lvl100e1",
+   "files": 3,
+   "additions": 31,
+   "deletions": 13
+  },
   {
    "hash": "54f4303",
    "agent": "Claude Code",
