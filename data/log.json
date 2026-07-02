@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-02T04:08:20.196Z",
+ "generated": "2026-07-02T11:33:49.136Z",
  "repo": "zentea-qlch",
- "appVer": "260702llv235h2",
- "totalCommits": 179,
+ "appVer": "260702recipe1",
+ "totalCommits": 180,
  "commits": [
+  {
+   "hash": "54f4303",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-02T18:33:05+07:00",
+   "message": "Fix mat o Ten Mon khi them cong thuc (wizard nho nham display:none) + don header Quy trinh khoi buoc Thong tin [loai:Fix bug] [tokens:6000] [ver:260702recipe1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260702recipe1",
+   "files": 3,
+   "additions": 11,
+   "deletions": 5
+  },
   {
    "hash": "5ea4062",
    "agent": "Claude Code",
