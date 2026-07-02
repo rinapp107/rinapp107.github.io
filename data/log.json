@@ -1,9 +1,35 @@
 {
- "generated": "2026-07-01T00:18:28.715Z",
+ "generated": "2026-07-02T03:46:40.911Z",
  "repo": "zentea-qlch",
- "appVer": "300626three_garden_v7",
- "totalCommits": 175,
+ "appVer": "260702llv235h1",
+ "totalCommits": 177,
  "commits": [
+  {
+   "hash": "f74b205",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-02T10:44:05+07:00",
+   "message": "Them ca du bao 23-5H (6h, chi cn01 Vo Thi Sau) vao Lich Lam Viec [loai:Them tinh nang] [tokens:6000] [ver:260702llv235h1]",
+   "loai": "Them tinh nang",
+   "tokens": 6000,
+   "ver": "260702llv235h1",
+   "files": 3,
+   "additions": 16,
+   "deletions": 12
+  },
+  {
+   "hash": "d1137a6",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-02T10:41:46+07:00",
+   "message": "Vuon ZEN Buoc 1: Quiz theo cap do + do kho tang dan (dung field diff cua Ngan Hang Cau Hoi) - ti le de/TB/kho theo nhom cap, so cau/phien 5-8 theo cap, thuong theo do kho (de 8 / TB 12 / kho 18 la) + combo streak x1.2/1.5/2, nhan do kho tren cau hoi [loai:Them tinh nang] [tokens:2000] [ver:260702quizlvl1]",
+   "loai": "Them tinh nang",
+   "tokens": 2000,
+   "ver": "260702quizlvl1",
+   "files": 3,
+   "additions": 49,
+   "deletions": 12
+  },
   {
    "hash": "f3644dd",
    "agent": "Antigravity",
