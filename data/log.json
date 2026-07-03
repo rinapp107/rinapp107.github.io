@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-03T17:57:21.301Z",
+ "generated": "2026-07-03T18:15:33.680Z",
  "repo": "zentea-qlch",
- "appVer": "260704lichql2",
- "totalCommits": 186,
+ "appVer": "260704lichql3",
+ "totalCommits": 187,
  "commits": [
+  {
+   "hash": "090a5e6",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-04T01:15:14+07:00",
+   "message": "Lich Quan Ly: hang Ma ca doi tu go tay sang PICKER chon tu danh sach ma ca cau hinh duoc (giong Loai ca); tab cau hinh gop 'Ma Ca & Loai Ca' (2 danh sach ten+mau, mac dinh S1/S2/C1/C2/HC/OFF); picker dung chung + chu thich mau ca 2 hang [loai:Cai thien UI] [tokens:15000] [ver:260704lichql3]",
+   "loai": "Cai thien UI",
+   "tokens": 15000,
+   "ver": "260704lichql3",
+   "files": 4,
+   "additions": 142,
+   "deletions": 92
+  },
   {
    "hash": "9526cb9",
    "agent": "Claude Code",
