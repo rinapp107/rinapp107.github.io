@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-03T17:42:53.283Z",
+ "generated": "2026-07-03T17:57:21.301Z",
  "repo": "zentea-qlch",
- "appVer": "260704lichql1",
- "totalCommits": 185,
+ "appVer": "260704lichql2",
+ "totalCommits": 186,
  "commits": [
+  {
+   "hash": "9526cb9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-04T00:57:03+07:00",
+   "message": "Them nut sidebar 'Lich Quan Ly' (ql-cua-hang) vao nhom Quan Tri He Thong - module truoc gio khong co nut nen khong ai vao duoc; nut tu an/hien theo canViewSection (superadmin + manager thay) [loai:Fix bug] [tokens:8000] [ver:260704lichql2]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260704lichql2",
+   "files": 2,
+   "additions": 12,
+   "deletions": 2
+  },
   {
    "hash": "e769d7e",
    "agent": "Claude Code",
