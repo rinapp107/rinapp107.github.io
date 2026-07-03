@@ -1,9 +1,48 @@
 {
- "generated": "2026-07-02T11:46:59.941Z",
+ "generated": "2026-07-03T17:42:53.283Z",
  "repo": "zentea-qlch",
- "appVer": "260702syscfg1",
- "totalCommits": 182,
+ "appVer": "260704lichql1",
+ "totalCommits": 185,
  "commits": [
+  {
+   "hash": "e769d7e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-04T00:42:35+07:00",
+   "message": "Nang cap Lich Lam Viec Quan Ly (ql-cua-hang): luoi 3 hang Ma ca (go nhanh)/Ghi chu (tu do)/Loai ca (cau hinh ten+mau); role manager thay muc nay, chi tab Lich, tu sua khoi 3 hang cua minh; copy thang truoc, Excel/CSV/bao cao theo so ngay; mo canView/canEdit manager + ngoai le ghi global store-managers [loai:Them tinh nang] [tokens:45000] [ver:260704lichql1]",
+   "loai": "Them tinh nang",
+   "tokens": 45000,
+   "ver": "260704lichql1",
+   "files": 6,
+   "additions": 450,
+   "deletions": 485
+  },
+  {
+   "hash": "d95e26f",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-02T21:00:38+07:00",
+   "message": "Vuon ZEN Buoc 3a (skin len cay 3D): leafMat doi mau tan la theo equip.skin (SKIN_HEX) + emissive phat sang cho skin glow/galaxy/fire/ice/crystal/ultimate; ap khi vuon mount lai [loai:Them tinh nang] [tokens:900] [ver:260702skin3d1]",
+   "loai": "Them tinh nang",
+   "tokens": 900,
+   "ver": "260702skin3d1",
+   "files": 3,
+   "additions": 9,
+   "deletions": 4
+  },
+  {
+   "hash": "8e6f200",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-02T19:28:53+07:00",
+   "message": "Vuon ZEN Buoc 2 (Kieu cay/Tree Skins): them tab 'Kieu cay' trong Shop + equip.skin + 10 skin mo khoa theo cap (Anh Kim L10...Than Moc Toi Thuong L100) tai dung co che gia+minLevel; icon xem truoc cay to mau tung skin. (Ap skin len cay that o Buoc 3) [loai:Them tinh nang] [tokens:1500] [ver:260702skin1]",
+   "loai": "Them tinh nang",
+   "tokens": 1500,
+   "ver": "260702skin1",
+   "files": 3,
+   "additions": 27,
+   "deletions": 7
+  },
   {
    "hash": "1e3395c",
    "agent": "Claude Code",
