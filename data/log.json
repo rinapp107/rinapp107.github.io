@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-06T02:29:58.957Z",
+ "generated": "2026-07-06T02:46:45.031Z",
  "repo": "zentea-qlch",
- "appVer": "260705gardenclock1",
- "totalCommits": 188,
+ "appVer": "260706lichql4",
+ "totalCommits": 189,
  "commits": [
+  {
+   "hash": "c777ba1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-06T09:46:23+07:00",
+   "message": "Lich Quan Ly: Ma ca sua thanh KHUNG GIO vao-ra (VD 07:00-18:00) dung y user - cau hinh bang 2 o gio vao/ra + mau, picker hien khung gio kem so gio; khoi phuc TONG GIO (metric + Bao Cao Thang + CSV + Excel) tinh tu khung gio ma ca [loai:Fix bug] [tokens:20000] [ver:260706lichql4]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "260706lichql4",
+   "files": 4,
+   "additions": 130,
+   "deletions": 63
+  },
   {
    "hash": "437c39a",
    "agent": "Claude Code",
