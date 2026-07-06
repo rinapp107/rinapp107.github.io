@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-06T06:15:45.064Z",
+ "generated": "2026-07-06T08:19:37.280Z",
  "repo": "zentea-qlch",
- "appVer": "260706gardennight1",
- "totalCommits": 190,
+ "appVer": "260706lichql5",
+ "totalCommits": 191,
  "commits": [
+  {
+   "hash": "ad2426c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-06T15:19:19+07:00",
+   "message": "Lich Quan Ly: tu dong don sach ma ca chu S1/S2 doi cu (da lo luu vao server khi user bam Tuy chinh o ver lichql3) - loc khoi danh muc shiftCodes + xoa khoi o lich, chi giu ma ca dang khung gio HH:MM-HH:MM [loai:Fix bug] [tokens:8000] [ver:260706lichql5]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260706lichql5",
+   "files": 3,
+   "additions": 33,
+   "deletions": 5
+  },
   {
    "hash": "d00a743",
    "agent": "Codex",
