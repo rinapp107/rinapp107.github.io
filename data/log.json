@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-07T10:57:59.642Z",
+ "generated": "2026-07-07T12:11:28.968Z",
  "repo": "zentea-qlch",
- "appVer": "260706pcmonth1",
- "totalCommits": 197,
+ "appVer": "260706lichql6",
+ "totalCommits": 198,
  "commits": [
+  {
+   "hash": "bef603d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-07T19:11:10+07:00",
+   "message": "Lich Quan Ly: bo 3 o metric to o dau (gon thanh 1 dong chu nho canh tab) + keo-tha o ten quan ly de sap xep thu tu hang, thu tu ap cho luoi + Xuat Excel + Bao Cao [loai:Cai thien UI] [tokens:12000] [ver:260706lichql6]",
+   "loai": "Cai thien UI",
+   "tokens": 12000,
+   "ver": "260706lichql6",
+   "files": 3,
+   "additions": 64,
+   "deletions": 22
+  },
   {
    "hash": "b9f8efc",
    "agent": "Claude Code",
