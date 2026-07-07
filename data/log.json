@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-06T14:46:47.584Z",
+ "generated": "2026-07-07T10:57:59.642Z",
  "repo": "zentea-qlch",
- "appVer": "260706gardenart1",
- "totalCommits": 196,
+ "appVer": "260706pcmonth1",
+ "totalCommits": 197,
  "commits": [
+  {
+   "hash": "b9f8efc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-07T17:57:38+07:00",
+   "message": "Phan Ca: qua thang moi tu dong bo LLV cho thang do (pcSetMonth goi _pcAutoSyncLLV khi thang chua co du lieu) - fix qua thang hien rong/cu [loai:Fix bug] [tokens:6000] [ver:260706pcmonth1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260706pcmonth1",
+   "files": 3,
+   "additions": 15,
+   "deletions": 3
+  },
   {
    "hash": "f9d4e7c",
    "agent": "Codex",
