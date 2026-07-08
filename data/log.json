@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-07T12:17:40.713Z",
+ "generated": "2026-07-08T02:58:36.541Z",
  "repo": "zentea-qlch",
- "appVer": "260706lichql6b",
- "totalCommits": 199,
+ "appVer": "260708gardenzen1",
+ "totalCommits": 200,
  "commits": [
+  {
+   "hash": "1556ba2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-08T09:58:09+07:00",
+   "message": "Lich Ve Sinh (LLV): qua thang moi tu sinh dong moi + reset cong viec/phan cong/tich; display+thong ke+tu phan chia loc theo thang, giu lich su thang cu (data chung phan biet qua ymd) [loai:Fix bug] [tokens:11000] [ver:260708vesinhmonth1]",
+   "loai": "Fix bug",
+   "tokens": 11000,
+   "ver": "260708vesinhmonth1",
+   "files": 3,
+   "additions": 38,
+   "deletions": 11
+  },
   {
    "hash": "46f2c99",
    "agent": "Claude Code",
