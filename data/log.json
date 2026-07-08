@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-08T03:52:38.660Z",
+ "generated": "2026-07-08T04:28:25.273Z",
  "repo": "zentea-qlch",
- "appVer": "260708gardenzen1",
- "totalCommits": 202,
+ "appVer": "260708vesinh2",
+ "totalCommits": 203,
  "commits": [
+  {
+   "hash": "836165f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-08T11:28:03+07:00",
+   "message": "Lich Ve Sinh: staff sua duoc cot Nguoi Doi (canTick); Tu phan chia them fallback chia deu toan bo NV cua hang khi chua xep ca LLV + toast bao ket qua; dropdown Phan Cong/Nguoi Doi gom ca NV cua hang [loai:Fix bug] [tokens:8000] [ver:260708vesinh2]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260708vesinh2",
+   "files": 3,
+   "additions": 30,
+   "deletions": 5
+  },
   {
    "hash": "ca87e66",
    "agent": "Codex",
