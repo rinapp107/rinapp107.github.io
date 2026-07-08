@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-08T04:28:25.273Z",
+ "generated": "2026-07-08T05:45:01.600Z",
  "repo": "zentea-qlch",
- "appVer": "260708vesinh2",
- "totalCommits": 203,
+ "appVer": "260708posopt1",
+ "totalCommits": 204,
  "commits": [
+  {
+   "hash": "aae477e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-08T12:44:42+07:00",
+   "message": "Note vi tri: vi tri TUY CHON khi NV tu them ca thuc te (frontend bo chan + backend khong xoa note khi customActual + vi tri trong); tach ca van bat buoc vi tri [loai:Fix bug] [tokens:6000] [ver:260708posopt1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260708posopt1",
+   "files": 4,
+   "additions": 10,
+   "deletions": 7
+  },
   {
    "hash": "836165f",
    "agent": "Claude Code",
