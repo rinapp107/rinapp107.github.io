@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-08T09:13:45.763Z",
+ "generated": "2026-07-08T13:29:44.133Z",
  "repo": "zentea-qlch",
- "appVer": "260708vsremind1",
- "totalCommits": 208,
+ "appVer": "260708tvoff1",
+ "totalCommits": 209,
  "commits": [
+  {
+   "hash": "fefb39d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-08T20:29:22+07:00",
+   "message": "LLV: ngay thu viec (tvFrom..tvTo) BO QUA quy tac dang ky off - dien X thoai mai; off thu viec cua NV khac khong tinh vao gioi han off/ngay [loai:Cai thien tinh nang] [tokens:4000] [ver:260708tvoff1]",
+   "loai": "Cai thien tinh nang",
+   "tokens": 4000,
+   "ver": "260708tvoff1",
+   "files": 3,
+   "additions": 13,
+   "deletions": 3
+  },
   {
    "hash": "b6bba3b",
    "agent": "Codex",
