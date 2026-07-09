@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-09T14:56:10.239Z",
+ "generated": "2026-07-09T15:04:00.624Z",
  "repo": "zentea-qlch",
- "appVer": "260709posmenu4",
- "totalCommits": 219,
+ "appVer": "260709posmenu5",
+ "totalCommits": 220,
  "commits": [
+  {
+   "hash": "53d524a",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-09T22:03:21+07:00",
+   "message": "Bo UI nhap JSON eOrder trong POS [loai:Fix bug] [tokens:4500] [ver:260709posmenu5]",
+   "loai": "Fix bug",
+   "tokens": 4500,
+   "ver": "260709posmenu5",
+   "files": 5,
+   "additions": 20,
+   "deletions": 110
+  },
   {
    "hash": "49cbdf7",
    "agent": "Claude Code",
