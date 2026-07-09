@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-08T14:43:20.131Z",
+ "generated": "2026-07-09T03:59:13.366Z",
  "repo": "zentea-qlch",
- "appVer": "260708cc1",
- "totalCommits": 210,
+ "appVer": "260708kpidemo1",
+ "totalCommits": 211,
  "commits": [
+  {
+   "hash": "d3fb017",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-09T10:58:52+07:00",
+   "message": "KPI Thang: hien diem DEMO tam tinh cho thang chua luu (diem goc theo bac A2=10/A1=8/khac=6 tru tong diem vi pham DA DUYET thang do) - o cam net dut nhan tam, ap moi NV; input dien san de Luu KPI chot [loai:Fix bug] [tokens:9000] [ver:260708kpidemo1]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260708kpidemo1",
+   "files": 3,
+   "additions": 34,
+   "deletions": 6
+  },
   {
    "hash": "6abf4c0",
    "agent": "Claude Code",
