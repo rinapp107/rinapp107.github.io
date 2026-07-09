@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-09T04:42:32.276Z",
+ "generated": "2026-07-09T05:40:27.584Z",
  "repo": "zentea-qlch",
- "appVer": "260709posmenu3",
- "totalCommits": 217,
+ "appVer": "260709posmenu4",
+ "totalCommits": 218,
  "commits": [
+  {
+   "hash": "cb70b2d",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-09T12:39:43+07:00",
+   "message": "Seed menu POS eOrder chid 44 [loai:Fix bug] [tokens:9000] [ver:260709posmenu4]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260709posmenu4",
+   "files": 7,
+   "additions": 50794,
+   "deletions": 9
+  },
   {
    "hash": "f410d62",
    "agent": "Codex",
