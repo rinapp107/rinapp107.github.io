@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-09T15:06:57.868Z",
+ "generated": "2026-07-09T15:10:44.232Z",
  "repo": "zentea-qlch",
- "appVer": "260709kpidemo4",
- "totalCommits": 221,
+ "appVer": "260709posmenu6",
+ "totalCommits": 222,
  "commits": [
+  {
+   "hash": "c9d7365",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-09T22:09:01+07:00",
+   "message": "Bump POS bo UI JSON len posmenu6 [loai:Config] [tokens:1200] [ver:260709posmenu6]",
+   "loai": "Config",
+   "tokens": 1200,
+   "ver": "260709posmenu6",
+   "files": 5,
+   "additions": 6,
+   "deletions": 6
+  },
   {
    "hash": "14da407",
    "agent": "Claude Code",
