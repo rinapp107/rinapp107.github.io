@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-09T15:10:44.232Z",
+ "generated": "2026-07-09T15:29:50.884Z",
  "repo": "zentea-qlch",
- "appVer": "260709posmenu6",
- "totalCommits": 222,
+ "appVer": "260709posqr1",
+ "totalCommits": 223,
  "commits": [
+  {
+   "hash": "1dc66de",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-09T22:29:27+07:00",
+   "message": "Sua UI POS SVG va VietQR amount [loai:Fix bug] [tokens:16000] [ver:260709posqr1]",
+   "loai": "Fix bug",
+   "tokens": 16000,
+   "ver": "260709posqr1",
+   "files": 6,
+   "additions": 351,
+   "deletions": 65
+  },
   {
    "hash": "c9d7365",
    "agent": "Codex",
