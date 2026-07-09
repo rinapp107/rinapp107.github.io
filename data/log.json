@@ -1,9 +1,35 @@
 {
- "generated": "2026-07-09T04:09:37.287Z",
+ "generated": "2026-07-09T04:20:49.600Z",
  "repo": "zentea-qlch",
- "appVer": "260708nkhrs1",
- "totalCommits": 212,
+ "appVer": "260709posmenu1",
+ "totalCommits": 214,
  "commits": [
+  {
+   "hash": "7160251",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-09T11:20:21+07:00",
+   "message": "KPI Thang: Luu KPI gom gia tri tu TAT CA o nhap tren luoi (ke ca diem demo dien san chua go tay) + ve lai tab sau khi luu de o tam chuyen thanh diem chinh thuc [loai:Fix bug] [tokens:3000] [ver:260708kpidemo2]",
+   "loai": "Fix bug",
+   "tokens": 3000,
+   "ver": "260708kpidemo2",
+   "files": 1,
+   "additions": 12,
+   "deletions": 0
+  },
+  {
+   "hash": "27aed00",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-09T11:20:18+07:00",
+   "message": "Sua menu POS theo schema eOrder [loai:Fix bug] [tokens:18000] [ver:260709posmenu1]",
+   "loai": "Fix bug",
+   "tokens": 18000,
+   "ver": "260709posmenu1",
+   "files": 6,
+   "additions": 263,
+   "deletions": 32
+  },
   {
    "hash": "84caf83",
    "agent": "Claude Code",
