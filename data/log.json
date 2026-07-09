@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-09T03:59:13.366Z",
+ "generated": "2026-07-09T04:09:37.287Z",
  "repo": "zentea-qlch",
- "appVer": "260708kpidemo1",
- "totalCommits": 211,
+ "appVer": "260708nkhrs1",
+ "totalCommits": 212,
  "commits": [
+  {
+   "hash": "84caf83",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-09T11:09:16+07:00",
+   "message": "Thong ke LLV: fix gio ca qua dem tinh 0h trong _calcHrs (23:00-05:00 gio ra dung 6h) - nho lam the/lam bu/cat ca ca dem duoc dem dung [loai:Fix bug] [tokens:4000] [ver:260708nkhrs1]",
+   "loai": "Fix bug",
+   "tokens": 4000,
+   "ver": "260708nkhrs1",
+   "files": 3,
+   "additions": 4,
+   "deletions": 3
+  },
   {
    "hash": "d3fb017",
    "agent": "Claude Code",
