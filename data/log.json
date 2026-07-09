@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-09T15:04:00.624Z",
+ "generated": "2026-07-09T15:06:57.868Z",
  "repo": "zentea-qlch",
- "appVer": "260709posmenu5",
- "totalCommits": 220,
+ "appVer": "260709kpidemo4",
+ "totalCommits": 221,
  "commits": [
+  {
+   "hash": "14da407",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-09T22:06:32+07:00",
+   "message": "Bump ver 260709kpidemo4 (cache-bust api-core-v68: KPI demo hien moi thang da ket thuc chua luu) [loai:Deploy] [tokens:500] [ver:260709kpidemo4]",
+   "loai": "Deploy",
+   "tokens": 500,
+   "ver": "260709kpidemo4",
+   "files": 2,
+   "additions": 3,
+   "deletions": 3
+  },
   {
    "hash": "53d524a",
    "agent": "Codex",
