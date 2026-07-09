@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-09T15:29:50.884Z",
+ "generated": "2026-07-09T15:33:00.498Z",
  "repo": "zentea-qlch",
- "appVer": "260709posqr1",
- "totalCommits": 223,
+ "appVer": "260709canhan3",
+ "totalCommits": 224,
  "commits": [
+  {
+   "hash": "e8508d2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-09T22:32:42+07:00",
+   "message": "Ca Nhan cho quan ly tro len: vao thang ho so ca nhan cua chinh minh (khong PIN/khong bang chon NV); chua co ho so -> TU TAO nhan su o chi nhanh dang chon (admin quan ly nhu NV khac, luu lien ket user_links); ho so o chi nhanh khac -> huong dan chuyen; try/catch het man trang [loai:Sua tinh nang] [tokens:8000] [ver:260709canhan3]",
+   "loai": "Sua tinh nang",
+   "tokens": 8000,
+   "ver": "260709canhan3",
+   "files": 3,
+   "additions": 66,
+   "deletions": 9
+  },
   {
    "hash": "1dc66de",
    "agent": "Codex",
