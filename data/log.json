@@ -1,9 +1,35 @@
 {
- "generated": "2026-07-09T15:33:00.498Z",
+ "generated": "2026-07-09T15:40:51.332Z",
  "repo": "zentea-qlch",
- "appVer": "260709canhan3",
- "totalCommits": 224,
+ "appVer": "260709canhan4",
+ "totalCommits": 226,
  "commits": [
+  {
+   "hash": "bca80c3",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-09T22:40:33+07:00",
+   "message": "Ca Nhan: nut Lien ket ho so nhan su (tai khoan ten khac ho so chon lai 1 lan, luu user_links, uu tien lien ket khi mo); man ho so o cua hang khac co nut lien ket tai cho [loai:Them tinh nang] [tokens:5000] [ver:260709canhan4]",
+   "loai": "Them tinh nang",
+   "tokens": 5000,
+   "ver": "260709canhan4",
+   "files": 3,
+   "additions": 75,
+   "deletions": 22
+  },
+  {
+   "hash": "ab47839",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-09T22:39:23+07:00",
+   "message": "Cap nhat handoff live POS posqr1 [loai:Config] [tokens:1000] [ver:260709canhan3]",
+   "loai": "Config",
+   "tokens": 1000,
+   "ver": "260709canhan3",
+   "files": 2,
+   "additions": 2,
+   "deletions": 2
+  },
   {
    "hash": "e8508d2",
    "agent": "Claude Code",
