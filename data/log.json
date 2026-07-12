@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-12T14:40:42.859Z",
+ "generated": "2026-07-12T15:25:28.064Z",
  "repo": "zentea-qlch",
- "appVer": "260712posmilk1",
- "totalCommits": 234,
+ "appVer": "260712qlchexcel1",
+ "totalCommits": 235,
  "commits": [
+  {
+   "hash": "cdfa6c6",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-12T22:24:27+07:00",
+   "message": "Chuan hoa loai ca Excel lich quan ly [loai:Fix bug] [tokens:6000] [ver:260712qlchexcel1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260712qlchexcel1",
+   "files": 5,
+   "additions": 54,
+   "deletions": 5
+  },
   {
    "hash": "887e9a1",
    "agent": "Codex",
