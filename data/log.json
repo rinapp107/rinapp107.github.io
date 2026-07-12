@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-12T15:25:28.064Z",
+ "generated": "2026-07-12T15:50:30.800Z",
  "repo": "zentea-qlch",
- "appVer": "260712qlchexcel1",
- "totalCommits": 235,
+ "appVer": "260712poshistory1",
+ "totalCommits": 236,
  "commits": [
+  {
+   "hash": "2327476",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-12T22:49:56+07:00",
+   "message": "Sua lich su don hang POS [loai:Fix bug] [tokens:8000] [ver:260712poshistory1]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260712poshistory1",
+   "files": 6,
+   "additions": 420,
+   "deletions": 50
+  },
   {
    "hash": "cdfa6c6",
    "agent": "Codex",
