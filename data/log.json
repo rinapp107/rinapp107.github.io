@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-13T02:28:11.032Z",
+ "generated": "2026-07-13T12:08:01.876Z",
  "repo": "zentea-qlch",
- "appVer": "260712poshistory2",
- "totalCommits": 237,
+ "appVer": "260713drequipjump1",
+ "totalCommits": 238,
  "commits": [
+  {
+   "hash": "7527c24",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-13T19:07:28+07:00",
+   "message": "Sua checklist thiet bi khong nhay man hinh [loai:Fix bug] [tokens:6500] [ver:260713drequipjump1]",
+   "loai": "Fix bug",
+   "tokens": 6500,
+   "ver": "260713drequipjump1",
+   "files": 5,
+   "additions": 47,
+   "deletions": 18
+  },
   {
    "hash": "639ceb4",
    "agent": "Codex",
