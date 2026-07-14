@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-14T05:36:29.480Z",
+ "generated": "2026-07-14T07:38:41.567Z",
  "repo": "zentea-qlch",
- "appVer": "260714wordpdf1",
- "totalCommits": 239,
+ "appVer": "260714wordpdf2",
+ "totalCommits": 240,
  "commits": [
+  {
+   "hash": "41012b4",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-14T14:32:56+07:00",
+   "message": "Bat engine LibreOffice cho Word PDF [loai:Fix bug] [tokens:8000] [ver:260714wordpdf2]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260714wordpdf2",
+   "files": 6,
+   "additions": 30,
+   "deletions": 7
+  },
   {
    "hash": "3d4d848",
    "agent": "Codex",
