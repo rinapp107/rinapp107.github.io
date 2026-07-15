@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-15T17:07:52.883Z",
+ "generated": "2026-07-15T18:04:18.878Z",
  "repo": "zentea-qlch",
- "appVer": "260715tcgps1",
- "totalCommits": 254,
+ "appVer": "260716tcgpsfix1",
+ "totalCommits": 255,
  "commits": [
+  {
+   "hash": "ebe08d4",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-16T00:58:39+07:00",
+   "message": "Sua bug an cham cong GPS theo chi nhanh [loai:Fix bug] [tokens:9000] [ver:260716tcgpsfix1]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260716tcgpsfix1",
+   "files": 5,
+   "additions": 35,
+   "deletions": 11
+  },
   {
    "hash": "ea23afb",
    "agent": "Codex",
