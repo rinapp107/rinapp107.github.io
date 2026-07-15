@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-14T12:21:46.830Z",
+ "generated": "2026-07-15T02:29:39.740Z",
  "repo": "zentea-qlch",
- "appVer": "260714doc500m1",
- "totalCommits": 244,
+ "appVer": "260715posorderpanel1",
+ "totalCommits": 245,
  "commits": [
+  {
+   "hash": "b03f0f2",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-15T09:29:06+07:00",
+   "message": "Nang cap khung xem don POS kieu eOrder [loai:Thêm tính năng] [tokens:6500] [ver:260715posorderpanel1]",
+   "loai": "Thêm tính năng",
+   "tokens": 6500,
+   "ver": "260715posorderpanel1",
+   "files": 6,
+   "additions": 401,
+   "deletions": 30
+  },
   {
    "hash": "2273a07",
    "agent": "Codex",
