@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-17T10:07:56.675Z",
+ "generated": "2026-07-17T10:32:12.256Z",
  "repo": "zentea-qlch",
- "appVer": "260717profileinfo4",
- "totalCommits": 273,
+ "appVer": "260717profileinfo5",
+ "totalCommits": 274,
  "commits": [
+  {
+   "hash": "d42b9e1",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-17T17:31:33+07:00",
+   "message": "Sua noi dung tab ho so nhan vien bi trong [loai:Fix bug] [tokens:6500] [ver:260717profileinfo5]",
+   "loai": "Fix bug",
+   "tokens": 6500,
+   "ver": "260717profileinfo5",
+   "files": 6,
+   "additions": 63,
+   "deletions": 13
+  },
   {
    "hash": "a08414c",
    "agent": "Codex",
