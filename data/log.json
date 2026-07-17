@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-17T06:00:57.785Z",
+ "generated": "2026-07-17T06:16:04.671Z",
  "repo": "zentea-qlch",
- "appVer": "260717profileinfo1",
- "totalCommits": 270,
+ "appVer": "260717profileinfo2",
+ "totalCommits": 271,
  "commits": [
+  {
+   "hash": "f3eb947",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-17T13:15:11+07:00",
+   "message": "Sua manager xem tab Thong Tin ho so nhan vien [loai:Fix bug] [tokens:4200] [ver:260717profileinfo2]",
+   "loai": "Fix bug",
+   "tokens": 4200,
+   "ver": "260717profileinfo2",
+   "files": 6,
+   "additions": 47,
+   "deletions": 19
+  },
   {
    "hash": "32dbcf9",
    "agent": "Codex",
