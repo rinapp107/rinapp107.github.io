@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-17T07:01:18.619Z",
+ "generated": "2026-07-17T10:07:56.675Z",
  "repo": "zentea-qlch",
- "appVer": "260717profileinfo3",
- "totalCommits": 272,
+ "appVer": "260717profileinfo4",
+ "totalCommits": 273,
  "commits": [
+  {
+   "hash": "a08414c",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-17T17:06:55+07:00",
+   "message": "Sua manager mo ho so nhan vien on dinh hon [loai:Fix bug] [tokens:6500] [ver:260717profileinfo4]",
+   "loai": "Fix bug",
+   "tokens": 6500,
+   "ver": "260717profileinfo4",
+   "files": 7,
+   "additions": 96,
+   "deletions": 11
+  },
   {
    "hash": "30cee61",
    "agent": "Codex",
