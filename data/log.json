@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-17T06:16:04.671Z",
+ "generated": "2026-07-17T07:01:18.619Z",
  "repo": "zentea-qlch",
- "appVer": "260717profileinfo2",
- "totalCommits": 271,
+ "appVer": "260717profileinfo3",
+ "totalCommits": 272,
  "commits": [
+  {
+   "hash": "30cee61",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-17T13:58:59+07:00",
+   "message": "Sua quyen manager doc tuy bien ho so nhan vien [loai:Fix bug] [tokens:4500] [ver:260717profileinfo3]",
+   "loai": "Fix bug",
+   "tokens": 4500,
+   "ver": "260717profileinfo3",
+   "files": 6,
+   "additions": 99,
+   "deletions": 8
+  },
   {
    "hash": "f3eb947",
    "agent": "Codex",
