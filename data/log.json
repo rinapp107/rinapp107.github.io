@@ -1,9 +1,35 @@
 {
- "generated": "2026-07-17T12:09:00.960Z",
+ "generated": "2026-07-18T04:34:05.634Z",
  "repo": "zentea-qlch",
- "appVer": "260717tvquality1",
- "totalCommits": 275,
+ "appVer": "260718tcopen1",
+ "totalCommits": 277,
  "commits": [
+  {
+   "hash": "c3928a2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-18T11:33:44+07:00",
+   "message": "Cham cong GPS khong bat buoc phan ca, gan nhan doi soat [loai:Fix bug] [tokens:15000] [ver:260718tcopen1]",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "260718tcopen1",
+   "files": 4,
+   "additions": 61,
+   "deletions": 21
+  },
+  {
+   "hash": "ca0dea6",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-18T11:33:44+07:00",
+   "message": "Them tai lieu ke hoach nang cap game Vuon ZEN [loai:Config] [tokens:1000] [ver:260718tcopen1]",
+   "loai": "Config",
+   "tokens": 1000,
+   "ver": "260718tcopen1",
+   "files": 1,
+   "additions": 166,
+   "deletions": 0
+  },
   {
    "hash": "a6f0b67",
    "agent": "Codex",
