@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-18T05:21:25.541Z",
+ "generated": "2026-07-18T05:52:50.299Z",
  "repo": "zentea-qlch",
- "appVer": "260718tcmatch1",
- "totalCommits": 279,
+ "appVer": "260718llvui1",
+ "totalCommits": 280,
  "commits": [
+  {
+   "hash": "42677a3",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-18T12:52:27+07:00",
+   "message": "Nang cap giao dien LLV: modal dep thay alert/confirm, doi nut Xoa Lich, chu to hon, phan biet 0/chua nhap du bao [loai:Nang cap] [tokens:30000] [ver:260718llvui1]",
+   "loai": "Nang cap",
+   "tokens": 30000,
+   "ver": "260718llvui1",
+   "files": 3,
+   "additions": 218,
+   "deletions": 141
+  },
   {
    "hash": "5eaabba",
    "agent": "Claude Code",
