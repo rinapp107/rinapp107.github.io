@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-20T11:00:37.818Z",
+ "generated": "2026-07-20T13:51:20.868Z",
  "repo": "zentea-qlch",
- "appVer": "260720fcmonth1",
- "totalCommits": 295,
+ "appVer": "260720zalonk1",
+ "totalCommits": 296,
  "commits": [
+  {
+   "hash": "427b6af",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-20T20:51:00+07:00",
+   "message": "Lam dep popup nhac viec ve sinh: tong xanh brand + hieu ung [loai:Nang cap] [tokens:7000] [ver:260720vspopup1]",
+   "loai": "Nang cap",
+   "tokens": 7000,
+   "ver": "260720vspopup1",
+   "files": 4,
+   "additions": 28,
+   "deletions": 14
+  },
   {
    "hash": "2642515",
    "agent": "Claude Code",
