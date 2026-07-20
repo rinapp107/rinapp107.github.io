@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-20T04:09:27.194Z",
+ "generated": "2026-07-20T04:43:15.422Z",
  "repo": "zentea-qlch",
- "appVer": "260720facestrict1",
- "totalCommits": 291,
+ "appVer": "260720offpos1",
+ "totalCommits": 292,
  "commits": [
+  {
+   "hash": "8f3f289",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-20T11:42:56+07:00",
+   "message": "Sua dang ky off LLV chan oan khi lich con trong (o trong bi coi la off) [loai:Fix bug] [tokens:9000] [ver:260720offpos1]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260720offpos1",
+   "files": 4,
+   "additions": 18,
+   "deletions": 4
+  },
   {
    "hash": "56cb8a6",
    "agent": "Claude Code",
