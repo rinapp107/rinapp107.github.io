@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-19T08:23:13.545Z",
+ "generated": "2026-07-20T04:09:27.194Z",
  "repo": "zentea-qlch",
- "appVer": "260719facescan1",
- "totalCommits": 290,
+ "appVer": "260720facestrict1",
+ "totalCommits": 291,
  "commits": [
+  {
+   "hash": "56cb8a6",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-20T11:09:04+07:00",
+   "message": "Siet Face ID: chan sai mat khong cho cham, 3 mau + landmark full + nguong 0.45, khoa dang ky de [loai:Fix bug] [tokens:16000] [ver:260720facestrict1]",
+   "loai": "Fix bug",
+   "tokens": 16000,
+   "ver": "260720facestrict1",
+   "files": 6,
+   "additions": 178,
+   "deletions": 45
+  },
   {
    "hash": "812c879",
    "agent": "Claude Code",
