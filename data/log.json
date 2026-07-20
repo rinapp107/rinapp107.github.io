@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-20T04:43:15.422Z",
+ "generated": "2026-07-20T10:36:52.415Z",
  "repo": "zentea-qlch",
- "appVer": "260720offpos1",
- "totalCommits": 292,
+ "appVer": "260720tvkey1",
+ "totalCommits": 293,
  "commits": [
+  {
+   "hash": "c602d7f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-20T17:36:28+07:00",
+   "message": "Sua triet de mat ngay thu viec LLV: khoa theo dbEmpId thay vi id slot [loai:Fix bug] [tokens:11000] [ver:260720tvkey1]",
+   "loai": "Fix bug",
+   "tokens": 11000,
+   "ver": "260720tvkey1",
+   "files": 4,
+   "additions": 39,
+   "deletions": 7
+  },
   {
    "hash": "8f3f289",
    "agent": "Claude Code",
