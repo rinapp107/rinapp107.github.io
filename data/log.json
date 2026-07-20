@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-20T10:36:52.415Z",
+ "generated": "2026-07-20T10:50:59.690Z",
  "repo": "zentea-qlch",
- "appVer": "260720tvkey1",
- "totalCommits": 293,
+ "appVer": "260720empdup1",
+ "totalCommits": 294,
  "commits": [
+  {
+   "hash": "31e53bc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-20T17:50:40+07:00",
+   "message": "Sua them trung ten nhan su LLV: dedup theo dbEmpId, da co thi cap nhat [loai:Fix bug] [tokens:10000] [ver:260720empdup1]",
+   "loai": "Fix bug",
+   "tokens": 10000,
+   "ver": "260720empdup1",
+   "files": 4,
+   "additions": 33,
+   "deletions": 7
+  },
   {
    "hash": "c602d7f",
    "agent": "Claude Code",
