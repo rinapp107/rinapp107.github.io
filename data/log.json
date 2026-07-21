@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-21T09:45:12.119Z",
+ "generated": "2026-07-21T09:58:53.467Z",
  "repo": "zentea-qlch",
  "appVer": "260721storelogin1",
- "totalCommits": 305,
+ "totalCommits": 306,
  "commits": [
+  {
+   "hash": "1759ac1",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-21T16:58:20+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix trung du lieu Ve Sinh + toggle nhac viec + UX them viec [loai:Config] [tokens:2000] [ver:260721vsdedup1]",
+   "loai": "Config",
+   "tokens": 2000,
+   "ver": "260721vsdedup1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "e093654",
    "agent": "Claude Code",
