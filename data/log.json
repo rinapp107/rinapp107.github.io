@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-21T09:38:12.708Z",
+ "generated": "2026-07-21T09:45:12.119Z",
  "repo": "zentea-qlch",
- "appVer": "260721vsdedup1",
- "totalCommits": 304,
+ "appVer": "260721storelogin1",
+ "totalCommits": 305,
  "commits": [
+  {
+   "hash": "e093654",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-21T16:44:51+07:00",
+   "message": "Them dang nhap theo cua hang: chon CH + NV + PIN, bo qua cong danh tinh [loai:Thêm tính năng] [tokens:30000] [ver:260721storelogin1]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "260721storelogin1",
+   "files": 4,
+   "additions": 95,
+   "deletions": 3
+  },
   {
    "hash": "cd0c7bb",
    "agent": "Người",
