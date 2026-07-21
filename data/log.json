@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-21T02:03:15.105Z",
+ "generated": "2026-07-21T08:01:32.410Z",
  "repo": "zentea-qlch",
- "appVer": "260721ktra3",
- "totalCommits": 301,
+ "appVer": "260721offrule1",
+ "totalCommits": 302,
  "commits": [
+  {
+   "hash": "f3a9e92",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-21T15:01:13+07:00",
+   "message": "Sua quy tac dang ky nghi reload bi mat: co dirty chong server cu de rule moi [loai:Fix bug] [tokens:11000] [ver:260721offrule1]",
+   "loai": "Fix bug",
+   "tokens": 11000,
+   "ver": "260721offrule1",
+   "files": 4,
+   "additions": 25,
+   "deletions": 6
+  },
   {
    "hash": "39d2523",
    "agent": "Claude Code",
