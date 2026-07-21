@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-21T08:34:22.388Z",
+ "generated": "2026-07-21T09:38:12.708Z",
  "repo": "zentea-qlch",
- "appVer": "260721ktrarule1",
- "totalCommits": 303,
+ "appVer": "260721vsdedup1",
+ "totalCommits": 304,
  "commits": [
+  {
+   "hash": "cd0c7bb",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-21T16:37:51+07:00",
+   "message": "Sua trung du lieu Vue Sinh + toggle nhac viec theo cua hang + UX them viec de dung hon [loai:Fix bug] [tokens:38000] [ver:260721vsdedup1]",
+   "loai": "Fix bug",
+   "tokens": 38000,
+   "ver": "260721vsdedup1",
+   "files": 4,
+   "additions": 330,
+   "deletions": 51
+  },
   {
    "hash": "8327da9",
    "agent": "Claude Code",
