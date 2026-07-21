@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-21T08:01:32.410Z",
+ "generated": "2026-07-21T08:34:22.388Z",
  "repo": "zentea-qlch",
- "appVer": "260721offrule1",
- "totalCommits": 302,
+ "appVer": "260721ktrarule1",
+ "totalCommits": 303,
  "commits": [
+  {
+   "hash": "8327da9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-21T15:34:00+07:00",
+   "message": "Them ktrarule() soi quy tac off theo chi nhanh staff doc [loai:Config] [tokens:5000] [ver:260721ktrarule1]",
+   "loai": "Config",
+   "tokens": 5000,
+   "ver": "260721ktrarule1",
+   "files": 3,
+   "additions": 30,
+   "deletions": 3
+  },
   {
    "hash": "f3a9e92",
    "agent": "Claude Code",
