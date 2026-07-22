@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T06:30:29.766Z",
+ "generated": "2026-07-22T06:58:01.117Z",
  "repo": "zentea-qlch",
  "appVer": "260722nkfix3",
- "totalCommits": 312,
+ "totalCommits": 313,
  "commits": [
+  {
+   "hash": "4738fbc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T13:57:07+07:00",
+   "message": "Them Claude Opus 4.8 lam model chinh cho NK Parse (structured outputs, thay the khi Gemini/Groq loi) [loai:Thêm tính năng] [tokens:14000] [ver:260722nkfix3]",
+   "loai": "Thêm tính năng",
+   "tokens": 14000,
+   "ver": "260722nkfix3",
+   "files": 3,
+   "additions": 66,
+   "deletions": 9
+  },
   {
    "hash": "fa11dcc",
    "agent": "Người",
