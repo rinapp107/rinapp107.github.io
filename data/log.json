@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T03:28:58.948Z",
+ "generated": "2026-07-22T03:39:23.469Z",
  "repo": "zentea-qlch",
- "appVer": "260721storelogin2",
- "totalCommits": 307,
+ "appVer": "260722vsremind2",
+ "totalCommits": 308,
  "commits": [
+  {
+   "hash": "6d524ea",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-22T10:39:00+07:00",
+   "message": "Sua toggle nhac viec ve sinh khong luu duoc: tach key rieng, doc/ghi truc tiep khong qua cache [loai:Fix bug] [tokens:9000] [ver:260722vsremind2]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260722vsremind2",
+   "files": 3,
+   "additions": 36,
+   "deletions": 15
+  },
   {
    "hash": "c880c7f",
    "agent": "Claude Code",
