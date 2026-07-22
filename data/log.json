@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T15:15:09.774Z",
+ "generated": "2026-07-22T15:25:09.270Z",
  "repo": "zentea-qlch",
- "appVer": "260722logo1",
- "totalCommits": 327,
+ "appVer": "260722zalopxl1",
+ "totalCommits": 328,
  "commits": [
+  {
+   "hash": "7e2a741",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-22T22:24:46+07:00",
+   "message": "Mo Zalo Chat AI cho quan ly cua hang (read-only, chi thay group LLV chi nhanh minh): backend _zaloRequireView + scope theo req.user.branch cho cac endpoint xem, chan gui (send van admin-only); frontend cho manager xem + an o gui + bo pin NTMK cung; config canViewSection mo zalo-chat cho role manager [loai:Thêm tính năng] [tokens:22000] [ver:260722zalopxl1]",
+   "loai": "Thêm tính năng",
+   "tokens": 22000,
+   "ver": "260722zalopxl1",
+   "files": 5,
+   "additions": 39,
+   "deletions": 18
+  },
   {
    "hash": "488b5c7",
    "agent": "Claude Code",
