@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-21T09:58:53.467Z",
+ "generated": "2026-07-22T03:28:58.948Z",
  "repo": "zentea-qlch",
- "appVer": "260721storelogin1",
- "totalCommits": 306,
+ "appVer": "260721storelogin2",
+ "totalCommits": 307,
  "commits": [
+  {
+   "hash": "c880c7f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T10:28:30+07:00",
+   "message": "Store-login: vao thang ho so ca nhan, khong bat nhap PIN lan 2 [loai:Fix bug] [tokens:6000] [ver:260721storelogin2]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260721storelogin2",
+   "files": 3,
+   "additions": 21,
+   "deletions": 3
+  },
   {
    "hash": "1759ac1",
    "agent": "Người",
