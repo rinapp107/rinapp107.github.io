@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T15:25:09.270Z",
+ "generated": "2026-07-22T15:48:14.709Z",
  "repo": "zentea-qlch",
  "appVer": "260722zalopxl1",
- "totalCommits": 328,
+ "totalCommits": 329,
  "commits": [
+  {
+   "hash": "a256566",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T22:46:45+07:00",
+   "message": "Fix that (dung goc): man bao tri Vuon ZEN thuc su hien qua tab 'vuon' hardcode rieng trong js/api-core-v68.js (kpiProfileTab), KHONG qua window.renderGardenGame nhu ban sua truoc - fix truoc do vao nham cho nen khong co tac dung. Gio superadmin vao dung tab se goi renderGardenGame that, role khac van thay man bao tri [loai:Fix bug] [tokens:5000] [ver:260722zalopxl1]",
+   "loai": "Fix bug",
+   "tokens": 5000,
+   "ver": "260722zalopxl1",
+   "files": 2,
+   "additions": 9,
+   "deletions": 2
+  },
   {
    "hash": "7e2a741",
    "agent": "Người",
