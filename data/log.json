@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T12:18:48.935Z",
+ "generated": "2026-07-22T13:24:30.839Z",
  "repo": "zentea-qlch",
  "appVer": "260722logo1",
- "totalCommits": 323,
+ "totalCommits": 324,
  "commits": [
+  {
+   "hash": "a9a570c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T20:24:03+07:00",
+   "message": "Widget \"Nguoi dang hoat dong\": hien ten that cua nhan vien da tu nhan dang (Ban la ai?) thay vi ten tai khoan dung chung theo cua hang. Ping gui kem staffName/staffEmpId tu localStorage, /api/users/online gom theo (tai khoan+danh tinh) de tach rieng nhieu NV chung 1 login [loai:Thêm tính năng] [tokens:8000] [ver:260722logo1]",
+   "loai": "Thêm tính năng",
+   "tokens": 8000,
+   "ver": "260722logo1",
+   "files": 3,
+   "additions": 28,
+   "deletions": 12
+  },
   {
    "hash": "32a7923",
    "agent": "Claude Code",
