@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T04:57:45.288Z",
+ "generated": "2026-07-22T05:28:12.903Z",
  "repo": "zentea-qlch",
- "appVer": "260722zalonk2",
- "totalCommits": 310,
+ "appVer": "260722nkfix3",
+ "totalCommits": 311,
  "commits": [
+  {
+   "hash": "42b605c",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-22T12:27:49+07:00",
+   "message": "Hotfix: tab Nhat Ky trang trang do goi ham esc() khong ton tai trong pham vi ham [loai:Fix bug] [tokens:4000] [ver:260722nkfix3]",
+   "loai": "Fix bug",
+   "tokens": 4000,
+   "ver": "260722nkfix3",
+   "files": 3,
+   "additions": 4,
+   "deletions": 4
+  },
   {
    "hash": "91eb924",
    "agent": "Người",
