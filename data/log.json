@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T06:58:01.117Z",
+ "generated": "2026-07-22T07:39:38.744Z",
  "repo": "zentea-qlch",
  "appVer": "260722nkfix3",
- "totalCommits": 313,
+ "totalCommits": 314,
  "commits": [
+  {
+   "hash": "0f3f48d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T14:39:12+07:00",
+   "message": "Them endpoint set-anthropic-key (dat ANTHROPIC_API_KEY tu xa qua DEPLOY_TOKEN, khong can SSH, hieu luc ngay) [loai:Config] [tokens:2000] [ver:260722nkfix3]",
+   "loai": "Config",
+   "tokens": 2000,
+   "ver": "260722nkfix3",
+   "files": 1,
+   "additions": 21,
+   "deletions": 0
+  },
   {
    "hash": "4738fbc",
    "agent": "Claude Code",
