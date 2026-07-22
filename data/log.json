@@ -1,9 +1,35 @@
 {
- "generated": "2026-07-22T10:04:09.891Z",
+ "generated": "2026-07-22T10:19:08.866Z",
  "repo": "zentea-qlch",
- "appVer": "260722nkfix3",
- "totalCommits": 319,
+ "appVer": "260722logo1",
+ "totalCommits": 321,
  "commits": [
+  {
+   "hash": "9b67f23",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T17:18:45+07:00",
+   "message": "Sua quyen xem Lich Quan Ly (ql-cua-hang): admin duoc xem het (nhu superadmin, khong sua), role manager chi thay dung dong cua minh - truoc do manager thay het tat ca quan ly moi chi nhanh. Kem thay doi favicon/meta OG dang co san trong working tree (khong phai cua task nay) [loai:Fix bug] [tokens:6000] [ver:260722logo1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260722logo1",
+   "files": 2,
+   "additions": 16,
+   "deletions": 5
+  },
+  {
+   "hash": "8b94529",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-22T17:18:38+07:00",
+   "message": "Sua cau hook mo ta web (SEO) + gan logo favicon that de Google hien logo thay vi qua dia cau [loai:Cai tien] [tokens:3000] [ver:260722logo1]",
+   "loai": "Cai tien",
+   "tokens": 3000,
+   "ver": "260722logo1",
+   "files": 4,
+   "additions": 13,
+   "deletions": 13
+  },
   {
    "hash": "4985578",
    "agent": "Claude Code",
