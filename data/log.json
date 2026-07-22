@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T13:28:00.615Z",
+ "generated": "2026-07-22T15:14:11.699Z",
  "repo": "zentea-qlch",
  "appVer": "260722logo1",
- "totalCommits": 325,
+ "totalCommits": 326,
  "commits": [
+  {
+   "hash": "5f431a1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T22:13:47+07:00",
+   "message": "Vuon ZEN: superadmin xem truoc duoc vuon that ngay ca khi dang bao tri nang cap (staff/quan ly van thay man bao tri nhu cu). Them console job cn-debug-superadmin (doi chieu lien ket ho so NV cua tai khoan superadmin, phuc vu chan doan) [loai:Thêm tính năng] [tokens:6000] [ver:260722logo1]",
+   "loai": "Thêm tính năng",
+   "tokens": 6000,
+   "ver": "260722logo1",
+   "files": 3,
+   "additions": 101,
+   "deletions": 15
+  },
   {
    "hash": "65fc77a",
    "agent": "Claude Code",
