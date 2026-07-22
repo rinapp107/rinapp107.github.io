@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T08:43:38.877Z",
+ "generated": "2026-07-22T08:56:51.141Z",
  "repo": "zentea-qlch",
  "appVer": "260722nkfix3",
- "totalCommits": 316,
+ "totalCommits": 317,
  "commits": [
+  {
+   "hash": "3f20442",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T15:56:30+07:00",
+   "message": "Sua prompt NK Parse: phan biet ro ho_tro_ck (chi nhanh khac, co dien store) vs ho_tro/tang_cuong (cung chi nhanh) - truoc do AI hay nham thanh nho_lam_the/ho_tro roi mat field chi nhanh [loai:Fix bug] [tokens:5000] [ver:260722nkfix3]",
+   "loai": "Fix bug",
+   "tokens": 5000,
+   "ver": "260722nkfix3",
+   "files": 1,
+   "additions": 3,
+   "deletions": 1
+  },
   {
    "hash": "40eb3a6",
    "agent": "Claude Code",
