@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T05:28:12.903Z",
+ "generated": "2026-07-22T06:30:29.766Z",
  "repo": "zentea-qlch",
  "appVer": "260722nkfix3",
- "totalCommits": 311,
+ "totalCommits": 312,
  "commits": [
+  {
+   "hash": "fa11dcc",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-22T13:30:06+07:00",
+   "message": "Mo rong loai ho tro tu tin Zalo + them cong cu debug parse AI [loai:Thêm tính năng] [tokens:14000] [ver:260722hotroCK1]",
+   "loai": "Thêm tính năng",
+   "tokens": 14000,
+   "ver": "260722hotroCK1",
+   "files": 1,
+   "additions": 38,
+   "deletions": 2
+  },
   {
    "hash": "42b605c",
    "agent": "Người",
