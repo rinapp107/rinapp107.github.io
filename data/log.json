@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T10:29:56.049Z",
+ "generated": "2026-07-22T12:18:48.935Z",
  "repo": "zentea-qlch",
  "appVer": "260722logo1",
- "totalCommits": 322,
+ "totalCommits": 323,
  "commits": [
+  {
+   "hash": "32a7923",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-22T19:18:18+07:00",
+   "message": "Fix tai khoan manager thieu entry trong roster Lich Quan Ly (data.managers) sau khi gioi han quyen xem theo role - them console job qlch-sync-managers dong bo tu Users, da chay fix 1 tai khoan thieu (Nguyen Yen Nhi) + 1 lech du lieu [loai:Fix bug] [tokens:7000] [ver:260722logo1]",
+   "loai": "Fix bug",
+   "tokens": 7000,
+   "ver": "260722logo1",
+   "files": 2,
+   "additions": 155,
+   "deletions": 35
+  },
   {
    "hash": "a44a6da",
    "agent": "Claude Code",
