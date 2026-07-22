@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T04:54:37.424Z",
+ "generated": "2026-07-22T04:57:45.288Z",
  "repo": "zentea-qlch",
  "appVer": "260722zalonk2",
- "totalCommits": 309,
+ "totalCommits": 310,
  "commits": [
+  {
+   "hash": "91eb924",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-22T11:57:26+07:00",
+   "message": "Cap nhat WEB_CONTEXT: sua do chinh xac ban nhap NK tu Zalo + toggle nhac viec ve sinh [loai:Config] [tokens:3000] [ver:260722zalonk2]",
+   "loai": "Config",
+   "tokens": 3000,
+   "ver": "260722zalonk2",
+   "files": 1,
+   "additions": 4,
+   "deletions": 0
+  },
   {
    "hash": "13c31e9",
    "agent": "Người",
