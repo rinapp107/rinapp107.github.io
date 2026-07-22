@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T03:39:23.469Z",
+ "generated": "2026-07-22T04:54:37.424Z",
  "repo": "zentea-qlch",
- "appVer": "260722vsremind2",
- "totalCommits": 308,
+ "appVer": "260722zalonk2",
+ "totalCommits": 309,
  "commits": [
+  {
+   "hash": "13c31e9",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-22T11:54:14+07:00",
+   "message": "Sua do chinh xac tao ban nhap NK tu Zalo: nhieu ngay/tin, dung chi nhanh khac, khong nham nguoi tag [loai:Fix bug] [tokens:35000] [ver:260722zalonk2]",
+   "loai": "Fix bug",
+   "tokens": 35000,
+   "ver": "260722zalonk2",
+   "files": 4,
+   "additions": 174,
+   "deletions": 61
+  },
   {
    "hash": "6d524ea",
    "agent": "Người",
