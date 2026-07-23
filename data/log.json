@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T08:24:48.853Z",
+ "generated": "2026-07-23T08:47:41.563Z",
  "repo": "zentea-qlch",
  "appVer": "260722zalopxl1",
- "totalCommits": 338,
+ "totalCommits": 339,
  "commits": [
+  {
+   "hash": "5050f9d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T15:47:22+07:00",
+   "message": "Them doi soat cham cong XUYEN CHI NHANH cho Phan Ca: NV lich o chi nhanh A nhung cham cong that o chi nhanh B (di ho tro) gio Phan Ca cua A van nhan ra \"da cham\" dung, hover vao ca hien ro cham tai chi nhanh nao neu khac chi nhanh dang xem. Endpoint moi GET /api/time-clock-cross-branch (tra field gon, khong anh/GPS, loc theo thang). Xac nhan qua du lieu that: Minh Tan co ban ghi cham cong rieng o cn16 (26) va cn02 (6) [loai:Thêm tính năng] [tokens:12000] [ver:260722zalopxl1]",
+   "loai": "Thêm tính năng",
+   "tokens": 12000,
+   "ver": "260722zalopxl1",
+   "files": 3,
+   "additions": 242,
+   "deletions": 41
+  },
   {
    "hash": "6b070ea",
    "agent": "Claude Code",
