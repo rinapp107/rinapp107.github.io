@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T14:49:19.138Z",
+ "generated": "2026-07-23T14:52:34.226Z",
  "repo": "zentea-qlch",
  "appVer": "260723namewide1",
- "totalCommits": 352,
+ "totalCommits": 353,
  "commits": [
+  {
+   "hash": "c4a667a",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-23T21:51:47+07:00",
+   "message": "Cap nhat WEB_CONTEXT: doc lai style modal + fix ten NV Quan Ly Cham Cong + phat hien nguyen nhan cache index.html",
+   "loai": "Docs",
+   "tokens": 500,
+   "ver": "260723namewide1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "a66ad5b",
    "agent": "Người",
