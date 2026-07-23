@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T09:09:24.022Z",
+ "generated": "2026-07-23T09:37:27.638Z",
  "repo": "zentea-qlch",
  "appVer": "260723react2",
- "totalCommits": 342,
+ "totalCommits": 343,
  "commits": [
+  {
+   "hash": "c068c70",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T16:37:07+07:00",
+   "message": "Fix goc re Quan Ly Cham Cong (qc.js) hien sai NV theo chi nhanh: module co dropdown chi nhanh RIENG nhung danh sach nhan vien lai lay tu bien toan cuc employeesData (bam theo sidebar, khong doi theo dropdown nay) - gio tai rieng roster dung branchVal moi lan doi chi nhanh/thang. Phat hien them: ca 198 ban ghi NV trong he thong deu THIEU field branch/_branchId (loc theo field nay tu truoc gio la vo tac dung). Them doi soat cham cong xuyen chi nhanh (dung chung endpoint /api/time-clock-cross-branch da them cho Phan Ca) - modal chi tiet khi bam vao ca hien ro \"Cham tai: <chi nhanh>\" neu khac chi nhanh dang xem [loai:Fix bug] [tokens:15000] [ver:260722zalopxl1]",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "260722zalopxl1",
+   "files": 3,
+   "additions": 63,
+   "deletions": 9
+  },
   {
    "hash": "0ae5fc7",
    "agent": "Claude Code",
