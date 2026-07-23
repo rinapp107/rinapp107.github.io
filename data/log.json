@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T03:53:42.412Z",
+ "generated": "2026-07-23T05:59:17.508Z",
  "repo": "zentea-qlch",
  "appVer": "260722zalopxl1",
- "totalCommits": 332,
+ "totalCommits": 333,
  "commits": [
+  {
+   "hash": "d9a52eb",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T12:58:55+07:00",
+   "message": "Mo rong cot Nhan su/Quan ly (180-220px -> 240px) trong Phan Ca + Lich Quan Ly - ten nhan vien dai bi cat khuat sau khi tru avatar+icon keo tha, gio du cho hien ro ten [loai:Fix bug] [tokens:4000] [ver:260722zalopxl1]",
+   "loai": "Fix bug",
+   "tokens": 4000,
+   "ver": "260722zalopxl1",
+   "files": 3,
+   "additions": 7,
+   "deletions": 7
+  },
   {
    "hash": "4144897",
    "agent": "Claude Code",
