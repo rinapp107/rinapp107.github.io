@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T14:25:02.107Z",
+ "generated": "2026-07-23T14:49:19.138Z",
  "repo": "zentea-qlch",
- "appVer": "260723zlchk1",
- "totalCommits": 351,
+ "appVer": "260723namewide1",
+ "totalCommits": 352,
  "commits": [
+  {
+   "hash": "a66ad5b",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-23T21:48:40+07:00",
+   "message": "Mo rong cot ten NV trong Quan Ly Cham Cong (180->240px) + bump APP_VER/CACHE_NAME de trinh duyet lay ban moi",
+   "loai": "Fix bug",
+   "tokens": 3000,
+   "ver": "260723namewide1",
+   "files": 4,
+   "additions": 33,
+   "deletions": 4
+  },
   {
    "hash": "44205d7",
    "agent": "Người",
