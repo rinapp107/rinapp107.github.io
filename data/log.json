@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T07:36:16.085Z",
+ "generated": "2026-07-23T08:13:13.233Z",
  "repo": "zentea-qlch",
  "appVer": "260722zalopxl1",
- "totalCommits": 336,
+ "totalCommits": 337,
  "commits": [
+  {
+   "hash": "3e92409",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T15:12:47+07:00",
+   "message": "Revert fix cham cong bi khoa chi nhanh (ban truoc hieu sai): user xac nhan chon cham cong o chi nhanh vat ly khac (Food Court) la DUNG y, khong phai loi - loi that nam o doi soat Phan Ca chua tim duoc ban ghi cham cong chi nhanh khac, se sua o cho khac [loai:Fix bug] [tokens:3000] [ver:260722zalopxl1]",
+   "loai": "Fix bug",
+   "tokens": 3000,
+   "ver": "260722zalopxl1",
+   "files": 2,
+   "additions": 1,
+   "deletions": 20
+  },
   {
    "hash": "23a417b",
    "agent": "Claude Code",
