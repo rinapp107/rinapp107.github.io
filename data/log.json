@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-22T15:50:02.853Z",
+ "generated": "2026-07-23T03:23:00.896Z",
  "repo": "zentea-qlch",
  "appVer": "260722zalopxl1",
- "totalCommits": 330,
+ "totalCommits": 331,
  "commits": [
+  {
+   "hash": "67949cc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T10:22:38+07:00",
+   "message": "Fix gui tin Zalo tu web bi lac sang chat ca nhan: bo fallback openclaw message send khi listener chet",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260722logo1",
+   "files": 1,
+   "additions": 6,
+   "deletions": 1
+  },
   {
    "hash": "63351ce",
    "agent": "Claude Code",
