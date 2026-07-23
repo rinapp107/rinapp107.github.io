@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T09:54:43.485Z",
+ "generated": "2026-07-23T10:39:22.754Z",
  "repo": "zentea-qlch",
- "appVer": "260723react2",
- "totalCommits": 344,
+ "appVer": "260723zlfile1",
+ "totalCommits": 345,
  "commits": [
+  {
+   "hash": "abdbc25",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T17:39:03+07:00",
+   "message": "Gui file Thong Ke LLV qua Zalo bang 1 nut (nguoi dung tu bam, khong tu dong gui)",
+   "loai": "Thêm tính năng",
+   "tokens": 26000,
+   "ver": "260723zlfile1",
+   "files": 4,
+   "additions": 254,
+   "deletions": 35
+  },
   {
    "hash": "923fd48",
    "agent": "Claude Code",
