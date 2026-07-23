@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T15:23:53.547Z",
+ "generated": "2026-07-23T15:44:41.488Z",
  "repo": "zentea-qlch",
- "appVer": "260723namewide1",
- "totalCommits": 354,
+ "appVer": "260723nhansu1",
+ "totalCommits": 355,
  "commits": [
+  {
+   "hash": "7b6997a",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T22:41:11+07:00",
+   "message": "Them nhom cha Nhan Su vao sidebar (5 muc theo mau Zen Work) [loai:Thêm tính năng] [tokens:78000] [ver:260723nhansu1]",
+   "loai": "Thêm tính năng",
+   "tokens": 78000,
+   "ver": "260723nhansu1",
+   "files": 5,
+   "additions": 26,
+   "deletions": 15
+  },
   {
    "hash": "2708643",
    "agent": "Claude Code",
