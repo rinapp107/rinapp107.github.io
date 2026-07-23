@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T13:43:17.965Z",
+ "generated": "2026-07-23T13:57:56.288Z",
  "repo": "zentea-qlch",
  "appVer": "260723zlchk1",
- "totalCommits": 349,
+ "totalCommits": 350,
  "commits": [
+  {
+   "hash": "14ec52e",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-23T20:57:00+07:00",
+   "message": "Fix trung lap the trong modal chi tiet cham cong + doi icon emoji sang SVG (Quan Ly Cham Cong)",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260723uipolish1",
+   "files": 4,
+   "additions": 65,
+   "deletions": 20
+  },
   {
    "hash": "ffc278c",
    "agent": "Claude Code",
