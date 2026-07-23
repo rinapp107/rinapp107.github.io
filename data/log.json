@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T06:10:26.580Z",
+ "generated": "2026-07-23T07:33:42.112Z",
  "repo": "zentea-qlch",
  "appVer": "260722zalopxl1",
- "totalCommits": 334,
+ "totalCommits": 335,
  "commits": [
+  {
+   "hash": "c5a0916",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T14:33:19+07:00",
+   "message": "Fix cham cong ca nhan (tab Cham Cong trong Ca Nhan) bi ghi nham chi nhanh: clockBranchId() truoc do tu chay theo sidebar dang xem, sieu quan tri/quan ly luot qua chi nhanh khac roi cham cong la bi ghi nham noi do. Gio khoa theo dung chi nhanh ho so luc mo tab, chi doi khi tu tay chon lai chi nhanh khac [loai:Fix bug] [tokens:7000] [ver:260722zalopxl1]",
+   "loai": "Fix bug",
+   "tokens": 7000,
+   "ver": "260722zalopxl1",
+   "files": 2,
+   "additions": 20,
+   "deletions": 1
+  },
   {
    "hash": "a35cb5a",
    "agent": "Claude Code",
