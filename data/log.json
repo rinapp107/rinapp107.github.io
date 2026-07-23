@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T14:52:34.226Z",
+ "generated": "2026-07-23T15:23:53.547Z",
  "repo": "zentea-qlch",
  "appVer": "260723namewide1",
- "totalCommits": 353,
+ "totalCommits": 354,
  "commits": [
+  {
+   "hash": "2708643",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-23T22:23:35+07:00",
+   "message": "Doi phu cap dao tao: bo \"Dao tao 30.000d/ca\", thay bang \"Nhan dao tao 6.000d/gio\" (ma NDT)",
+   "loai": "Cai tien",
+   "tokens": 11000,
+   "ver": "260723zlchk1",
+   "files": 1,
+   "additions": 66,
+   "deletions": 0
+  },
   {
    "hash": "c4a667a",
    "agent": "Người",
