@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-24T08:29:38.027Z",
+ "generated": "2026-07-24T08:53:12.178Z",
  "repo": "zentea-qlch",
- "appVer": "260724muon1",
- "totalCommits": 363,
+ "appVer": "260724chinhsach1",
+ "totalCommits": 364,
  "commits": [
+  {
+   "hash": "8cca131",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-24T15:52:39+07:00",
+   "message": "Dung lai Nhan Su > Chinh Sach thanh module that (8 danh muc, CRUD, luu DB) [loai:Thêm tính năng] [tokens:145000] [ver:260724chinhsach1]",
+   "loai": "Thêm tính năng",
+   "tokens": 145000,
+   "ver": "260724chinhsach1",
+   "files": 7,
+   "additions": 781,
+   "deletions": 113
+  },
   {
    "hash": "cb0e62f",
    "agent": "Claude Code",
