@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-24T16:49:36.163Z",
+ "generated": "2026-07-24T16:50:33.064Z",
  "repo": "zentea-qlch",
  "appVer": "260724key1",
- "totalCommits": 372,
+ "totalCommits": 373,
  "commits": [
+  {
+   "hash": "b202946",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-24T23:49:54+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix danh sach group Zalo Chat AI bi khoa cung ve 1 group",
+   "loai": "Docs",
+   "tokens": 400,
+   "ver": "260724zalomultigrp1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "1947a20",
    "agent": "Người",
