@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-24T16:43:17.220Z",
+ "generated": "2026-07-24T16:49:36.163Z",
  "repo": "zentea-qlch",
  "appVer": "260724key1",
- "totalCommits": 371,
+ "totalCommits": 372,
  "commits": [
+  {
+   "hash": "1947a20",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-24T23:49:12+07:00",
+   "message": "Fix Zalo Chat AI (admin): danh sach group LLV bi khoa cung ve DUY NHAT group NTMK, khong hien cac chi nhanh khac",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260724zalomultigrp1",
+   "files": 1,
+   "additions": 7,
+   "deletions": 17
+  },
   {
    "hash": "8dbcf7c",
    "agent": "Người",
