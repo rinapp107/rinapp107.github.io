@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-23T15:44:41.488Z",
+ "generated": "2026-07-24T03:33:34.577Z",
  "repo": "zentea-qlch",
- "appVer": "260723nhansu1",
- "totalCommits": 355,
+ "appVer": "260724dyt1",
+ "totalCommits": 356,
  "commits": [
+  {
+   "hash": "47a6f45",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-24T10:33:16+07:00",
+   "message": "Fix NV da nghi van hien trong Phan Ca/Quan Ly Cham Cong/cong dang nhap \"Ban la ai?\"",
+   "loai": "Fix bug",
+   "tokens": 12000,
+   "ver": "260724quitfix1",
+   "files": 3,
+   "additions": 34,
+   "deletions": 14
+  },
   {
    "hash": "7b6997a",
    "agent": "Claude Code",
