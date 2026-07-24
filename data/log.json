@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-24T17:43:39.938Z",
+ "generated": "2026-07-24T17:45:59.218Z",
  "repo": "zentea-qlch",
  "appVer": "260724key1",
- "totalCommits": 377,
+ "totalCommits": 378,
  "commits": [
+  {
+   "hash": "d25d678",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T00:45:36+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix bug ghi Chi Phi=0 + doi NK Parse sang Claude Haiku 4.5",
+   "loai": "Docs",
+   "tokens": 500,
+   "ver": "260725haiku1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "dc3e227",
    "agent": "Người",
