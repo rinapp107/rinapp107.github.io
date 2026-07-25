@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T06:32:37.154Z",
+ "generated": "2026-07-25T07:56:29.106Z",
  "repo": "zentea-qlch",
  "appVer": "260725del1",
- "totalCommits": 386,
+ "totalCommits": 387,
  "commits": [
+  {
+   "hash": "a967ab8",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T14:56:00+07:00",
+   "message": "Them tinh nang soan nhap Thong Bao tu cac group noi bo cong ty (LUON cho duyet, khong tu gui)",
+   "loai": "Thêm tính năng",
+   "tokens": 35000,
+   "ver": "260725announce1",
+   "files": 3,
+   "additions": 326,
+   "deletions": 4
+  },
   {
    "hash": "a92ff8c",
    "agent": "Claude Code",
