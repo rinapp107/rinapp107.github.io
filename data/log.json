@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T02:10:04.591Z",
+ "generated": "2026-07-25T02:15:30.405Z",
  "repo": "zentea-qlch",
  "appVer": "260725muon2",
- "totalCommits": 382,
+ "totalCommits": 383,
  "commits": [
+  {
+   "hash": "1769666",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T09:15:08+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix tin Zalo khong neu ten bi bo qua khong tao de xuat NK",
+   "loai": "Docs",
+   "tokens": 400,
+   "ver": "260725senderhint1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "3ec7023",
    "agent": "Người",
