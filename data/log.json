@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T11:37:33.461Z",
+ "generated": "2026-07-25T11:57:29.368Z",
  "repo": "zentea-qlch",
- "appVer": "260725del1",
- "totalCommits": 395,
+ "appVer": "260725avt1",
+ "totalCommits": 396,
  "commits": [
+  {
+   "hash": "54611d2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-25T18:56:59+07:00",
+   "message": "Danh sach Nhan Vien: NV da gan avatar thi hien anh thay vong tron chu cai",
+   "loai": "Cai tien",
+   "tokens": 6000,
+   "ver": "260725avt1",
+   "files": 3,
+   "additions": 26,
+   "deletions": 5
+  },
   {
    "hash": "bd9d46c",
    "agent": "Người",
