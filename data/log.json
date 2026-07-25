@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T01:55:13.407Z",
+ "generated": "2026-07-25T02:03:51.496Z",
  "repo": "zentea-qlch",
- "appVer": "260724key1",
- "totalCommits": 380,
+ "appVer": "260725muon2",
+ "totalCommits": 381,
  "commits": [
+  {
+   "hash": "fa9e194",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-25T09:03:33+07:00",
+   "message": "Muon NV cua hang khac - giai doan 2: gui ca cho cua hang GOC duyet",
+   "loai": "Thêm tính năng",
+   "tokens": 16000,
+   "ver": "260725muon2",
+   "files": 3,
+   "additions": 88,
+   "deletions": 3
+  },
   {
    "hash": "ba58805",
    "agent": "Người",
