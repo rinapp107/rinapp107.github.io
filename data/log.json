@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T09:05:56.566Z",
+ "generated": "2026-07-25T11:33:18.524Z",
  "repo": "zentea-qlch",
  "appVer": "260725del1",
- "totalCommits": 393,
+ "totalCommits": 394,
  "commits": [
+  {
+   "hash": "c1087d7",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T18:32:56+07:00",
+   "message": "Them tag @All (mention that) tu dong khi gui Thong Bao da duyet + gui lai dung chuong trinh Trum Deal",
+   "loai": "Thêm tính năng",
+   "tokens": 12000,
+   "ver": "260725all1",
+   "files": 3,
+   "additions": 41,
+   "deletions": 5
+  },
   {
    "hash": "c175f57",
    "agent": "Người",
