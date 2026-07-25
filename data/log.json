@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T08:13:58.404Z",
+ "generated": "2026-07-25T08:21:36.741Z",
  "repo": "zentea-qlch",
  "appVer": "260725del1",
- "totalCommits": 389,
+ "totalCommits": 390,
  "commits": [
+  {
+   "hash": "ddb4d17",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T15:21:19+07:00",
+   "message": "Fix nghiem trong: gui Thong Bao bi lac sang chat ca nhan nguoi la thay vi group dich",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "260725sendfix1",
+   "files": 1,
+   "additions": 23,
+   "deletions": 2
+  },
   {
    "hash": "37a7069",
    "agent": "Người",
