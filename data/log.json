@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T09:04:18.970Z",
+ "generated": "2026-07-25T09:05:56.566Z",
  "repo": "zentea-qlch",
  "appVer": "260725del1",
- "totalCommits": 392,
+ "totalCommits": 393,
  "commits": [
+  {
+   "hash": "c175f57",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T16:05:28+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix tag @ten thanh mention that cua Zalo",
+   "loai": "Docs",
+   "tokens": 400,
+   "ver": "260725mention1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "88f1fd9",
    "agent": "Người",
