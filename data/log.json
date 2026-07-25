@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-24T17:45:59.218Z",
+ "generated": "2026-07-25T01:51:58.609Z",
  "repo": "zentea-qlch",
  "appVer": "260724key1",
- "totalCommits": 378,
+ "totalCommits": 379,
  "commits": [
+  {
+   "hash": "c7cb097",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T08:51:35+07:00",
+   "message": "Fix bug tin sua \"doi ca\" bi coi trung lap voi tin cu sai, khong bao gio hien ban da sua",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260725dupfix1",
+   "files": 3,
+   "additions": 30,
+   "deletions": 3
+  },
   {
    "hash": "d25d678",
    "agent": "Người",
