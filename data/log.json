@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T12:53:12.727Z",
+ "generated": "2026-07-25T12:53:13.896Z",
  "repo": "zentea-qlch",
- "appVer": "260725avt1",
- "totalCommits": 398,
+ "appVer": "260725avt2",
+ "totalCommits": 399,
  "commits": [
+  {
+   "hash": "e6fb1c8",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-25T19:52:52+07:00",
+   "message": "Avatar NV: fetch tuoi truc tiep + tra map thang (bo phu thuoc ham KPI co the tra cache null)",
+   "loai": "Fix bug",
+   "tokens": 7000,
+   "ver": "260725avt2",
+   "files": 3,
+   "additions": 17,
+   "deletions": 11
+  },
   {
    "hash": "6767e76",
    "agent": "Người",
