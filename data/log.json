@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T02:03:51.496Z",
+ "generated": "2026-07-25T02:10:04.591Z",
  "repo": "zentea-qlch",
  "appVer": "260725muon2",
- "totalCommits": 381,
+ "totalCommits": 382,
  "commits": [
+  {
+   "hash": "3ec7023",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T09:09:44+07:00",
+   "message": "Fix NK auto-draft bo qua tin khong neu ten (chi dua vao danh tinh nguoi gui Zalo)",
+   "loai": "Fix bug",
+   "tokens": 12000,
+   "ver": "260725senderhint1",
+   "files": 1,
+   "additions": 45,
+   "deletions": 6
+  },
   {
    "hash": "fa9e194",
    "agent": "Claude Code",
