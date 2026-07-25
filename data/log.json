@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T02:37:50.678Z",
+ "generated": "2026-07-25T02:38:51.301Z",
  "repo": "zentea-qlch",
  "appVer": "260725muon2",
- "totalCommits": 384,
+ "totalCommits": 385,
  "commits": [
+  {
+   "hash": "8763a76",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T09:38:30+07:00",
+   "message": "Cap nhat WEB_CONTEXT: them bot tu hoi lai ca thi diem NTMK",
+   "loai": "Docs",
+   "tokens": 400,
+   "ver": "260725clarify1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "c7c60f4",
    "agent": "Người",
