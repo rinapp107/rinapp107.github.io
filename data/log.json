@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T12:53:13.896Z",
+ "generated": "2026-07-25T13:13:16.524Z",
  "repo": "zentea-qlch",
- "appVer": "260725avt2",
- "totalCommits": 399,
+ "appVer": "260725ca4",
+ "totalCommits": 400,
  "commits": [
+  {
+   "hash": "729f6d9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-07-25T20:12:58+07:00",
+   "message": "Phan Ca: dong bo CA4 (ca dem 23-7H) tu Lich Lam Viec — truoc day bo sot",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260725ca4",
+   "files": 3,
+   "additions": 20,
+   "deletions": 7
+  },
   {
    "hash": "e6fb1c8",
    "agent": "Claude Code",
