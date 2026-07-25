@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T08:21:36.741Z",
+ "generated": "2026-07-25T08:22:43.009Z",
  "repo": "zentea-qlch",
  "appVer": "260725del1",
- "totalCommits": 390,
+ "totalCommits": 391,
  "commits": [
+  {
+   "hash": "2a58b5b",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T15:22:24+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix bug nghiem trong gui Thong Bao lac sang chat ca nhan",
+   "loai": "Docs",
+   "tokens": 500,
+   "ver": "260725sendfix1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "ddb4d17",
    "agent": "Người",
