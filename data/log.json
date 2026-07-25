@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-25T07:56:29.106Z",
+ "generated": "2026-07-25T07:57:35.242Z",
  "repo": "zentea-qlch",
  "appVer": "260725del1",
- "totalCommits": 387,
+ "totalCommits": 388,
  "commits": [
+  {
+   "hash": "5ac40ce",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T14:57:16+07:00",
+   "message": "Cap nhat WEB_CONTEXT: them tinh nang soan nhap Thong Bao (cho duyet, khong tu gui)",
+   "loai": "Docs",
+   "tokens": 500,
+   "ver": "260725announce1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "a967ab8",
    "agent": "Người",
