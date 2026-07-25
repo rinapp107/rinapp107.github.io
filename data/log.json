@@ -1,9 +1,35 @@
 {
- "generated": "2026-07-25T11:57:29.368Z",
+ "generated": "2026-07-25T12:53:12.727Z",
  "repo": "zentea-qlch",
  "appVer": "260725avt1",
- "totalCommits": 396,
+ "totalCommits": 398,
  "commits": [
+  {
+   "hash": "6767e76",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T19:36:07+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix khop ten viet tat NV ho tro chi nhanh khac trong AI parse Zalo",
+   "loai": "Docs",
+   "tokens": 500,
+   "ver": "260725nickname1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
+  {
+   "hash": "ff9f3f1",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-25T19:31:11+07:00",
+   "message": "Cai thien AI khop ten viet tat kieu \"TEN_GOI + MA_CHI_NHANH\" (TOAN TB, KHANG VVN...) voi ten day du trong tin nhan",
+   "loai": "Fix bug",
+   "tokens": 18000,
+   "ver": "260725nickname1",
+   "files": 1,
+   "additions": 53,
+   "deletions": 0
+  },
   {
    "hash": "54611d2",
    "agent": "Claude Code",
