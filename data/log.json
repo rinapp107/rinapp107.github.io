@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-26T13:15:08.961Z",
+ "generated": "2026-07-26T13:19:52.454Z",
  "repo": "zentea-qlch",
- "appVer": "260726lbv3",
- "totalCommits": 411,
+ "appVer": "260726lbv4",
+ "totalCommits": 412,
  "commits": [
+  {
+   "hash": "822c863",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-07-26T20:18:47+07:00",
+   "message": "Bo sung Lịch Bảo Vệ vao sidebar-new.js va bump ?v= cache-busting cho sidebar scripts [loai:Fix bug] [tokens:1500] [ver:260726lbv4]",
+   "loai": "Fix bug",
+   "tokens": 1500,
+   "ver": "260726lbv4",
+   "files": 3,
+   "additions": 7,
+   "deletions": 6
+  },
   {
    "hash": "d9174b5",
    "agent": "Antigravity",
