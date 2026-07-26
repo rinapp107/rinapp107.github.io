@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-26T13:19:52.454Z",
+ "generated": "2026-07-26T13:39:52.563Z",
  "repo": "zentea-qlch",
- "appVer": "260726lbv4",
- "totalCommits": 412,
+ "appVer": "260726lbv5",
+ "totalCommits": 413,
  "commits": [
+  {
+   "hash": "1327eda",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-07-26T20:36:20+07:00",
+   "message": "Nang cap Lịch Bảo Vệ theo giao dien Lịch Làm Việc, tach biet du lieu tung thang va ho tro chinh sua ca thu cong [loai:Thêm tính năng] [tokens:3000] [ver:260726lbv5]",
+   "loai": "Thêm tính năng",
+   "tokens": 3000,
+   "ver": "260726lbv5",
+   "files": 3,
+   "additions": 463,
+   "deletions": 107
+  },
   {
    "hash": "822c863",
    "agent": "Antigravity",
