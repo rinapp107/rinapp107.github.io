@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-26T08:23:15.455Z",
+ "generated": "2026-07-26T08:37:28.881Z",
  "repo": "zentea-qlch",
  "appVer": "260726ca4nk",
- "totalCommits": 404,
+ "totalCommits": 405,
  "commits": [
+  {
+   "hash": "3a83e53",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-26T15:37:07+07:00",
+   "message": "Them buoc phan loai \"chi dao chung\" vs \"bao cao rieng 1 cua hang\" truoc khi tao nhap Thong Bao",
+   "loai": "Fix bug",
+   "tokens": 22000,
+   "ver": "260726classify1",
+   "files": 1,
+   "additions": 60,
+   "deletions": 17
+  },
   {
    "hash": "9dede42",
    "agent": "Claude Code",
