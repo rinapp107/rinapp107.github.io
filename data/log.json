@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-26T08:37:28.881Z",
+ "generated": "2026-07-26T08:46:38.933Z",
  "repo": "zentea-qlch",
  "appVer": "260726ca4nk",
- "totalCommits": 405,
+ "totalCommits": 406,
  "commits": [
+  {
+   "hash": "5846cfe",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-26T15:46:15+07:00",
+   "message": "Cap nhat WEB_CONTEXT: fix tao nham nhap Thong Bao tu bao cao rieng 1 cua hang",
+   "loai": "Docs",
+   "tokens": 400,
+   "ver": "260726classify1",
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "3a83e53",
    "agent": "Người",
