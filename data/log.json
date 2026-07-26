@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-26T13:09:27.563Z",
+ "generated": "2026-07-26T13:15:08.961Z",
  "repo": "zentea-qlch",
- "appVer": "260726lbv2",
- "totalCommits": 410,
+ "appVer": "260726lbv3",
+ "totalCommits": 411,
  "commits": [
+  {
+   "hash": "d9174b5",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-07-26T20:14:20+07:00",
+   "message": "Cau hinh lich-bao-ve la Public Section de luon hien thi tren sidebar cho moi tai khoan [loai:Fix bug] [tokens:1500] [ver:260726lbv3]",
+   "loai": "Fix bug",
+   "tokens": 1500,
+   "ver": "260726lbv3",
+   "files": 5,
+   "additions": 5,
+   "deletions": 5
+  },
   {
    "hash": "01d7eca",
    "agent": "Antigravity",
