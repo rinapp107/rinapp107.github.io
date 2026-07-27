@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-26T13:39:52.563Z",
+ "generated": "2026-07-27T06:49:24.196Z",
  "repo": "zentea-qlch",
- "appVer": "260726lbv5",
- "totalCommits": 413,
+ "appVer": "260727lbv6",
+ "totalCommits": 414,
  "commits": [
+  {
+   "hash": "2f12f41",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-27T13:48:51+07:00",
+   "message": "Làm lại Lịch Bảo Vệ theo từng cửa hàng [loai:Thêm tính năng] [tokens:28000] [ver:260727lbv6]",
+   "loai": "Thêm tính năng",
+   "tokens": 28000,
+   "ver": "260727lbv6",
+   "files": 6,
+   "additions": 584,
+   "deletions": 781
+  },
   {
    "hash": "1327eda",
    "agent": "Antigravity",
