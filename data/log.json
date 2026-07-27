@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-27T09:54:28.890Z",
+ "generated": "2026-07-27T10:27:01.399Z",
  "repo": "zentea-qlch",
- "appVer": "260727nkmulti1",
- "totalCommits": 419,
+ "appVer": "260727shiftguard1",
+ "totalCommits": 420,
  "commits": [
+  {
+   "hash": "1bd6993",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-27T17:26:40+07:00",
+   "message": "Chan ca sai gio trong lich lam viec [loai:Fix bug] [tokens:18000] [ver:260727shiftguard1]",
+   "loai": "Fix bug",
+   "tokens": 18000,
+   "ver": "260727shiftguard1",
+   "files": 7,
+   "additions": 143,
+   "deletions": 15
+  },
   {
    "hash": "d19c678",
    "agent": "Codex",
