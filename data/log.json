@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-27T08:39:31.799Z",
+ "generated": "2026-07-27T09:03:10.878Z",
  "repo": "zentea-qlch",
- "appVer": "260727posux1",
- "totalCommits": 417,
+ "appVer": "260727posinline1",
+ "totalCommits": 418,
  "commits": [
+  {
+   "hash": "f2ff3ae",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-27T16:02:35+07:00",
+   "message": "Đổi tùy chỉnh món POS sang accordion inline [loai:Thêm tính năng] [tokens:14000] [ver:260727posinline1]",
+   "loai": "Thêm tính năng",
+   "tokens": 14000,
+   "ver": "260727posinline1",
+   "files": 6,
+   "additions": 348,
+   "deletions": 135
+  },
   {
    "hash": "caa0bb6",
    "agent": "Codex",
