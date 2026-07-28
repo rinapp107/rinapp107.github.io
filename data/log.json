@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-28T17:47:59.798Z",
+ "generated": "2026-07-28T17:54:49.692Z",
  "repo": "zentea-qlch",
  "appVer": "260729nltfix1",
- "totalCommits": 434,
+ "totalCommits": 435,
  "commits": [
+  {
+   "hash": "6cb3efb",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-29T00:54:18+07:00",
+   "message": "Đối chiếu đề xuất Zalo nhập lại gần giống [loai:Fix bug] [tokens:5000] [ver:260729nltfix1]",
+   "loai": "Fix bug",
+   "tokens": 5000,
+   "ver": "260729nltfix1",
+   "files": 3,
+   "additions": 36,
+   "deletions": 3
+  },
   {
    "hash": "18f1a53",
    "agent": "Codex",
