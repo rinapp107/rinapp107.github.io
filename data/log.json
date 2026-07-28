@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-27T14:38:15.946Z",
+ "generated": "2026-07-28T12:29:22.252Z",
  "repo": "zentea-qlch",
- "appVer": "260727posflow1",
- "totalCommits": 424,
+ "appVer": "260728llvrecover1",
+ "totalCommits": 425,
  "commits": [
+  {
+   "hash": "38e8b5b",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-28T19:28:31+07:00",
+   "message": "Chặn lẫn chi nhánh và phục hồi LLV Food Court [loai:Fix bug] [tokens:30000] [ver:260728llvrecover1]",
+   "loai": "Fix bug",
+   "tokens": 30000,
+   "ver": "260728llvrecover1",
+   "files": 9,
+   "additions": 920,
+   "deletions": 150
+  },
   {
    "hash": "5cde35a",
    "agent": "Codex",
