@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-29T13:36:31.110Z",
+ "generated": "2026-07-29T14:17:28.819Z",
  "repo": "zentea-qlch",
- "appVer": "260729llvmark1",
- "totalCommits": 442,
+ "appVer": "260729tvmonth1",
+ "totalCommits": 443,
  "commits": [
+  {
+   "hash": "4ec6134",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-29T21:16:56+07:00",
+   "message": "LLV thử việc: gắn tvMonth, chỉ áp cho đúng tháng đã cài (không dính tháng khác) [loai:Fix bug] [tokens:8000] [ver:260729tvmonth1]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "260729tvmonth1",
+   "files": 3,
+   "additions": 27,
+   "deletions": 17
+  },
   {
    "hash": "70c3771",
    "agent": "Người",
