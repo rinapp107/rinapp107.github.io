@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-29T02:26:26.917Z",
+ "generated": "2026-07-29T02:35:48.058Z",
  "repo": "zentea-qlch",
  "appVer": "260729nltfix1",
- "totalCommits": 436,
+ "totalCommits": 437,
  "commits": [
+  {
+   "hash": "879ea15",
+   "agent": "Codex",
+   "author": "Codex",
+   "date": "2026-07-29T09:35:04+07:00",
+   "message": "Sửa chuỗi AI và từ khóa đề xuất Zalo [loai:Fix bug] [tokens:18000] [ver:260729nltfix1]",
+   "loai": "Fix bug",
+   "tokens": 18000,
+   "ver": "260729nltfix1",
+   "files": 3,
+   "additions": 14,
+   "deletions": 3
+  },
   {
    "hash": "521b84f",
    "agent": "Codex",
