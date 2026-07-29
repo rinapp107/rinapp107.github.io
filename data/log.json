@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-29T14:17:28.819Z",
+ "generated": "2026-07-29T14:56:16.829Z",
  "repo": "zentea-qlch",
- "appVer": "260729tvmonth1",
- "totalCommits": 443,
+ "appVer": "260729tvicon1",
+ "totalCommits": 444,
  "commits": [
+  {
+   "hash": "45086da",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-29T21:55:53+07:00",
+   "message": "LLV: icon/badge thử việc luôn hiện (rút badge còn TV + giới hạn bề rộng tên, không bị cắt) [loai:Fix bug] [tokens:5000] [ver:260729tvicon1]",
+   "loai": "Fix bug",
+   "tokens": 5000,
+   "ver": "260729tvicon1",
+   "files": 3,
+   "additions": 5,
+   "deletions": 5
+  },
   {
    "hash": "4ec6134",
    "agent": "Người",
