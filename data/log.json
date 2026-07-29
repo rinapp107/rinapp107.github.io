@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-29T06:02:31.376Z",
+ "generated": "2026-07-29T13:36:31.110Z",
  "repo": "zentea-qlch",
- "appVer": "260729vesinhsafe1",
- "totalCommits": 441,
+ "appVer": "260729llvmark1",
+ "totalCommits": 442,
  "commits": [
+  {
+   "hash": "70c3771",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-29T20:36:04+07:00",
+   "message": "LLV: chỉ đánh dấu 'khác lịch gốc' cho ca có dữ liệu Thống Kê LLV, bỏ marker chênh lệch Phân Ca thủ công [loai:Fix bug] [tokens:6000] [ver:260729llvmark1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260729llvmark1",
+   "files": 3,
+   "additions": 6,
+   "deletions": 6
+  },
   {
    "hash": "98ffec1",
    "agent": "Codex",
