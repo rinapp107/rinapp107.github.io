@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-30T06:22:34.473Z",
+ "generated": "2026-07-30T08:12:57.880Z",
  "repo": "zentea-qlch",
- "appVer": "260730savefix1",
- "totalCommits": 445,
+ "appVer": "260730pclag1",
+ "totalCommits": 446,
  "commits": [
+  {
+   "hash": "11334ff",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-30T15:12:36+07:00",
+   "message": "Phân Ca: hết lag auto-sync từ LLV - debounce ghi localStorage/server + không render full bảng khi tab đóng [loai:Fix bug] [tokens:6000] [ver:260730pclag1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260730pclag1",
+   "files": 3,
+   "additions": 15,
+   "deletions": 15
+  },
   {
    "hash": "b786407",
    "agent": "Người",
