@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-29T14:56:16.829Z",
+ "generated": "2026-07-30T06:22:34.473Z",
  "repo": "zentea-qlch",
- "appVer": "260729tvicon1",
- "totalCommits": 444,
+ "appVer": "260730savefix1",
+ "totalCommits": 445,
  "commits": [
+  {
+   "hash": "b786407",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-30T13:22:15+07:00",
+   "message": "LLV: sửa mất ô ca (lưu fire-and-forget nuốt lỗi) - chờ xác nhận, giữ dirty khi lỗi để không bị auto-refresh đè [loai:Fix bug] [tokens:9000] [ver:260730savefix1]",
+   "loai": "Fix bug",
+   "tokens": 9000,
+   "ver": "260730savefix1",
+   "files": 3,
+   "additions": 18,
+   "deletions": 7
+  },
   {
    "hash": "45086da",
    "agent": "Người",
