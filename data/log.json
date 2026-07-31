@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-31T07:07:06.096Z",
+ "generated": "2026-07-31T12:46:31.672Z",
  "repo": "zentea-qlch",
  "appVer": "260730zfix2",
- "totalCommits": 449,
+ "totalCommits": 450,
  "commits": [
+  {
+   "hash": "f525908",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-31T19:45:00+07:00",
+   "message": "Zalo NK: thêm từ khóa check in/out + auto-reply hỏi lại khi tin NK thiếu dữ liệu (không bỏ im lặng) [loai:Thêm tính năng] [tokens:6000] [ver:260731nkclarify1]",
+   "loai": "Thêm tính năng",
+   "tokens": 6000,
+   "ver": "260731nkclarify1",
+   "files": 1,
+   "additions": 28,
+   "deletions": 1
+  },
   {
    "hash": "d597a7b",
    "agent": "Người",
