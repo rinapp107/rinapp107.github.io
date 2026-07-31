@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-30T08:12:57.880Z",
+ "generated": "2026-07-31T06:22:05.179Z",
  "repo": "zentea-qlch",
  "appVer": "260730pclag1",
- "totalCommits": 446,
+ "totalCommits": 447,
  "commits": [
+  {
+   "hash": "a214bf0",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-07-31T13:21:42+07:00",
+   "message": "Zalo NK: QCC thiếu ca thì tự tra ca từ LLV chi nhánh, không có mới hỏi lại (thay vì bỏ im lặng) [loai:Fix bug] [tokens:7000] [ver:260730qccllv1]",
+   "loai": "Fix bug",
+   "tokens": 7000,
+   "ver": "260730qccllv1",
+   "files": 1,
+   "additions": 102,
+   "deletions": 2
+  },
   {
    "hash": "11334ff",
    "agent": "Người",
