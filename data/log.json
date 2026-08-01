@@ -1,9 +1,22 @@
 {
- "generated": "2026-07-31T12:46:31.672Z",
+ "generated": "2026-08-01T06:04:15.513Z",
  "repo": "zentea-qlch",
- "appVer": "260730zfix2",
- "totalCommits": 450,
+ "appVer": "260731kpifix1",
+ "totalCommits": 451,
  "commits": [
+  {
+   "hash": "51ecf0c",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-01T13:03:52+07:00",
+   "message": "Xuất Thống Kê LLV: cột Thưởng KPI lấy mặc định theo BẬC (grade.thuongNangLuc) thay vì đổ cả mảng điểm KPI thô + load salary config trước khi xuất [loai:Fix bug] [tokens:5000] [ver:260731kpifix1]",
+   "loai": "Fix bug",
+   "tokens": 5000,
+   "ver": "260731kpifix1",
+   "files": 3,
+   "additions": 19,
+   "deletions": 8
+  },
   {
    "hash": "f525908",
    "agent": "Người",
