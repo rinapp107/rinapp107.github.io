@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-01T06:23:31.508Z",
+ "generated": "2026-08-01T07:29:00.962Z",
  "repo": "zentea-qlch",
- "appVer": "260731datefix1",
- "totalCommits": 452,
+ "appVer": "260801deqpolish1",
+ "totalCommits": 453,
  "commits": [
+  {
+   "hash": "233ee49",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-01T14:28:33+07:00",
+   "message": "Kiểm tra thiết bị: nâng cấp UI mượt/xịn hơn - nút nhấc nhẹ, shadow cột đóng băng, scrollbar gradient xanh, focus ring ô nhập, pop nảy khi tick, fade-in [loai:Thêm tính năng] [tokens:4000] [ver:260801deqpolish1]",
+   "loai": "Thêm tính năng",
+   "tokens": 4000,
+   "ver": "260801deqpolish1",
+   "files": 3,
+   "additions": 11,
+   "deletions": 12
+  },
   {
    "hash": "abc8d6f",
    "agent": "Người",
