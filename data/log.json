@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-01T07:29:00.962Z",
+ "generated": "2026-08-02T07:52:46.725Z",
  "repo": "zentea-qlch",
  "appVer": "260801deqpolish1",
- "totalCommits": 453,
+ "totalCommits": 454,
  "commits": [
+  {
+   "hash": "f424d41",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-02T14:52:19+07:00",
+   "message": "Zalo NK: sửa về sớm/đi trễ - tin bổ sung ca cụ thể gửi sau bị bỏ qua (dupKey dùng r.ca lịch mặc định thay caTre) -> giờ enrich vào nháp cũ + xác nhận, thêm về sớm/đi trễ/xin nghỉ vào tin hỏi lại [loai:Fix bug] [tokens:6000] [ver:260802vesomdup1]",
+   "loai": "Fix bug",
+   "tokens": 6000,
+   "ver": "260802vesomdup1",
+   "files": 1,
+   "additions": 45,
+   "deletions": 2
+  },
   {
    "hash": "233ee49",
    "agent": "Người",
