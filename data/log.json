@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-03T12:25:03.025Z",
+ "generated": "2026-08-03T15:41:29.346Z",
  "repo": "zentea-qlch",
- "appVer": "260803vesinhrepeat1",
- "totalCommits": 458,
+ "appVer": "260803nkcatt1",
+ "totalCommits": 459,
  "commits": [
+  {
+   "hash": "86578a7",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-03T22:41:00+07:00",
+   "message": "LLV tooltip đề xuất chờ duyệt: thêm dòng \"Ca: <số> · <giờ>\" (trích số ca từ ghi chú gốc, tránh nhầm chữ số trong khung giờ; giờ lấy theo field ca từng loại) [loai:Thêm tính năng] [tokens:2000] [ver:260803nkcatt1]",
+   "loai": "Thêm tính năng",
+   "tokens": 2000,
+   "ver": "260803nkcatt1",
+   "files": 3,
+   "additions": 40,
+   "deletions": 3
+  },
   {
    "hash": "2181c2d",
    "agent": "Người",
