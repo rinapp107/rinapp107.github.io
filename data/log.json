@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-02T20:22:34.516Z",
+ "generated": "2026-08-03T10:45:18.518Z",
  "repo": "zentea-qlch",
  "appVer": "260801deqpolish1",
- "totalCommits": 455,
+ "totalCommits": 456,
  "commits": [
+  {
+   "hash": "cffe532",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-03T17:44:53+07:00",
+   "message": "Zalo NK: tin phản hồi \"sai cú pháp/thiếu thông tin\" thêm VÍ DỤ đúng mẫu theo mã chi nhánh (VVN12/NTMK12/PXL12); xác nhận đã bật cho cn15 qua ZALO_AUTOREPLY_BRANCH_SET [loai:Thêm tính năng] [tokens:1500] [ver:260803vvnclarify1]",
+   "loai": "Thêm tính năng",
+   "tokens": 1500,
+   "ver": "260803vvnclarify1",
+   "files": 1,
+   "additions": 6,
+   "deletions": 3
+  },
   {
    "hash": "366fbcc",
    "agent": "Người",
