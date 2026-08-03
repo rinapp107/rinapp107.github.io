@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-03T10:45:18.518Z",
+ "generated": "2026-08-03T11:07:16.753Z",
  "repo": "zentea-qlch",
  "appVer": "260801deqpolish1",
- "totalCommits": 456,
+ "totalCommits": 457,
  "commits": [
+  {
+   "hash": "09b6c62",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-03T18:06:45+07:00",
+   "message": "Zalo NK: sửa tin phản hồi sai cú pháp cho nhất quán - ví dụ dùng \"đi trễ\" (loại có hỗ trợ) thay \"xin nghỉ\" (không có keyword), danh sách LOẠI đổi \"xin nghỉ\"->\"nghỉ đột xuất\" [loai:Fix bug] [tokens:1000] [ver:260803vvnclarify2]",
+   "loai": "Fix bug",
+   "tokens": 1000,
+   "ver": "260803vvnclarify2",
+   "files": 1,
+   "additions": 2,
+   "deletions": 2
+  },
   {
    "hash": "cffe532",
    "agent": "Người",
