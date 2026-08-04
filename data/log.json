@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-04T09:02:29.568Z",
+ "generated": "2026-08-04T09:59:35.857Z",
  "repo": "zentea-qlch",
- "appVer": "260804hotro1",
- "totalCommits": 462,
+ "appVer": "260804hotroall1",
+ "totalCommits": 463,
  "commits": [
+  {
+   "hash": "e26af71",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-04T16:59:13+07:00",
+   "message": "Phân Ca: Import từ LLV gán loại ca 'Hỗ Trợ' cho NV đứng ở NHÓM HỖ TRỢ (llv-sup*) - toàn hệ thống, ca hỗ trợ tính vào tăng cường thay vì chính thức; người làm thế ca hỗ trợ tự thừa hưởng qua _shiftLoaiAt [loai:Thêm tính năng] [tokens:2500] [ver:260804hotroall1]",
+   "loai": "Thêm tính năng",
+   "tokens": 2500,
+   "ver": "260804hotroall1",
+   "files": 3,
+   "additions": 11,
+   "deletions": 7
+  },
   {
    "hash": "4061d4d",
    "agent": "Người",
