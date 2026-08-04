@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-03T15:41:29.346Z",
+ "generated": "2026-08-04T06:17:44.375Z",
  "repo": "zentea-qlch",
- "appVer": "260803nkcatt1",
- "totalCommits": 459,
+ "appVer": "260804tvmonth1",
+ "totalCommits": 460,
  "commits": [
+  {
+   "hash": "050b200",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-04T13:17:15+07:00",
+   "message": "Phân Ca: sửa loại ca \"giothuviec\"/Thử Việc còn dính tháng sau - bulk import LLV giờ kiểm tvMonth (như single-cell), restore không giữ CT/TV cũ nữa (để thử việc-theo-tháng quyết định) [loai:Fix bug] [tokens:3000] [ver:260804tvmonth1]",
+   "loai": "Fix bug",
+   "tokens": 3000,
+   "ver": "260804tvmonth1",
+   "files": 3,
+   "additions": 13,
+   "deletions": 6
+  },
   {
    "hash": "86578a7",
    "agent": "Người",
