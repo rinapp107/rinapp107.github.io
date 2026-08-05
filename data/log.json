@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-05T16:39:38.259Z",
+ "generated": "2026-08-05T17:17:57.628Z",
  "repo": "zentea-qlch",
  "appVer": "260805lock1",
- "totalCommits": 466,
+ "totalCommits": 467,
  "commits": [
+  {
+   "hash": "0e7e7d3",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-06T00:17:29+07:00",
+   "message": "Auth: cổng \"Đăng nhập theo cửa hàng\" khóa NV đã nghỉ việc - /auth/store-staff ẩn tên NV nghỉ khỏi dropdown + /auth/store-login chặn login (403), dùng helper _empQuitAsOfToday (status + ngày nghỉ đã qua); đồng bộ /llv/pin/verify dùng chung helper [loai:Fix bug] [tokens:4000] [ver:260806quitlogin1]",
+   "loai": "Fix bug",
+   "tokens": 4000,
+   "ver": "260806quitlogin1",
+   "files": 1,
+   "additions": 34,
+   "deletions": 9
+  },
   {
    "hash": "0564123",
    "agent": "Người",
