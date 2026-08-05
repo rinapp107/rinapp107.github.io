@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-04T09:59:35.857Z",
+ "generated": "2026-08-05T03:02:03.648Z",
  "repo": "zentea-qlch",
- "appVer": "260804hotroall1",
- "totalCommits": 463,
+ "appVer": "260805empfix1",
+ "totalCommits": 464,
  "commits": [
+  {
+   "hash": "12e6df2",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-05T10:01:38+07:00",
+   "message": "Nhân Viên: fix danh sách trống ở cn16 - 1 NV chỉ có hoTen (thiếu name, vd NV phục hồi từ backup) làm e.name.replace throw sập cả list. Chuẩn hoá name<-hoTen lúc load + bọc try/catch mỗi dòng (1 NV lỗi không sập bảng) + thêm console job cn16-emp-check [loai:Fix bug] [tokens:4000] [ver:260805empfix1]",
+   "loai": "Fix bug",
+   "tokens": 4000,
+   "ver": "260805empfix1",
+   "files": 4,
+   "additions": 32,
+   "deletions": 3
+  },
   {
    "hash": "e26af71",
    "agent": "Người",
