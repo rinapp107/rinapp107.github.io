@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-05T03:11:23.249Z",
+ "generated": "2026-08-05T16:39:38.259Z",
  "repo": "zentea-qlch",
- "appVer": "260805offx1",
- "totalCommits": 465,
+ "appVer": "260805lock1",
+ "totalCommits": 466,
  "commits": [
+  {
+   "hash": "0564123",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-05T23:39:16+07:00",
+   "message": "Bảo mật + tiện ích NV: (1) NV đã nghỉ/xóa bị KHÓA đăng nhập PIN - isEmpActiveNow đổi day-based (nghỉ giữa tháng cũng chặn ngay) + block ở verify + server /llv/pin/verify. (2) Hồ sơ NV: thêm nút ◀▶ chuyển hồ sơ trước/sau theo danh sách đang xem, chỉ QL/Super Admin [loai:Thêm tính năng] [tokens:6000] [ver:260805lock1]",
+   "loai": "Thêm tính năng",
+   "tokens": 6000,
+   "ver": "260805lock1",
+   "files": 4,
+   "additions": 50,
+   "deletions": 3
+  },
   {
    "hash": "cf99cf3",
    "agent": "Người",
