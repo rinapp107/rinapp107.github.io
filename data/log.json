@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-05T03:02:03.648Z",
+ "generated": "2026-08-05T03:11:23.249Z",
  "repo": "zentea-qlch",
- "appVer": "260805empfix1",
- "totalCommits": 464,
+ "appVer": "260805offx1",
+ "totalCommits": 465,
  "commits": [
+  {
+   "hash": "cf99cf3",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-05T10:11:02+07:00",
+   "message": "LLV: Super Admin bỏ qua mọi giới hạn off khi điền X (số off/ngày, ngày lễ, cuối tuần, vị trí tối thiểu) - toàn quyền xếp lịch; giới hạn off vẫn giữ cho luồng NV tự đăng ký nghỉ [loai:Thêm tính năng] [tokens:1500] [ver:260805offx1]",
+   "loai": "Thêm tính năng",
+   "tokens": 1500,
+   "ver": "260805offx1",
+   "files": 3,
+   "additions": 6,
+   "deletions": 3
+  },
   {
    "hash": "12e6df2",
    "agent": "Người",
