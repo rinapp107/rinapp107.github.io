@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-08T11:09:54.939Z",
+ "generated": "2026-08-08T11:51:47.541Z",
  "repo": "zentea-qlch",
  "appVer": "260808lockpos1",
- "totalCommits": 472,
+ "totalCommits": 473,
  "commits": [
+  {
+   "hash": "ec938a1",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-08T18:51:18+07:00",
+   "message": "Zalo vị trí (GĐ1): thêm parser tin \"báo nhân sự\" -> danh sách gán vị trí TÍNH TIỀN (KK/TNB/DB; bỏ Kiểm bill/Bảo vệ/Phụ N, mã \"(KK)\" đè section) + endpoint test /api/zalo/vitri-debug-parse (chưa wire vào luồng chạy) [loai:Thêm tính năng] [tokens:4000] [ver:260808vitriparse1]",
+   "loai": "Thêm tính năng",
+   "tokens": 4000,
+   "ver": "260808vitriparse1",
+   "files": 1,
+   "additions": 81,
+   "deletions": 0
+  },
   {
    "hash": "ce5a0ff",
    "agent": "Người",
