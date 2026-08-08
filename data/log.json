@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-08T10:17:16.136Z",
+ "generated": "2026-08-08T10:56:31.737Z",
  "repo": "zentea-qlch",
- "appVer": "260806borrowfix1",
- "totalCommits": 470,
+ "appVer": "260808vesomcc1",
+ "totalCommits": 471,
  "commits": [
+  {
+   "hash": "bd14de8",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-08T17:56:11+07:00",
+   "message": "Nhật Ký/CC: về sớm giờ cần >= 2 lần mới mất chuyên cần (trước đây 1 lần đã mất, lệch với đi trễ) - sửa cả thẻ TỔNG KẾT + bảng Thống Kê LLV + nhãn lý do; thêm ô cấu hình ngưỡng về sớm (veSomNguong, mặc định 2) [loai:Fix bug] [tokens:2500] [ver:260808vesomcc1]",
+   "loai": "Fix bug",
+   "tokens": 2500,
+   "ver": "260808vesomcc1",
+   "files": 3,
+   "additions": 12,
+   "deletions": 7
+  },
   {
    "hash": "a66414d",
    "agent": "Người",
