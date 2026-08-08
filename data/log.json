@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-08T06:12:22.262Z",
+ "generated": "2026-08-08T07:32:14.732Z",
  "repo": "zentea-qlch",
- "appVer": "260806delpin1",
- "totalCommits": 468,
+ "appVer": "260806viofilter1",
+ "totalCommits": 469,
  "commits": [
+  {
+   "hash": "2042c21",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-08T14:31:46+07:00",
+   "message": "Hồ sơ NV - tab Vi Phạm: thêm bộ lọc theo tháng (dropdown gom các tháng có vi phạm, đếm theo tháng đang lọc); tháng không có ở NV đang xem tự về \"Tất cả\" [loai:Thêm tính năng] [tokens:2500] [ver:260806viofilter1]",
+   "loai": "Thêm tính năng",
+   "tokens": 2500,
+   "ver": "260806viofilter1",
+   "files": 3,
+   "additions": 23,
+   "deletions": 7
+  },
   {
    "hash": "ec8f35f",
    "agent": "Người",
