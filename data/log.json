@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-08T12:12:39.017Z",
+ "generated": "2026-08-08T12:48:23.507Z",
  "repo": "zentea-qlch",
  "appVer": "260808lockpos1",
- "totalCommits": 474,
+ "totalCommits": 475,
  "commits": [
+  {
+   "hash": "f72807d",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-08T19:48:04+07:00",
+   "message": "Zalo vị trí GĐ2a: nối parser vào /api/zalo/incoming (tin báo nhân sự -> nháp vị trí, không lẫn NK) + _zaloTryCreatePositionDraft khớp tên NV -> lưu nháp chờ duyệt (zalo-vitri-drafts, key ca+ngày, báo lại thì cập nhật); chưa ghi Phân Ca [loai:Thêm tính năng] [tokens:4000] [ver:260808vitridraft1]",
+   "loai": "Thêm tính năng",
+   "tokens": 4000,
+   "ver": "260808vitridraft1",
+   "files": 1,
+   "additions": 45,
+   "deletions": 1
+  },
   {
    "hash": "8938002",
    "agent": "Người",
