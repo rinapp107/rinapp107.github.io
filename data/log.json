@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-05T17:17:57.628Z",
+ "generated": "2026-08-08T06:12:22.262Z",
  "repo": "zentea-qlch",
- "appVer": "260805lock1",
- "totalCommits": 467,
+ "appVer": "260806delpin1",
+ "totalCommits": 468,
  "commits": [
+  {
+   "hash": "ec8f35f",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-08T13:11:53+07:00",
+   "message": "NV đã xóa vẫn hiện ở cổng đăng nhập cửa hàng: (1) xóa NV giờ dọn luôn PIN (confirmDeleteEmployee gọi /llv/pin/delete), (2) console job cn16-pin-clean-orphans dọn PIN mồ côi hiện có (PIN không còn record NV) [loai:Fix bug] [tokens:3000] [ver:260806delpin1]",
+   "loai": "Fix bug",
+   "tokens": 3000,
+   "ver": "260806delpin1",
+   "files": 4,
+   "additions": 34,
+   "deletions": 3
+  },
   {
    "hash": "0e7e7d3",
    "agent": "Người",
