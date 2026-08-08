@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-08T10:56:31.737Z",
+ "generated": "2026-08-08T11:09:54.939Z",
  "repo": "zentea-qlch",
- "appVer": "260808vesomcc1",
- "totalCommits": 471,
+ "appVer": "260808lockpos1",
+ "totalCommits": 472,
  "commits": [
+  {
+   "hash": "ce5a0ff",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-08T18:09:38+07:00",
+   "message": "Hồ sơ NV - Lịch Làm Việc: KHÓA note vị trí phía nhân viên (bỏ dropdown + nút Lưu), NV chỉ XEM lịch + vị trí của mình; vị trí thực tế sẽ do quản lý/đồng bộ Zalo gán [loai:Thêm tính năng] [tokens:1500] [ver:260808lockpos1]",
+   "loai": "Thêm tính năng",
+   "tokens": 1500,
+   "ver": "260808lockpos1",
+   "files": 3,
+   "additions": 5,
+   "deletions": 4
+  },
   {
    "hash": "bd14de8",
    "agent": "Người",
