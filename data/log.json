@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-08T11:51:47.541Z",
+ "generated": "2026-08-08T12:12:39.017Z",
  "repo": "zentea-qlch",
  "appVer": "260808lockpos1",
- "totalCommits": 473,
+ "totalCommits": 474,
  "commits": [
+  {
+   "hash": "8938002",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-08T19:12:17+07:00",
+   "message": "Zalo vị trí: thêm Đào tạo (DT) vào nhóm vị trí tính tiền (KK/TNB/DB/DT) - Phân Ca chuẩn hoá DT->daotao qua pcSelfNormalizeVitri [loai:Thêm tính năng] [tokens:800] [ver:260808vitriparse2]",
+   "loai": "Thêm tính năng",
+   "tokens": 800,
+   "ver": "260808vitriparse2",
+   "files": 1,
+   "additions": 1,
+   "deletions": 0
+  },
   {
    "hash": "ec938a1",
    "agent": "Người",
