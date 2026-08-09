@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-08T12:48:23.507Z",
+ "generated": "2026-08-09T10:06:58.714Z",
  "repo": "zentea-qlch",
- "appVer": "260808lockpos1",
- "totalCommits": 475,
+ "appVer": "260808vitritab1",
+ "totalCommits": 476,
  "commits": [
+  {
+   "hash": "cacd222",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-09T17:06:30+07:00",
+   "message": "Zalo Vị Trí \"báo nhân sự\" GĐ2a+GĐ2b + auto-reply chỉ cn16",
+   "loai": "Thêm tính năng",
+   "tokens": 9000,
+   "ver": "260808vitritab1",
+   "files": 4,
+   "additions": 322,
+   "deletions": 11
+  },
   {
    "hash": "f72807d",
    "agent": "Người",
