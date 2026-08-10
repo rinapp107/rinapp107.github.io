@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-09T11:56:10.293Z",
+ "generated": "2026-08-10T09:49:53.988Z",
  "repo": "zentea-qlch",
- "appVer": "260809vitribranch1",
- "totalCommits": 478,
+ "appVer": "260810vitrifix1",
+ "totalCommits": 479,
  "commits": [
+  {
+   "hash": "c17e9b3",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-10T16:49:31+07:00",
+   "message": "Zalo Vị Trí: tách tên \"A + B\" (Đào tạo lấy người đầu = trainer) + đồng bộ giao diện tab xanh lá",
+   "loai": "Fix bug",
+   "tokens": 2500,
+   "ver": "260810vitrifix1",
+   "files": 4,
+   "additions": 22,
+   "deletions": 17
+  },
   {
    "hash": "e40badb",
    "agent": "Người",
