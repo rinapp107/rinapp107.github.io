@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-11T05:17:30.411Z",
+ "generated": "2026-08-15T18:14:55.342Z",
  "repo": "zentea-qlch",
- "appVer": "260810vitrifix1",
- "totalCommits": 481,
+ "appVer": "260816sbline1",
+ "totalCommits": 482,
  "commits": [
+  {
+   "hash": "de8d64f",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-16T01:14:27+07:00",
+   "message": "Sidebar: hieu ung gach chan chay trai->phai khi hover muc menu",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 9,
+   "deletions": 4
+  },
   {
    "hash": "1792796",
    "agent": "Người",
