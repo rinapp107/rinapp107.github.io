@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-20T02:49:05.161Z",
+ "generated": "2026-08-20T04:04:43.635Z",
  "repo": "zentea-qlch",
- "appVer": "260817vesinh2",
- "totalCommits": 487,
+ "appVer": "260817vesinh3",
+ "totalCommits": 488,
  "commits": [
+  {
+   "hash": "5ec276a",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-20T11:04:23+07:00",
+   "message": "LLV Vệ Sinh: fix lọc NV loại nhầm chính thức -> tự phân chia dồn 1 người",
+   "loai": "Fix bug",
+   "tokens": 1200,
+   "ver": "260817vesinh3",
+   "files": 2,
+   "additions": 6,
+   "deletions": 4
+  },
   {
    "hash": "8157370",
    "agent": "Người",
