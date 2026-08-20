@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-20T02:15:07.926Z",
+ "generated": "2026-08-20T02:49:05.161Z",
  "repo": "zentea-qlch",
- "appVer": "260817vesinh1",
- "totalCommits": 486,
+ "appVer": "260817vesinh2",
+ "totalCommits": 487,
  "commits": [
+  {
+   "hash": "8157370",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-20T09:48:42+07:00",
+   "message": "LLV Vệ Sinh: dropdown phân công + tự phân chia BỎ nhân viên Thử việc + Đã nghỉ",
+   "loai": "Cải tiến",
+   "tokens": 1500,
+   "ver": "260817vesinh2",
+   "files": 2,
+   "additions": 34,
+   "deletions": 7
+  },
   {
    "hash": "36f6ab0",
    "agent": "Người",
