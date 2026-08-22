@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-22T11:59:52.340Z",
+ "generated": "2026-08-22T15:32:11.527Z",
  "repo": "zentea-qlch",
- "appVer": "260817vesinh7",
- "totalCommits": 498,
+ "appVer": "260822vitriapplied1",
+ "totalCommits": 499,
  "commits": [
+  {
+   "hash": "2efda02",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-22T22:31:53+07:00",
+   "message": "Zalo Vị Trí: đánh dấu rõ \"đã áp Phân Ca\" trên draft/dòng đã áp",
+   "loai": "Cải tiến",
+   "tokens": 1500,
+   "ver": "260822vitriapplied1",
+   "files": 3,
+   "additions": 11,
+   "deletions": 10
+  },
   {
    "hash": "45b6f60",
    "agent": "Người",
