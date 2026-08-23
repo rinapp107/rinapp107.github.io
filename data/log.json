@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T08:31:22.185Z",
+ "generated": "2026-08-23T08:37:39.710Z",
  "repo": "zentea-qlch",
- "appVer": "260823vitrifix1",
+ "appVer": "260823vitrifix2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "cb7f416",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T15:37:19+07:00",
+   "message": "Vị Trí Zalo: nút \"Đang áp…\" (spinner) + đổi trạng thái NGAY, khỏi reload",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 36,
+   "deletions": 17
+  },
   {
    "hash": "1dcf6ec",
    "agent": "Người",
@@ -6489,19 +6502,6 @@
    "ver": "260612hover1",
    "files": 1,
    "additions": 44,
-   "deletions": 0
-  },
-  {
-   "hash": "232eccf",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-12T10:28:41+07:00",
-   "message": "ci: tự động merge PR từ nhánh claude/* [loai:Thêm tính năng] [tokens:0] [ver:260612hover1]",
-   "loai": "Thêm tính năng",
-   "tokens": 0,
-   "ver": "260612hover1",
-   "files": 1,
-   "additions": 20,
    "deletions": 0
   }
  ]
