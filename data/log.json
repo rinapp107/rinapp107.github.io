@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T03:57:15.322Z",
+ "generated": "2026-08-23T04:22:00.709Z",
  "repo": "zentea-qlch",
  "appVer": "260822vitriapplied1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a52e35c",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T11:21:43+07:00",
+   "message": "Zalo AI: khôi phục bằng Gemini free — endpoint set-gemini-key + bỏ model 2.0 đã gỡ",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 26,
+   "deletions": 3
+  },
   {
    "hash": "430345f",
    "agent": "Người",
@@ -6489,19 +6502,6 @@
    "ver": "260611splash1",
    "files": 2,
    "additions": 121,
-   "deletions": 0
-  },
-  {
-   "hash": "71450b0",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-11T21:13:20+07:00",
-   "message": "Fix workflow: chong CRLF trong deploy key + Node24 [loai:Fix bug] [tokens:8000] [ver:260611splash1]",
-   "loai": "Fix bug",
-   "tokens": 8000,
-   "ver": "260611splash1",
-   "files": 1,
-   "additions": 3,
    "deletions": 0
   }
  ]
