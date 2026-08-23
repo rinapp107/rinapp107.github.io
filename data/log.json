@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T07:52:34.486Z",
+ "generated": "2026-08-23T08:19:50.229Z",
  "repo": "zentea-qlch",
- "appVer": "260823pos3",
+ "appVer": "260823pos4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4524b9d",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T15:19:30+07:00",
+   "message": "Số Liệu POS: dựng lại giao diện đúng chuẩn (4 tab) + xử lý tồn âm",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 157,
+   "deletions": 99
+  },
   {
    "hash": "224939a",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 0,
    "additions": 0,
    "deletions": 0
-  },
-  {
-   "hash": "6270ee9",
-   "agent": "Claude Code",
-   "author": "claude[bot]",
-   "date": "2026-06-12T03:07:35Z",
-   "message": "fix: sua dashboard Google Sheets - chi phi dung gia, nhat ky hien day du [loai:Fix bug] [tokens:8000] [ver:260612dash1]",
-   "loai": "Fix bug",
-   "tokens": 8000,
-   "ver": "260612dash1",
-   "files": 2,
-   "additions": 23,
-   "deletions": 15
   }
  ]
 }
