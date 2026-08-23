@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T07:34:28.393Z",
+ "generated": "2026-08-23T07:52:34.486Z",
  "repo": "zentea-qlch",
  "appVer": "260823pos3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "224939a",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T14:52:13+07:00",
+   "message": "@ Thêm route /privacy-pos: trang Chính sách quyền riêng tư cho extension POS (Web Store bắt buộc)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 23,
+   "deletions": 0
+  },
   {
    "hash": "030415f",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 23,
    "deletions": 15
-  },
-  {
-   "hash": "14fe2af",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-12T09:50:52+07:00",
-   "message": "Hieu ung crosshair hover bang Topping & Huy (merge tay PR #3 do conflict voi encoding fix) [loai:Them tinh nang] [tokens:30000] [ver:260612hover1]",
-   "loai": "Them tinh nang",
-   "tokens": 30000,
-   "ver": "260612hover1",
-   "files": 5,
-   "additions": 43,
-   "deletions": 7
   }
  ]
 }
