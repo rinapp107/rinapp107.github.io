@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T08:19:50.229Z",
+ "generated": "2026-08-23T08:31:22.185Z",
  "repo": "zentea-qlch",
- "appVer": "260823pos4",
+ "appVer": "260823vitrifix1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1dcf6ec",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T15:31:00+07:00",
+   "message": "Vị Trí Zalo: thẻ đã áp hiện rõ TẠI CHỖ (không nhảy xuống cuối)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 11,
+   "deletions": 9
+  },
   {
    "hash": "4524b9d",
    "agent": "Người",
@@ -6489,19 +6502,6 @@
    "ver": "260612hover1",
    "files": 1,
    "additions": 20,
-   "deletions": 0
-  },
-  {
-   "hash": "d8bd20a",
-   "agent": "Người",
-   "author": "poscf",
-   "date": "2026-06-12T10:26:03+07:00",
-   "message": "fix: Dashboard Google Sheets - chi phí đúng giá, nhật ký hiển thị đầy đủ [loai:Fix bug] [tokens:0] [ver:260612hover1]",
-   "loai": "Fix bug",
-   "tokens": 0,
-   "ver": "260612hover1",
-   "files": 0,
-   "additions": 0,
    "deletions": 0
   }
  ]
