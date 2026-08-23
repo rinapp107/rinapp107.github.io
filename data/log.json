@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T08:37:39.710Z",
+ "generated": "2026-08-23T08:44:34.994Z",
  "repo": "zentea-qlch",
- "appVer": "260823vitrifix2",
+ "appVer": "260823vitrifix3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "252bbd9",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T15:44:13+07:00",
+   "message": "Vị Trí Zalo: đo thời gian GET server-side + bọc try/catch render (chống treo \"Đang tải\")",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 4,
+   "additions": 17,
+   "deletions": 10
+  },
   {
    "hash": "cb7f416",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 79,
    "deletions": 52
-  },
-  {
-   "hash": "9cc5771",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-12T13:29:14+07:00",
-   "message": "feat: build-dashboard xuat stats.json cho GitHub Pages sau khi chay [loai:Them tinh nang] [tokens:0] [ver:260612hover1]",
-   "loai": "Them tinh nang",
-   "tokens": 0,
-   "ver": "260612hover1",
-   "files": 1,
-   "additions": 44,
-   "deletions": 0
   }
  ]
 }
