@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T07:17:13.094Z",
+ "generated": "2026-08-23T07:34:28.393Z",
  "repo": "zentea-qlch",
  "appVer": "260823pos3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "030415f",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T14:34:07+07:00",
+   "message": "Extension v2.36: thêm icon + tài liệu niêm yết Chrome Web Store",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 6,
+   "additions": 67,
+   "deletions": 4
+  },
   {
    "hash": "cc80c11",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 43,
    "deletions": 7
-  },
-  {
-   "hash": "6eb2cb3",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-12T08:57:16+07:00",
-   "message": "Sua loi hien thi tieng Viet sau deploy [loai:Fix bug] [tokens:n/a] [ver:260611encodingfix2]",
-   "loai": "Fix bug",
-   "tokens": null,
-   "ver": "260611encodingfix2",
-   "files": 2,
-   "additions": 4,
-   "deletions": 4
   }
  ]
 }
