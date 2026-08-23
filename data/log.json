@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T05:56:46.136Z",
+ "generated": "2026-08-23T07:17:13.094Z",
  "repo": "zentea-qlch",
- "appVer": "260823pos2",
+ "appVer": "260823pos3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "cc80c11",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T14:16:50+07:00",
+   "message": "@ Fix Số Liệu POS \"Đang phát triển\": bump ?v= app.js + sidebar-core.js",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 5,
+   "deletions": 5
+  },
   {
    "hash": "5313c78",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 4,
    "deletions": 4
-  },
-  {
-   "hash": "2ff3b9b",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-12T08:33:21+07:00",
-   "message": "Them proxy /api/gh-job-log cho dashboard doc raw log Actions [loai:Them tinh nang] [tokens:20000] [ver:260611splash1]",
-   "loai": "Them tinh nang",
-   "tokens": 20000,
-   "ver": "260611splash1",
-   "files": 1,
-   "additions": 44,
-   "deletions": 0
   }
  ]
 }
