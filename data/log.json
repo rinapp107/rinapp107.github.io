@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T04:22:00.709Z",
+ "generated": "2026-08-23T05:09:39.615Z",
  "repo": "zentea-qlch",
- "appVer": "260822vitriapplied1",
+ "appVer": "260823pos1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a3fa2b8",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T12:09:20+07:00",
+   "message": "Số Liệu POS: tool eOrder (extension) đẩy báo cáo món/kiểm kho/realtime lên ZENTEA (cn16)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 24,
+   "additions": 3431,
+   "deletions": 2
+  },
   {
    "hash": "a52e35c",
    "agent": "Người",
@@ -6489,19 +6502,6 @@
    "ver": "260611splash1",
    "files": 1,
    "additions": 3,
-   "deletions": 0
-  },
-  {
-   "hash": "32809bc",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-11T21:28:48+07:00",
-   "message": "Them CI/CD: auto-deploy VPS khi merge main + @claude trong issue/PR [loai:Config] [tokens:25000] [ver:260611splash1]",
-   "loai": "Config",
-   "tokens": 25000,
-   "ver": "260611splash1",
-   "files": 2,
-   "additions": 121,
    "deletions": 0
   }
  ]
