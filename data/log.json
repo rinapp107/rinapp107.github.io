@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T09:06:46.330Z",
+ "generated": "2026-08-23T09:53:43.092Z",
  "repo": "zentea-qlch",
- "appVer": "260823vitrifix4",
+ "appVer": "260823vitrifix6",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fe88fa1",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-08-23T16:53:18+07:00",
+   "message": "Vị Trí Zalo: khóa nút \"Áp vào Phân Ca\" khi không có ca để áp + gỡ log debug",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 7,
+   "deletions": 5
+  },
   {
    "hash": "d437fc6",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 170,
    "deletions": 0
-  },
-  {
-   "hash": "5c64e6b",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-13T10:55:57+07:00",
-   "message": "Tune LLV name and forecast sizing",
-   "loai": null,
-   "tokens": null,
-   "ver": null,
-   "files": 5,
-   "additions": 21,
-   "deletions": 15
   }
  ]
 }
