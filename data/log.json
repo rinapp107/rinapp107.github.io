@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-23T09:53:43.092Z",
+ "generated": "2026-08-26T14:53:37.303Z",
  "repo": "zentea-qlch",
- "appVer": "260823vitrifix6",
+ "appVer": "260826kho1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4653b4e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-26T21:53:01+07:00",
+   "message": "POS Kiem Kho Qua: phan quyen theo cua hang + ton dau ky; fix model Groq da bi go",
+   "loai": "Feature",
+   "tokens": null,
+   "ver": "260826kho1",
+   "files": 8,
+   "additions": 763,
+   "deletions": 47
+  },
   {
    "hash": "fe88fa1",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 9,
    "additions": 787,
    "deletions": 9
-  },
-  {
-   "hash": "b192ee8",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-13T15:37:06+07:00",
-   "message": "feat: Them skill /ui-test de test giao dien ZENTEA nhu nguoi dung thuc te [loai:Them tinh nang] [tokens:0] [ver:260613uitest1]",
-   "loai": "Them tinh nang",
-   "tokens": 0,
-   "ver": "260613uitest1",
-   "files": 1,
-   "additions": 170,
-   "deletions": 0
   }
  ]
 }
