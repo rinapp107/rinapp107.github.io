@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-27T04:48:05.458Z",
+ "generated": "2026-08-27T10:23:07.980Z",
  "repo": "zentea-qlch",
- "appVer": "260827poscanhbao1",
+ "appVer": "260827vitrillv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "eaf6fde",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-27T17:22:42+07:00",
+   "message": "Vi Tri Zalo: doc ca goc tu Lich Lam Viec, bo bao sai \"khong co ca ngay nay\"",
+   "loai": "Fix",
+   "tokens": null,
+   "ver": "260827vitrillv1",
+   "files": 4,
+   "additions": 107,
+   "deletions": 25
+  },
   {
    "hash": "22ab5af",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 9,
    "additions": 445,
    "deletions": 18
-  },
-  {
-   "hash": "4c69f8f",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-15T16:07:06+07:00",
-   "message": "Fix store inventory import UI visibility",
-   "loai": null,
-   "tokens": null,
-   "ver": null,
-   "files": 6,
-   "additions": 116,
-   "deletions": 5
   }
  ]
 }
