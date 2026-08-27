@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-27T10:23:07.980Z",
+ "generated": "2026-08-27T11:41:18.490Z",
  "repo": "zentea-qlch",
- "appVer": "260827vitrillv1",
+ "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fa57460",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-27T18:40:55+07:00",
+   "message": "Vi Tri Zalo: tin bao nhan su co nguoi lam thi LUON cho ap vao Phan Ca",
+   "loai": "Fix",
+   "tokens": null,
+   "ver": "260827vitrizalo2",
+   "files": 4,
+   "additions": 27,
+   "deletions": 9
+  },
   {
    "hash": "eaf6fde",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 40,
    "deletions": 25
-  },
-  {
-   "hash": "377a00f",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-15T23:22:07+07:00",
-   "message": "Restore cost nav and harden inventory UI",
-   "loai": null,
-   "tokens": null,
-   "ver": null,
-   "files": 9,
-   "additions": 445,
-   "deletions": 18
   }
  ]
 }
