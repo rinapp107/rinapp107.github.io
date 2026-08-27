@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-26T14:53:37.303Z",
+ "generated": "2026-08-27T04:48:05.458Z",
  "repo": "zentea-qlch",
- "appVer": "260826kho1",
+ "appVer": "260827poscanhbao1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "22ab5af",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-27T11:47:44+07:00",
+   "message": "POS: canh bao khi may POS ngung day so lieu (web + extension)",
+   "loai": "Fix",
+   "tokens": null,
+   "ver": "260827poscanhbao1",
+   "files": 5,
+   "additions": 96,
+   "deletions": 9
+  },
   {
    "hash": "4653b4e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 116,
    "deletions": 5
-  },
-  {
-   "hash": "c65fc19",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-15T13:39:42+07:00",
-   "message": "Them module ton kho cua hang [loai:Thêm tính năng] [tokens:18000] [ver:260613inventory1]",
-   "loai": "Thêm tính năng",
-   "tokens": 18000,
-   "ver": "260613inventory1",
-   "files": 9,
-   "additions": 787,
-   "deletions": 9
   }
  ]
 }
