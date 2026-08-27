@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-27T11:41:18.490Z",
+ "generated": "2026-08-27T13:55:31.512Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1d075cf",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-27T20:55:07+07:00",
+   "message": "Fix GAP: ca tu tao khi ap vi tri Zalo bi THIEU 11 truong -> sai cham cong/luong",
+   "loai": "Fix",
+   "tokens": null,
+   "ver": "260827vitrizalo2",
+   "files": 1,
+   "additions": 26,
+   "deletions": 4
+  },
   {
    "hash": "fa57460",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 14,
    "additions": 5525,
    "deletions": 4
-  },
-  {
-   "hash": "b8ee8bc",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-16T18:23:26+07:00",
-   "message": "Restyle inventory header actions",
-   "loai": null,
-   "tokens": null,
-   "ver": null,
-   "files": 6,
-   "additions": 40,
-   "deletions": 25
   }
  ]
 }
