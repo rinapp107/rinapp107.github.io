@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-28T04:39:09.094Z",
+ "generated": "2026-08-28T07:24:22.853Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6461f65",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-28T14:23:51+07:00",
+   "message": "Zalo POS: noi group Tominh POS (kind:pos chi luu inbox) + giu anh/msgType khi nhan tin",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 74,
+   "deletions": 0
+  },
   {
    "hash": "a7d9872",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 10,
    "additions": 676,
    "deletions": 140
-  },
-  {
-   "hash": "736f656",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-17T12:27:40+07:00",
-   "message": "feat: redesign form Nhat Ky (Loai dropdown doc lap tab, mobile the doc, brand SVG) + AI auto-parse /api/nk-parse (Gemini, fallback regex) + Bao cao Hang ngay responsive mobile [loai:Them tinh nang] [ver:260617commit3]",
-   "loai": "Them tinh nang",
-   "tokens": null,
-   "ver": "260617commit3",
-   "files": 3,
-   "additions": 205,
-   "deletions": 94
   }
  ]
 }
