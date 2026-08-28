@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-28T07:24:22.853Z",
+ "generated": "2026-08-28T07:28:21.811Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c8e594f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-28T14:28:02+07:00",
+   "message": "Fix escape \\n trong job zalo-pos-connect (file .mjs sinh ra bi xuong dong sai)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 3
+  },
   {
    "hash": "6461f65",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 65,
    "deletions": 7
-  },
-  {
-   "hash": "1144a69",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-17T19:34:49+07:00",
-   "message": "them modal xac nhan xoa nhan vien 2 buoc (header do, ten NV, canh bao) [loai:Them tinh nang] [tokens:6000] [ver:260617empdelete1]",
-   "loai": "Them tinh nang",
-   "tokens": 6000,
-   "ver": "260617empdelete1",
-   "files": 10,
-   "additions": 676,
-   "deletions": 140
   }
  ]
 }
