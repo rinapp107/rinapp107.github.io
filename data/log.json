@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-27T13:55:31.512Z",
+ "generated": "2026-08-28T04:32:08.808Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9f0b3c6",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-28T11:31:30+07:00",
+   "message": "Zalo: them console job zalo-pos-history (doc lich su group Tominh POS, chi in ra)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 44,
+   "deletions": 0
+  },
   {
    "hash": "1d075cf",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 14,
    "additions": 96,
    "deletions": 53
-  },
-  {
-   "hash": "3affb43",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-17T12:22:14+07:00",
-   "message": "feat: app mobile Capacitor + date-utils (dd/mm/yy + datepicker chung) + chuan icon/ngay vao skill + tai lieu NK auto-parse [loai:Them tinh nang] [ver:260617commit1]",
-   "loai": "Them tinh nang",
-   "tokens": null,
-   "ver": "260617commit1",
-   "files": 14,
-   "additions": 5525,
-   "deletions": 4
   }
  ]
 }
