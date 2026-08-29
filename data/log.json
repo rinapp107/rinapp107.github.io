@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T16:53:33.333Z",
+ "generated": "2026-08-29T17:04:48.250Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5471c0b",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-30T00:04:28+07:00",
+   "message": "Theo Doi Loi POS: sua goc viec bo sot 78% tin - them ngu canh 6 tin truoc, bat buoc ghi tin phan hoi, tu dien chi nhanh theo nguoi bao, lo 10 tin",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 42,
+   "deletions": 5
+  },
   {
    "hash": "3943ee1",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 99,
    "additions": 9583,
    "deletions": 6832
-  },
-  {
-   "hash": "60935f3",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-19T23:27:29+07:00",
-   "message": "LLV: hover xanh la thuong hieu + can ngay/thu du bao ca khop lich (ngay tren/thu duoi) [loai:Sua giao dien] [tokens:3000] [ver:260619llvhover3]",
-   "loai": "Sua giao dien",
-   "tokens": 3000,
-   "ver": "260619llvhover3",
-   "files": 2,
-   "additions": 9,
-   "deletions": 9
   }
  ]
 }
