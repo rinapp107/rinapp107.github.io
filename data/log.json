@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T16:22:02.944Z",
+ "generated": "2026-08-29T16:32:41.807Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "97861a8",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T23:32:20+07:00",
+   "message": "Theo Doi Loi POS: chan doan liet ke dong co trang thai lech chuan",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 4,
+   "deletions": 1
+  },
   {
    "hash": "4f8f37d",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 22,
    "deletions": 16
-  },
-  {
-   "hash": "4ab3c30",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-19T18:40:56+07:00",
-   "message": "LLV mau: Vi tri 1+2 cung xanh nhe, o T7/CN cung xanh nhe, hang ten nen trang, o nghi X to vang [loai:Sua giao dien] [tokens:3000] [ver:260619llvcolor5]",
-   "loai": "Sua giao dien",
-   "tokens": 3000,
-   "ver": "260619llvcolor5",
-   "files": 2,
-   "additions": 55,
-   "deletions": 55
   }
  ]
 }
