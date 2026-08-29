@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T14:09:25.196Z",
+ "generated": "2026-08-29T14:32:41.129Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d3bbbd9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T21:32:21+07:00",
+   "message": "Theo Doi Loi POS: chan tao dong trung lap (doi chieu tu khoa 60%) + endpoint xoa dong rac va danh lai STT",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 62,
+   "deletions": 6
+  },
   {
    "hash": "dc88a5e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 177,
    "deletions": 38
-  },
-  {
-   "hash": "c9bd50c",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-18T16:00:39+07:00",
-   "message": "Cai thien UX modal cong thuc [loai:Fix bug] [tokens:9000] [ver:260618recipeux1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260618recipeux1",
-   "files": 7,
-   "additions": 175,
-   "deletions": 14
   }
  ]
 }
