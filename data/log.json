@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:48:43.011Z",
+ "generated": "2026-08-29T13:51:40.240Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7fd22c6",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:51:21+07:00",
+   "message": "Theo Doi Loi POS: rut gon goi tin gui AI (Groq 413) + tu thu lai voi bang cat ngan hon",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 12,
+   "deletions": 5
+  },
   {
    "hash": "8a02e7d",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 0,
    "additions": 0,
    "deletions": 0
-  },
-  {
-   "hash": "d93408c",
-   "agent": "Claude Code",
-   "author": "claude[bot]",
-   "date": "2026-06-17T15:20:23Z",
-   "message": "feat: Thêm ảnh bìa nhân viên — hiển thị làm nền thẻ trong danh sách",
-   "loai": null,
-   "tokens": null,
-   "ver": null,
-   "files": 3,
-   "additions": 112,
-   "deletions": 10
   }
  ]
 }
