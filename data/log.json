@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T15:35:59.886Z",
+ "generated": "2026-08-29T15:36:37.209Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "8c638a1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T22:36:19+07:00",
+   "message": "Theo Doi Loi POS: in ro thong bao 429 cua Gemini (biet la han muc ngay hay phut)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "373e012",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 758,
    "deletions": 35
-  },
-  {
-   "hash": "f093692",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-19T14:19:09+07:00",
-   "message": "LLV Phase 1: recolor toan bo sang bo mau chuyen nghiep (xanh la/xam/do), bo xanh duong/cam/nau/teal/tim [loai:Sua giao dien] [tokens:7000] [ver:260619llvcolor1]",
-   "loai": "Sua giao dien",
-   "tokens": 7000,
-   "ver": "260619llvcolor1",
-   "files": 2,
-   "additions": 150,
-   "deletions": 150
   }
  ]
 }
