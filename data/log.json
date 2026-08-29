@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T03:42:34.927Z",
+ "generated": "2026-08-29T13:32:23.748Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "202aab1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:31:56+07:00",
+   "message": "Theo Doi Loi POS: endpoint doc cau truc Google Sheet (chuan bi ghi thang vao sheet)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 28,
+   "deletions": 0
+  },
   {
    "hash": "9c9bc7c",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 20,
    "deletions": 125
-  },
-  {
-   "hash": "d667077",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-17T20:35:31+07:00",
-   "message": "Thêm tính năng cá nhân hóa giao diện nhân viên [loai:Thêm tính năng] [tokens:15000] [ver:260617canhan2]",
-   "loai": "Thêm tính năng",
-   "tokens": 15000,
-   "ver": "260617canhan2",
-   "files": 9,
-   "additions": 614,
-   "deletions": 7
   }
  ]
 }
