@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T16:13:34.913Z",
+ "generated": "2026-08-29T16:18:17.128Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0c3721d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T23:17:58+07:00",
+   "message": "Theo Doi Loi POS: them chan doan vao endpoint state (so dong API tra ve, range that su)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 7,
+   "deletions": 0
+  },
   {
    "hash": "4d42aa0",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 0,
    "additions": 0,
    "deletions": 0
-  },
-  {
-   "hash": "9ca4f7b",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-19T18:04:17+07:00",
-   "message": "LLV: doi mau ten nhan vien sang den de doc hon [loai:Sua giao dien] [tokens:1500] [ver:260619llvcolor3]",
-   "loai": "Sua giao dien",
-   "tokens": 1500,
-   "ver": "260619llvcolor3",
-   "files": 7,
-   "additions": 54,
-   "deletions": 59
   }
  ]
 }
