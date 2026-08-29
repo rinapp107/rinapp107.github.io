@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T15:34:40.442Z",
+ "generated": "2026-08-29T15:35:59.886Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "373e012",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T22:35:38+07:00",
+   "message": "Theo Doi Loi POS: OCR anh bang Gemini (tai anh -> base64), du phong Claude; Groq khong co model nhin anh",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 60,
+   "deletions": 11
+  },
   {
    "hash": "d4b9bf0",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 150,
    "deletions": 150
-  },
-  {
-   "hash": "e417400",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-18T22:56:24+07:00",
-   "message": "Dua cham cong vao ho so nhan vien [loai:Thêm tính năng] [tokens:9000] [ver:260618champrofile1]",
-   "loai": "Thêm tính năng",
-   "tokens": 9000,
-   "ver": "260618champrofile1",
-   "files": 8,
-   "additions": 329,
-   "deletions": 88
   }
  ]
 }
