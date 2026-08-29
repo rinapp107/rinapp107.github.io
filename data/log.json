@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:43:30.633Z",
+ "generated": "2026-08-29T13:48:43.011Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "8a02e7d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:48:24+07:00",
+   "message": "Theo Doi Loi POS: cot Dien Bien ghi NGUYEN VAN tin nhan (Gemini lam rot phu am khi viet lai tieng Viet)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 27,
+   "deletions": 9
+  },
   {
    "hash": "9052a5c",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 112,
    "deletions": 10
-  },
-  {
-   "hash": "89e37f8",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-17T21:07:14+07:00",
-   "message": "Tăng nhẹ kích thước sb-avatar trong sidebar để hiển thị cân đối [loai:Config] [tokens:500] [ver:260617canhan4]",
-   "loai": "Config",
-   "tokens": 500,
-   "ver": "260617canhan4",
-   "files": 1,
-   "additions": 1,
-   "deletions": 1
   }
  ]
 }
