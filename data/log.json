@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T16:32:41.807Z",
+ "generated": "2026-08-29T16:37:50.304Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "607c019",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T23:37:28+07:00",
+   "message": "Tai lieu: ghi nhan he thong Theo Doi Loi POS (Zalo -> Google Sheet) vao WEB_CONTEXT",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 2,
+   "deletions": 0
+  },
   {
    "hash": "97861a8",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 78,
    "deletions": 3
-  },
-  {
-   "hash": "04ba7c4",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-19T19:45:10+07:00",
-   "message": "Sua hang Vi tri 2 LLV sang nen xanh [loai:Fix bug] [tokens:5500] [ver:260619llvcolor6]",
-   "loai": "Fix bug",
-   "tokens": 5500,
-   "ver": "260619llvcolor6",
-   "files": 5,
-   "additions": 22,
-   "deletions": 16
   }
  ]
 }
