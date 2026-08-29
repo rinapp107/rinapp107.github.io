@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:56:33.224Z",
+ "generated": "2026-08-29T13:57:22.286Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f5e2c11",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:56:56+07:00",
+   "message": "Theo Doi Loi POS: Groq reasoning_effort low + max_tokens 4000 (JSON bi cat ngang)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 1
+  },
   {
    "hash": "dc537b0",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 6,
    "deletions": 6
-  },
-  {
-   "hash": "e63b2b0",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-18T11:03:53+07:00",
-   "message": "Cập nhật hiển thị màu nền nút daily reports và chỉnh sửa lưu trữ vườn ZEN [loai:Config] [tokens:1000] [ver:260617anhbia2]",
-   "loai": "Config",
-   "tokens": 1000,
-   "ver": "260617anhbia2",
-   "files": 2,
-   "additions": 16,
-   "deletions": 16
   }
  ]
 }
