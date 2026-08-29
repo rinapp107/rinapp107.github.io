@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T14:04:57.085Z",
+ "generated": "2026-08-29T14:09:25.196Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "dc88a5e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T21:08:59+07:00",
+   "message": "Theo Doi Loi POS: 8 tin/lan + cat bang ngan hon (Groq gioi han 8000 token/phut)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 2
+  },
   {
    "hash": "1a7fc13",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 175,
    "deletions": 14
-  },
-  {
-   "hash": "111bcd3",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-18T11:56:31+07:00",
-   "message": "Thêm js/garden-game.js vào script deploy-http.bat [loai:Config] [tokens:500] [ver:260618drmobile1]",
-   "loai": "Config",
-   "tokens": 500,
-   "ver": "260618drmobile1",
-   "files": 1,
-   "additions": 1,
-   "deletions": 0
   }
  ]
 }
