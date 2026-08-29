@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T16:37:50.304Z",
+ "generated": "2026-08-29T16:38:50.095Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "04059ea",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T23:38:31+07:00",
+   "message": "Theo Doi Loi POS: ha max_tokens Groq 4000->2200 (max_tokens tinh vao han muc 8000/phut, dang sat tran)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 1
+  },
   {
    "hash": "607c019",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 42,
    "deletions": 41
-  },
-  {
-   "hash": "200de75",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-19T19:56:24+07:00",
-   "message": "Them hover soi hang cot LLV [loai:Thêm tính năng] [tokens:6000] [ver:260619llvhover1]",
-   "loai": "Thêm tính năng",
-   "tokens": 6000,
-   "ver": "260619llvhover1",
-   "files": 5,
-   "additions": 78,
-   "deletions": 3
   }
  ]
 }
