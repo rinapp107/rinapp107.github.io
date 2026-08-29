@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T16:38:50.095Z",
+ "generated": "2026-08-29T16:53:33.333Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3943ee1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T23:53:00+07:00",
+   "message": "Theo Doi Loi POS: endpoint doi-soat (toan bo dong bang + toan bo tin da danh so) de kiem tra bo sot",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 31,
+   "deletions": 0
+  },
   {
    "hash": "04059ea",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 9,
    "deletions": 9
-  },
-  {
-   "hash": "185c0d2",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-19T23:01:45+07:00",
-   "message": "LLV hover (tiep task Codex): hover theo data-llv-day (khop dung cot ngay, het lech colspan) + mau xanh-vang diu [loai:Sua giao dien] [tokens:5000] [ver:260619llvhover2]",
-   "loai": "Sua giao dien",
-   "tokens": 5000,
-   "ver": "260619llvhover2",
-   "files": 2,
-   "additions": 42,
-   "deletions": 41
   }
  ]
 }
