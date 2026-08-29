@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T15:33:11.070Z",
+ "generated": "2026-08-29T15:33:43.368Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "92e9c02",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T22:33:22+07:00",
+   "message": "Theo Doi Loi POS: endpoint test-ocr de kiem chung doc chu trong anh",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 9,
+   "deletions": 0
+  },
   {
    "hash": "122498b",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 159,
    "deletions": 19
-  },
-  {
-   "hash": "ed2efc6",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-18T21:43:45+07:00",
-   "message": "Them module cham cong co dinh vi [loai:Thêm tính năng] [tokens:9000] [ver:260618chamcong1]",
-   "loai": "Thêm tính năng",
-   "tokens": 9000,
-   "ver": "260618chamcong1",
-   "files": 8,
-   "additions": 460,
-   "deletions": 8
   }
  ]
 }
