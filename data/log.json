@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T15:36:37.209Z",
+ "generated": "2026-08-29T16:12:05.726Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "858b1bb",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T23:11:45+07:00",
+   "message": "Theo Doi Loi POS: OCR mien phi bang Tesseract tren VPS + ke dong bang tren sheet + job cai tesseract",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 91,
+   "deletions": 1
+  },
   {
    "hash": "8c638a1",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 27,
    "deletions": 27
-  },
-  {
-   "hash": "864af5f",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-19T17:46:28+07:00",
-   "message": "Sua UI cham cong trong ho so theo web ZENTEA [loai:Fix bug] [tokens:6000] [ver:260619llvcolor1]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260619llvcolor1",
-   "files": 6,
-   "additions": 758,
-   "deletions": 35
   }
  ]
 }
