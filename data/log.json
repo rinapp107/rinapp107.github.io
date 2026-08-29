@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:40:43.205Z",
+ "generated": "2026-08-29T13:43:30.633Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9052a5c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:43:05+07:00",
+   "message": "Theo Doi Loi POS: chan ghep nham (AI phai trich dan dong, doi chieu 50% tu khoa) + gop action trung stt + lam sach chuoi",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 50,
+   "deletions": 6
+  },
   {
    "hash": "e89f498",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 1
-  },
-  {
-   "hash": "63ba12b",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-17T21:02:51+07:00",
-   "message": "Thêm nút gỡ ảnh đại diện, ảnh bìa, ảnh nền loading và cập nhật hiển thị tự động lên thẻ header [loai:Thêm tính năng] [tokens:12000] [ver:260617canhan4]",
-   "loai": "Thêm tính năng",
-   "tokens": 12000,
-   "ver": "260617canhan4",
-   "files": 7,
-   "additions": 115,
-   "deletions": 44
   }
  ]
 }
