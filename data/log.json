@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:54:55.689Z",
+ "generated": "2026-08-29T13:56:33.224Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "dc537b0",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:56:10+07:00",
+   "message": "Theo Doi Loi POS: in ro thong bao loi cua Groq de chan doan",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "f901e7c",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 16,
    "deletions": 16
-  },
-  {
-   "hash": "58d2690",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-18T10:58:03+07:00",
-   "message": "Đồng bộ code ảnh bìa nhân viên từ GitHub, tích hợp game Vườn ZEN, và deploy phiên bản 260617anhbia2 [loai:Deploy] [tokens:6000] [ver:260617anhbia2]",
-   "loai": "Deploy",
-   "tokens": 6000,
-   "ver": "260617anhbia2",
-   "files": 8,
-   "additions": 749,
-   "deletions": 41
   }
  ]
 }
