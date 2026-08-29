@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:32:23.748Z",
+ "generated": "2026-08-29T13:40:43.205Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e89f498",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:40:21+07:00",
+   "message": "Theo Doi Loi POS: AI doc tin group Tominh POS -> ghi thang vao Google Sheet (tung o, giu dinh dang)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 279,
+   "deletions": 0
+  },
   {
    "hash": "202aab1",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 115,
    "deletions": 44
-  },
-  {
-   "hash": "3c81910",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-17T20:47:28+07:00",
-   "message": "Loại bỏ tính năng slideshow ảnh nền Hồ sơ cá nhân [loai:Refactor] [tokens:3000] [ver:260617canhan3]",
-   "loai": "Refactor",
-   "tokens": 3000,
-   "ver": "260617canhan3",
-   "files": 7,
-   "additions": 20,
-   "deletions": 125
   }
  ]
 }
