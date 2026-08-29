@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T14:02:35.457Z",
+ "generated": "2026-08-29T14:04:57.085Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1a7fc13",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T21:04:34+07:00",
+   "message": "Theo Doi Loi POS: them endpoint sua tay o trong sheet (va lai du lieu ghi sai)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 13,
+   "deletions": 0
+  },
   {
    "hash": "947028e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 0
-  },
-  {
-   "hash": "71f52cf",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-18T11:52:06+07:00",
-   "message": "Bump sw.js CACHE_NAME to zentea-staff-v147 để áp dụng thay đổi cache [loai:Config] [tokens:500] [ver:260618drmobile1]",
-   "loai": "Config",
-   "tokens": 500,
-   "ver": "260618drmobile1",
-   "files": 1,
-   "additions": 1,
-   "deletions": 1
   }
  ]
 }
