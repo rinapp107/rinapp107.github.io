@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:58:10.751Z",
+ "generated": "2026-08-29T13:59:08.017Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6ad0b5f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:58:46+07:00",
+   "message": "Theo Doi Loi POS: khong ghi de nguoi phu trach bang dau gach khi AI khong biet",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 1
+  },
   {
    "hash": "6ebcc27",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 2
-  },
-  {
-   "hash": "2163b5f",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-18T11:38:24+07:00",
-   "message": "Cập nhật tài liệu Vườn ZEN và tối ưu hoá CSS border SVG [loai:Config] [tokens:1000] [ver:260617anhbia2]",
-   "loai": "Config",
-   "tokens": 1000,
-   "ver": "260617anhbia2",
-   "files": 2,
-   "additions": 3,
-   "deletions": 1
   }
  ]
 }
