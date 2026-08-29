@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:51:40.240Z",
+ "generated": "2026-08-29T13:54:55.689Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f901e7c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:54:35+07:00",
+   "message": "Theo Doi Loi POS: ha max_tokens + chi gui dong lien quan cho AI (Groq gioi han TPM tra 413)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 13,
+   "deletions": 3
+  },
   {
    "hash": "7fd22c6",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 8,
    "additions": 749,
    "deletions": 41
-  },
-  {
-   "hash": "f273faa",
-   "agent": "Người",
-   "author": "poscf",
-   "date": "2026-06-17T22:23:07+07:00",
-   "message": "Merge pull request #10 from rinapp107/claude/issue-9-20260617-1512",
-   "loai": null,
-   "tokens": null,
-   "ver": null,
-   "files": 0,
-   "additions": 0,
-   "deletions": 0
   }
  ]
 }
