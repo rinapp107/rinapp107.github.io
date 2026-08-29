@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T13:57:22.286Z",
+ "generated": "2026-08-29T13:58:10.751Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6ebcc27",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-29T20:57:51+07:00",
+   "message": "Theo Doi Loi POS: siet luat trang thai 3 (chi len khi NGUOI KHAC test xac nhan dat)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 1
+  },
   {
    "hash": "f5e2c11",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 3,
    "deletions": 1
-  },
-  {
-   "hash": "0d4b5bf",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-18T11:27:24+07:00",
-   "message": "Thêm icon SVG vào nút Cấu hình vị trí trong Daily Reports [loai:Config] [tokens:1500] [ver:260617anhbia2]",
-   "loai": "Config",
-   "tokens": 1500,
-   "ver": "260617anhbia2",
-   "files": 1,
-   "additions": 6,
-   "deletions": 6
   }
  ]
 }
