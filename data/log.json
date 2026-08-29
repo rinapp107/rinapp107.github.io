@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T17:06:22.719Z",
+ "generated": "2026-08-29T18:36:58.033Z",
  "repo": "zentea-qlch",
- "appVer": "260827vitrizalo2",
+ "appVer": "260828congtac1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6370cbe",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-30T01:36:36+07:00",
+   "message": "@ Cong Tac Bot Zalo + nhac nguong nho lam the [loai:Them tinh nang] [tokens:95000] [ver:260828congtac1]",
+   "loai": "Them tinh nang",
+   "tokens": 95000,
+   "ver": "260828congtac1",
+   "files": 4,
+   "additions": 480,
+   "deletions": 12
+  },
   {
    "hash": "5482349",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 0,
    "deletions": 8880
-  },
-  {
-   "hash": "eede82c",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T00:03:30+07:00",
-   "message": "LLV: fix hover sai o tai khoan sua (them data-llv-day cho o edit-mode), hover cot sang toi Du Bao Ca, bo highlight ca hang khi hover tieu de ngay [loai:Fix bug] [tokens:4000] [ver:260620llvhover4]",
-   "loai": "Fix bug",
-   "tokens": 4000,
-   "ver": "260620llvhover4",
-   "files": 2,
-   "additions": 7,
-   "deletions": 5
   }
  ]
 }
