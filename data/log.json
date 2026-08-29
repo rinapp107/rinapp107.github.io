@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-29T17:04:48.250Z",
+ "generated": "2026-08-29T17:06:22.719Z",
  "repo": "zentea-qlch",
  "appVer": "260827vitrizalo2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5482349",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-30T00:06:02+07:00",
+   "message": "Theo Doi Loi POS: chong ghi trung dien bien (tin da trich roi thi khong them lai) de chay lai an toan",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 9,
+   "deletions": 4
+  },
   {
    "hash": "5471c0b",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 7,
    "deletions": 5
-  },
-  {
-   "hash": "7f4a2a6",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-20T00:01:27+07:00",
-   "message": "Thiết kế lưới lịch chấm công tháng (calendar grid) và popup chi tiết [loai:Thêm tính năng] [tokens:12000] [ver:260619chamgrid1]",
-   "loai": "Thêm tính năng",
-   "tokens": 12000,
-   "ver": "260619chamgrid1",
-   "files": 99,
-   "additions": 9583,
-   "deletions": 6832
   }
  ]
 }
