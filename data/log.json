@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T04:33:45.987Z",
+ "generated": "2026-08-31T04:51:49.995Z",
  "repo": "zentea-qlch",
- "appVer": "260831vitrifix3",
+ "appVer": "260831vitrifix4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "8bf5f99",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T11:51:31+07:00",
+   "message": "Fix luoi Phan Ca giat lien tuc + chan ghi nham chi nhanh [loai:Fix bug] [tokens:40000] [ver:260831vitrifix4]",
+   "loai": "Fix bug",
+   "tokens": 40000,
+   "ver": "260831vitrifix4",
+   "files": 4,
+   "additions": 30,
+   "deletions": 16
+  },
   {
    "hash": "2bc3d6e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 385,
    "deletions": 88
-  },
-  {
-   "hash": "d25c0ab",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T00:15:17+07:00",
-   "message": "LLV: fix hover lam o nhay len chen len bang (bo z-index/do bong noi o hover-cell, chi giu vien xanh trong o) [loai:Fix bug] [tokens:1500] [ver:260620llvhover5]",
-   "loai": "Fix bug",
-   "tokens": 1500,
-   "ver": "260620llvhover5",
-   "files": 1,
-   "additions": 2,
-   "deletions": 2
   }
  ]
 }
