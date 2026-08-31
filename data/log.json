@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-30T17:34:54.035Z",
+ "generated": "2026-08-31T04:33:45.987Z",
  "repo": "zentea-qlch",
- "appVer": "260831vitrifix2",
+ "appVer": "260831vitrifix3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "2bc3d6e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T11:33:24+07:00",
+   "message": "Fix vi tri Zalo bi ghi de: 3 buoc hau-import chay noi tiep thay vi song song [loai:Fix bug] [tokens:45000] [ver:260831vitrifix3]",
+   "loai": "Fix bug",
+   "tokens": 45000,
+   "ver": "260831vitrifix3",
+   "files": 4,
+   "additions": 48,
+   "deletions": 20
+  },
   {
    "hash": "5a4b141",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 2
-  },
-  {
-   "hash": "54ff912",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-20T00:13:39+07:00",
-   "message": "Redirect time-clock-manager target to new calendar grid view [loai:Thêm tính năng] [tokens:3000] [ver:260620chamgrid2]",
-   "loai": "Thêm tính năng",
-   "tokens": 3000,
-   "ver": "260620chamgrid2",
-   "files": 6,
-   "additions": 19,
-   "deletions": 15
   }
  ]
 }
