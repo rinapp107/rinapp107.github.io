@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T06:22:43.435Z",
+ "generated": "2026-08-31T06:45:11.573Z",
  "repo": "zentea-qlch",
  "appVer": "260831vitriseg1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "18042a5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T13:44:45+07:00",
+   "message": "Zalo Chat rieng: danh ba trong DB - moi nguoi mot cong tac bat/tat that + cach xung ho rieng; listener-config tra danh ba cho module AI",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 126,
+   "deletions": 19
+  },
   {
    "hash": "8332a61",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 27,
    "deletions": 17
-  },
-  {
-   "hash": "7c80458",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-20T10:25:55+07:00",
-   "message": "Sua goi y nghi LLV theo dinh du bao [loai:Fix bug] [tokens:5500] [ver:260620offquota1]",
-   "loai": "Fix bug",
-   "tokens": 5500,
-   "ver": "260620offquota1",
-   "files": 5,
-   "additions": 56,
-   "deletions": 6
   }
  ]
 }
