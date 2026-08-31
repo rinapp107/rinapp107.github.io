@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T09:54:18.368Z",
+ "generated": "2026-08-31T10:37:25.923Z",
  "repo": "zentea-qlch",
- "appVer": "260831vitricard1",
+ "appVer": "260831vitrigreen1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4f7bfa7",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T17:37:07+07:00",
+   "message": "Phan Ca: bo mau xam cho card thieu vi tri, giu xanh nhu binh thuong [loai:Fix bug] [tokens:20000] [ver:260831vitrigreen1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "260831vitrigreen1",
+   "files": 3,
+   "additions": 13,
+   "deletions": 18
+  },
   {
    "hash": "294afab",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 14,
    "deletions": 0
-  },
-  {
-   "hash": "ae78e45",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T22:02:38+07:00",
-   "message": "Badge canh bao van de Tai San & Bao Tri tren sidebar cho Manager/Admin/Superadmin: dem phieu bao hong/bao tri chua xu ly + xin cap cho duyet theo chi nhanh, tu an khi het [loai:Them tinh nang] [tokens:4000] [ver:260620vhtsbadge1]",
-   "loai": "Them tinh nang",
-   "tokens": 4000,
-   "ver": "260620vhtsbadge1",
-   "files": 3,
-   "additions": 52,
-   "deletions": 1
   }
  ]
 }
