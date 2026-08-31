@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T07:04:13.548Z",
+ "generated": "2026-08-31T07:19:11.284Z",
  "repo": "zentea-qlch",
  "appVer": "260831dmchat1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1759066",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T14:18:50+07:00",
+   "message": "Job ai-chat-nhanh: ha cache danh ba xuong 15s de gat cong tac web an lien",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 16,
+   "deletions": 0
+  },
   {
    "hash": "44a19ef",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 188,
    "deletions": 9
-  },
-  {
-   "hash": "864f1ec",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T13:53:02+07:00",
-   "message": "LLV: doi not 'Luu' (cau hinh gio toi da) va 'Luu Ma Ca' tu emoji sang icon SVG monochrome [loai:Sua giao dien] [tokens:800] [ver:260620llvcolor3]",
-   "loai": "Sua giao dien",
-   "tokens": 800,
-   "ver": "260620llvcolor3",
-   "files": 2,
-   "additions": 4,
-   "deletions": 4
   }
  ]
 }
