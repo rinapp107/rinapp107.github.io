@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T09:39:45.634Z",
+ "generated": "2026-08-31T09:50:16.163Z",
  "repo": "zentea-qlch",
- "appVer": "260831dmchat2",
+ "appVer": "260831vitricard1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "2b907ec",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T16:49:50+07:00",
+   "message": "Phan Ca: mot ca nhieu vi tri hien thanh nhieu CARD DOC LAP thay vi chen chu trong 1 card [loai:Fix bug] [tokens:60000] [ver:260831vitricard1]",
+   "loai": "Fix bug",
+   "tokens": 60000,
+   "ver": "260831vitricard1",
+   "files": 3,
+   "additions": 98,
+   "deletions": 21
+  },
   {
    "hash": "e984dde",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 12,
    "deletions": 10
-  },
-  {
-   "hash": "bf9bdcf",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T17:03:03+07:00",
-   "message": "LLV copy-paste: dan dung cau truc 3 dong/nhan vien (Ca/Vi tri 1/Vi tri 2) tu Excel/Google Sheets - map dung vi tri + dan duoc 2 dong vi tri [loai:Fix bug] [tokens:2500] [ver:260620pastepos1]",
-   "loai": "Fix bug",
-   "tokens": 2500,
-   "ver": "260620pastepos1",
-   "files": 2,
-   "additions": 30,
-   "deletions": 9
   }
  ]
 }
