@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T09:50:55.128Z",
+ "generated": "2026-08-31T09:52:50.620Z",
  "repo": "zentea-qlch",
  "appVer": "260831vitricard1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f5dc4e0",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T16:52:28+07:00",
+   "message": "Them job xem persona de tim nguyen nhan AI tra 400",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 11,
+   "deletions": 0
+  },
   {
    "hash": "6e45700",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 129,
    "deletions": 9
-  },
-  {
-   "hash": "cb047af",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T17:30:14+07:00",
-   "message": "LLV paste: quy doi ky hieu vi tri tu Sheet sang ma web (TN+BB->TNB, TN->TNB, +so) [loai:Sua giao dien] [tokens:700] [ver:260620pastepos3]",
-   "loai": "Sua giao dien",
-   "tokens": 700,
-   "ver": "260620pastepos3",
-   "files": 2,
-   "additions": 12,
-   "deletions": 2
   }
  ]
 }
