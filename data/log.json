@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T07:23:34.380Z",
+ "generated": "2026-08-31T07:25:13.129Z",
  "repo": "zentea-qlch",
  "appVer": "260831dmchat1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7357ff9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T14:24:53+07:00",
+   "message": "Them endpoint chan doan dm-friends-test (goi /friends cua listener khong can dang nhap)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 11,
+   "deletions": 0
+  },
   {
    "hash": "d268e12",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 48,
    "deletions": 21
-  },
-  {
-   "hash": "ced4e96",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T15:58:49+07:00",
-   "message": "Help guide: bo icon ? to dung dau modal (svg khong gioi han size lam tran/che noi dung), cap size svg header [loai:Fix bug] [tokens:600] [ver:260620help2]",
-   "loai": "Fix bug",
-   "tokens": 600,
-   "ver": "260620help2",
-   "files": 2,
-   "additions": 4,
-   "deletions": 4
   }
  ]
 }
