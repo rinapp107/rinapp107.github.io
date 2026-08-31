@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T09:52:50.620Z",
+ "generated": "2026-08-31T09:54:18.368Z",
  "repo": "zentea-qlch",
  "appVer": "260831vitricard1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "294afab",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T16:54:00+07:00",
+   "message": "Sua loi AI im lang: taoPersona phai tra CHUOI (module truyen thang vao system, mang -> 400)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 25,
+   "deletions": 0
+  },
   {
    "hash": "f5dc4e0",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 52,
    "deletions": 1
-  },
-  {
-   "hash": "c527ac9",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T20:09:07+07:00",
-   "message": "Them cong 'Ban la ai?' cho tai khoan Staff dung chung: chon ten + nhap PIN de vao web, nho tren thiet bi (device-local), Ca Nhan ra thang ho so + nut Doi nguoi; nhieu nguoi/thiet bi cung tai khoan khong anh huong nhau [loai:Them tinh nang] [tokens:6000] [ver:260620whoami1]",
-   "loai": "Them tinh nang",
-   "tokens": 6000,
-   "ver": "260620whoami1",
-   "files": 4,
-   "additions": 129,
-   "deletions": 9
   }
  ]
 }
