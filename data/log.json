@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T06:45:11.573Z",
+ "generated": "2026-08-31T06:47:42.459Z",
  "repo": "zentea-qlch",
- "appVer": "260831vitriseg1",
+ "appVer": "260831dmchat1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "815535f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T13:47:20+07:00",
+   "message": "Zalo Chat rieng: giao dien danh ba - bat/tat tung nguoi, sua cach xung ho, them nguoi tu danh sach nhan tin rieng",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 112,
+   "deletions": 4
+  },
   {
    "hash": "18042a5",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 216,
    "deletions": 23
-  },
-  {
-   "hash": "f8a3e9d",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-20T10:55:21+07:00",
-   "message": "Tinh goi y nghi LLV theo timeline gio [loai:Fix bug] [tokens:4500] [ver:260620offquota2]",
-   "loai": "Fix bug",
-   "tokens": 4500,
-   "ver": "260620offquota2",
-   "files": 5,
-   "additions": 27,
-   "deletions": 17
   }
  ]
 }
