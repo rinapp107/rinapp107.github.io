@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T06:47:42.459Z",
+ "generated": "2026-08-31T07:02:26.127Z",
  "repo": "zentea-qlch",
  "appVer": "260831dmchat1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "71762df",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T14:02:06+07:00",
+   "message": "Them console job ai-chat-show de xem module AI chat ca nhan truoc khi va",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 11,
+   "deletions": 0
+  },
   {
    "hash": "815535f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 8,
    "deletions": 8
-  },
-  {
-   "hash": "b411a9e",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T11:06:34+07:00",
-   "message": "LLV: cai dat mau sac theo cua hang - dai ca, ma vi tri (KK/TNB/KB/DB/DT), cuoi tuan/le, o X, hover; tab Mau sac trong Cau hinh co xem truoc + khoi phuc mac dinh (manager+) [loai:Them tinh nang] [tokens:7000] [ver:260620llvcolor1]",
-   "loai": "Them tinh nang",
-   "tokens": 7000,
-   "ver": "260620llvcolor1",
-   "files": 2,
-   "additions": 216,
-   "deletions": 23
   }
  ]
 }
