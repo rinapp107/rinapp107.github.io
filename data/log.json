@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T07:25:13.129Z",
+ "generated": "2026-08-31T07:26:28.469Z",
  "repo": "zentea-qlch",
- "appVer": "260831dmchat1",
+ "appVer": "260831dmchat2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ac51e1b",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T14:26:07+07:00",
+   "message": "Chat rieng: o tim kiem trong danh ba Zalo (424 nguoi) + hien so luong",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 24,
+   "deletions": 7
+  },
   {
    "hash": "7357ff9",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 9,
    "deletions": 7
-  },
-  {
-   "hash": "aafa8b1",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T16:16:59+07:00",
-   "message": "Help guide LLV: viet chi tiet quy trinh xep lich toi uu theo thu tu, tung nut thanh cong cu, cach bam o, doc Du Bao Ca + tinh toan toi uu nhan su, quy tac OFF [loai:Sua giao dien] [tokens:3500] [ver:260620help3]",
-   "loai": "Sua giao dien",
-   "tokens": 3500,
-   "ver": "260620help3",
-   "files": 2,
-   "additions": 48,
-   "deletions": 21
   }
  ]
 }
