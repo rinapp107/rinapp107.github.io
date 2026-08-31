@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T07:53:47.476Z",
+ "generated": "2026-08-31T09:37:25.657Z",
  "repo": "zentea-qlch",
  "appVer": "260831dmchat2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c2a8833",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T16:37:03+07:00",
+   "message": "Sua goc: listener dua MOI tin 1-1 qua module AI (bo chan bang AI_CONTACTS hardcode)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 35,
+   "deletions": 0
+  },
   {
    "hash": "2587c96",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 107,
    "deletions": 2
-  },
-  {
-   "hash": "4a32973",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T16:33:17+07:00",
-   "message": "Help guide LLV: sua thu tu - nhap so Can (Du Bao Ca) TRUOC, roi Gio Co Ban tu tinh lich OFF tu so Can [loai:Sua giao dien] [tokens:600] [ver:260620help5]",
-   "loai": "Sua giao dien",
-   "tokens": 600,
-   "ver": "260620help5",
-   "files": 2,
-   "additions": 5,
-   "deletions": 5
   }
  ]
 }
