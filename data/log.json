@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T09:37:25.657Z",
+ "generated": "2026-08-31T09:39:45.634Z",
  "repo": "zentea-qlch",
  "appVer": "260831dmchat2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e984dde",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T16:39:17+07:00",
+   "message": "Gia co nhan dien tin ca nhan (them dieu kien du phong threadId === uid nguoi gui)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 23,
+   "deletions": 0
+  },
   {
    "hash": "c2a8833",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 30,
    "deletions": 9
-  },
-  {
-   "hash": "f29bcae",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T16:54:05+07:00",
-   "message": "LLV Gio Co Ban Phan Ca: tu tinh ngay nghi tu so Can (Du Bao Ca) - them card thong ke (ngay nghi/nguoi, OFF/ngay T2-T6/T7/CN), nut Ap vao cap + Mo Goi Y Lich Nghi [loai:Them tinh nang] [tokens:4000] [ver:260620offcalc1]",
-   "loai": "Them tinh nang",
-   "tokens": 4000,
-   "ver": "260620offcalc1",
-   "files": 2,
-   "additions": 107,
-   "deletions": 2
   }
  ]
 }
