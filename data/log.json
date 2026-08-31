@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T04:51:49.995Z",
+ "generated": "2026-08-31T05:48:34.431Z",
  "repo": "zentea-qlch",
- "appVer": "260831vitrifix4",
+ "appVer": "260831branchfix1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5768fa3",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T12:48:14+07:00",
+   "message": "Fix _currentBranch doan nham cn01 + them ban NGHIEM cho luong ghi du lieu [loai:Fix bug] [tokens:35000] [ver:260831branchfix1]",
+   "loai": "Fix bug",
+   "tokens": 35000,
+   "ver": "260831branchfix1",
+   "files": 4,
+   "additions": 49,
+   "deletions": 9
+  },
   {
    "hash": "8bf5f99",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 425,
    "deletions": 1
-  },
-  {
-   "hash": "e184492",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-20T00:34:41+07:00",
-   "message": "Thiet ke luoi lich cham cong va keo tha dong tua Phan Ca [loai:Them tinh nang] [tokens:3000] [ver:260620chamgrid4]",
-   "loai": "Them tinh nang",
-   "tokens": 3000,
-   "ver": "260620chamgrid4",
-   "files": 3,
-   "additions": 385,
-   "deletions": 88
   }
  ]
 }
