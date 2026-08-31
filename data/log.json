@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T07:19:11.284Z",
+ "generated": "2026-08-31T07:23:34.380Z",
  "repo": "zentea-qlch",
  "appVer": "260831dmchat1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d268e12",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T14:23:14+07:00",
+   "message": "Chat rieng: lay goi y tu DANH BA ZALO that (route /friends tren listener) thay vi doan tu inbox",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 60,
+   "deletions": 1
+  },
   {
    "hash": "1759066",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 4,
    "deletions": 4
-  },
-  {
-   "hash": "d2809c6",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T15:48:13+07:00",
-   "message": "Cong thuc san pham: Cong Thuc Goc + May Pha Che doi sang deck card to ngang, xep doc 4-5 mon/trang, phan trang slideshow (◀▶ + dots); nut Sua/Anh/Xoa ro rang icon SVG [loai:Sua giao dien] [tokens:6000] [ver:260620recipedeck1]",
-   "loai": "Sua giao dien",
-   "tokens": 6000,
-   "ver": "260620recipedeck1",
-   "files": 3,
-   "additions": 188,
-   "deletions": 9
   }
  ]
 }
