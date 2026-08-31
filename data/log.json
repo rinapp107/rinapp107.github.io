@@ -1,9 +1,22 @@
 {
- "generated": "2026-08-31T07:26:28.469Z",
+ "generated": "2026-08-31T07:53:47.476Z",
  "repo": "zentea-qlch",
  "appVer": "260831dmchat2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "2587c96",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-08-31T14:53:25+07:00",
+   "message": "Them job ai-chat-wiring de xem listener quyet dinh goi AI the nao",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 8,
+   "deletions": 0
+  },
   {
    "hash": "ac51e1b",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 5,
    "deletions": 5
-  },
-  {
-   "hash": "991e3ca",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-20T16:28:09+07:00",
-   "message": "Help guide LLV: lam ro chuoi logic so Can + Gio co ban -> tu tinh goi y nghi -> QL cai Quy Tac OFF (them buoc 5/6, bullet OFF) [loai:Sua giao dien] [tokens:1000] [ver:260620help4]",
-   "loai": "Sua giao dien",
-   "tokens": 1000,
-   "ver": "260620help4",
-   "files": 2,
-   "additions": 9,
-   "deletions": 7
   }
  ]
 }
