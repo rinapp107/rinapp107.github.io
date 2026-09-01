@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-01T09:27:58.834Z",
+ "generated": "2026-09-01T09:45:38.519Z",
  "repo": "zentea-qlch",
- "appVer": "260901roworder1",
+ "appVer": "260901vtsummary1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7b161f1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-01T16:45:16+07:00",
+   "message": "Excel/Phan Ca: bo khung gio thua trong o VI TRI khi ca khong bi tach [loai:Fix bug] [tokens:15000] [ver:260901vtsummary1]",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "260901vtsummary1",
+   "files": 3,
+   "additions": 12,
+   "deletions": 3
+  },
   {
    "hash": "3b75efa",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 9,
    "deletions": 6
-  },
-  {
-   "hash": "aa590f8",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-20T22:47:43+07:00",
-   "message": "Web Console: VPS web khong phai git repo -> doi deploy=restart zentea-api (bo git pull), bo lenh pull; cap nhat help frontend [loai:Fix bug] [tokens:1500] [ver:260620console3]",
-   "loai": "Fix bug",
-   "tokens": 1500,
-   "ver": "260620console3",
-   "files": 2,
-   "additions": 7,
-   "deletions": 7
   }
  ]
 }
