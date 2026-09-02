@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-01T09:45:38.519Z",
+ "generated": "2026-09-02T02:38:57.944Z",
  "repo": "zentea-qlch",
- "appVer": "260901vtsummary1",
+ "appVer": "260902qcc50",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "85c494e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T09:38:32+07:00",
+   "message": "Bien ban hang loat: Quen cham cong mac dinh TRU 50% LCB ca hom do (lay % tu cau hinh Nhat Ky) thay vi Nhac nho",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 16,
+   "deletions": 6
+  },
   {
    "hash": "7b161f1",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 13,
    "deletions": 0
-  },
-  {
-   "hash": "190b6fe",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-20T23:39:32+07:00",
-   "message": "Web Console: VPS web da thanh git repo (deploy key) -> khoi phuc deploy=git pull main + restart zentea-api, them lai lenh pull. Gio bam deploy tren web console = keo code GitHub ve VPS [loai:Them tinh nang] [tokens:2000] [ver:260620console4]",
-   "loai": "Them tinh nang",
-   "tokens": 2000,
-   "ver": "260620console4",
-   "files": 2,
-   "additions": 9,
-   "deletions": 6
   }
  ]
 }
