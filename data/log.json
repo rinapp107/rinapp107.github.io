@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T02:38:57.944Z",
+ "generated": "2026-09-02T02:43:41.902Z",
  "repo": "zentea-qlch",
- "appVer": "260902qcc50",
+ "appVer": "260902lan2cc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "947c1b2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T09:43:08+07:00",
+   "message": "Bien ban hang loat: dem dung lan thu may trong thang + lay muc xu ly NANG NHAT (di tre lan 2 = tru chuyen can)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 22,
+   "deletions": 6
+  },
   {
    "hash": "85c494e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 2
-  },
-  {
-   "hash": "e5827ac",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-20T23:50:06+07:00",
-   "message": "deploy-vps.yml: sau khi upload HTTPS, goi web console deploy de VPS git-sync (tranh xung dot HTTPS-upload vs git-pull, giu VPS trung khop GitHub); bo qua neu thieu CONSOLE_TOKEN secret [loai:Config] [tokens:1200] [ver:260620console5]",
-   "loai": "Config",
-   "tokens": 1200,
-   "ver": "260620console5",
-   "files": 1,
-   "additions": 13,
-   "deletions": 0
   }
  ]
 }
