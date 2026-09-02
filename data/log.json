@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T08:32:48.759Z",
+ "generated": "2026-09-02T08:52:05.454Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d9d1366",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T15:50:54+07:00",
+   "message": "Nhan tin RIENG vao Nhat Ky: listener chuyen tin 1-1 (kind:dm), backend loc tin cong viec + suy ra chi nhanh tu nguoi gui",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 98,
+   "deletions": 0
+  },
   {
    "hash": "7d4c8cf",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 101,
    "deletions": 58
-  },
-  {
-   "hash": "fc19776",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-21T16:00:51+07:00",
-   "message": "Quan Ly Cham Cong: tach chon Thang + chon Nam thanh 2 o dropdown tieng Viet (bo input type=month hien thang tieng Anh) [loai:Sua giao dien] [tokens:1200] [ver:260621chamui2]",
-   "loai": "Sua giao dien",
-   "tokens": 1200,
-   "ver": "260621chamui2",
-   "files": 3,
-   "additions": 26,
-   "deletions": 10
   }
  ]
 }
