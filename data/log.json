@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T04:29:02.041Z",
+ "generated": "2026-09-02T05:09:26.039Z",
  "repo": "zentea-qlch",
- "appVer": "260902pctra",
+ "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ab993fe",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T12:09:04+07:00",
+   "message": "De xuat bien ban: Loi cham cong khong bao gio len de xuat vi danh muc chua co nhom do - them ban du phong",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 9,
+   "deletions": 5
+  },
   {
    "hash": "466e6c3",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 2,
    "deletions": 1
-  },
-  {
-   "hash": "976d025",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-21T14:11:44+07:00",
-   "message": "LLV CA03/CA04 khi khoa lich (staff read-only): o ngay hien dash full-fill nhu CA012 thay vi o box nho -> dong nhat giao dien [loai:Sua giao dien] [tokens:1500] [ver:260621ca03lock1]",
-   "loai": "Sua giao dien",
-   "tokens": 1500,
-   "ver": "260621ca03lock1",
-   "files": 6,
-   "additions": 197,
-   "deletions": 59
   }
  ]
 }
