@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T08:58:07.689Z",
+ "generated": "2026-09-02T09:01:56.654Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1719a2a",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T16:01:32+07:00",
+   "message": "Them job pc-tra-ca: tra lich Phan Ca that cua 1 NV trong 1 ngay (khong doan ca)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 31,
+   "deletions": 0
+  },
   {
    "hash": "a9c822e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 7,
    "deletions": 0
-  },
-  {
-   "hash": "16eacc4",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-23T00:21:53+07:00",
-   "message": "Tach rieng biet thao tac ca lam viec va vi tri trong Lich Lam Viec [loai:Fix bug] [tokens:2000] [ver:260623sepvt1]",
-   "loai": "Fix bug",
-   "tokens": 2000,
-   "ver": "260623sepvt1",
-   "files": 3,
-   "additions": 13,
-   "deletions": 12
   }
  ]
 }
