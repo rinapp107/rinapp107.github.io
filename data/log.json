@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T10:33:17.074Z",
+ "generated": "2026-09-02T10:35:57.536Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "eaa96ee",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T17:35:36+07:00",
+   "message": "Fix goc: loi_cham_cong/ndx lay NGAY va CA tu tin nhan (AI doc dung) thay vi ngay gui tin + ca mac dinh trong ho so",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 10,
+   "deletions": 0
+  },
   {
    "hash": "2c9f8e9",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 3,
    "deletions": 3
-  },
-  {
-   "hash": "ef2d748",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T17:35:32+07:00",
-   "message": "LLV: dong bo hien thi vi tri TNB -> TN o bang chon vi tri + che do X (ma luu van la TNB) [loai:Sua giao dien] [tokens:700] [ver:260623tndisp1]",
-   "loai": "Sua giao dien",
-   "tokens": 700,
-   "ver": "260623tndisp1",
-   "files": 2,
-   "additions": 7,
-   "deletions": 6
   }
  ]
 }
