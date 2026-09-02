@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T11:16:26.134Z",
+ "generated": "2026-09-02T11:18:14.897Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fc74567",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T18:17:52+07:00",
+   "message": "Job nk-pending-cn16: in them ghi chu/ly do/ngay tao de truy nguon ban ghi hong",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "33388e3",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 33,
    "deletions": 13
-  },
-  {
-   "hash": "f9b2057",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T23:40:00+07:00",
-   "message": "Vuon ZEN nang cap: vuon to full chieu rong + bau troi thoi gian thuc (sang/trua/chieu/toi) + ban xoay 3D chau+cay (tu xoay+keo) + mua sam mo rong (chau/nen/deco) + tien hoa them cap (9) + loai cay (bonsai/tre/duong xi/xuong rong) [loai:Them tinh nang] [tokens:6000] [ver:260623vuonzen1]",
-   "loai": "Them tinh nang",
-   "tokens": 6000,
-   "ver": "260623vuonzen1",
-   "files": 3,
-   "additions": 290,
-   "deletions": 40
   }
  ]
 }
