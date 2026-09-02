@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T10:57:07.369Z",
+ "generated": "2026-09-02T11:15:46.913Z",
  "repo": "zentea-qlch",
- "appVer": "260902duyet2",
+ "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c79ea46",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T18:15:26+07:00",
+   "message": "Sua goc: co khoa _nkBusy bi ghi vao CSDL lam khoa chet nut Duyet vinh vien",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 30,
+   "deletions": 10
+  },
   {
    "hash": "7f2a4aa",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 23,
    "deletions": 1
-  },
-  {
-   "hash": "007fb1b",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T22:39:03+07:00",
-   "message": "Sua bang luong khong tinh gio cong + gio le: dong bo LLV->Phan Ca dung THANG dang tinh luong (truoc day import theo _pcMonth hien tai nen lech) [loai:Fix bug] [tokens:2000] [ver:260623salmonth1]",
-   "loai": "Fix bug",
-   "tokens": 2000,
-   "ver": "260623salmonth1",
-   "files": 3,
-   "additions": 45,
-   "deletions": 10
   }
  ]
 }
