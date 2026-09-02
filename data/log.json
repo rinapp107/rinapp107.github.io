@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T05:14:15.311Z",
+ "generated": "2026-09-02T05:29:49.216Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "351d646",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T12:29:24+07:00",
+   "message": "nk-backfill: them bo loc chi nhanh / chi loi cham cong / khoang ngay / gioi han (truoc day quet trang toan he thong)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 32,
+   "deletions": 2
+  },
   {
    "hash": "eac9f1f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 6,
    "deletions": 6
-  },
-  {
-   "hash": "bd3bbc1",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-21T14:42:52+07:00",
-   "message": "Doi cache key header Quan Ly Cham Cong [loai:Deploy] [tokens:10000] [ver:260621chamheader2]",
-   "loai": "Deploy",
-   "tokens": 10000,
-   "ver": "260621chamheader2",
-   "files": 4,
-   "additions": 5,
-   "deletions": 7
   }
  ]
 }
