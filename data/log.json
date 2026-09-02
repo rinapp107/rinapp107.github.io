@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T10:37:52.288Z",
+ "generated": "2026-09-02T10:46:04.278Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "420d349",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T17:45:42+07:00",
+   "message": "Job pc-tra-ca: doc cau hinh du-lieu/pc-tra-cfg.json, tra nhieu nguoi mot luot",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 14,
+   "deletions": 11
+  },
   {
    "hash": "de26100",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 256,
    "deletions": 44
-  },
-  {
-   "hash": "1b09660",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T17:59:21+07:00",
-   "message": "Cham cong ca qua dem: ra ca = ban ghi sang hom sau (cua so Ra) -> vien Ra xanh + hien gio ra dung; tieu thu ban ghi de ngay hom sau khong bao 'ngoai ca' [loai:Them tinh nang] [tokens:2500] [ver:260623overnight1]",
-   "loai": "Them tinh nang",
-   "tokens": 2500,
-   "ver": "260623overnight1",
-   "files": 2,
-   "additions": 31,
-   "deletions": 14
   }
  ]
 }
