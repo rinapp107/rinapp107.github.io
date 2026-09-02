@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T04:10:41.769Z",
+ "generated": "2026-09-02T04:29:02.041Z",
  "repo": "zentea-qlch",
- "appVer": "260902htnlt",
+ "appVer": "260902pctra",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "466e6c3",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T11:28:42+07:00",
+   "message": "Chuyen can: tra thang Phan Ca de biet ca nho la chinh thuc hay ho tro (doc nguoc qua nguoi lam the) + chot caGocLoai luc duyet",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 87,
+   "deletions": 12
+  },
   {
    "hash": "26ad742",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 197,
    "deletions": 59
-  },
-  {
-   "hash": "d85de84",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-21T09:02:01+07:00",
-   "message": "Fix cong 'Ban la ai?': verify lay ten NV tu option (het loi 'khong tim thay NV' khi employeesData reset); sau khi vao tu dung sidebar + dieu huong khoi Checklist khoa (khoi tai lai) [loai:Fix bug] [tokens:2500] [ver:260621whoami2]",
-   "loai": "Fix bug",
-   "tokens": 2500,
-   "ver": "260621whoami2",
-   "files": 2,
-   "additions": 16,
-   "deletions": 6
   }
  ]
 }
