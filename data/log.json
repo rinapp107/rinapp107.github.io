@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T09:30:01.073Z",
+ "generated": "2026-09-02T10:25:30.913Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e15266e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T17:25:07+07:00",
+   "message": "Sua ban de xuat loi cham cong cua Nguyen Trung Hieu: ngay 02/08, ca 19:00-23:00 theo xac nhan cua quan ly",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 30,
+   "deletions": 0
+  },
   {
    "hash": "caea233",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 166,
    "deletions": 17
-  },
-  {
-   "hash": "4e83a9a",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T12:30:00+07:00",
-   "message": "Fix dang nhap vao bi 'khong tim thay nhan vien': mac dinh vao Muc Ca Nhan, khong khoi phuc/route vao emp-kpi-profile (trang chi tiet can chon NV) [loai:Fix bug] [tokens:1000] [ver:260623canhanland1]",
-   "loai": "Fix bug",
-   "tokens": 1000,
-   "ver": "260623canhanland1",
-   "files": 2,
-   "additions": 8,
-   "deletions": 6
   }
  ]
 }
