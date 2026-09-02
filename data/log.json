@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T10:49:36.412Z",
+ "generated": "2026-09-02T10:51:28.599Z",
  "repo": "zentea-qlch",
  "appVer": "260902duyeterr",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4f02011",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T17:51:03+07:00",
+   "message": "branchDbSet: giu lai loi API cuoi de duyet Nhat Ky bao dung nguyen nhan that",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 8,
+   "deletions": 3
+  },
   {
    "hash": "019cb5c",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 27,
    "deletions": 7
-  },
-  {
-   "hash": "1176845",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T18:27:27+07:00",
-   "message": "Cham cong ca qua dem: ra ca lay tu ban ghi sang hom sau (cua so Ra) -> vien Ra xanh + gio ra dung; tieu thu ban ghi de hom sau khong bao ngoai ca [loai:Them tinh nang] [tokens:2500] [ver:260623overnight3]",
-   "loai": "Them tinh nang",
-   "tokens": 2500,
-   "ver": "260623overnight3",
-   "files": 2,
-   "additions": 29,
-   "deletions": 14
   }
  ]
 }
