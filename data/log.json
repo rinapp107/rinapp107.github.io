@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T05:29:49.216Z",
+ "generated": "2026-09-02T08:31:57.947Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "14ddb67",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T15:31:34+07:00",
+   "message": "Them job nk-loicc-cn16 de kiem chung dot vot lai tin loi cham cong NTMK thang 8",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 22,
+   "deletions": 0
+  },
   {
    "hash": "351d646",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 19,
    "deletions": 12
-  },
-  {
-   "hash": "6f5f893",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-21T14:49:45+07:00",
-   "message": "LLV CA03/CA04 read-only: ma ca dai (18-23H) bi tran/wrap -> font 12px + nowrap + overflow hidden + flex center, gon trong o [loai:Fix bug] [tokens:900] [ver:260621ca03lock2]",
-   "loai": "Fix bug",
-   "tokens": 900,
-   "ver": "260621ca03lock2",
-   "files": 2,
-   "additions": 6,
-   "deletions": 6
   }
  ]
 }
