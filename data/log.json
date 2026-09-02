@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T05:09:26.039Z",
+ "generated": "2026-09-02T05:14:15.311Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "eac9f1f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T12:13:55+07:00",
+   "message": "Zalo NK: tin bao quen/hu dien thoai, het pin, khong cham cong duoc bi cong loc chan -> khong tao de xuat; mo rong tu khoa + bat theo y nghia + day AI phan loai loi_cham_cong kem CA",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 23,
+   "deletions": 3
+  },
   {
    "hash": "ab993fe",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 5,
    "deletions": 7
-  },
-  {
-   "hash": "b74298b",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-21T14:26:06+07:00",
-   "message": "Dong bo context header Quan Ly Cham Cong [loai:Refactor] [tokens:9000] [ver:260621ca03lock1]",
-   "loai": "Refactor",
-   "tokens": 9000,
-   "ver": "260621ca03lock1",
-   "files": 2,
-   "additions": 2,
-   "deletions": 1
   }
  ]
 }
