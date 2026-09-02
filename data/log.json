@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T08:52:05.454Z",
+ "generated": "2026-09-02T08:55:50.085Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "b3d9018",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T15:55:26+07:00",
+   "message": "Tin rieng: duyet HET chi nhanh roi moi ket luan, ten khop nhieu nguoi thi BO QUA (tranh gan nham) + job xoa ban nhap test",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 48,
+   "deletions": 6
+  },
   {
    "hash": "d9d1366",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 6,
    "deletions": 27
-  },
-  {
-   "hash": "3b837e1",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-21T16:53:56+07:00",
-   "message": "Cham cong khop cua so ca (somVao/muonVao -> vien 2 dau xanh/trong, ngoai cua so do) + Phan Ca: gio Vao/Ra thanh 2 box Gio:Phut 24h + slider keo theo phut (step 5) [loai:Them tinh nang] [tokens:5000] [ver:260621chamwin1]",
-   "loai": "Them tinh nang",
-   "tokens": 5000,
-   "ver": "260621chamwin1",
-   "files": 4,
-   "additions": 101,
-   "deletions": 58
   }
  ]
 }
