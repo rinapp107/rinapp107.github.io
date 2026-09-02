@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T10:35:57.536Z",
+ "generated": "2026-09-02T10:37:52.288Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "de26100",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T17:37:25+07:00",
+   "message": "Job nk-sua-hieu -> xoa ban ghi loi cham cong sai ngay 03/08 cua Hieu",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 4,
+   "deletions": 9
+  },
   {
    "hash": "eaa96ee",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 31,
    "deletions": 14
-  },
-  {
-   "hash": "1b5f6b7",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T17:49:19+07:00",
-   "message": "LLV: them typeof guard cho llvRenderNH (cn02 CA012) - tranh ReferenceError neu llv_nh.js chua load, dong bo voi nhanh CA03 [loai:Fix bug] [tokens:500] [ver:260623llvguard1]",
-   "loai": "Fix bug",
-   "tokens": 500,
-   "ver": "260623llvguard1",
-   "files": 2,
-   "additions": 3,
-   "deletions": 3
   }
  ]
 }
