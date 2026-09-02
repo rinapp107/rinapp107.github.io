@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T11:15:46.913Z",
+ "generated": "2026-09-02T11:16:26.134Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "33388e3",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T18:16:05+07:00",
+   "message": "Them job nk-don-cokhoa: don co khoa _nkBusy bi ghi nham vao CSDL moi chi nhanh",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 32,
+   "deletions": 0
+  },
   {
    "hash": "c79ea46",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 290,
    "deletions": 40
-  },
-  {
-   "hash": "0c51ae3",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T23:23:32+07:00",
-   "message": "Vuon ZEN G: Quiz editor (Ngan Hang Cau Hoi) admin-only - nut sidebar Quan Tri He Thong + guard role chan staff; doi nhan nut Quiz dao tao [loai:Them tinh nang] [tokens:1500] [ver:wip-vuonzen]",
-   "loai": "Them tinh nang",
-   "tokens": 1500,
-   "ver": "wip-vuonzen",
-   "files": 3,
-   "additions": 23,
-   "deletions": 1
   }
  ]
 }
