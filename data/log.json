@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T02:46:48.378Z",
+ "generated": "2026-09-02T03:07:21.599Z",
  "repo": "zentea-qlch",
- "appVer": "260902multipen",
+ "appVer": "260902bverr",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f9315cb",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T10:07:00+07:00",
+   "message": "Bien ban hang loat: hien loi ro rang khi bam Tao bien ban that bai (truoc day nuot loi im lang)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 16,
+   "deletions": 5
+  },
   {
    "hash": "67fdaee",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 25,
    "deletions": 14
-  },
-  {
-   "hash": "8883a11",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-21T00:36:21+07:00",
-   "message": "Bao cao Hang ngay > Thiet Bi & DC: can doi bang - co dinh cot ten (inner div het balloon), bo width:100%, o ngay 32px (re-apply sau revert) [loai:Sua giao dien] [tokens:1500] [ver:260620equipwidth1]",
-   "loai": "Sua giao dien",
-   "tokens": 1500,
-   "ver": "260620equipwidth1",
-   "files": 1,
-   "additions": 5,
-   "deletions": 5
   }
  ]
 }
