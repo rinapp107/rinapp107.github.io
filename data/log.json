@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T02:43:41.902Z",
+ "generated": "2026-09-02T02:46:48.378Z",
  "repo": "zentea-qlch",
- "appVer": "260902lan2cc",
+ "appVer": "260902multipen",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "67fdaee",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T09:46:27+07:00",
+   "message": "Bien ban hang loat: ghi DU cac muc xu ly ap dung cho cung mot lan (vd Tru diem + Cam ket)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 30,
+   "deletions": 6
+  },
   {
    "hash": "947c1b2",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 5,
    "deletions": 5
-  },
-  {
-   "hash": "8c9c45d",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-21T00:34:37+07:00",
-   "message": "Bao cao Hang ngay > Thiet Bi & DC: can doi bang - co dinh cot ten (inner div, het balloon), bo width:100%, o ngay 28->32px de tic ro hon [loai:Sua giao dien] [tokens:1500] [ver:260620equipwidth1]",
-   "loai": "Sua giao dien",
-   "tokens": 1500,
-   "ver": "260620equipwidth1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 2
   }
  ]
 }
