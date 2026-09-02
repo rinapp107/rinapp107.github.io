@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T10:51:28.599Z",
+ "generated": "2026-09-02T10:53:04.995Z",
  "repo": "zentea-qlch",
  "appVer": "260902duyeterr",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d804c2e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T17:52:39+07:00",
+   "message": "Them job nk-xoa-id: xoa ban de xuat NK chua duyet theo danh sach id",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 32,
+   "deletions": 0
+  },
   {
    "hash": "4f02011",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 11,
    "deletions": 8
-  },
-  {
-   "hash": "afd9c71",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-23T19:19:37+07:00",
-   "message": "Tao san 11 ngay le nhan luong 2026 (Tet 16-20/2, 1/1, 30/4, 1/5, Gio To, 1-2/9) he so x2 + dong bo do o le sang LLV [loai:Them tinh nang] [tokens:1500] [ver:260623holiday1]",
-   "loai": "Them tinh nang",
-   "tokens": 1500,
-   "ver": "260623holiday1",
-   "files": 4,
-   "additions": 27,
-   "deletions": 7
   }
  ]
 }
