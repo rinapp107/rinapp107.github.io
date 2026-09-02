@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T08:55:50.085Z",
+ "generated": "2026-09-02T08:58:07.689Z",
  "repo": "zentea-qlch",
  "appVer": "260902loicc",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a9c822e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-02T15:57:48+07:00",
+   "message": "Tin rieng: khop ten CHAT CHE (trung tuyet doi tung chu) - ham cu cho lech 1 ky tu nen cuong khop tuong, gan nham nguoi",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 14,
+   "deletions": 2
+  },
   {
    "hash": "b3d9018",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 13,
    "deletions": 12
-  },
-  {
-   "hash": "2d892b5",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-22T23:53:43+07:00",
-   "message": "Bo cong 'Ban la ai?' bat buoc chon PIN khi staff dang nhap: go trigger loginSuccess + auto-jump Ca Nhan + nut Doi nguoi (ham gate de inert) [loai:Sua tinh nang] [tokens:1500] [ver:260621nopingate1]",
-   "loai": "Sua tinh nang",
-   "tokens": 1500,
-   "ver": "260621nopingate1",
-   "files": 4,
-   "additions": 6,
-   "deletions": 27
   }
  ]
 }
