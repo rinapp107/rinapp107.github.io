@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T09:53:35.175Z",
+ "generated": "2026-09-03T09:55:29.393Z",
  "repo": "zentea-qlch",
- "appVer": "260903nlt",
+ "appVer": "260903zlhealth",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "89f6936",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T16:55:11+07:00",
+   "message": "Canh bao mat ket noi Zalo hien ngay dau Thong Ke LLV",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 37,
+   "deletions": 3
+  },
   {
    "hash": "f81770f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 48,
    "deletions": 14
-  },
-  {
-   "hash": "bee25f2",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-25T15:33:41+07:00",
-   "message": "Sua nut Kho Tai Lieu AI: tro dung section 'documents' (nguon AI Tinh Huong = KnowledgeDoc qua /docs) thay vi 'luu-tru' (training docs) + them hook render docsRender khi vao - truoc do bam vao khong thay tai lieu [loai:Fix bug] [tokens:500] [ver:260625aidoc1]",
-   "loai": "Fix bug",
-   "tokens": 500,
-   "ver": "260625aidoc1",
-   "files": 3,
-   "additions": 20,
-   "deletions": 18
   }
  ]
 }
