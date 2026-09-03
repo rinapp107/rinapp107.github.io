@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T02:25:19.554Z",
+ "generated": "2026-09-03T02:42:52.716Z",
  "repo": "zentea-qlch",
- "appVer": "260903nk1",
+ "appVer": "260903nk2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "cf09f7e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T09:42:25+07:00",
+   "message": "Zalo NK: tin trung ban ghi da co khong bi bot hoi lai 'chua du thong tin' nua",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 12,
+   "deletions": 4
+  },
   {
    "hash": "2738991",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 70,
    "deletions": 20
-  },
-  {
-   "hash": "a9cc055",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T20:56:21+07:00",
-   "message": "Module Ca Nhan theo role: superadmin/admin = Bang dieu khien chu (thong ke he thong + loi tat quan tri); manager = Tong quan cua hang (so NV/vi pham thang + loi tat LLV/PhanCa/ChamCong/Luong + ho so + dat PIN NV); staff giu nguyen [loai:Cai thien UI] [tokens:2200] [ver:260624canhan1]",
-   "loai": "Cai thien UI",
-   "tokens": 2200,
-   "ver": "260624canhan1",
-   "files": 3,
-   "additions": 68,
-   "deletions": 15
   }
  ]
 }
