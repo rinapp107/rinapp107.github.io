@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T01:16:39.747Z",
+ "generated": "2026-09-03T01:17:45.453Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ddc572d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T08:17:26+07:00",
+   "message": "Them job nk-tim: tra ban ghi Nhat Ky theo ten NV moi chi nhanh, moi trang thai",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 37,
+   "deletions": 0
+  },
   {
    "hash": "3115bf9",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 30,
    "deletions": 13
-  },
-  {
-   "hash": "386af83",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T00:07:44+07:00",
-   "message": "Vuon ZEN: sua chau+cay treo lo lung - neo day stage (align flex-end) + bong do dat ngay duoi de chau theo chieu cao chau -> cay dung tren mat dat [loai:Fix bug] [tokens:900] [ver:260623vuonzen4]",
-   "loai": "Fix bug",
-   "tokens": 900,
-   "ver": "260623vuonzen4",
-   "files": 3,
-   "additions": 21,
-   "deletions": 16
   }
  ]
 }
