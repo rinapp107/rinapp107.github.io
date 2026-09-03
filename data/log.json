@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T02:59:08.426Z",
+ "generated": "2026-09-03T03:09:26.059Z",
  "repo": "zentea-qlch",
- "appVer": "260903nk2",
+ "appVer": "260903nlt",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "141551e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T10:09:00+07:00",
+   "message": "NHO LT: ca ho tro khong con bi cong vao gio nho lam the (web + Excel)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 12,
+   "deletions": 5
+  },
   {
    "hash": "36e955d",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 21,
    "deletions": 17
-  },
-  {
-   "hash": "224fa36",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-25T10:37:09+07:00",
-   "message": "Phan quyen MENU theo tung cua hang cho quan ly: them tab chon cua hang trong Quyen Menu (Mac dinh + override per-store) + luu sectionPerms._byStore + _getSectionPerm uu tien override theo chi nhanh dang chon + doi chi nhanh ap lai menu ngay [loai:Them tinh nang] [tokens:3000] [ver:260625perstore1]",
-   "loai": "Them tinh nang",
-   "tokens": 3000,
-   "ver": "260625perstore1",
-   "files": 5,
-   "additions": 108,
-   "deletions": 20
   }
  ]
 }
