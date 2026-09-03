@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T02:42:52.716Z",
+ "generated": "2026-09-03T02:59:08.426Z",
  "repo": "zentea-qlch",
  "appVer": "260903nk2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "36e955d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T09:58:49+07:00",
+   "message": "Prompt NK: phan biet dut khoat 'quen cham cong' (qcc) va 'quen dien thoai' (loi_cham_cong)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "cf09f7e",
    "agent": "Claude Code",
@@ -6489,19 +6502,6 @@
    "ver": "260625perstore1",
    "files": 5,
    "additions": 108,
-   "deletions": 20
-  },
-  {
-   "hash": "fceb270",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-25T09:28:29+07:00",
-   "message": "Ca Nhan = ho so CA NHAN rieng tu: superadmin/admin/manager co ho so NV cua chinh minh ngay tai Ca Nhan (Thong tin/KPI/LLV/Vi pham/Luong/Vuon ZEN) + tab Tai Khoan (avatar/ten/email/doi MK) - bo dashboard quan tri khoi Ca Nhan; staff giu nguyen [loai:Cai thien UI] [tokens:2500] [ver:260625canhan2]",
-   "loai": "Cai thien UI",
-   "tokens": 2500,
-   "ver": "260625canhan2",
-   "files": 3,
-   "additions": 70,
    "deletions": 20
   }
  ]
