@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T01:17:45.453Z",
+ "generated": "2026-09-03T01:22:36.583Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fcda825",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T08:22:12+07:00",
+   "message": "Tin Zalo bi AI doc hong khong con bi vut: xep hang tu thu lai + job nk-hang-cho",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 71,
+   "deletions": 1
+  },
   {
    "hash": "ddc572d",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 10,
    "deletions": 9
-  },
-  {
-   "hash": "647e3ce",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T00:16:39+07:00",
-   "message": "Vuon ZEN: them zoom bang con lan chuot + keo da chieu (ngang=xoay truc dung, doc=nga len/xuong) qua lop gg-orbit (scale+rotateX), neo quanh de chau + goi y thao tac [loai:Them tinh nang] [tokens:1100] [ver:260623vuonzen5]",
-   "loai": "Them tinh nang",
-   "tokens": 1100,
-   "ver": "260623vuonzen5",
-   "files": 3,
-   "additions": 30,
-   "deletions": 13
   }
  ]
 }
