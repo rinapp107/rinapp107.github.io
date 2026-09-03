@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T01:54:59.471Z",
+ "generated": "2026-09-03T02:25:19.554Z",
  "repo": "zentea-qlch",
- "appVer": "260902busyfix",
+ "appVer": "260903nk1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "2738991",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T09:24:57+07:00",
+   "message": "Deploy 260903nk1: khoi phuc de xuat NK NTMK + hang cho doc lai + bac Gemini Flash-Lite",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 4,
+   "additions": 6,
+   "deletions": 6
+  },
   {
    "hash": "fb5d63b",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 68,
    "deletions": 15
-  },
-  {
-   "hash": "2816f70",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T20:11:33+07:00",
-   "message": "Tab Cua Hang: bang cua hang kem Quan ly phu trach (chips theo allowedStores) + So NV + Trang thai (giong Danh Sach Quan Ly cu) van them/sua/xoa - hrRenderStorePanel nap them accounts [loai:Cai thien UI] [tokens:1200] [ver:260624merge2]",
-   "loai": "Cai thien UI",
-   "tokens": 1200,
-   "ver": "260624merge2",
-   "files": 3,
-   "additions": 34,
-   "deletions": 14
   }
  ]
 }
