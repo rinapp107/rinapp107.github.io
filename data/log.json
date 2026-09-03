@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T03:09:26.059Z",
+ "generated": "2026-09-03T09:11:25.501Z",
  "repo": "zentea-qlch",
  "appVer": "260903nlt",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "83dd23e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T16:11:03+07:00",
+   "message": "Job log: theo doi them dong zalo-react (tha tim)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "141551e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 16,
    "deletions": 15
-  },
-  {
-   "hash": "9320660",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-25T11:26:40+07:00",
-   "message": "Fix bug phan quyen LLV: tai khoan chi co quyen XEM van mo/sua duoc Cau hinh ca lam viec - gate llvOpenConfig/llvSaveConfigUI/off-rules/doi loai ca du bao bang canEditSection('lich-ca') (theo cua hang dang chon) + an nut Cau hinh khi chi xem [loai:Fix bug] [tokens:900] [ver:260625llvlock1]",
-   "loai": "Fix bug",
-   "tokens": 900,
-   "ver": "260625llvlock1",
-   "files": 3,
-   "additions": 21,
-   "deletions": 17
   }
  ]
 }
