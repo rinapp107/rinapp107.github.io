@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T01:22:36.583Z",
+ "generated": "2026-09-03T01:30:54.090Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fb72c60",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T08:30:26+07:00",
+   "message": "Them job nk-doi-soat: quet kho tin Zalo tim tin chua thanh de xuat Nhat Ky",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 45,
+   "deletions": 0
+  },
   {
    "hash": "fcda825",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 54,
    "deletions": 52
-  },
-  {
-   "hash": "d28a2f6",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T01:06:23+07:00",
-   "message": "Fix cham cong: LUON lay GPS moi khi cham (anh) thay vi dung lai profileLoc cache -> mot so thiet bi truoc day bo qua dinh vi/toa do cu; gio bat buoc dinh vi tuoi moi lan cham [loai:Fix bug] [tokens:600] [ver:260624champgps1]",
-   "loai": "Fix bug",
-   "tokens": 600,
-   "ver": "260624champgps1",
-   "files": 3,
-   "additions": 10,
-   "deletions": 9
   }
  ]
 }
