@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T01:34:24.955Z",
+ "generated": "2026-09-03T01:44:58.426Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f9aad53",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T08:44:30+07:00",
+   "message": "Them endpoint nk-hang-cho-don: uu tien hang cho theo chi nhanh, bo tin rac",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 30,
+   "deletions": 0
+  },
   {
    "hash": "f654502",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 34,
    "deletions": 26
-  },
-  {
-   "hash": "1fddbf1",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T10:20:42+07:00",
-   "message": "AGENTS.md: them luat so 1 - khi chua chac 100% y user thi PHAI hoi lai bang Tieng Viet de hieu truoc khi lam (ap dung moi AI) [loai:Config] [tokens:300] [ver:260624champgps1]",
-   "loai": "Config",
-   "tokens": 300,
-   "ver": "260624champgps1",
-   "files": 1,
-   "additions": 7,
-   "deletions": 0
   }
  ]
 }
