@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T01:31:25.917Z",
+ "generated": "2026-09-03T01:34:24.955Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f654502",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T08:33:59+07:00",
+   "message": "Hang cho: het quota khong tinh lan thu + endpoint nap lai tin cu bi mat",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 66,
+   "deletions": 3
+  },
   {
    "hash": "3e9d347",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 7,
    "deletions": 0
-  },
-  {
-   "hash": "23f0fca",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T10:08:49+07:00",
-   "message": "LLV: dropdown doi loai ca du bao keo dai full chieu ngang dung nhu dai bang goc (select width:100% box-sizing) thay vi co ngan bang noi dung [loai:Fix bug] [tokens:700] [ver:260624fcdrop2]",
-   "loai": "Fix bug",
-   "tokens": 700,
-   "ver": "260624fcdrop2",
-   "files": 3,
-   "additions": 10,
-   "deletions": 10
   }
  ]
 }
