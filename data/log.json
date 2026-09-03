@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T09:11:25.501Z",
+ "generated": "2026-09-03T09:13:40.672Z",
  "repo": "zentea-qlch",
  "appVer": "260903nlt",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d3eb02f",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-09-03T16:13:17+07:00",
+   "message": "Them job doi soat tin Zalo bi bo sot boi ca 2 cong loc NK va Vi Tri",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 27,
+   "deletions": 0
+  },
   {
    "hash": "83dd23e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 20,
    "deletions": 18
-  },
-  {
-   "hash": "e5daffe",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-25T11:45:11+07:00",
-   "message": "Fix UX: nut Luu Quyen khong con nhay ve man Thanh Vien - giu nguyen man cau hinh dang sua sau khi luu (bo _adminClosePermPage, chi toast + bat lai nut) [loai:Fix bug] [tokens:400] [ver:260625savestay1]",
-   "loai": "Fix bug",
-   "tokens": 400,
-   "ver": "260625savestay1",
-   "files": 3,
-   "additions": 16,
-   "deletions": 15
   }
  ]
 }
