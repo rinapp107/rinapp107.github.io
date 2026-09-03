@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T01:30:54.090Z",
+ "generated": "2026-09-03T01:31:25.917Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3e9d347",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T08:31:02+07:00",
+   "message": "Job nk-doi-soat: do dung duong dan kho tin zalo-inbox.json",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "fb72c60",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 10,
    "deletions": 10
-  },
-  {
-   "hash": "09ce115",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T08:38:10+07:00",
-   "message": "LLV: doi loai ca du bao bang dropdown ngay tren dai bang xanh (khong can vao Cau hinh) - click ra danh sach loai ca, chon la doi loai ca cho dong do + tu luu config; ap cho ca012/ca03/ca04, chi hien cho nguoi co quyen sua. Kem don 2 doan parseInt code chet lam tron 0.5 diem KPI ve 0 trong salary.js [loai:Them tinh nang] [tokens:4500] [ver:260624fcdrop1]",
-   "loai": "Them tinh nang",
-   "tokens": 4500,
-   "ver": "260624fcdrop1",
-   "files": 4,
-   "additions": 54,
-   "deletions": 52
   }
  ]
 }
