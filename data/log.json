@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T09:55:29.393Z",
+ "generated": "2026-09-03T13:01:38.969Z",
  "repo": "zentea-qlch",
  "appVer": "260903zlhealth",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "b7bfabc",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-09-03T20:01:18+07:00",
+   "message": "audit job: them bao cao pham vi thoi gian inbox (tin cu nhat/moi nhat con giu)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 1
+  },
   {
    "hash": "89f6936",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 51,
    "deletions": 30
-  },
-  {
-   "hash": "1f6d55f",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-25T17:26:43+07:00",
-   "message": "LLV tu lam moi khi dang mo ma lich doi tu nguon khac (duyet NK o tab/thiet bi khac): auto-refresh tren focus/visibilitychange + poll 60s khi LLV active, co guard khong pha thao tac dang sua (input/picker/modal/X-mode) [loai:Them tinh nang] [tokens:900] [ver:260625llvauto1]",
-   "loai": "Them tinh nang",
-   "tokens": 900,
-   "ver": "260625llvauto1",
-   "files": 3,
-   "additions": 48,
-   "deletions": 14
   }
  ]
 }
