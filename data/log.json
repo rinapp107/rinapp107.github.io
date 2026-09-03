@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-02T11:22:44.572Z",
+ "generated": "2026-09-03T01:16:39.747Z",
  "repo": "zentea-qlch",
  "appVer": "260902busyfix",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3115bf9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-03T08:16:18+07:00",
+   "message": "Job pc-tra-ca: in them trang thai/ca ho so cua nhan vien",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 2,
+   "deletions": 1
+  },
   {
    "hash": "6cddd98",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 21,
    "deletions": 16
-  },
-  {
-   "hash": "9be2825",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-24T00:02:08+07:00",
-   "message": "Vuon ZEN: chau cay dung 3D THAT (tru ghep nhieu thanh quanh truc, tu che mat sau) thay vi mat cat cheo bi messy; cay van mat cheo. Chau dac/dung khoi moi goc xoay [loai:Fix bug] [tokens:2000] [ver:260623vuonzen3]",
-   "loai": "Fix bug",
-   "tokens": 2000,
-   "ver": "260623vuonzen3",
-   "files": 3,
-   "additions": 78,
-   "deletions": 27
   }
  ]
 }
