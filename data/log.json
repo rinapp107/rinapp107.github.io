@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-03T13:01:38.969Z",
+ "generated": "2026-09-04T09:32:45.206Z",
  "repo": "zentea-qlch",
  "appVer": "260903zlhealth",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "54e6725",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-04T16:32:21+07:00",
+   "message": "Them job zalo-listener-restart: nap phien Zalo moi sau khi quet QR",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 10,
+   "deletions": 0
+  },
   {
    "hash": "b7bfabc",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 10,
    "additions": 3354,
    "deletions": 710
-  },
-  {
-   "hash": "b86a7f4",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-25T21:52:11+07:00",
-   "message": "Ghi chu tren o LLV khi duyet lam the/doi ca/doi lich: o nguoi lam the hien 'The <ten>', doi ca/lich hien 'doi <ten>' (badge tim goc o) - luu sectionPerms o cell.nkNote, hien moi o ca, huy duyet tu xoa [loai:Them tinh nang] [tokens:1200] [ver:260625nknote1]",
-   "loai": "Them tinh nang",
-   "tokens": 1200,
-   "ver": "260625nknote1",
-   "files": 4,
-   "additions": 51,
-   "deletions": 30
   }
  ]
 }
