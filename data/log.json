@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-04T10:37:43.831Z",
+ "generated": "2026-09-04T10:38:44.668Z",
  "repo": "zentea-qlch",
  "appVer": "260903zlhealth",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0fbe125",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-04T17:38:19+07:00",
+   "message": "Job nk-truy-cc: doi chieu dung mang records cua time-clock-records",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 13,
+   "deletions": 7
+  },
   {
    "hash": "687d040",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 92,
    "deletions": 9
-  },
-  {
-   "hash": "7e1844c",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-25T22:31:09+07:00",
-   "message": "Cap nhat deploy-http.bat de upload css/pos.css [loai:Config] [tokens:100] [ver:260625pos1]",
-   "loai": "Config",
-   "tokens": 100,
-   "ver": "260625pos1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 1
   }
  ]
 }
