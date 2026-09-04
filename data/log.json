@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-04T10:39:40.985Z",
+ "generated": "2026-09-04T10:40:41.604Z",
  "repo": "zentea-qlch",
  "appVer": "260903zlhealth",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "66b74ff",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-04T17:40:16+07:00",
+   "message": "Job nk-truy-cc: doi chieu cham cong xuyen chi nhanh (NV bam o CH khac)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 5,
+   "deletions": 2
+  },
   {
    "hash": "c244aa2",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 38,
    "deletions": 19
-  },
-  {
-   "hash": "4f0abd6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-26T21:10:07+07:00",
-   "message": "Noi gia von Ton Kho -> COGS mot chieu: nut TK trong tab Nguyen Lieu (Gia Von) lay costPrice khop theo ten, canh bao neu khac DVT [loai:Them tinh nang] [tokens:1500] [ver:260625invcogs1]",
-   "loai": "Them tinh nang",
-   "tokens": 1500,
-   "ver": "260625invcogs1",
-   "files": 3,
-   "additions": 8,
-   "deletions": 4
   }
  ]
 }
