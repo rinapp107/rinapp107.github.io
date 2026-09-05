@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-04T10:40:41.604Z",
+ "generated": "2026-09-05T12:38:42.267Z",
  "repo": "zentea-qlch",
  "appVer": "260903zlhealth",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a1cf44f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-05T19:38:18+07:00",
+   "message": "Tin nhan Zalo hen gio: bo lich chay moi phut + API quan ly",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 119,
+   "deletions": 0
+  },
   {
    "hash": "66b74ff",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 39,
    "deletions": 10
-  },
-  {
-   "hash": "be2a5c4",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-26T22:23:15+07:00",
-   "message": "Fix bug an module Ton Kho: (1) chan nhan dup -> tao phieu/doi ton 2 lan (co _invBusy + finally) cho nhap/xuat/chuyen kho/kiem ke; (2) so phieu = max seq+1 tranh trung khi xoa; (3) guard quyen dau ham luu (canEdit/canConfig); (4) chan xoa mat hang con ton; (5) chuyen kho vao item da an thi kich hoat lai [loai:Fix bug] [tokens:1500] [ver:260625invfix1]",
-   "loai": "Fix bug",
-   "tokens": 1500,
-   "ver": "260625invfix1",
-   "files": 3,
-   "additions": 38,
-   "deletions": 19
   }
  ]
 }
