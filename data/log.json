@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-05T12:38:42.267Z",
+ "generated": "2026-09-05T12:41:26.582Z",
  "repo": "zentea-qlch",
- "appVer": "260903zlhealth",
+ "appVer": "260905hengio",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fa1c07a",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-05T19:41:07+07:00",
+   "message": "Man hinh Tin Nhan Hen Gio: dat truoc noi dung + gio, may chu tu gui",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 195,
+   "deletions": 3
+  },
   {
    "hash": "a1cf44f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 823,
    "deletions": 422
-  },
-  {
-   "hash": "3356ff0",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-26T22:55:13+07:00",
-   "message": "Ton Kho: dinh gia FIFO (nhap truoc xuat truoc) - replay so kho theo thoi gian tinh gia tri ton + gia von con lai (stockValue/cot gia von/gia tri deu dung FIFO, khong doi schema); chuyen kho doc lai danh muc cua hang nhan ngay truoc khi ghi + merge tranh ghi de; num() hieu dung dau phan nhom nghin (50,000 -> 50000) [loai:Them tinh nang] [tokens:1800] [ver:260625invfifo1]",
-   "loai": "Them tinh nang",
-   "tokens": 1800,
-   "ver": "260625invfifo1",
-   "files": 3,
-   "additions": 39,
-   "deletions": 10
   }
  ]
 }
