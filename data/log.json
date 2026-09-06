@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-06T04:23:31.971Z",
+ "generated": "2026-09-06T04:25:07.874Z",
  "repo": "zentea-qlch",
- "appVer": "260905hengio",
+ "appVer": "260906danhba",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1ab33fd",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-06T11:24:48+07:00",
+   "message": "O chon nguoi nhan hen gio: dung danh ba day du + o go tim",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 61,
+   "deletions": 15
+  },
   {
    "hash": "57526ee",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 0
-  },
-  {
-   "hash": "eed2a12",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-27T09:59:01+07:00",
-   "message": "Them cau hinh Thuong hieu (Cau Hinh He Thong): logo tuy chinh (dang nhap+splash+topbar+sidebar) + doi mau sidebar/chu/icon/mau nhan + font toan web; luu trong global_system_config (giu nguyen bgLinks), ap som truoc login qua js/theme.js (cache+fetch khong can auth) [loai:Them tinh nang] [tokens:2500] [ver:260627brand1]",
-   "loai": "Them tinh nang",
-   "tokens": 2500,
-   "ver": "260627brand1",
-   "files": 4,
-   "additions": 267,
-   "deletions": 11
   }
  ]
 }
