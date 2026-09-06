@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-06T10:21:32.330Z",
+ "generated": "2026-09-06T10:22:56.274Z",
  "repo": "zentea-qlch",
- "appVer": "260906qr",
+ "appVer": "260906qr2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a43ad29",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-06T17:22:32+07:00",
+   "message": "Doi khoa cache zalo-chat.js: Cloudflare da ghim ban cu vao khoa 260906qr",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 3,
+   "deletions": 3
+  },
   {
    "hash": "85d3f63",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 131,
    "deletions": 131
-  },
-  {
-   "hash": "f375feb",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-27T20:38:35+07:00",
-   "message": "Brand: header Ton Kho (#inventory-root) dung var(--green*) de themeable theo mau nhan [loai:Fix bug] [tokens:300] [ver:260627brand3]",
-   "loai": "Fix bug",
-   "tokens": 300,
-   "ver": "260627brand3",
-   "files": 3,
-   "additions": 9,
-   "deletions": 9
   }
  ]
 }
