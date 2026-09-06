@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-06T04:25:07.874Z",
+ "generated": "2026-09-06T10:18:05.055Z",
  "repo": "zentea-qlch",
  "appVer": "260906danhba",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ed109a1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-06T17:17:43+07:00",
+   "message": "Tu dang nhap lai Zalo tu web: tach kich ban QR dung chung + 2 endpoint",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 55,
+   "deletions": 14
+  },
   {
    "hash": "1ab33fd",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 69,
    "deletions": 52
-  },
-  {
-   "hash": "137b807",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-27T10:02:43+07:00",
-   "message": "deploy-http.bat: them js/theme.js vao danh sach upload [loai:Cau hinh] [tokens:200] [ver:260627brand1]",
-   "loai": "Cau hinh",
-   "tokens": 200,
-   "ver": "260627brand1",
-   "files": 1,
-   "additions": 1,
-   "deletions": 0
   }
  ]
 }
