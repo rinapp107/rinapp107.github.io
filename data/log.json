@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-06T03:59:42.708Z",
+ "generated": "2026-09-06T04:23:31.971Z",
  "repo": "zentea-qlch",
  "appVer": "260905hengio",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "57526ee",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-06T11:23:12+07:00",
+   "message": "Endpoint /api/zalo/danh-ba: gop toan bo ban be + nhom tu listener",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 53,
+   "deletions": 0
+  },
   {
    "hash": "9436bc9",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 267,
    "deletions": 11
-  },
-  {
-   "hash": "02923a8",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-27T00:26:02+07:00",
-   "message": "Thay the cac emoji giao dien POS bang icon SVG tieu chuan [loai:Fix bug] [tokens:2000] [ver:260626pos2]",
-   "loai": "Fix bug",
-   "tokens": 2000,
-   "ver": "260626pos2",
-   "files": 3,
-   "additions": 108,
-   "deletions": 34
   }
  ]
 }
