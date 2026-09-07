@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-06T10:22:56.274Z",
+ "generated": "2026-09-07T10:43:44.771Z",
  "repo": "zentea-qlch",
  "appVer": "260906qr2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5761d52",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-07T17:42:43+07:00",
+   "message": "Hoi-dap trong nhom: NV hoi ca/gio nho lam the/de xuat, bot tra tu CSDL (khong dung AI)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 152,
+   "deletions": 2
+  },
   {
    "hash": "a43ad29",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 35,
    "deletions": 10
-  },
-  {
-   "hash": "8cbf654",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-27T20:50:20+07:00",
-   "message": "Fix header trang tren mobile: them gia tri du phong cho moi var(--green*) (vd var(--green-dark,#1b5e20)) -> bien co rong/cache cu van ra xanh, khong lo nen trang; theme doi mau van chay [loai:Fix bug] [tokens:500] [ver:260627brand4]",
-   "loai": "Fix bug",
-   "tokens": 500,
-   "ver": "260627brand4",
-   "files": 4,
-   "additions": 131,
-   "deletions": 131
   }
  ]
 }
