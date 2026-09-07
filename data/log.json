@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-07T10:43:44.771Z",
+ "generated": "2026-09-07T10:44:27.530Z",
  "repo": "zentea-qlch",
  "appVer": "260906qr2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "dbd35df",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-07T17:44:06+07:00",
+   "message": "Job log: theo doi them dong zalo-hoidap",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "5761d52",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 259,
    "deletions": 21
-  },
-  {
-   "hash": "c6032be",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-27T21:04:13+07:00",
-   "message": "Brand: them control rieng Mau nen header + Mau chu header (tieu de moi muc) trong panel Thuong hieu; theme.js ap headerBg/headerText cho .panel-titlebar/.zentea-panel-header/#inventory-root [loai:Them tinh nang] [tokens:700] [ver:260627brand5]",
-   "loai": "Them tinh nang",
-   "tokens": 700,
-   "ver": "260627brand5",
-   "files": 3,
-   "additions": 35,
-   "deletions": 10
   }
  ]
 }
