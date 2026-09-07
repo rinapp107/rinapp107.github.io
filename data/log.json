@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-07T10:45:37.428Z",
+ "generated": "2026-09-07T10:46:21.892Z",
  "repo": "zentea-qlch",
  "appVer": "260906qr2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3a41cfa",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-07T17:45:59+07:00",
+   "message": "Hoi-dap: bat mac dinh cho NTMK (chi nhanh thi diem), cac CN khac tu gat",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "06a23a3",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 160,
    "deletions": 86
-  },
-  {
-   "hash": "be9c373",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-06-27T21:55:12+07:00",
-   "message": "Tab Cua Hang (Quan Ly & Phan Quyen): hien nut Xoa cho MOI cua hang (bo guard !isBuiltin, van chan neu con tai khoan gan); doi Cum 1<->2 bam ngay tren bang (hrSetCluster); trang thai THAT Dang hoat dong/Tam dong (luu doc storeStatus global) + bam de bat/tat, cua hang tam dong hien '(tam dong)' o dropdown chi nhanh + lam mo dong [loai:Them tinh nang] [tokens:1500] [ver:260627storecrud1]",
-   "loai": "Them tinh nang",
-   "tokens": 1500,
-   "ver": "260627storecrud1",
-   "files": 2,
-   "additions": 61,
-   "deletions": 10
   }
  ]
 }
