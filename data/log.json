@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-07T10:58:51.944Z",
+ "generated": "2026-09-07T11:01:17.657Z",
  "repo": "zentea-qlch",
  "appVer": "260906qr2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3fb2202",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-07T18:00:55+07:00",
+   "message": "Hoi-dap: siet mau nhan dang, tin bao viec khong bao gio bi hieu nham thanh cau hoi",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 8,
+   "deletions": 2
+  },
   {
    "hash": "e1c7710",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 77,
    "deletions": 11
-  },
-  {
-   "hash": "fc4108d",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-28T16:43:21+07:00",
-   "message": "Them muc Zalo Chat AI (admin-only): giao dien mo phong Zalo trong web + backend proxy /api/zalo/* goi OpenClaw (self/conversations/messages/send) + nut AI goi y; dang ky section vao NAV_SECTIONS/sidebar/router, gate canViewSection admin-only, bump APP_VER+sw [loai:Them tinh nang] [tokens:18000] [ver:260628zalo1]",
-   "loai": "Them tinh nang",
-   "tokens": 18000,
-   "ver": "260628zalo1",
-   "files": 8,
-   "additions": 342,
-   "deletions": 2
   }
  ]
 }
