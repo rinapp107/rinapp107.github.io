@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-07T10:46:21.892Z",
+ "generated": "2026-09-07T10:57:59.630Z",
  "repo": "zentea-qlch",
  "appVer": "260906qr2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a060665",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-07T17:57:36+07:00",
+   "message": "Hoi-dap: khop chat ten nguoi hoi truoc, tranh tra loi nham nguoi",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 13,
+   "deletions": 1
+  },
   {
    "hash": "3a41cfa",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 30,
    "deletions": 5
-  },
-  {
-   "hash": "4f0cf74",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-27T22:35:59+07:00",
-   "message": "Brand: them 2 o chinh 'Mau nen nut' + 'Mau nen muc/nen mo' (toan web, co tick bat/tat) trong panel Thuong hieu; token-hoa cac hex xanh cung (nut #2d7a2d/#4aab3a -> var(--zt-btn), nen mo #f0fdf4/#e8f5e9/#dcfce7 -> var(--zt-pale), vach active sidebar theo --green); giu fallback goc nen chua tick khong doi gi [loai:Them tinh nang] [tokens:9000] [ver:260627brand6]",
-   "loai": "Them tinh nang",
-   "tokens": 9000,
-   "ver": "260627brand6",
-   "files": 6,
-   "additions": 160,
-   "deletions": 86
   }
  ]
 }
