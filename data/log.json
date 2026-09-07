@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-07T10:57:59.630Z",
+ "generated": "2026-09-07T10:58:51.944Z",
  "repo": "zentea-qlch",
  "appVer": "260906qr2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e1c7710",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-07T17:58:32+07:00",
+   "message": "Hoi-dap: log ro nguoi gui va nguoi khop de soi nham nguoi",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "a060665",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 8,
    "additions": 342,
    "deletions": 2
-  },
-  {
-   "hash": "2975eed",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-28T08:59:11+07:00",
-   "message": "Theme: nut 'Luu logo & giao dien' them trang thai dang luu (spinner + disable chong bam lien tuc) + khoi phuc trong finally; bump APP_VER & theme.js ?v= 260628brand7 [loai:Them tinh nang] [tokens:500] [ver:260628brand7]",
-   "loai": "Them tinh nang",
-   "tokens": 500,
-   "ver": "260628brand7",
-   "files": 5,
-   "additions": 30,
-   "deletions": 5
   }
  ]
 }
