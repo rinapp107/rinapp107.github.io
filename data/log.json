@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-07T11:01:17.657Z",
+ "generated": "2026-09-07T12:01:31.502Z",
  "repo": "zentea-qlch",
- "appVer": "260906qr2",
+ "appVer": "260907ui",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "bff8c81",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-07T19:01:09+07:00",
+   "message": "Giao dien Hen Gio: icon SVG thay emoji, the gon, phan cap ro, trang thai rong",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 121,
+   "deletions": 53
+  },
   {
    "hash": "3fb2202",
    "agent": "Claude Code",
@@ -6489,19 +6502,6 @@
    "ver": "260628vuoncanvas1",
    "files": 5,
    "additions": 303,
-   "deletions": 11
-  },
-  {
-   "hash": "caf53ee",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-06-28T17:52:06+07:00",
-   "message": "Them dom lua chuoi diem danh Vuon ZEN [loai:Thêm tính năng] [tokens:7000] [ver:260628vuonfire1]",
-   "loai": "Thêm tính năng",
-   "tokens": 7000,
-   "ver": "260628vuonfire1",
-   "files": 6,
-   "additions": 77,
    "deletions": 11
   }
  ]
