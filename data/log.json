@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-08T02:52:06.907Z",
+ "generated": "2026-09-08T02:52:46.529Z",
  "repo": "zentea-qlch",
  "appVer": "260907ui",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7a48b69",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-08T09:52:25+07:00",
+   "message": "Job zalo-events-probe: tim dung thu muc zca-js",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 1,
+   "deletions": 1
+  },
   {
    "hash": "dc94a87",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 532,
    "deletions": 87
-  },
-  {
-   "hash": "682b671",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-06-28T18:35:24+07:00",
-   "message": "Zalo Chat AI: doc lich su Zalo khong duoc OpenClaw ho tro -> tra ghi chu nhe nhang thay vi loi 502 (backend + frontend); bump ?v= app/config/sidebar-core/zalo-chat de browser nap dung ban co wiring section [loai:Fix bug] [tokens:1500] [ver:260628zalo3]",
-   "loai": "Fix bug",
-   "tokens": 1500,
-   "ver": "260628zalo3",
-   "files": 3,
-   "additions": 11,
-   "deletions": 4
   }
  ]
 }
