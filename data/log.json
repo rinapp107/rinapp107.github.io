@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-08T03:25:52.898Z",
+ "generated": "2026-09-08T07:50:20.382Z",
  "repo": "zentea-qlch",
  "appVer": "260908troly",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "25f3a16",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-08T14:50:01+07:00",
+   "message": "Tin bao hong Zalo -> tao phieu Cho duyet o module Tai San & Bao Tri",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 81,
+   "deletions": 0
+  },
   {
    "hash": "06e27d2",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 0,
    "deletions": 3
-  },
-  {
-   "hash": "f5ce5fb",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-29T21:24:26+07:00",
-   "message": "Cập nhật Bảng Xếp Hạng Vườn Zen hệ thống hiển thị toàn bộ nhân viên [loai:Thêm tính năng] [tokens:12000] [ver:290626vuon3d_global_bxh]",
-   "loai": "Thêm tính năng",
-   "tokens": 12000,
-   "ver": "290626vuon3d_global_bxh",
-   "files": 3,
-   "additions": 48,
-   "deletions": 23
   }
  ]
 }
