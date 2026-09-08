@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-08T08:04:47.796Z",
+ "generated": "2026-09-08T08:06:38.631Z",
  "repo": "zentea-qlch",
  "appVer": "260908troly",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "95227b9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-08T15:06:21+07:00",
+   "message": "Bao hong: 'chay' khong con tu dong xep Nghiem trong + job don phieu thu nghiem",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 26,
+   "deletions": 1
+  },
   {
    "hash": "3951a7d",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 69,
    "deletions": 28
-  },
-  {
-   "hash": "199071b",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T01:34:14+07:00",
-   "message": "Phân tách nền đất ngang trang, thêm tùy chọn Trồng trực tiếp dưới đất, Z-sorting 3D phụ kiện và sửa lỗi camera NaN [loai:Thêm tính năng] [tokens:10000] [ver:290626vuon3d_final_v3]",
-   "loai": "Thêm tính năng",
-   "tokens": 10000,
-   "ver": "290626vuon3d_final_v3",
-   "files": 3,
-   "additions": 548,
-   "deletions": 345
   }
  ]
 }
