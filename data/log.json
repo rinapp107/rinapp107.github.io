@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-08T02:55:01.435Z",
+ "generated": "2026-09-08T03:23:45.224Z",
  "repo": "zentea-qlch",
  "appVer": "260907ui",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "450ccbe",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-08T10:23:25+07:00",
+   "message": "Tro ly quan ly: bao cao sang tu du lieu that (ca, de xuat cho duyet, chuyen can, he thong)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 171,
+   "deletions": 0
+  },
   {
    "hash": "9c334e5",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 73,
    "deletions": 7
-  },
-  {
-   "hash": "2a9a367",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-28T20:49:36+07:00",
-   "message": "Sửa lỗi xoay dọc mất cây và thêm chi tiết gỗ, đất, rib chậu cây Vườn Zen [loai:Fix bug] [tokens:12000] [ver:280626vuon3d_render]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "280626vuon3d_render",
-   "files": 3,
-   "additions": 170,
-   "deletions": 46
   }
  ]
 }
