@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-08T03:23:45.224Z",
+ "generated": "2026-09-08T03:25:18.836Z",
  "repo": "zentea-qlch",
- "appVer": "260907ui",
+ "appVer": "260908troly",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d049148",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-08T10:25:00+07:00",
+   "message": "Man hinh cau hinh Tro Ly quan ly: chon gio, noi nhan, chi nhanh, xem thu bao cao",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 3,
+   "additions": 123,
+   "deletions": 4
+  },
   {
    "hash": "450ccbe",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 252,
    "deletions": 41
-  },
-  {
-   "hash": "6577fa1",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-29T11:09:47+07:00",
-   "message": "Sửa lỗi IndexSizeError vỡ hình canvas khi xoay dọc Vườn Zen [loai:Fix bug] [tokens:12000] [ver:280626vuon3d_final]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "280626vuon3d_final",
-   "files": 5,
-   "additions": 73,
-   "deletions": 7
   }
  ]
 }
