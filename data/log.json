@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-08T07:51:43.172Z",
+ "generated": "2026-09-08T08:04:47.796Z",
  "repo": "zentea-qlch",
  "appVer": "260908troly",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3951a7d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-08T15:04:23+07:00",
+   "message": "Them zalo-baohong vao bo loc log + job bao-hong-xem",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 18,
+   "deletions": 1
+  },
   {
    "hash": "edfc190",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 548,
    "deletions": 345
-  },
-  {
-   "hash": "5887d08",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T01:17:24+07:00",
-   "message": "Cập nhật đồ họa chi tiết 3D cho toàn bộ 11 phụ kiện và nút gỡ trang trí trong Cửa hàng [loai:Thêm tính năng] [tokens:10000] [ver:290626vuon3d_final_v2]",
-   "loai": "Thêm tính năng",
-   "tokens": 10000,
-   "ver": "290626vuon3d_final_v2",
-   "files": 3,
-   "additions": 351,
-   "deletions": 41
   }
  ]
 }
