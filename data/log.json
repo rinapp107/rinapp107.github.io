@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-09T03:04:18.852Z",
+ "generated": "2026-09-09T03:10:13.300Z",
  "repo": "zentea-qlch",
  "appVer": "260908troly",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3c2582d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-09T10:09:53+07:00",
+   "message": "Tach cong tac rieng cho viec tra loi gio vao ca cua quan ly (mac dinh TAT)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 3,
+   "deletions": 0
+  },
   {
    "hash": "cd9c162",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 8,
    "deletions": 0
-  },
-  {
-   "hash": "4be42cb",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T14:29:17+07:00",
-   "message": "Nang cap mini-game Vuon ZEN sang do hoa 3D Three.js WebGL sieu thuc [loai:Them tinh nang] [tokens:18000] [ver:300626three_garden_v1]",
-   "loai": "Them tinh nang",
-   "tokens": 18000,
-   "ver": "300626three_garden_v1",
-   "files": 7,
-   "additions": 1568,
-   "deletions": 29
   }
  ]
 }
