@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-08T08:06:38.631Z",
+ "generated": "2026-09-09T02:55:31.597Z",
  "repo": "zentea-qlch",
  "appVer": "260908troly",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "aec18fa",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-09T09:55:07+07:00",
+   "message": "Doc cham cong that tu HRM To Minh (token cat trong .env, khong vao ma nguon)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 79,
+   "deletions": 0
+  },
   {
    "hash": "95227b9",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 12,
    "deletions": 3
-  },
-  {
-   "hash": "a395931",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T01:39:55+07:00",
-   "message": "Nâng cấp giao diện trời/đất tương phản cao và hiệu ứng khói sương mù [loai:Thêm tính năng] [tokens:10000] [ver:290626vuon3d_final_v4]",
-   "loai": "Thêm tính năng",
-   "tokens": 10000,
-   "ver": "290626vuon3d_final_v4",
-   "files": 3,
-   "additions": 69,
-   "deletions": 28
   }
  ]
 }
