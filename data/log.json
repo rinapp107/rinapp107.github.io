@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-10T12:57:59.524Z",
+ "generated": "2026-09-10T13:55:21.226Z",
  "repo": "zentea-qlch",
- "appVer": "260910domain",
+ "appVer": "260911trangchu",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "012eb0e",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-09-10T20:55:00+07:00",
+   "message": "Trang Chu: bam logo ZENTEA de xem tat ca muc dang the theo nhom",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 5,
+   "additions": 311,
+   "deletions": 9
+  },
   {
    "hash": "1a69bc3",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 4,
    "deletions": 4
-  },
-  {
-   "hash": "5af418f",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T14:52:41+07:00",
-   "message": "Sua loi radius NaN trong TubeGeometry va thay the SVG load bang canvas texture cho tuyet [loai:Fix bug] [tokens:4000] [ver:300626three_garden_v2]",
-   "loai": "Fix bug",
-   "tokens": 4000,
-   "ver": "300626three_garden_v2",
-   "files": 3,
-   "additions": 18,
-   "deletions": 6
   }
  ]
 }
