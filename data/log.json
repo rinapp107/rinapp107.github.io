@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-10T13:55:21.226Z",
+ "generated": "2026-09-10T14:12:38.776Z",
  "repo": "zentea-qlch",
- "appVer": "260911trangchu",
+ "appVer": "260911trangchu2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "11c3935",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-09-10T21:12:15+07:00",
+   "message": "Bump ?v= cho app.js va sidebar-core.js — sua ma quen bump nen Trang Chu bao \"Dang phat trien\"",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 4,
+   "deletions": 4
+  },
   {
    "hash": "012eb0e",
    "agent": "Người",
@@ -6487,19 +6500,6 @@
    "loai": "Fix bug",
    "tokens": 3000,
    "ver": "300626three_garden_v4",
-   "files": 3,
-   "additions": 4,
-   "deletions": 4
-  },
-  {
-   "hash": "fa1d90a",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T14:58:36+07:00",
-   "message": "Them o thong tin loi chi tiet khi khong tai duoc vuon [loai:Config] [tokens:500] [ver:300626three_garden_v3]",
-   "loai": "Config",
-   "tokens": 500,
-   "ver": "300626three_garden_v3",
    "files": 3,
    "additions": 4,
    "deletions": 4
