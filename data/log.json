@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-09T03:10:13.300Z",
+ "generated": "2026-09-10T12:57:59.524Z",
  "repo": "zentea-qlch",
- "appVer": "260908troly",
+ "appVer": "260910domain",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1a69bc3",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-09-10T19:57:37+07:00",
+   "message": "Gom ten mien ve mot nguon duy nhat truoc khi doi ten mien",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 7,
+   "additions": 37,
+   "deletions": 20
+  },
   {
    "hash": "3c2582d",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 18,
    "deletions": 6
-  },
-  {
-   "hash": "63a4867",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T14:38:33+07:00",
-   "message": "Cap nhat tai lieu he thong va file deploy cho mini-game 3D [loai:Config] [tokens:300] [ver:300626three_garden_v1]",
-   "loai": "Config",
-   "tokens": 300,
-   "ver": "300626three_garden_v1",
-   "files": 3,
-   "additions": 8,
-   "deletions": 0
   }
  ]
 }
