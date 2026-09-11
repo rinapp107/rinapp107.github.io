@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-11T12:35:59.130Z",
+ "generated": "2026-09-11T12:57:27.437Z",
  "repo": "zentea-qlch",
  "appVer": "260911chinhanh",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "80cd0b2",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-09-11T19:57:08+07:00",
+   "message": "Xoa 9 tai khoan tro vao chi nhanh da bo (da sao luu truoc)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 1,
+   "additions": 60,
+   "deletions": 0
+  },
   {
    "hash": "0d12dc7",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 358,
    "deletions": 24
-  },
-  {
-   "hash": "da89d21",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T15:16:26+07:00",
-   "message": "Cap nhat version suffix cua garden-3d.js de xoa cache tren PC [loai:Fix bug] [tokens:300] [ver:300626three_garden_v4]",
-   "loai": "Fix bug",
-   "tokens": 300,
-   "ver": "300626three_garden_v4",
-   "files": 1,
-   "additions": 1,
-   "deletions": 1
   }
  ]
 }
