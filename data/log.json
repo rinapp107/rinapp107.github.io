@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-10T14:12:38.776Z",
+ "generated": "2026-09-11T12:35:59.130Z",
  "repo": "zentea-qlch",
- "appVer": "260911trangchu2",
+ "appVer": "260911chinhanh",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0d12dc7",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-09-11T19:35:34+07:00",
+   "message": "Bo 12 chi nhanh dong cua: cat khoi danh sach + xoa du lieu (da sao luu truoc)",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 5,
+   "additions": 205,
+   "deletions": 11
+  },
   {
    "hash": "11c3935",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 1
-  },
-  {
-   "hash": "d532833",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-06-30T15:10:00+07:00",
-   "message": "Sua loi ReferenceError species is not defined trong animate [loai:Fix bug] [tokens:3000] [ver:300626three_garden_v4]",
-   "loai": "Fix bug",
-   "tokens": 3000,
-   "ver": "300626three_garden_v4",
-   "files": 3,
-   "additions": 4,
-   "deletions": 4
   }
  ]
 }
