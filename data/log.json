@@ -1,9 +1,22 @@
 {
- "generated": "2026-09-15T13:58:41.042Z",
+ "generated": "2026-09-16T06:46:39.577Z",
  "repo": "zentea-qlch",
  "appVer": "260915lxdb",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1f9f01e",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-09-16T13:46:18+07:00",
+   "message": "Them job kpi-xuat-cn17 (chi doc) de xuat du lieu vi pham/KPI Phan Xich Long",
+   "loai": null,
+   "tokens": null,
+   "ver": null,
+   "files": 2,
+   "additions": 42,
+   "deletions": 0
+  },
   {
    "hash": "4570818",
    "agent": "Người",
@@ -6489,19 +6502,6 @@
    "ver": "260702llv235h1",
    "files": 3,
    "additions": 16,
-   "deletions": 12
-  },
-  {
-   "hash": "d1137a6",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-02T10:41:46+07:00",
-   "message": "Vuon ZEN Buoc 1: Quiz theo cap do + do kho tang dan (dung field diff cua Ngan Hang Cau Hoi) - ti le de/TB/kho theo nhom cap, so cau/phien 5-8 theo cap, thuong theo do kho (de 8 / TB 12 / kho 18 la) + combo streak x1.2/1.5/2, nhan do kho tren cau hoi [loai:Them tinh nang] [tokens:2000] [ver:260702quizlvl1]",
-   "loai": "Them tinh nang",
-   "tokens": 2000,
-   "ver": "260702quizlvl1",
-   "files": 3,
-   "additions": 49,
    "deletions": 12
   }
  ]
