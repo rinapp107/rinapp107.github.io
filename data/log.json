@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-19T11:21:15.492Z",
+ "generated": "2026-10-19T12:57:49.832Z",
  "repo": "zentea-qlch",
- "appVer": "261019bandung",
+ "appVer": "261019bdopt1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4e8ade8",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-10-19T19:57:29+07:00",
+   "message": "Tai cau truc modular va toi uu Render on Demand cho ban dung 3D [loai:Refactor] [tokens:22000] [ver:261019bdopt1]",
+   "loai": "Refactor",
+   "tokens": 22000,
+   "ver": "261019bdopt1",
+   "files": 14,
+   "additions": 3295,
+   "deletions": 2656
+  },
   {
    "hash": "d313d7c",
    "agent": "Antigravity",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 25,
    "deletions": 5
-  },
-  {
-   "hash": "7700701",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-02T11:03:05+07:00",
-   "message": "Vuon ZEN Buoc 2: phu kien hang Huyen thoai (gold) + khoa theo cap (minLevel) - gate mua + nut 'Can cap X' + badge cap/hang tren the shop; nang pot_marble/deco_pavilion/fish_dragon/pet_corgi len legendary (gia cao hon), gate glaze/lantern/torii/cactus [loai:Them tinh nang] [tokens:1500] [ver:260702shoptier1]",
-   "loai": "Them tinh nang",
-   "tokens": 1500,
-   "ver": "260702shoptier1",
-   "files": 2,
-   "additions": 20,
-   "deletions": 11
   }
  ]
 }
