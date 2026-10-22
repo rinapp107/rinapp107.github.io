@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T09:48:49.795Z",
+ "generated": "2026-10-22T09:56:43.293Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd7",
+ "appVer": "261022bd8",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "756d0dc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T16:56:20+07:00",
+   "message": "Sua ket ban HTML cu 7 ngay: SW tai HTML no-cache, Ban Dung tu dang ky SW, cong quan ly chi trong tab [loai:Sửa lỗi] [tokens:15000] [ver:261022bd8]",
+   "loai": "Sửa lỗi",
+   "tokens": 15000,
+   "ver": "261022bd8",
+   "files": 7,
+   "additions": 29,
+   "deletions": 22
+  },
   {
    "hash": "f5ff026",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 130,
    "deletions": 63
-  },
-  {
-   "hash": "437c39a",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-06T09:26:34+07:00",
-   "message": "Vuon ZEN chong gian lan chinh gio dien thoai: tinh ngay theo gio may chu (neo performance.now, mien nhiem chinh gio/mui gio), ngay theo VN UTC+7; dong bo truoc khi reset quiz/tuoi/thuong ngay [loai:Fix bug] [tokens:9000] [ver:260705gardenclock1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260705gardenclock1",
-   "files": 3,
-   "additions": 40,
-   "deletions": 10
   }
  ]
 }
