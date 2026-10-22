@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T07:48:37.450Z",
+ "generated": "2026-10-22T08:51:03.869Z",
  "repo": "zentea-qlch",
- "appVer": "261022an1",
+ "appVer": "261022bd4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "17d8b57",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T15:50:43+07:00",
+   "message": "Ban Dung 3D muot hon: ve chung vat giong het, gop mesh co con, giam do phan giai khi xoay, man hinh dang tai [loai:Tối ưu] [tokens:60000] [ver:261022bd4]",
+   "loai": "Tối ưu",
+   "tokens": 60000,
+   "ver": "261022bd4",
+   "files": 8,
+   "additions": 116,
+   "deletions": 24
+  },
   {
    "hash": "5170d39",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 9,
    "deletions": 4
-  },
-  {
-   "hash": "8e6f200",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-02T19:28:53+07:00",
-   "message": "Vuon ZEN Buoc 2 (Kieu cay/Tree Skins): them tab 'Kieu cay' trong Shop + equip.skin + 10 skin mo khoa theo cap (Anh Kim L10...Than Moc Toi Thuong L100) tai dung co che gia+minLevel; icon xem truoc cay to mau tung skin. (Ap skin len cay that o Buoc 3) [loai:Them tinh nang] [tokens:1500] [ver:260702skin1]",
-   "loai": "Them tinh nang",
-   "tokens": 1500,
-   "ver": "260702skin1",
-   "files": 3,
-   "additions": 27,
-   "deletions": 7
   }
  ]
 }
