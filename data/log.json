@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T11:00:41.834Z",
+ "generated": "2026-10-22T11:15:02.810Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd13",
+ "appVer": "261022bd14",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "50bb115",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T18:14:37+07:00",
+   "message": "Nuong vat tinh (static batching): Ban Dung 3 cua hang 979->355 lenh ve, trinh thiet ke ~51 FPS [loai:Tối ưu] [tokens:30000] [ver:261022bd14]",
+   "loai": "Tối ưu",
+   "tokens": 30000,
+   "ver": "261022bd14",
+   "files": 8,
+   "additions": 158,
+   "deletions": 23
+  },
   {
    "hash": "21dbe5c",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 26,
    "deletions": 17
-  },
-  {
-   "hash": "a7127aa",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-06T16:19:41+07:00",
-   "message": "Nang cap giao dien Vuon ZEN [loai:Thêm tính năng] [tokens:9000] [ver:260706gardenui1]",
-   "loai": "Thêm tính năng",
-   "tokens": 9000,
-   "ver": "260706gardenui1",
-   "files": 4,
-   "additions": 114,
-   "deletions": 60
   }
  ]
 }
