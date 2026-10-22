@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T09:47:10.552Z",
+ "generated": "2026-10-22T09:47:20.615Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd5",
+ "appVer": "261022bd6",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "dd830b9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T16:46:59+07:00",
+   "message": "Ban Dung 3D: thu vien thiet bi + mau tu mat trung bay mo mat 1,5m [loai:Thêm tính năng] [tokens:45000] [ver:261022bd6]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261022bd6",
+   "files": 10,
+   "additions": 374,
+   "deletions": 18
+  },
   {
    "hash": "1a4c74f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 142,
    "deletions": 92
-  },
-  {
-   "hash": "9526cb9",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-04T00:57:03+07:00",
-   "message": "Them nut sidebar 'Lich Quan Ly' (ql-cua-hang) vao nhom Quan Tri He Thong - module truoc gio khong co nut nen khong ai vao duoc; nut tu an/hien theo canViewSection (superadmin + manager thay) [loai:Fix bug] [tokens:8000] [ver:260704lichql2]",
-   "loai": "Fix bug",
-   "tokens": 8000,
-   "ver": "260704lichql2",
-   "files": 2,
-   "additions": 12,
-   "deletions": 2
   }
  ]
 }
