@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T09:47:20.615Z",
+ "generated": "2026-10-22T09:48:49.795Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd6",
+ "appVer": "261022bd7",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f5ff026",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T16:48:25+07:00",
+   "message": "Thu vien thiet bi: camera bay toi thiet bi vua them [loai:Sửa lỗi] [tokens:3000] [ver:261022bd7]",
+   "loai": "Sửa lỗi",
+   "tokens": 3000,
+   "ver": "261022bd7",
+   "files": 5,
+   "additions": 24,
+   "deletions": 18
+  },
   {
    "hash": "dd830b9",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 40,
    "deletions": 10
-  },
-  {
-   "hash": "090a5e6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-04T01:15:14+07:00",
-   "message": "Lich Quan Ly: hang Ma ca doi tu go tay sang PICKER chon tu danh sach ma ca cau hinh duoc (giong Loai ca); tab cau hinh gop 'Ma Ca & Loai Ca' (2 danh sach ten+mau, mac dinh S1/S2/C1/C2/HC/OFF); picker dung chung + chu thich mau ca 2 hang [loai:Cai thien UI] [tokens:15000] [ver:260704lichql3]",
-   "loai": "Cai thien UI",
-   "tokens": 15000,
-   "ver": "260704lichql3",
-   "files": 4,
-   "additions": 142,
-   "deletions": 92
   }
  ]
 }
