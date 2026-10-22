@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T11:15:02.810Z",
+ "generated": "2026-10-22T11:28:37.965Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd14",
+ "appVer": "261022bd15",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1478085",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T18:28:17+07:00",
+   "message": "LOD theo khoang cach: cua hang xa hien ban rut gon, Pho mau 373->89 lenh ve [loai:Tối ưu] [tokens:25000] [ver:261022bd15]",
+   "loai": "Tối ưu",
+   "tokens": 25000,
+   "ver": "261022bd15",
+   "files": 9,
+   "additions": 108,
+   "deletions": 30
+  },
   {
    "hash": "50bb115",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 328,
    "deletions": 30
-  },
-  {
-   "hash": "2b2a527",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-06T20:13:38+07:00",
-   "message": "LLV Vo Van Ngan: 2 dong Ghi chu doi sang xanh nhat dong bo Vi tri 1/2 + bo duong vien xanh 3px giua (class llv-vt2-merge lam mo vien duoi hang Vi tri 2, chi cn15) [loai:Cai thien UI] [tokens:5000] [ver:260706vvnnote2]",
-   "loai": "Cai thien UI",
-   "tokens": 5000,
-   "ver": "260706vvnnote2",
-   "files": 3,
-   "additions": 26,
-   "deletions": 17
   }
  ]
 }
