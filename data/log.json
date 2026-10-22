@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T10:18:34.004Z",
+ "generated": "2026-10-22T10:32:28.677Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd10",
+ "appVer": "261022bd12",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "de83fdc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T17:32:05+07:00",
+   "message": "Hop nhat pho mau + trinh thiet ke: cua hang hien len lo, cap nhat ngay, bang hieu logo ZENTEA chuan [loai:Thêm tính năng] [tokens:45000] [ver:261022bd12]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261022bd12",
+   "files": 9,
+   "additions": 317,
+   "deletions": 30
+  },
   {
    "hash": "be7c1b5",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 59,
    "deletions": 8
-  },
-  {
-   "hash": "ad2426c",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-06T15:19:19+07:00",
-   "message": "Lich Quan Ly: tu dong don sach ma ca chu S1/S2 doi cu (da lo luu vao server khi user bam Tuy chinh o ver lichql3) - loc khoi danh muc shiftCodes + xoa khoi o lich, chi giu ma ca dang khung gio HH:MM-HH:MM [loai:Fix bug] [tokens:8000] [ver:260706lichql5]",
-   "loai": "Fix bug",
-   "tokens": 8000,
-   "ver": "260706lichql5",
-   "files": 3,
-   "additions": 33,
-   "deletions": 5
   }
  ]
 }
