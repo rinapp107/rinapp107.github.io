@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T09:35:58.874Z",
+ "generated": "2026-10-22T09:47:10.552Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd4",
+ "appVer": "261022bd5",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1a4c74f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T16:36:05+07:00",
+   "message": "Ban Dung 3D dot 3: bump version, bo doan do loi, ghi WEB_CONTEXT [loai:Tối ưu] [tokens:3000] [ver:261022bd5]",
+   "loai": "Tối ưu",
+   "tokens": 3000,
+   "ver": "261022bd5",
+   "files": 6,
+   "additions": 17,
+   "deletions": 17
+  },
   {
    "hash": "890a357",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 12,
    "deletions": 2
-  },
-  {
-   "hash": "e769d7e",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-04T00:42:35+07:00",
-   "message": "Nang cap Lich Lam Viec Quan Ly (ql-cua-hang): luoi 3 hang Ma ca (go nhanh)/Ghi chu (tu do)/Loai ca (cau hinh ten+mau); role manager thay muc nay, chi tab Lich, tu sua khoi 3 hang cua minh; copy thang truoc, Excel/CSV/bao cao theo so ngay; mo canView/canEdit manager + ngoai le ghi global store-managers [loai:Them tinh nang] [tokens:45000] [ver:260704lichql1]",
-   "loai": "Them tinh nang",
-   "tokens": 45000,
-   "ver": "260704lichql1",
-   "files": 6,
-   "additions": 450,
-   "deletions": 485
   }
  ]
 }
