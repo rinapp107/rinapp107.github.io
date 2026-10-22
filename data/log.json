@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-19T12:57:49.832Z",
+ "generated": "2026-10-22T03:54:13.487Z",
  "repo": "zentea-qlch",
- "appVer": "261019bdopt1",
+ "appVer": "261022bd3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "60fcc64",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T10:53:51+07:00",
+   "message": "Toi uu Ban Dung 3D: bo den gon cho Nhe may, gop mesh/vat lieu, bong do theo yeu cau, lazy-load XLSX [loai:Tối ưu] [tokens:120000] [ver:261022bd3]",
+   "loai": "Tối ưu",
+   "tokens": 120000,
+   "ver": "261022bd3",
+   "files": 8,
+   "additions": 207,
+   "deletions": 28
+  },
   {
    "hash": "4e8ade8",
    "agent": "Antigravity",
@@ -6489,19 +6502,6 @@
    "ver": "260702recipe1",
    "files": 3,
    "additions": 11,
-   "deletions": 5
-  },
-  {
-   "hash": "5ea4062",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-02T11:06:29+07:00",
-   "message": "Them o Tong gio + so ca + ghi chu cho nhan vien CA04 (giong CA12/CA3), chan chia 0 tranh NaN [loai:Fix bug] [tokens:5000] [ver:260702llv235h2]",
-   "loai": "Fix bug",
-   "tokens": 5000,
-   "ver": "260702llv235h2",
-   "files": 3,
-   "additions": 25,
    "deletions": 5
   }
  ]
