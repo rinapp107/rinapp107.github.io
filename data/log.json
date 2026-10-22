@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T07:47:45.252Z",
+ "generated": "2026-10-22T07:48:37.450Z",
  "repo": "zentea-qlch",
  "appVer": "261022an1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5170d39",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T14:48:16+07:00",
+   "message": "Ghi WEB_CONTEXT: tam dung phan chay ngam bang ZT_NEN_OFF [loai:Tài liệu] [tokens:2000] [ver:261022an1]",
+   "loai": "Tài liệu",
+   "tokens": 2000,
+   "ver": "261022an1",
+   "files": 1,
+   "additions": 1,
+   "deletions": 0
+  },
   {
    "hash": "cdeb1d5",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 27,
    "deletions": 7
-  },
-  {
-   "hash": "1e3395c",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-02T18:46:27+07:00",
-   "message": "Redesign UI Cau hinh he thong: chia card co header icon SVG (bo emoji), nhom mau theo khu vuc Sidebar/Header/Nut&Nhan/Font dang cot [loai:Cai thien UI] [tokens:5000] [ver:260702syscfg1]",
-   "loai": "Cai thien UI",
-   "tokens": 5000,
-   "ver": "260702syscfg1",
-   "files": 2,
-   "additions": 71,
-   "deletions": 41
   }
  ]
 }
