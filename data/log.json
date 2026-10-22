@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T06:47:50.978Z",
+ "generated": "2026-10-22T07:47:45.252Z",
  "repo": "zentea-qlch",
  "appVer": "261022an1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "cdeb1d5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T14:47:20+07:00",
+   "message": "Them cong tac ZT_NEN_OFF va lenh console tam-dung-nen/bat-lai-nen/nen-trang-thai [loai:Config] [tokens:25000] [ver:261022an1]",
+   "loai": "Config",
+   "tokens": 25000,
+   "ver": "261022an1",
+   "files": 1,
+   "additions": 42,
+   "deletions": 4
+  },
   {
    "hash": "4e2dfd4",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 71,
    "deletions": 41
-  },
-  {
-   "hash": "ff08e3e",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-02T18:36:01+07:00",
-   "message": "Vuon ZEN Buoc 1 (100 cap): bo tran cap 8 -> MAX_LEVEL=100, doi mang LEVEL_EXP -> ham expForLevel (cap 0-7 giu goc, tu cap 8 luy tien 1.085/cap - duong cham/thu thach); STAGE_NAME[] -> stageName() an toan toi cap 100 + them ten giai doan cao cap (Co Thu Ngan Nam...Than Moc Toi Thuong); thanh tuu cap 100 thuong 500 la [loai:Them tinh nang] [tokens:1800] [ver:260702lvl100e1]",
-   "loai": "Them tinh nang",
-   "tokens": 1800,
-   "ver": "260702lvl100e1",
-   "files": 3,
-   "additions": 31,
-   "deletions": 13
   }
  ]
 }
