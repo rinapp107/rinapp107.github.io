@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T10:32:28.677Z",
+ "generated": "2026-10-22T11:00:41.834Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd12",
+ "appVer": "261022bd13",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "21dbe5c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T18:00:18+07:00",
+   "message": "Di bo: mo vung di ca day pho, vat can theo ban ke hoach tung lo [loai:Sửa lỗi] [tokens:12000] [ver:261022bd13]",
+   "loai": "Sửa lỗi",
+   "tokens": 12000,
+   "ver": "261022bd13",
+   "files": 7,
+   "additions": 81,
+   "deletions": 26
+  },
   {
    "hash": "de83fdc",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 114,
    "deletions": 60
-  },
-  {
-   "hash": "2aa3a34",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-06T15:47:38+07:00",
-   "message": "LLV chi nhanh Vo Van Ngan (cn15): them 2 dong 'Ghi chu 1/2' go tu do moi ngay cho moi nhan su (chinh+ho tro) o ca CA Ngay va CA Toi; luu vao llvDataCA012/CA03 [loai:Them tinh nang] [tokens:12000] [ver:260706vvnnote1]",
-   "loai": "Them tinh nang",
-   "tokens": 12000,
-   "ver": "260706vvnnote1",
-   "files": 3,
-   "additions": 59,
-   "deletions": 8
   }
  ]
 }
