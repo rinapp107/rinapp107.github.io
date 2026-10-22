@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T08:51:03.869Z",
+ "generated": "2026-10-22T09:35:58.874Z",
  "repo": "zentea-qlch",
  "appVer": "261022bd4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "890a357",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T16:35:40+07:00",
+   "message": "Ban Dung 3D tu thich nghi moi may: bien dich shader song song, nhan dien dien thoai, tu chinh do phan giai, gop vat co dinh [loai:Tối ưu] [tokens:90000] [ver:261022bd5]",
+   "loai": "Tối ưu",
+   "tokens": 90000,
+   "ver": "261022bd5",
+   "files": 3,
+   "additions": 303,
+   "deletions": 14
+  },
   {
    "hash": "17d8b57",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 450,
    "deletions": 485
-  },
-  {
-   "hash": "d95e26f",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-02T21:00:38+07:00",
-   "message": "Vuon ZEN Buoc 3a (skin len cay 3D): leafMat doi mau tan la theo equip.skin (SKIN_HEX) + emissive phat sang cho skin glow/galaxy/fire/ice/crystal/ultimate; ap khi vuon mount lai [loai:Them tinh nang] [tokens:900] [ver:260702skin3d1]",
-   "loai": "Them tinh nang",
-   "tokens": 900,
-   "ver": "260702skin3d1",
-   "files": 3,
-   "additions": 9,
-   "deletions": 4
   }
  ]
 }
