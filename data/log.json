@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T09:56:43.293Z",
+ "generated": "2026-10-22T10:07:22.618Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd8",
+ "appVer": "261022bd9",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "03f3f12",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T17:07:00+07:00",
+   "message": "Ban Dung 3D: Pho mau voi 5 lo trong, chon lo lam noi dung, thu vien thiet bi dat vao lo [loai:Thêm tính năng] [tokens:40000] [ver:261022bd9]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261022bd9",
+   "files": 11,
+   "additions": 181,
+   "deletions": 33
+  },
   {
    "hash": "756d0dc",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 29,
    "deletions": 12
-  },
-  {
-   "hash": "c777ba1",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-06T09:46:23+07:00",
-   "message": "Lich Quan Ly: Ma ca sua thanh KHUNG GIO vao-ra (VD 07:00-18:00) dung y user - cau hinh bang 2 o gio vao/ra + mau, picker hien khung gio kem so gio; khoi phuc TONG GIO (metric + Bao Cao Thang + CSV + Excel) tinh tu khung gio ma ca [loai:Fix bug] [tokens:20000] [ver:260706lichql4]",
-   "loai": "Fix bug",
-   "tokens": 20000,
-   "ver": "260706lichql4",
-   "files": 4,
-   "additions": 130,
-   "deletions": 63
   }
  ]
 }
