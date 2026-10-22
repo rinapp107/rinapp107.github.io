@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T03:54:13.487Z",
+ "generated": "2026-10-22T06:47:50.978Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd3",
+ "appVer": "261022an1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4e2dfd4",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T13:47:32+07:00",
+   "message": "Tam an web quan ly: moi truy cap chuyen sang Ban Dung 3D, vao quan ly qua /?quan-ly [loai:Thay đổi] [tokens:30000] [ver:261022an1]",
+   "loai": "Thay đổi",
+   "tokens": 30000,
+   "ver": "261022an1",
+   "files": 7,
+   "additions": 6,
+   "deletions": 4
+  },
   {
    "hash": "60fcc64",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 31,
    "deletions": 13
-  },
-  {
-   "hash": "54f4303",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-02T18:33:05+07:00",
-   "message": "Fix mat o Ten Mon khi them cong thuc (wizard nho nham display:none) + don header Quy trinh khoi buoc Thong tin [loai:Fix bug] [tokens:6000] [ver:260702recipe1]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260702recipe1",
-   "files": 3,
-   "additions": 11,
-   "deletions": 5
   }
  ]
 }
