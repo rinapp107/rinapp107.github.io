@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T10:07:22.618Z",
+ "generated": "2026-10-22T10:18:34.004Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd9",
+ "appVer": "261022bd10",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "be7c1b5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-22T17:18:08+07:00",
+   "message": "Pho mau: chinh kich thuoc / them / xoa lo, mo trinh thiet ke chi tiet cho tung lo [loai:Thêm tính năng] [tokens:35000] [ver:261022bd10]",
+   "loai": "Thêm tính năng",
+   "tokens": 35000,
+   "ver": "261022bd10",
+   "files": 8,
+   "additions": 829,
+   "deletions": 82
+  },
   {
    "hash": "03f3f12",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 33,
    "deletions": 5
-  },
-  {
-   "hash": "d00a743",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-06T13:14:40+07:00",
-   "message": "Sua nen dem Vuon ZEN [loai:Fix bug] [tokens:7000] [ver:260706gardennight1]",
-   "loai": "Fix bug",
-   "tokens": 7000,
-   "ver": "260706gardennight1",
-   "files": 6,
-   "additions": 29,
-   "deletions": 12
   }
  ]
 }
