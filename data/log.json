@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T06:40:19.318Z",
+ "generated": "2026-10-23T12:45:30.021Z",
  "repo": "zentea-qlch",
- "appVer": "261023vts7",
+ "appVer": "261023vts8",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "789fe97",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T19:45:09+07:00",
+   "message": "Vo Thi Sau ban anh duyet: do da giac ve tinh, khoi chinh lien, khoi go PREMIUM thang, canh go chu L, 2 cay [loai:Thêm tính năng] [tokens:80000] [ver:261023vts8]",
+   "loai": "Thêm tính năng",
+   "tokens": 80000,
+   "ver": "261023vts8",
+   "files": 5,
+   "additions": 147,
+   "deletions": 124
+  },
   {
    "hash": "f0377fc",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 11,
    "deletions": 8
-  },
-  {
-   "hash": "161c25f",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-08T15:20:14+07:00",
-   "message": "Them nhac viec ve sinh chua xong hom nay: popup khi vao web (dem MOI viec hom nay chua tick cua chi nhanh) + nut Xem ngay mo tab Ve Sinh / De sau; tick het thi khong nhac [loai:Them tinh nang] [tokens:7000] [ver:260708vsremind1]",
-   "loai": "Them tinh nang",
-   "tokens": 7000,
-   "ver": "260708vsremind1",
-   "files": 4,
-   "additions": 53,
-   "deletions": 4
   }
  ]
 }
