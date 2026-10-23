@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T16:51:52.765Z",
+ "generated": "2026-10-23T17:04:10.023Z",
  "repo": "zentea-qlch",
- "appVer": "261023dv1",
+ "appVer": "261023tk1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f9261d8",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T00:03:43+07:00",
+   "message": "Tu thiet ke do vat: ghep khoi co ban, sua mau co san, nhap file 3D .glb; tab Mau cua anh dong bo may chu [loai:Thêm tính năng] [tokens:90000] [ver:261023tk1]",
+   "loai": "Thêm tính năng",
+   "tokens": 90000,
+   "ver": "261023tk1",
+   "files": 13,
+   "additions": 10508,
+   "deletions": 10
+  },
   {
    "hash": "83986ba",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 263,
    "deletions": 32
-  },
-  {
-   "hash": "84caf83",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-09T11:09:16+07:00",
-   "message": "Thong ke LLV: fix gio ca qua dem tinh 0h trong _calcHrs (23:00-05:00 gio ra dung 6h) - nho lam the/lam bu/cat ca ca dem duoc dem dung [loai:Fix bug] [tokens:4000] [ver:260708nkhrs1]",
-   "loai": "Fix bug",
-   "tokens": 4000,
-   "ver": "260708nkhrs1",
-   "files": 3,
-   "additions": 4,
-   "deletions": 3
   }
  ]
 }
