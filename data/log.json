@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T00:44:21.984Z",
+ "generated": "2026-10-23T00:48:50.002Z",
  "repo": "zentea-qlch",
- "appVer": "261023vts2",
+ "appVer": "261023cam1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e4ecd12",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T07:48:28+07:00",
+   "message": "Camera tu do: phong toi cho con tro, xoay quanh cho bam, WASD bay, lui xa 160m [loai:Thêm tính năng] [tokens:20000] [ver:261023cam1]",
+   "loai": "Thêm tính năng",
+   "tokens": 20000,
+   "ver": "261023cam1",
+   "files": 5,
+   "additions": 123,
+   "deletions": 18
+  },
   {
    "hash": "5e73fcc",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 3,
    "deletions": 3
-  },
-  {
-   "hash": "bef603d",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-07T19:11:10+07:00",
-   "message": "Lich Quan Ly: bo 3 o metric to o dau (gon thanh 1 dong chu nho canh tab) + keo-tha o ten quan ly de sap xep thu tu hang, thu tu ap cho luoi + Xuat Excel + Bao Cao [loai:Cai thien UI] [tokens:12000] [ver:260706lichql6]",
-   "loai": "Cai thien UI",
-   "tokens": 12000,
-   "ver": "260706lichql6",
-   "files": 3,
-   "additions": 64,
-   "deletions": 22
   }
  ]
 }
