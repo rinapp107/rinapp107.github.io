@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T06:11:12.726Z",
+ "generated": "2026-10-23T06:22:25.902Z",
  "repo": "zentea-qlch",
- "appVer": "261023r170",
+ "appVer": "261023vts6",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "00fdffd",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T13:22:07+07:00",
+   "message": "Sua TTC Plaza de len cua hang NTMK: doi khu Vo Thi Sau sang trai 66 m [loai:Sửa lỗi] [tokens:5000] [ver:261023vts6]",
+   "loai": "Sửa lỗi",
+   "tokens": 5000,
+   "ver": "261023vts6",
+   "files": 4,
+   "additions": 4,
+   "deletions": 4
+  },
   {
    "hash": "7fce412",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 13,
    "deletions": 16
-  },
-  {
-   "hash": "076f439",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-08T13:44:45+07:00",
-   "message": "Tam dong Vuon ZEN bao tri [loai:Config] [tokens:4500] [ver:260708gardenmaint1]",
-   "loai": "Config",
-   "tokens": 4500,
-   "ver": "260708gardenmaint1",
-   "files": 5,
-   "additions": 34,
-   "deletions": 3
   }
  ]
 }
