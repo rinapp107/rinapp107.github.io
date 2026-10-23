@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T12:45:30.021Z",
+ "generated": "2026-10-23T12:49:26.525Z",
  "repo": "zentea-qlch",
- "appVer": "261023vts8",
+ "appVer": "261023sh1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "eb36492",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T19:48:59+07:00",
+   "message": "Bong do di theo cho dang nhin (moi cong trinh co bong), Vo Thi Sau do bong [loai:Thêm tính năng] [tokens:15000] [ver:261023sh1]",
+   "loai": "Thêm tính năng",
+   "tokens": 15000,
+   "ver": "261023sh1",
+   "files": 6,
+   "additions": 29,
+   "deletions": 5
+  },
   {
    "hash": "789fe97",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 13,
    "deletions": 3
-  },
-  {
-   "hash": "b6bba3b",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-08T16:13:10+07:00",
-   "message": "Chan Vuon ZEN tai tab ho so [loai:Config] [tokens:2500] [ver:260708gardenmaint2]",
-   "loai": "Config",
-   "tokens": 2500,
-   "ver": "260708gardenmaint2",
-   "files": 5,
-   "additions": 11,
-   "deletions": 8
   }
  ]
 }
