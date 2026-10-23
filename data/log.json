@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T05:08:08.300Z",
+ "generated": "2026-10-23T05:16:11.060Z",
  "repo": "zentea-qlch",
- "appVer": "261023xd1",
+ "appVer": "261023vts5",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c9b4055",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T12:15:54+07:00",
+   "message": "Vo Thi Sau theo hien trang that (Street View 8/2023 + do ve tinh): khung go nau, ban cong cay, canh PREMIUM, xe may, TTC Plaza cung phia [loai:Thêm tính năng] [tokens:45000] [ver:261023vts5]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261023vts5",
+   "files": 5,
+   "additions": 227,
+   "deletions": 278
+  },
   {
    "hash": "8cea651",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 30,
    "deletions": 5
-  },
-  {
-   "hash": "ca87e66",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-08T10:51:26+07:00",
-   "message": "Hoan thien vat lieu item Vuon ZEN [loai:Thêm tính năng] [tokens:1500] [ver:260708gardenzen1]",
-   "loai": "Thêm tính năng",
-   "tokens": 1500,
-   "ver": "260708gardenzen1",
-   "files": 1,
-   "additions": 16,
-   "deletions": 16
   }
  ]
 }
