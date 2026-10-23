@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T00:38:10.999Z",
+ "generated": "2026-10-23T00:44:21.984Z",
  "repo": "zentea-qlch",
- "appVer": "261023vts1",
+ "appVer": "261023vts2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5e73fcc",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T07:44:00+07:00",
+   "message": "Nut Ve tuong + gan do luon hien (truoc bi giau sau Bat chinh sua), them nut Ve tuong o Ban Dung, chong mo ban thiet ke cu [loai:Sửa lỗi] [tokens:15000] [ver:261023vts2]",
+   "loai": "Sửa lỗi",
+   "tokens": 15000,
+   "ver": "261023vts2",
+   "files": 6,
+   "additions": 35,
+   "deletions": 23
+  },
   {
    "hash": "6de0d96",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 64,
    "deletions": 22
-  },
-  {
-   "hash": "b9f8efc",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-07T17:57:38+07:00",
-   "message": "Phan Ca: qua thang moi tu dong bo LLV cho thang do (pcSetMonth goi _pcAutoSyncLLV khi thang chua co du lieu) - fix qua thang hien rong/cu [loai:Fix bug] [tokens:6000] [ver:260706pcmonth1]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260706pcmonth1",
-   "files": 3,
-   "additions": 15,
-   "deletions": 3
   }
  ]
 }
