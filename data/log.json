@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T04:41:17.523Z",
+ "generated": "2026-10-23T04:49:59.711Z",
  "repo": "zentea-qlch",
- "appVer": "261023vts3",
+ "appVer": "261023vts4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "34d5cd6",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T11:49:38+07:00",
+   "message": "Vo Thi Sau theo phoi canh tong the Chinh Nam: nha kinh mai xanh, san cay lon, khoi chinh lam go + ban cong kinh; sua bac mau [loai:Thêm tính năng] [tokens:40000] [ver:261023vts4]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261023vts4",
+   "files": 5,
+   "additions": 270,
+   "deletions": 245
+  },
   {
    "hash": "c29cb64",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 133,
    "deletions": 74
-  },
-  {
-   "hash": "1556ba2",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-08T09:58:09+07:00",
-   "message": "Lich Ve Sinh (LLV): qua thang moi tu sinh dong moi + reset cong viec/phan cong/tich; display+thong ke+tu phan chia loc theo thang, giu lich su thang cu (data chung phan biet qua ymd) [loai:Fix bug] [tokens:11000] [ver:260708vesinhmonth1]",
-   "loai": "Fix bug",
-   "tokens": 11000,
-   "ver": "260708vesinhmonth1",
-   "files": 3,
-   "additions": 38,
-   "deletions": 11
   }
  ]
 }
