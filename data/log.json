@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T15:58:35.081Z",
+ "generated": "2026-10-23T16:51:52.765Z",
  "repo": "zentea-qlch",
- "appVer": "261023st1",
+ "appVer": "261023dv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "83986ba",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T23:51:26+07:00",
+   "message": "Thu vien thiet bi 50 mau 3 nhom (cua hang ZEN, xay dung/tien ich, van phong/kho), dat vao ban ve Xay dung, keo tha khong gioi han vung [loai:Thêm tính năng] [tokens:60000] [ver:261023dv1]",
+   "loai": "Thêm tính năng",
+   "tokens": 60000,
+   "ver": "261023dv1",
+   "files": 8,
+   "additions": 310,
+   "deletions": 38
+  },
   {
    "hash": "114c466",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 4,
    "deletions": 3
-  },
-  {
-   "hash": "d3fb017",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-09T10:58:52+07:00",
-   "message": "KPI Thang: hien diem DEMO tam tinh cho thang chua luu (diem goc theo bac A2=10/A1=8/khac=6 tru tong diem vi pham DA DUYET thang do) - o cam net dut nhan tam, ap moi NV; input dien san de Luu KPI chot [loai:Fix bug] [tokens:9000] [ver:260708kpidemo1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260708kpidemo1",
-   "files": 3,
-   "additions": 34,
-   "deletions": 6
   }
  ]
 }
