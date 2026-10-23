@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-22T11:28:37.965Z",
+ "generated": "2026-10-23T00:22:17.313Z",
  "repo": "zentea-qlch",
- "appVer": "261022bd15",
+ "appVer": "261023wall1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "717c36e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-23T07:21:56+07:00",
+   "message": "Trinh thiet ke: ve tuong bang keo chuot + 20 loai do moi (tuong, vach, bar, kho, khu ngoi) [loai:Thêm tính năng] [tokens:40000] [ver:261023wall1]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261023wall1",
+   "files": 9,
+   "additions": 247,
+   "deletions": 31
+  },
   {
    "hash": "1478085",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 336,
    "deletions": 52
-  },
-  {
-   "hash": "e630afe",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-06T20:45:45+07:00",
-   "message": "Them keo tha do trang tri Vuon ZEN [loai:Thêm tính năng] [tokens:13000] [ver:260706gardenlayout1]",
-   "loai": "Thêm tính năng",
-   "tokens": 13000,
-   "ver": "260706gardenlayout1",
-   "files": 6,
-   "additions": 328,
-   "deletions": 30
   }
  ]
 }
