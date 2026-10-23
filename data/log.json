@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T05:28:54.067Z",
+ "generated": "2026-10-23T06:11:12.726Z",
  "repo": "zentea-qlch",
- "appVer": "261023gfx1",
+ "appVer": "261023r170",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7fce412",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T13:10:50+07:00",
+   "message": "Nang three.js r147 -> r170 (giu hinh nhu cu, du phong r147), Chan thuc nhe + hau ky ACES, compileAsync [loai:Tối ưu] [tokens:90000] [ver:261023r170]",
+   "loai": "Tối ưu",
+   "tokens": 90000,
+   "ver": "261023r170",
+   "files": 38,
+   "additions": 6327,
+   "deletions": 134
+  },
   {
    "hash": "6995729",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 34,
    "deletions": 3
-  },
-  {
-   "hash": "aae477e",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-08T12:44:42+07:00",
-   "message": "Note vi tri: vi tri TUY CHON khi NV tu them ca thuc te (frontend bo chan + backend khong xoa note khi customActual + vi tri trong); tach ca van bat buoc vi tri [loai:Fix bug] [tokens:6000] [ver:260708posopt1]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260708posopt1",
-   "files": 4,
-   "additions": 10,
-   "deletions": 7
   }
  ]
 }
