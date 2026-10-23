@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T00:48:50.002Z",
+ "generated": "2026-10-23T04:41:17.523Z",
  "repo": "zentea-qlch",
- "appVer": "261023cam1",
+ "appVer": "261023vts3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c29cb64",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T11:40:56+07:00",
+   "message": "Dung lai ZEN Tea Premium Vo Thi Sau theo quan that (anh Chinh Nam + OSM): khu rieng, canh 1 tang PREMIUM, san cay lon, khoi 3 tang, vuon cau, TTC Plaza doi dien [loai:Thêm tính năng] [tokens:60000] [ver:261023vts3]",
+   "loai": "Thêm tính năng",
+   "tokens": 60000,
+   "ver": "261023vts3",
+   "files": 6,
+   "additions": 307,
+   "deletions": 169
+  },
   {
    "hash": "e4ecd12",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 38,
    "deletions": 11
-  },
-  {
-   "hash": "46f2c99",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-07T19:17:19+07:00",
-   "message": "Bump ?v=260706lichql6b cho store-managers.js - ne cache Cloudflare da lo cache ban cu duoi URL lichql6 [loai:Deploy] [tokens:2000] [ver:260706lichql6b]",
-   "loai": "Deploy",
-   "tokens": 2000,
-   "ver": "260706lichql6b",
-   "files": 2,
-   "additions": 3,
-   "deletions": 3
   }
  ]
 }
