@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T12:49:26.525Z",
+ "generated": "2026-10-23T13:01:57.830Z",
  "repo": "zentea-qlch",
- "appVer": "261023sh1",
+ "appVer": "261023xd2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0316fbf",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T20:01:35+07:00",
+   "message": "Sua tuong sau khi ve: keo dau doi do dai/huong, keo than doi tuong (tuong noi di theo), o Dai/Cao/Day [loai:Thêm tính năng] [tokens:30000] [ver:261023xd2]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "261023xd2",
+   "files": 5,
+   "additions": 175,
+   "deletions": 19
+  },
   {
    "hash": "eb36492",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 6,
    "deletions": 6
-  },
-  {
-   "hash": "fefb39d",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-08T20:29:22+07:00",
-   "message": "LLV: ngay thu viec (tvFrom..tvTo) BO QUA quy tac dang ky off - dien X thoai mai; off thu viec cua NV khac khong tinh vao gioi han off/ngay [loai:Cai thien tinh nang] [tokens:4000] [ver:260708tvoff1]",
-   "loai": "Cai thien tinh nang",
-   "tokens": 4000,
-   "ver": "260708tvoff1",
-   "files": 3,
-   "additions": 13,
-   "deletions": 3
   }
  ]
 }
