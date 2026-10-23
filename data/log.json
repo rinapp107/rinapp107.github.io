@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T13:01:57.830Z",
+ "generated": "2026-10-23T15:58:35.081Z",
  "repo": "zentea-qlch",
- "appVer": "261023xd2",
+ "appVer": "261023st1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "114c466",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-23T22:58:07+07:00",
+   "message": "Luu lo, ke hoach lo, thiet bi da them, bo tri len may chu (dong bo moi may, sua can PIN) [loai:Thêm tính năng] [tokens:45000] [ver:261023st1]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261023st1",
+   "files": 10,
+   "additions": 192,
+   "deletions": 6
+  },
   {
    "hash": "0316fbf",
    "agent": "Người",
@@ -6489,19 +6502,6 @@
    "ver": "260708kpidemo1",
    "files": 3,
    "additions": 34,
-   "deletions": 6
-  },
-  {
-   "hash": "6abf4c0",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-08T21:42:55+07:00",
-   "message": "Thong ke LLV: mat chuyen can theo gio nho lam the doi tu >= sang > (dung 24h VAN con CC, chi TREN 24h moi mat); ro nhan cau hinh nguong [loai:Fix bug] [tokens:3000] [ver:260708cc1]",
-   "loai": "Fix bug",
-   "tokens": 3000,
-   "ver": "260708cc1",
-   "files": 3,
-   "additions": 6,
    "deletions": 6
   }
  ]
