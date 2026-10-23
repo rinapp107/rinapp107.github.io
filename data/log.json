@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T17:04:10.023Z",
+ "generated": "2026-10-23T17:27:10.547Z",
  "repo": "zentea-qlch",
- "appVer": "261023tk1",
+ "appVer": "261024ng1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fc261ce",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T00:26:50+07:00",
+   "message": "Nguoi di lai: khach + nhan vien chuyen dong (NTMK kich ban that, ban ve Xay dung, lo, thiet bi tu them), tim duong A* ne tuong; quay tu dat chua loi NV [loai:Thêm tính năng] [tokens:80000] [ver:261024ng1]",
+   "loai": "Thêm tính năng",
+   "tokens": 80000,
+   "ver": "261024ng1",
+   "files": 8,
+   "additions": 559,
+   "deletions": 5
+  },
   {
    "hash": "f9261d8",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 12,
    "deletions": 0
-  },
-  {
-   "hash": "27aed00",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T11:20:18+07:00",
-   "message": "Sua menu POS theo schema eOrder [loai:Fix bug] [tokens:18000] [ver:260709posmenu1]",
-   "loai": "Fix bug",
-   "tokens": 18000,
-   "ver": "260709posmenu1",
-   "files": 6,
-   "additions": 263,
-   "deletions": 32
   }
  ]
 }
