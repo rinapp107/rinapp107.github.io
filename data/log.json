@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T06:20:49.285Z",
+ "generated": "2026-10-24T06:45:30.802Z",
  "repo": "zentea-qlch",
- "appVer": "261024ux1",
+ "appVer": "261024ld1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e2767e9",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T13:45:10+07:00",
+   "message": "Tao lo nhanh + 5 mau bo tri, thu vien Cafe-shop + Ngoai that (77 mau), tuong 2 mau trong/ngoai, san co van, co + troi dịu hon, dien nuoc nhieu nguon [loai:Thêm tính năng] [tokens:140000] [ver:261024ld1]",
+   "loai": "Thêm tính năng",
+   "tokens": 140000,
+   "ver": "261024ld1",
+   "files": 14,
+   "additions": 645,
+   "deletions": 32
+  },
   {
    "hash": "0bd460d",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 3,
    "deletions": 3
-  },
-  {
-   "hash": "53d524a",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T22:03:21+07:00",
-   "message": "Bo UI nhap JSON eOrder trong POS [loai:Fix bug] [tokens:4500] [ver:260709posmenu5]",
-   "loai": "Fix bug",
-   "tokens": 4500,
-   "ver": "260709posmenu5",
-   "files": 5,
-   "additions": 20,
-   "deletions": 110
   }
  ]
 }
