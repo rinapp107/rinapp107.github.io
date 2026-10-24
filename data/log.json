@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-23T23:13:35.824Z",
+ "generated": "2026-10-24T00:13:36.840Z",
  "repo": "zentea-qlch",
- "appVer": "261024dt1",
+ "appVer": "261024gn1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6bd472e",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T07:13:13+07:00",
+   "message": "Thanh goc nhin tu doi theo khu dang xem (ban ve Xay dung, NTMK, tung lo, Pho mau, Vo Thi Sau) + luu goc rieng dong bo may chu [loai:Thêm tính năng] [tokens:40000] [ver:261024gn1]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261024gn1",
+   "files": 10,
+   "additions": 206,
+   "deletions": 13
+  },
   {
    "hash": "facba98",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 45,
    "deletions": 14
-  },
-  {
-   "hash": "bea3e4f",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-09T11:27:46+07:00",
-   "message": "Bump ver 260709kpidemo2 (cache-bust api-core-v68 fix Luu KPI gom diem demo) [loai:Deploy] [tokens:500] [ver:260709kpidemo2]",
-   "loai": "Deploy",
-   "tokens": 500,
-   "ver": "260709kpidemo2",
-   "files": 2,
-   "additions": 3,
-   "deletions": 3
   }
  ]
 }
