@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T00:13:36.840Z",
+ "generated": "2026-10-24T00:47:06.507Z",
  "repo": "zentea-qlch",
- "appVer": "261024gn1",
+ "appVer": "261024mb1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "8375942",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T07:46:41+07:00",
+   "message": "Ve mat bang chuan kien truc GD A: ban ve 2D kieu CAD + chia doi 2D|3D, tuong lien tuc go so, noi goc, tu nhan phong, bat diem, cua chuan [loai:Thêm tính năng] [tokens:150000] [ver:261024mb1]",
+   "loai": "Thêm tính năng",
+   "tokens": 150000,
+   "ver": "261024mb1",
+   "files": 11,
+   "additions": 896,
+   "deletions": 19
+  },
   {
    "hash": "6bd472e",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 6,
    "deletions": 6
-  },
-  {
-   "hash": "ed7f3b2",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T11:34:32+07:00",
-   "message": "Hoan thien import POS eOrder va khoa auto seed cong thuc [loai:Fix bug] [tokens:6000] [ver:260709posmenu2]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260709posmenu2",
-   "files": 4,
-   "additions": 45,
-   "deletions": 14
   }
  ]
 }
