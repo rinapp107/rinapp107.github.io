@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T00:53:20.002Z",
+ "generated": "2026-10-24T01:27:44.592Z",
  "repo": "zentea-qlch",
- "appVer": "261024lv1",
+ "appVer": "261024dn1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ac5138c",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T08:27:22+07:00",
+   "message": "Dien nuoc: o cam, cong tac, den, diem cap thoat; day va ong tu di theo tuong (keo sua duoc), ky hieu CAD 2D, tuyen 3D theo lop Dien/Nuoc, du toan nhom Dien nuoc [loai:Thêm tính năng] [tokens:110000] [ver:261024dn1]",
+   "loai": "Thêm tính năng",
+   "tokens": 110000,
+   "ver": "261024dn1",
+   "files": 10,
+   "additions": 466,
+   "deletions": 15
+  },
   {
    "hash": "7724c7a",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 9,
    "deletions": 3
-  },
-  {
-   "hash": "cb70b2d",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T12:39:43+07:00",
-   "message": "Seed menu POS eOrder chid 44 [loai:Fix bug] [tokens:9000] [ver:260709posmenu4]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260709posmenu4",
-   "files": 7,
-   "additions": 50794,
-   "deletions": 9
   }
  ]
 }
