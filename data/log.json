@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T01:27:44.592Z",
+ "generated": "2026-10-24T06:20:49.285Z",
  "repo": "zentea-qlch",
- "appVer": "261024dn1",
+ "appVer": "261024ux1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0bd460d",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T13:20:29+07:00",
+   "message": "Xay dung 3D: bam de lam keo de xoay, bam trung mat tuong (do tia), to mau bao truoc khi xoa, tuong bam tung diem + go so, Chon/sua gop sua tuong, mo san chia doi 2D|3D [loai:Sửa lỗi] [tokens:60000] [ver:261024ux1]",
+   "loai": "Sửa lỗi",
+   "tokens": 60000,
+   "ver": "261024ux1",
+   "files": 6,
+   "additions": 287,
+   "deletions": 68
+  },
   {
    "hash": "ac5138c",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 20,
    "deletions": 110
-  },
-  {
-   "hash": "49cbdf7",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-09T21:55:46+07:00",
-   "message": "KPI Thang: diem demo hien cho MOI thang DA KET THUC chua luu (khong vi pham -> ra diem goc theo bac; co vi pham -> tru diem), gioi han tu thang vao lam [loai:Cai thien tinh nang] [tokens:3000] [ver:260709kpidemo3]",
-   "loai": "Cai thien tinh nang",
-   "tokens": 3000,
-   "ver": "260709kpidemo3",
-   "files": 1,
-   "additions": 9,
-   "deletions": 3
   }
  ]
 }
