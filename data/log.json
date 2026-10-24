@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T00:47:06.507Z",
+ "generated": "2026-10-24T00:53:20.002Z",
  "repo": "zentea-qlch",
- "appVer": "261024mb1",
+ "appVer": "261024lv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7724c7a",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T07:52:54+07:00",
+   "message": "Ve mat bang GD B: nhieu tang (san be tong, an tang tren khi ve), cau thang khoet lo san, 2D hien tang duoi mo; du toan be tong/thep san + cau thang [loai:Thêm tính năng] [tokens:80000] [ver:261024lv1]",
+   "loai": "Thêm tính năng",
+   "tokens": 80000,
+   "ver": "261024lv1",
+   "files": 7,
+   "additions": 229,
+   "deletions": 48
+  },
   {
    "hash": "8375942",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 50794,
    "deletions": 9
-  },
-  {
-   "hash": "f410d62",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T11:40:46+07:00",
-   "message": "Bump cache POS eOrder posmenu3 [loai:Config] [tokens:2000] [ver:260709posmenu3]",
-   "loai": "Config",
-   "tokens": 2000,
-   "ver": "260709posmenu3",
-   "files": 4,
-   "additions": 6,
-   "deletions": 6
   }
  ]
 }
