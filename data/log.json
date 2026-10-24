@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T07:26:36.693Z",
+ "generated": "2026-10-24T08:39:15.313Z",
  "repo": "zentea-qlch",
- "appVer": "261024qb1",
+ "appVer": "261024vh2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "febc78c",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T15:38:54+07:00",
+   "message": "Mo phong van hanh + do hieu suat: khach/gio, so NV, giay pha 1 ly -> 3D xep hang, pha che dat ly ra quay; bao cao cho, hang dai, ghe kin, ban %, cho ket, ban do cho dong, so sanh so NV; uu tien khu NTMK khi ban ve trai rong [loai:Thêm tính năng] [tokens:150000] [ver:261024vh2]",
+   "loai": "Thêm tính năng",
+   "tokens": 150000,
+   "ver": "261024vh2",
+   "files": 9,
+   "additions": 853,
+   "deletions": 24
+  },
   {
    "hash": "bb2ae02",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 66,
    "deletions": 9
-  },
-  {
-   "hash": "1dc66de",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T22:29:27+07:00",
-   "message": "Sua UI POS SVG va VietQR amount [loai:Fix bug] [tokens:16000] [ver:260709posqr1]",
-   "loai": "Fix bug",
-   "tokens": 16000,
-   "ver": "260709posqr1",
-   "files": 6,
-   "additions": 351,
-   "deletions": 65
   }
  ]
 }
