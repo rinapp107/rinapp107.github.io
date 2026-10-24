@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T06:45:30.802Z",
+ "generated": "2026-10-24T06:58:06.915Z",
  "repo": "zentea-qlch",
- "appVer": "261024ld1",
+ "appVer": "261024vl1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "903093b",
+   "agent": "Người",
+   "author": "ZenTea Admin",
+   "date": "2026-10-24T13:57:49+07:00",
+   "message": "Chon vat lieu: gach lat nen (loai, kich thuoc, mau, ron), op gach tuong theo chieu cao / ca phong, son mau tu chon; du toan tach tung loai gach + keo + ron [loai:Thêm tính năng] [tokens:90000] [ver:261024vl1]",
+   "loai": "Thêm tính năng",
+   "tokens": 90000,
+   "ver": "261024vl1",
+   "files": 11,
+   "additions": 329,
+   "deletions": 46
+  },
   {
    "hash": "e2767e9",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 6,
    "deletions": 6
-  },
-  {
-   "hash": "14da407",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-09T22:06:32+07:00",
-   "message": "Bump ver 260709kpidemo4 (cache-bust api-core-v68: KPI demo hien moi thang da ket thuc chua luu) [loai:Deploy] [tokens:500] [ver:260709kpidemo4]",
-   "loai": "Deploy",
-   "tokens": 500,
-   "ver": "260709kpidemo4",
-   "files": 2,
-   "additions": 3,
-   "deletions": 3
   }
  ]
 }
