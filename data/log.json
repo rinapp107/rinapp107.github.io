@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T09:25:56.620Z",
+ "generated": "2026-10-25T10:23:48.570Z",
  "repo": "zentea-qlch",
- "appVer": "261025ui1",
+ "appVer": "261025dv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1b3e3fa",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T17:23:26+07:00",
+   "message": "Them thiet bi kieu Planner 5D: bam mau roi bam cho dat (bong mo xanh/do theo chuot, R xoay, dat lien tuc, Esc/Xong), camera khong bay; dat duoc ca tren ban 2D [loai:Sửa lỗi] [tokens:40000] [ver:261025dv1]",
+   "loai": "Sửa lỗi",
+   "tokens": 40000,
+   "ver": "261025dv1",
+   "files": 8,
+   "additions": 161,
+   "deletions": 8
+  },
   {
    "hash": "d875b91",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 444,
    "deletions": 33
-  },
-  {
-   "hash": "f93e06c",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-12T15:37:33+07:00",
-   "message": "Cap nhat verify live sua LLV [loai:Config] [tokens:800] [ver:260712llvorphan1]",
-   "loai": "Config",
-   "tokens": 800,
-   "ver": "260712llvorphan1",
-   "files": 1,
-   "additions": 1,
-   "deletions": 1
   }
  ]
 }
