@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T08:26:43.181Z",
+ "generated": "2026-10-25T09:04:22.960Z",
  "repo": "zentea-qlch",
- "appVer": "261025cx1",
+ "appVer": "261025pz1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "410cc5d",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T16:04:00+07:00",
+   "message": "Bo khoi TTC Plaza (de + 2 thap) canh chi nhanh Vo Thi Sau [loai:Thêm tính năng] [tokens:5000] [ver:261025pz1]",
+   "loai": "Thêm tính năng",
+   "tokens": 5000,
+   "ver": "261025pz1",
+   "files": 5,
+   "additions": 8,
+   "deletions": 21
+  },
   {
    "hash": "0781c93",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 1
-  },
-  {
-   "hash": "ed32c4b",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T22:53:35+07:00",
-   "message": "Nang cap layout Ban Hang POS [loai:Fix bug] [tokens:9000] [ver:260709poslayout1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260709poslayout1",
-   "files": 6,
-   "additions": 143,
-   "deletions": 53
   }
  ]
 }
