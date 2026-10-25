@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T11:06:38.161Z",
+ "generated": "2026-10-25T11:20:16.315Z",
  "repo": "zentea-qlch",
- "appVer": "261025mv1",
+ "appVer": "261025sz1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e0d1cbc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T18:19:51+07:00",
+   "message": "Sua kich thuoc do khong lo chi tiet: ke lam viec quay bar, ke sau quay, quay le tan, lo tren quay inox, ke tu mat mo mat co theo do sau [loai:Fix bug] [tokens:20000] [ver:261025sz1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261025sz1",
+   "files": 7,
+   "additions": 19,
+   "deletions": 13
+  },
   {
    "hash": "f110553",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 12,
    "deletions": 3
-  },
-  {
-   "hash": "d520ee3",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-12T20:42:58+07:00",
-   "message": "Lam dep card POS va gom Choco size L [loai:Thêm tính năng] [tokens:7000] [ver:260712posvisual1]",
-   "loai": "Thêm tính năng",
-   "tokens": 7000,
-   "ver": "260712posvisual1",
-   "files": 6,
-   "additions": 33,
-   "deletions": 20
   }
  ]
 }
