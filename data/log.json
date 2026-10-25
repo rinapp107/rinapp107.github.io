@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T14:33:01.015Z",
+ "generated": "2026-10-25T14:42:51.001Z",
  "repo": "zentea-qlch",
- "appVer": "261025ks1",
+ "appVer": "261025sb1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0f59faa",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T21:42:32+07:00",
+   "message": "Lot kin san lau theo phong tang duoi (chua lo cau thang); dat do ap sat tuong dung be day + hut tuong tu quay lung vao tuong [loai:Thêm tính năng] [tokens:30000] [ver:261025sb1]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "261025sb1",
+   "files": 7,
+   "additions": 86,
+   "deletions": 13
+  },
   {
    "hash": "336d640",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 21,
    "deletions": 12
-  },
-  {
-   "hash": "e9a7f8a",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-14T18:08:30+07:00",
-   "message": "Sua job cai phu tro PDF sang Word [loai:Fix bug] [tokens:1500] [ver:260714docconvert1]",
-   "loai": "Fix bug",
-   "tokens": 1500,
-   "ver": "260714docconvert1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 3
   }
  ]
 }
