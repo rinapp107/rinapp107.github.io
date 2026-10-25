@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T09:04:22.960Z",
+ "generated": "2026-10-25T09:13:42.374Z",
  "repo": "zentea-qlch",
- "appVer": "261025pz1",
+ "appVer": "261025lt1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9df22c5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T16:13:21+07:00",
+   "message": "Chi tiet lo pho mau mo ngay trong Xay dung 2D|3D: them ranh lo dung cho, camera + ban 2D dua toi lo (thay trang ke-hoach rieng) [loai:Thêm tính năng] [tokens:30000] [ver:261025lt1]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "261025lt1",
+   "files": 8,
+   "additions": 45,
+   "deletions": 10
+  },
   {
    "hash": "410cc5d",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 126,
    "deletions": 15
-  },
-  {
-   "hash": "6d9c6d6",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T23:02:56+07:00",
-   "message": "Cap nhat verify live POS layout [loai:Config] [tokens:800] [ver:260709poslayout1]",
-   "loai": "Config",
-   "tokens": 800,
-   "ver": "260709poslayout1",
-   "files": 1,
-   "additions": 1,
-   "deletions": 1
   }
  ]
 }
