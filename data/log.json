@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T07:28:10.957Z",
+ "generated": "2026-10-25T08:01:48.068Z",
  "repo": "zentea-qlch",
- "appVer": "261025xv1",
+ "appVer": "261025mo1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e9661e4",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T15:01:25+07:00",
+   "message": "Bot mo khi chuyen dong: do phan giai luc xoay 90% (dt 75%), chi ha khi duoi 30 FPS, san 0,75; keo sua tuong khong ha net [loai:Fix bug] [tokens:15000] [ver:261025mo1]",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "261025mo1",
+   "files": 6,
+   "additions": 15,
+   "deletions": 13
+  },
   {
    "hash": "8ed552b",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 75,
    "deletions": 22
-  },
-  {
-   "hash": "ab47839",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-09T22:39:23+07:00",
-   "message": "Cap nhat handoff live POS posqr1 [loai:Config] [tokens:1000] [ver:260709canhan3]",
-   "loai": "Config",
-   "tokens": 1000,
-   "ver": "260709canhan3",
-   "files": 2,
-   "additions": 2,
-   "deletions": 2
   }
  ]
 }
