@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T16:39:18.108Z",
+ "generated": "2026-10-25T17:30:52.162Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c445b5e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-26T00:30:29+07:00",
+   "message": "Muot hon khi xoay (3D chi ve nua phai o 2D|3D, bo blur, nhan khong tinh bo cuc), keo do treo bam tuong + doi do cao, 8 mau moi (ke den, bon rua tay, may tinh, may pha/xay cafe, ke kho, binh PCCC) [loai:Thêm tính năng] [tokens:90000] [ver:261026pf1]",
+   "loai": "Thêm tính năng",
+   "tokens": 90000,
+   "ver": "261026pf1",
+   "files": 10,
+   "additions": 341,
+   "deletions": 51
+  },
   {
    "hash": "3a6c242",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 9,
    "additions": 634,
    "deletions": 11
-  },
-  {
-   "hash": "9f22b1e",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-15T10:25:43+07:00",
-   "message": "Bump cache toa do cham cong cua hang [loai:Deploy] [tokens:1200] [ver:260715storegps2]",
-   "loai": "Deploy",
-   "tokens": 1200,
-   "ver": "260715storegps2",
-   "files": 4,
-   "additions": 5,
-   "deletions": 5
   }
  ]
 }
