@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T17:30:52.162Z",
+ "generated": "2026-10-25T17:45:58.550Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "2615269",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-26T00:45:38+07:00",
+   "message": "Sua bo nho trinh duyet day khi luu mau moi: anh xem nhanh chuyen sang IndexedDB, xoa khoa cu, bao loi kem khoa lon nhat [loai:Fix bug] [tokens:20000] [ver:261026ls1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261026ls1",
+   "files": 4,
+   "additions": 53,
+   "deletions": 31
+  },
   {
    "hash": "c445b5e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 127,
    "deletions": 16
-  },
-  {
-   "hash": "6f32b0a",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-15T21:02:05+07:00",
-   "message": "Them module Man Hinh Tivi [loai:Thêm tính năng] [tokens:12000] [ver:260715tvscreen1]",
-   "loai": "Thêm tính năng",
-   "tokens": 12000,
-   "ver": "260715tvscreen1",
-   "files": 9,
-   "additions": 634,
-   "deletions": 11
   }
  ]
 }
