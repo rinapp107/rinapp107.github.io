@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T12:03:51.483Z",
+ "generated": "2026-10-25T12:27:09.316Z",
  "repo": "zentea-qlch",
- "appVer": "261025tl1",
+ "appVer": "261025bc1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "739fb14",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T19:26:44+07:00",
+   "message": "Lan can kinh ban cong (kinh lien, tay vin inox, ray de; cao 1,1 m), du toan theo met dai; thoat Xay dung hien lai du cac tang [loai:Thêm tính năng] [tokens:20000] [ver:261025bc1]",
+   "loai": "Thêm tính năng",
+   "tokens": 20000,
+   "ver": "261025bc1",
+   "files": 7,
+   "additions": 41,
+   "deletions": 15
+  },
   {
    "hash": "955c007",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 105,
    "deletions": 17
-  },
-  {
-   "hash": "2327476",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-12T22:49:56+07:00",
-   "message": "Sua lich su don hang POS [loai:Fix bug] [tokens:8000] [ver:260712poshistory1]",
-   "loai": "Fix bug",
-   "tokens": 8000,
-   "ver": "260712poshistory1",
-   "files": 6,
-   "additions": 420,
-   "deletions": 50
   }
  ]
 }
