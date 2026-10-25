@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T11:41:50.608Z",
+ "generated": "2026-10-25T12:03:51.483Z",
  "repo": "zentea-qlch",
- "appVer": "261025fc1",
+ "appVer": "261025tl1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "955c007",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T19:03:34+07:00",
+   "message": "Gach nen dung mau + giong that: bu mau theo duong do anh sang canh, moi vien lech mau + van rieng, go mep, ron nham, mat bong theo loai [loai:Thêm tính năng] [tokens:35000] [ver:261025tl1]",
+   "loai": "Thêm tính năng",
+   "tokens": 35000,
+   "ver": "261025tl1",
+   "files": 6,
+   "additions": 120,
+   "deletions": 50
+  },
   {
    "hash": "2319e25",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 420,
    "deletions": 50
-  },
-  {
-   "hash": "cdfa6c6",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-12T22:24:27+07:00",
-   "message": "Chuan hoa loai ca Excel lich quan ly [loai:Fix bug] [tokens:6000] [ver:260712qlchexcel1]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260712qlchexcel1",
-   "files": 5,
-   "additions": 54,
-   "deletions": 5
   }
  ]
 }
