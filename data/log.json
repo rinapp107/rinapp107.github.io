@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-24T08:39:15.313Z",
+ "generated": "2026-10-25T07:28:10.957Z",
  "repo": "zentea-qlch",
- "appVer": "261024vh2",
+ "appVer": "261025xv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "8ed552b",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T14:27:50+07:00",
+   "message": "Sua camera dinh xoay khi bat Xay dung: khong chan pointerup cua OrbitControls nua, chi danh dau zenXD [loai:Fix bug] [tokens:20000] [ver:261025xv1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261025xv1",
+   "files": 6,
+   "additions": 7,
+   "deletions": 4
+  },
   {
    "hash": "febc78c",
    "agent": "Người",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 2,
    "deletions": 2
-  },
-  {
-   "hash": "e8508d2",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-09T22:32:42+07:00",
-   "message": "Ca Nhan cho quan ly tro len: vao thang ho so ca nhan cua chinh minh (khong PIN/khong bang chon NV); chua co ho so -> TU TAO nhan su o chi nhanh dang chon (admin quan ly nhu NV khac, luu lien ket user_links); ho so o chi nhanh khac -> huong dan chuyen; try/catch het man trang [loai:Sua tinh nang] [tokens:8000] [ver:260709canhan3]",
-   "loai": "Sua tinh nang",
-   "tokens": 8000,
-   "ver": "260709canhan3",
-   "files": 3,
-   "additions": 66,
-   "deletions": 9
   }
  ]
 }
