@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T12:41:10.216Z",
+ "generated": "2026-10-25T13:23:30.511Z",
  "repo": "zentea-qlch",
- "appVer": "261025pv1",
+ "appVer": "261025wp1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4342eb5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T20:23:08+07:00",
+   "message": "Sua mau mat trong tuong khong an khi phong chua khep kin; ban 2D bao nhan do phong chua kin, chua co san [loai:Fix bug] [tokens:20000] [ver:261025wp1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261025wp1",
+   "files": 6,
+   "additions": 18,
+   "deletions": 4
+  },
   {
    "hash": "64821a2",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 9,
    "additions": 589,
    "deletions": 8
-  },
-  {
-   "hash": "7527c24",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-13T19:07:28+07:00",
-   "message": "Sua checklist thiet bi khong nhay man hinh [loai:Fix bug] [tokens:6500] [ver:260713drequipjump1]",
-   "loai": "Fix bug",
-   "tokens": 6500,
-   "ver": "260713drequipjump1",
-   "files": 5,
-   "additions": 47,
-   "deletions": 18
   }
  ]
 }
