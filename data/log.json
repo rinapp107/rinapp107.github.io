@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T10:57:26.280Z",
+ "generated": "2026-10-25T11:06:38.161Z",
  "repo": "zentea-qlch",
- "appVer": "261025gl1",
+ "appVer": "261025mv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "f110553",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T18:06:20+07:00",
+   "message": "Doi do da dat: nut Doi tren thanh nho (bong mo theo chuot, bam cho moi de tha) + giu chuot keo thang do dang chon, de len do khac thi tra ve cho cu [loai:Thêm tính năng] [tokens:20000] [ver:261025mv1]",
+   "loai": "Thêm tính năng",
+   "tokens": 20000,
+   "ver": "261025mv1",
+   "files": 7,
+   "additions": 65,
+   "deletions": 8
+  },
   {
    "hash": "d84624c",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 33,
    "deletions": 20
-  },
-  {
-   "hash": "cbb933d",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-12T18:33:15+07:00",
-   "message": "Tang kich thuoc card mon POS [loai:Thêm tính năng] [tokens:4000] [ver:260712poscard1]",
-   "loai": "Thêm tính năng",
-   "tokens": 4000,
-   "ver": "260712poscard1",
-   "files": 5,
-   "additions": 28,
-   "deletions": 21
   }
  ]
 }
