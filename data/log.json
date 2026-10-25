@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T09:13:42.374Z",
+ "generated": "2026-10-25T09:25:56.620Z",
  "repo": "zentea-qlch",
- "appVer": "261025lt1",
+ "appVer": "261025ui1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d875b91",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T16:25:34+07:00",
+   "message": "Sap lai bang dieu khien Ban Dung: thanh cong cu doc trai co bieu tuong, ben phai gon 1 nut Lop hien thi, tieu de/goi y tren the nen (doc ro giao dien toi), thoat Xay dung ve Tong quan khi camera o cho trong [loai:Thêm tính năng] [tokens:45000] [ver:261025ui1]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261025ui1",
+   "files": 8,
+   "additions": 114,
+   "deletions": 49
+  },
   {
    "hash": "9df22c5",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 1
-  },
-  {
-   "hash": "7331fa3",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-12T15:21:12+07:00",
-   "message": "Sua xoa nhan vien tren Lich Lam Viec [loai:Fix bug] [tokens:9000] [ver:260712llvorphan1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260712llvorphan1",
-   "files": 5,
-   "additions": 126,
-   "deletions": 15
   }
  ]
 }
