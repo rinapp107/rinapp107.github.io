@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T12:27:09.316Z",
+ "generated": "2026-10-25T12:41:10.216Z",
  "repo": "zentea-qlch",
- "appVer": "261025bc1",
+ "appVer": "261025pv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "64821a2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T19:40:49+07:00",
+   "message": "Chon gach / mau co hinh mo phong: nut San tren thanh Xay dung mo bang hinh (loai, kich thuoc, mau, ron), bang sua 2D luoi hinh loai gach + hinh mau son; bang sua nam duoi thanh Xay dung [loai:Thêm tính năng] [tokens:40000] [ver:261025pv1]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261025pv1",
+   "files": 7,
+   "additions": 118,
+   "deletions": 19
+  },
   {
    "hash": "739fb14",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 47,
    "deletions": 18
-  },
-  {
-   "hash": "639ceb4",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-13T09:26:13+07:00",
-   "message": "Sua loc ngay va modal hoa don POS [loai:Fix bug] [tokens:7000] [ver:260712poshistory2]",
-   "loai": "Fix bug",
-   "tokens": 7000,
-   "ver": "260712poshistory2",
-   "files": 6,
-   "additions": 105,
-   "deletions": 17
   }
  ]
 }
