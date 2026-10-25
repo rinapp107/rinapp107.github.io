@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T14:26:45.446Z",
+ "generated": "2026-10-25T14:33:01.015Z",
  "repo": "zentea-qlch",
- "appVer": "261025ad1",
+ "appVer": "261025ks1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "336d640",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T21:32:41+07:00",
+   "message": "Them ke sach go 60x28x60 + chinh ngan rieng tung ke (so tang, so ngan doc, sach mau) trong bang chi tiet [loai:Thêm tính năng] [tokens:25000] [ver:261025ks1]",
+   "loai": "Thêm tính năng",
+   "tokens": 25000,
+   "ver": "261025ks1",
+   "files": 8,
+   "additions": 82,
+   "deletions": 12
+  },
   {
    "hash": "67b7a14",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 3
-  },
-  {
-   "hash": "11f717a",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-14T16:37:35+07:00",
-   "message": "Them PDF sang Word cho cong cu chuyen doi [loai:Thêm tính năng] [tokens:12000] [ver:260714docconvert1]",
-   "loai": "Thêm tính năng",
-   "tokens": 12000,
-   "ver": "260714docconvert1",
-   "files": 8,
-   "additions": 484,
-   "deletions": 144
   }
  ]
 }
