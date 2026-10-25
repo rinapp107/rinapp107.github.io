@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T08:01:48.068Z",
+ "generated": "2026-10-25T08:26:43.181Z",
  "repo": "zentea-qlch",
- "appVer": "261025mo1",
+ "appVer": "261025cx1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0781c93",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T15:26:21+07:00",
+   "message": "Ban 2D hien canh xung quanh: anh chup 3D nhin tu tren (bo do cao > 2,1 m) lot mo duoi luoi + ten cua hang NTMK, lo pho mau, Vo Thi Sau [loai:Thêm tính năng] [tokens:40000] [ver:261025cx1]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261025cx1",
+   "files": 7,
+   "additions": 80,
+   "deletions": 7
+  },
   {
    "hash": "e9661e4",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 143,
    "deletions": 53
-  },
-  {
-   "hash": "bca80c3",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-09T22:40:33+07:00",
-   "message": "Ca Nhan: nut Lien ket ho so nhan su (tai khoan ten khac ho so chon lai 1 lan, luu user_links, uu tien lien ket khi mo); man ho so o cua hang khac co nut lien ket tai cho [loai:Them tinh nang] [tokens:5000] [ver:260709canhan4]",
-   "loai": "Them tinh nang",
-   "tokens": 5000,
-   "ver": "260709canhan4",
-   "files": 3,
-   "additions": 75,
-   "deletions": 22
   }
  ]
 }
