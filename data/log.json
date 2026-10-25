@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T13:23:30.511Z",
+ "generated": "2026-10-25T13:44:50.204Z",
  "repo": "zentea-qlch",
- "appVer": "261025wp1",
+ "appVer": "261025mc1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "bc1404e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T20:44:29+07:00",
+   "message": "Doi mau san / tuong ngay khi chon: nut Mau gach / Mau son tren thanh nho mo bang chon co hinh (dung chung voi thanh Xay dung) [loai:Thêm tính năng] [tokens:30000] [ver:261025mc1]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "261025mc1",
+   "files": 6,
+   "additions": 88,
+   "deletions": 26
+  },
   {
    "hash": "4342eb5",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 30,
    "deletions": 7
-  },
-  {
-   "hash": "3d4d848",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-14T12:34:27+07:00",
-   "message": "Them module chuyen doi Word PDF [loai:Thêm tính năng] [tokens:14000] [ver:260714wordpdf1]",
-   "loai": "Thêm tính năng",
-   "tokens": 14000,
-   "ver": "260714wordpdf1",
-   "files": 9,
-   "additions": 589,
-   "deletions": 8
   }
  ]
 }
