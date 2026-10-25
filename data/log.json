@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T14:42:51.001Z",
+ "generated": "2026-10-25T14:48:01.144Z",
  "repo": "zentea-qlch",
- "appVer": "261025sb1",
+ "appVer": "261025hg1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "8c82216",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T21:47:42+07:00",
+   "message": "Treo ke sach len tuong (Treo cach san, nut nhanh 90/120/150 cm, ke sat do); sua thanh dat do khong an khi bam Xong [loai:Thêm tính năng] [tokens:15000] [ver:261025hg1]",
+   "loai": "Thêm tính năng",
+   "tokens": 15000,
+   "ver": "261025hg1",
+   "files": 7,
+   "additions": 18,
+   "deletions": 9
+  },
   {
    "hash": "0f59faa",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 401,
    "deletions": 30
-  },
-  {
-   "hash": "2273a07",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-14T19:20:48+07:00",
-   "message": "Tang gioi han chuyen doi tai lieu 500MB [loai:Config] [tokens:4500] [ver:260714doc500m1]",
-   "loai": "Config",
-   "tokens": 4500,
-   "ver": "260714doc500m1",
-   "files": 6,
-   "additions": 21,
-   "deletions": 12
   }
  ]
 }
