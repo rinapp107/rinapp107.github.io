@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T17:58:25.889Z",
+ "generated": "2026-10-25T18:05:32.201Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fa6f3fe",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-26T01:05:13+07:00",
+   "message": "May lanh, tivi, tu dien, ke treo, den tha, do tren quay: chinh Treo cach san / Dat cao tung mon, keo tren tuong doi do cao [loai:Thêm tính năng] [tokens:15000] [ver:261026ac1]",
+   "loai": "Thêm tính năng",
+   "tokens": 15000,
+   "ver": "261026ac1",
+   "files": 4,
+   "additions": 17,
+   "deletions": 4
+  },
   {
    "hash": "f4a68ae",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 276,
    "deletions": 12
-  },
-  {
-   "hash": "19a254e",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-15T22:06:30+07:00",
-   "message": "Doi Man Hinh Tivi sang cau hinh chung [loai:Fix bug] [tokens:8000] [ver:260715tvglobal1]",
-   "loai": "Fix bug",
-   "tokens": 8000,
-   "ver": "260715tvglobal1",
-   "files": 6,
-   "additions": 64,
-   "deletions": 24
   }
  ]
 }
