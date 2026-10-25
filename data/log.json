@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T14:56:31.571Z",
+ "generated": "2026-10-25T16:20:49.999Z",
  "repo": "zentea-qlch",
- "appVer": "261025lk1",
+ "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9ee79ab",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T23:20:31+07:00",
+   "message": "Bang chi tiet do vat kieu Planner 5D: 3 o kich thuoc, hang nut bieu tuong, the Thong tin / Ngan ke / Ben trong / Cau tao / Lo; thanh nho ne bang [loai:Thêm tính năng] [tokens:30000] [ver:261025ip1]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "261025ip1",
+   "files": 7,
+   "additions": 106,
+   "deletions": 39
+  },
   {
    "hash": "c4db432",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 327,
    "deletions": 14
-  },
-  {
-   "hash": "40ece94",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-15T09:42:15+07:00",
-   "message": "Mo rong cot xem don POS [loai:Fix bug] [tokens:2500] [ver:260715posrightwide1]",
-   "loai": "Fix bug",
-   "tokens": 2500,
-   "ver": "260715posrightwide1",
-   "files": 5,
-   "additions": 11,
-   "deletions": 4
   }
  ]
 }
