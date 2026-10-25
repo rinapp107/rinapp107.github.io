@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-25T14:48:01.144Z",
+ "generated": "2026-10-25T14:56:31.571Z",
  "repo": "zentea-qlch",
- "appVer": "261025hg1",
+ "appVer": "261025lk1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c4db432",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-25T21:56:11+07:00",
+   "message": "Ke sach keo dai (mau rieng) giu chinh ngan / treo tuong, sach xep kin het chieu dai, ke do theo chieu dai [loai:Fix bug] [tokens:20000] [ver:261025lk1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261025lk1",
+   "files": 8,
+   "additions": 35,
+   "deletions": 22
+  },
   {
    "hash": "8c82216",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 11,
    "deletions": 4
-  },
-  {
-   "hash": "b03f0f2",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-15T09:29:06+07:00",
-   "message": "Nang cap khung xem don POS kieu eOrder [loai:Thêm tính năng] [tokens:6500] [ver:260715posorderpanel1]",
-   "loai": "Thêm tính năng",
-   "tokens": 6500,
-   "ver": "260715posorderpanel1",
-   "files": 6,
-   "additions": 401,
-   "deletions": 30
   }
  ]
 }
