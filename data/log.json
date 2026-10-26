@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-26T02:00:22.743Z",
+ "generated": "2026-10-26T02:11:24.855Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "b12d98a",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-10-26T09:11:03+07:00",
+   "message": "Tuy chon cau thang nho (so bac, mau sac, tay vin) [loai:Them tinh nang] [tokens:2000] [ver:261026ic1]",
+   "loai": "Them tinh nang",
+   "tokens": 2000,
+   "ver": "261026ic1",
+   "files": 3,
+   "additions": 38,
+   "deletions": 5
+  },
   {
    "hash": "93fef02",
    "agent": "Antigravity",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 395,
    "deletions": 68
-  },
-  {
-   "hash": "e184cfc",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-16T02:20:59+07:00",
-   "message": "Noi Lich Quan Ly vao cham cong GPS [loai:Thêm tính năng] [tokens:12000] [ver:260716tcgpsqlch1]",
-   "loai": "Thêm tính năng",
-   "tokens": 12000,
-   "ver": "260716tcgpsqlch1",
-   "files": 5,
-   "additions": 175,
-   "deletions": 10
   }
  ]
 }
