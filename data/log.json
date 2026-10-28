@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T06:42:15.279Z",
+ "generated": "2026-10-28T10:46:23.231Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c3cadb2",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T17:46:00+07:00",
+   "message": "+ Lau: len lau dung can dang nhin (tu tim tang cao nhat cua can, khong chep tuong), o tang ghi cao do [loai:Thêm tính năng] [tokens:30000] [ver:261028lu1]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "261028lu1",
+   "files": 5,
+   "additions": 62,
+   "deletions": 13
+  },
   {
    "hash": "da304da",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 98,
    "deletions": 7
-  },
-  {
-   "hash": "55776b0",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-16T21:42:20+07:00",
-   "message": "Tap trung Zalo Chat vao Group LLV [loai:Fix bug] [tokens:12000] [ver:260716zalollv1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260716zalollv1",
-   "files": 6,
-   "additions": 196,
-   "deletions": 9
   }
  ]
 }
