@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T15:06:24.783Z",
+ "generated": "2026-10-28T15:44:13.787Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "68d9b36",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T22:43:52+07:00",
+   "message": "Ban Dung: ke sach thap den co den (sach, cay, den am), bo khung ten + tat nhan khu vuc mac dinh, sua ve kinh/tuong tang tren ben 3D bat dung dau tuong [loai:Thêm tính năng] [tokens:70000] [ver:261028ks1]",
+   "loai": "Thêm tính năng",
+   "tokens": 70000,
+   "ver": "261028ks1",
+   "files": 9,
+   "additions": 170,
+   "deletions": 15
+  },
   {
    "hash": "28292d3",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 10,
    "additions": 281,
    "deletions": 38
-  },
-  {
-   "hash": "bd13aaa",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T09:22:36+07:00",
-   "message": "Sua plugin Zalo LLV lay id tin nhan linh hoat [loai:Fix bug] [tokens:7000] [ver:260717zalosafe1]",
-   "loai": "Fix bug",
-   "tokens": 7000,
-   "ver": "260717zalosafe1",
-   "files": 7,
-   "additions": 121,
-   "deletions": 39
   }
  ]
 }
