@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T10:46:23.231Z",
+ "generated": "2026-10-28T13:31:50.420Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ce04efd",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T20:31:30+07:00",
+   "message": "Ban Dung: lich su ban ve (may chu cat 40 ban, nut Lich su + Khoi phuc) + ghep 3 chieu khi 2 may cung sua (khong mat net, ca luc mat mang) [loai:Thêm tính năng] [tokens:60000] [ver:261028ls1]",
+   "loai": "Thêm tính năng",
+   "tokens": 60000,
+   "ver": "261028ls1",
+   "files": 7,
+   "additions": 230,
+   "deletions": 13
+  },
   {
    "hash": "c3cadb2",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 93,
    "deletions": 19
-  },
-  {
-   "hash": "2cbf3af",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-16T22:10:32+07:00",
-   "message": "Tu nhung plugin Zalo LLV vao console install [loai:Fix bug] [tokens:9000] [ver:260716zalollv1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260716zalollv1",
-   "files": 3,
-   "additions": 98,
-   "deletions": 7
   }
  ]
 }
