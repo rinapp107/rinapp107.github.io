@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T15:59:59.293Z",
+ "generated": "2026-10-28T16:35:40.629Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d742f61",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T23:35:20+07:00",
+   "message": "Ban Dung: cua di 11 kieu (khung trong, kinh cuong luc, nhom kinh, pano, pano o kinh, vom, xep...) bam de mo/dong, them 5 thiet bi PCCC (tu chua chay mo duoc, chuong, nut nhan + den, EXIT, den su co) [loai:Thêm tính năng] [tokens:90000] [ver:261028cu1]",
+   "loai": "Thêm tính năng",
+   "tokens": 90000,
+   "ver": "261028cu1",
+   "files": 11,
+   "additions": 279,
+   "deletions": 27
+  },
   {
    "hash": "ad9bd5f",
    "agent": "Claude Code",
@@ -6489,19 +6502,6 @@
    "ver": "260717zalohook2",
    "files": 5,
    "additions": 13,
-   "deletions": 6
-  },
-  {
-   "hash": "df1abc6",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T10:12:20+07:00",
-   "message": "Chan treo doc tin Zalo LLV [loai:Fix bug] [tokens:6500] [ver:260717zalohook2]",
-   "loai": "Fix bug",
-   "tokens": 6500,
-   "ver": "260717zalohook2",
-   "files": 6,
-   "additions": 55,
    "deletions": 6
   }
  ]
