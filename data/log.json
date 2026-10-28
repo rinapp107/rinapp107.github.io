@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T03:58:17.202Z",
+ "generated": "2026-10-28T04:18:21.017Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "339fea1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T11:17:57+07:00",
+   "message": "Khong ep camera ve NTMK: mo web ve dung goc xem lan truoc (lan dau toan canh day pho), thoat che do giu nguyen / ve khu gan nhat [loai:Fix bug] [tokens:20000] [ver:261028cm1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261028cm1",
+   "files": 7,
+   "additions": 29,
+   "deletions": 9
+  },
   {
    "hash": "02a4e67",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 5,
    "additions": 525,
    "deletions": 3
-  },
-  {
-   "hash": "f2bda55",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-16T13:07:29+07:00",
-   "message": "An overlay fullscreen Man Hinh Tivi [loai:Fix bug] [tokens:12000] [ver:260716tvcleanfs1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260716tvcleanfs1",
-   "files": 5,
-   "additions": 67,
-   "deletions": 9
   }
  ]
 }
