@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T14:42:30.483Z",
+ "generated": "2026-10-28T15:06:24.783Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "28292d3",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T22:06:00+07:00",
+   "message": "Ban Dung giao dien gon: bang Lop hien thi 1 khung 2 the (bam ra ngoai tu dong), thanh goc nhin thu thanh 1 nut Goc nhin, o huong dan tu an + nut (?) [loai:Thêm tính năng] [tokens:45000] [ver:261028gn1]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261028gn1",
+   "files": 8,
+   "additions": 161,
+   "deletions": 72
+  },
   {
    "hash": "6ade093",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 121,
    "deletions": 39
-  },
-  {
-   "hash": "2782877",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T09:09:21+07:00",
-   "message": "Chan OpenClaw auto reply va uu tien inbox Zalo [loai:Fix bug] [tokens:12000] [ver:260717zalosafe1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260717zalosafe1",
-   "files": 6,
-   "additions": 111,
-   "deletions": 19
   }
  ]
 }
