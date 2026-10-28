@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T13:31:50.420Z",
+ "generated": "2026-10-28T14:42:30.483Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6ade093",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T21:42:05+07:00",
+   "message": "Ban Dung: bo kiem tra tu dong 36 buoc (may chu gia + trinh duyet an) + tach xay-dung.js ra xd-vat-lieu-3d.js va xd-luu.js [loai:Refactor] [tokens:80000] [ver:261028kt1]",
+   "loai": "Refactor",
+   "tokens": 80000,
+   "ver": "261028kt1",
+   "files": 10,
+   "additions": 538,
+   "deletions": 221
+  },
   {
    "hash": "ce04efd",
    "agent": "Claude Code",
@@ -6489,19 +6502,6 @@
    "ver": "260717zalosafe1",
    "files": 6,
    "additions": 111,
-   "deletions": 19
-  },
-  {
-   "hash": "fc9f48a",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-16T22:24:06+07:00",
-   "message": "Sua format plugin Zalo LLV cho OpenClaw moi [loai:Fix bug] [tokens:11000] [ver:260716zalollv1]",
-   "loai": "Fix bug",
-   "tokens": 11000,
-   "ver": "260716zalollv1",
-   "files": 6,
-   "additions": 93,
    "deletions": 19
   }
  ]
