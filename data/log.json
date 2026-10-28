@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T06:14:00.000Z",
+ "generated": "2026-10-28T06:22:11.559Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5535e29",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T13:21:45+07:00",
+   "message": "Ban ve nen 2D: tai PDF / anh lot duoi luoi de ve de, chinh ti le 2 diem, khop diem, doi file giu tuong da ve [loai:Thêm tính năng] [tokens:40000] [ver:261028nn1]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261028nn1",
+   "files": 5,
+   "additions": 189,
+   "deletions": 9
+  },
   {
    "hash": "84558f8",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 9,
    "additions": 487,
    "deletions": 135
-  },
-  {
-   "hash": "cd728be",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-16T20:37:15+07:00",
-   "message": "Sua Phan Ca quan ly ve 3 dong [loai:Fix bug] [tokens:12000] [ver:260716qlch3row1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260716qlch3row1",
-   "files": 5,
-   "additions": 114,
-   "deletions": 26
   }
  ]
 }
