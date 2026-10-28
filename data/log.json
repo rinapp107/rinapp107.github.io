@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T15:44:13.787Z",
+ "generated": "2026-10-28T15:59:59.293Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ad9bd5f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-28T22:59:37+07:00",
+   "message": "Ban Dung: nut \"Bot mot phan\" khi chon nen (bat Xay dung dung tang + cong cu Bot san), bo kiem tra 40 buoc [loai:Thêm tính năng] [tokens:25000] [ver:261028bc1]",
+   "loai": "Thêm tính năng",
+   "tokens": 25000,
+   "ver": "261028bc1",
+   "files": 6,
+   "additions": 34,
+   "deletions": 4
+  },
   {
    "hash": "68d9b36",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 55,
    "deletions": 6
-  },
-  {
-   "hash": "567b60a",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T09:49:24+07:00",
-   "message": "Co dinh Zalo Chat vao mot Group LLV [loai:Fix bug] [tokens:18000] [ver:260717zalogroup1]",
-   "loai": "Fix bug",
-   "tokens": 18000,
-   "ver": "260717zalogroup1",
-   "files": 10,
-   "additions": 281,
-   "deletions": 38
   }
  ]
 }
