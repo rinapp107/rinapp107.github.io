@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-29T02:24:33.762Z",
+ "generated": "2026-10-29T02:54:11.959Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "004995b",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-29T09:53:54+07:00",
+   "message": "Ban Dung: Di bo bat dau ngay cho dang xem (khong nhay ve NTMK), vung di gom moi cong trinh tu ve, tuong tu ve chan duong [loai:Fix bug] [tokens:30000] [ver:261029db1]",
+   "loai": "Fix bug",
+   "tokens": 30000,
+   "ver": "261029db1",
+   "files": 5,
+   "additions": 28,
+   "deletions": 13
+  },
   {
    "hash": "90c7a54",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 47,
    "deletions": 19
-  },
-  {
-   "hash": "32dbcf9",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T12:59:47+07:00",
-   "message": "Sua tab Thong Tin ho so nhan vien [loai:Fix bug] [tokens:6500] [ver:260717profileinfo1]",
-   "loai": "Fix bug",
-   "tokens": 6500,
-   "ver": "260717profileinfo1",
-   "files": 6,
-   "additions": 86,
-   "deletions": 35
   }
  ]
 }
