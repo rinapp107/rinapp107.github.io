@@ -1,9 +1,22 @@
 {
- "generated": "2026-10-28T16:35:40.629Z",
+ "generated": "2026-10-29T02:24:33.762Z",
  "repo": "zentea-qlch",
  "appVer": "261025ip1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "90c7a54",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-10-29T09:24:13+07:00",
+   "message": "Ban Dung: tuong kin len toi san tang tren (het khe ho 15 cm giua 2 tang cho khong ve san) [loai:Fix bug] [tokens:20000] [ver:261029tk1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261029tk1",
+   "files": 4,
+   "additions": 8,
+   "deletions": 4
+  },
   {
    "hash": "d742f61",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 86,
    "deletions": 35
-  },
-  {
-   "hash": "9342dff",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T10:20:25+07:00",
-   "message": "Chong cache service worker Zalo Chat [loai:Fix bug] [tokens:2500] [ver:260717zalohook2]",
-   "loai": "Fix bug",
-   "tokens": 2500,
-   "ver": "260717zalohook2",
-   "files": 5,
-   "additions": 13,
-   "deletions": 6
   }
  ]
 }
