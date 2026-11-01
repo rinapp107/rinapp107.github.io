@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-01T15:52:03.419Z",
+ "generated": "2026-11-01T23:49:10.380Z",
  "repo": "zentea-qlch",
  "appVer": "261101ct1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e637224",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-02T06:48:49+07:00",
+   "message": "Ban Dung: thang trong mau rieng (Sua thanh mau rieng) cung leo duoc, di bo bao dang vuong gi [loai:Fix bug] [tokens:60000] [ver:261102ct2]",
+   "loai": "Fix bug",
+   "tokens": 60000,
+   "ver": "261102ct2",
+   "files": 6,
+   "additions": 72,
+   "deletions": 28
+  },
   {
    "hash": "3afe82f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 6,
    "additions": 63,
    "deletions": 13
-  },
-  {
-   "hash": "a08414c",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T17:06:55+07:00",
-   "message": "Sua manager mo ho so nhan vien on dinh hon [loai:Fix bug] [tokens:6500] [ver:260717profileinfo4]",
-   "loai": "Fix bug",
-   "tokens": 6500,
-   "ver": "260717profileinfo4",
-   "files": 7,
-   "additions": 96,
-   "deletions": 11
   }
  ]
 }
