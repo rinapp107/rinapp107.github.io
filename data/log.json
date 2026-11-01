@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-01T14:54:40.013Z",
+ "generated": "2026-11-01T15:52:03.419Z",
  "repo": "zentea-qlch",
- "appVer": "261025ip1",
+ "appVer": "261101ct1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3afe82f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-01T22:51:45+07:00",
+   "message": "Deploy Ban Dung: di bo leo cau thang [loai:Deploy] [tokens:5000] [ver:261101ct1]",
+   "loai": "Deploy",
+   "tokens": 5000,
+   "ver": "261101ct1",
+   "files": 2,
+   "additions": 2,
+   "deletions": 2
+  },
   {
    "hash": "a335286",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 7,
    "additions": 96,
    "deletions": 11
-  },
-  {
-   "hash": "30cee61",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T13:58:59+07:00",
-   "message": "Sua quyen manager doc tuy bien ho so nhan vien [loai:Fix bug] [tokens:4500] [ver:260717profileinfo3]",
-   "loai": "Fix bug",
-   "tokens": 4500,
-   "ver": "260717profileinfo3",
-   "files": 6,
-   "additions": 99,
-   "deletions": 8
   }
  ]
 }
