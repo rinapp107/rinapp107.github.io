@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-02T05:11:48.926Z",
+ "generated": "2026-11-06T07:30:17.543Z",
  "repo": "zentea-qlch",
- "appVer": "261102ct2",
+ "appVer": "261106zth1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6a82d1b",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T14:29:59+07:00",
+   "message": "Luu kho web cu, zenteaqlch chuyen thanh Zalo AI Tong Hop (chon group, AI tong hop 7h sang) [loai:Thêm tính năng] [tokens:250000] [ver:261106zth1]",
+   "loai": "Thêm tính năng",
+   "tokens": 250000,
+   "ver": "261106zth1",
+   "files": 216,
+   "additions": 1128,
+   "deletions": 185443
+  },
   {
    "hash": "fca9670",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 166,
    "deletions": 0
-  },
-  {
-   "hash": "a6f0b67",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-17T19:08:13+07:00",
-   "message": "Nang chat luong anh Man Hinh Tivi [loai:Fix bug] [tokens:7000] [ver:260717tvquality1]",
-   "loai": "Fix bug",
-   "tokens": 7000,
-   "ver": "260717tvquality1",
-   "files": 6,
-   "additions": 99,
-   "deletions": 21
   }
  ]
 }
