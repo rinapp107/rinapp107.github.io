@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T09:25:04.232Z",
+ "generated": "2026-11-06T09:46:44.802Z",
  "repo": "zentea-qlch",
- "appVer": "261106xv1",
+ "appVer": "261106xv2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "5a164bb",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T16:46:26+07:00",
+   "message": "Video AI: tao anh du phong mien phi (Pollinations) khi Gemini het han muc; loi API tra 422 thay 502 de hien ly do that [loai:Fix bug] [tokens:30000] [ver:261106xv2]",
+   "loai": "Fix bug",
+   "tokens": 30000,
+   "ver": "261106xv2",
+   "files": 5,
+   "additions": 76,
+   "deletions": 35
+  },
   {
    "hash": "682b152",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 58,
    "deletions": 66
-  },
-  {
-   "hash": "ff41e9b",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-19T08:13:35+07:00",
-   "message": "Tang toc nut Duyet/Huy Nhat Ky: phan hoi tuc thi + chan bam dup [loai:Fix bug] [tokens:13000] [ver:260719nkfast1]",
-   "loai": "Fix bug",
-   "tokens": 13000,
-   "ver": "260719nkfast1",
-   "files": 4,
-   "additions": 43,
-   "deletions": 21
   }
  ]
 }
