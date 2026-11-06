@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T09:46:44.802Z",
+ "generated": "2026-11-06T10:07:39.113Z",
  "repo": "zentea-qlch",
- "appVer": "261106xv2",
+ "appVer": "261106vp1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "13b842e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T17:07:21+07:00",
+   "message": "Them Van phong ao ZenTea (GD1): nhan vien AI theo phong ban (agents.yaml sua tren web), Kanban, giao viec + tro ly tu phan cong + truong phong chia viec, duyet/yeu cau sua, chat, dinh kem, xuat Word/Excel/PDF [loai:Thêm tính năng] [tokens:260000] [ver:261106vp1]",
+   "loai": "Thêm tính năng",
+   "tokens": 260000,
+   "ver": "261106vp1",
+   "files": 10,
+   "additions": 1111,
+   "deletions": 9
+  },
   {
    "hash": "5a164bb",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 20,
    "deletions": 4
-  },
-  {
-   "hash": "92cb32f",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-19T13:12:39+07:00",
-   "message": "Chong mat du lieu moi o lich LLV khi F5: dirty flag toan cuc + queue luu tap trung [loai:Fix bug] [tokens:15000] [ver:260719llvsafe1]",
-   "loai": "Fix bug",
-   "tokens": 15000,
-   "ver": "260719llvsafe1",
-   "files": 4,
-   "additions": 58,
-   "deletions": 66
   }
  ]
 }
