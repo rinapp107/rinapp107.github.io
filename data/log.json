@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T08:01:58.539Z",
+ "generated": "2026-11-06T08:18:49.957Z",
  "repo": "zentea-qlch",
- "appVer": "261106chat1",
+ "appVer": "261106chat2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "de4f9a0",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T15:18:32+07:00",
+   "message": "Zalo AI Chat v2: anh dai dien, loc/ghim/an, nhan tin moi tu danh ba, @nhac ten, thu hoi, dan anh/keo tha/emoji, AI tom tat, thong bao + am bao [loai:Thêm tính năng] [tokens:180000] [ver:261106chat2]",
+   "loai": "Thêm tính năng",
+   "tokens": 180000,
+   "ver": "261106chat2",
+   "files": 5,
+   "additions": 855,
+   "deletions": 132
+  },
   {
    "hash": "41b8390",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 120,
    "deletions": 5
-  },
-  {
-   "hash": "54d0fe1",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-18T12:01:54+07:00",
-   "message": "Sua mat du lieu bang du bao ca va nut Luu Ban Nhap LLV [loai:Fix bug] [tokens:9000] [ver:260718llvforecast1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260718llvforecast1",
-   "files": 4,
-   "additions": 24,
-   "deletions": 20
   }
  ]
 }
