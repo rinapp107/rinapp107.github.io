@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T07:49:16.047Z",
+ "generated": "2026-11-06T08:01:58.539Z",
  "repo": "zentea-qlch",
- "appVer": "261106zth2",
+ "appVer": "261106chat1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "41b8390",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T15:01:37+07:00",
+   "message": "Zalo AI: them tab Chat truc tuyen (group da chon + chat rieng, tra loi trich dan, tha cam xuc, gui anh/tep, AI goi y) [loai:Thêm tính năng] [tokens:120000] [ver:261106chat1]",
+   "loai": "Thêm tính năng",
+   "tokens": 120000,
+   "ver": "261106chat1",
+   "files": 5,
+   "additions": 537,
+   "deletions": 9
+  },
   {
    "hash": "9cd7eb0",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 24,
    "deletions": 20
-  },
-  {
-   "hash": "c3928a2",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-18T11:33:44+07:00",
-   "message": "Cham cong GPS khong bat buoc phan ca, gan nhan doi soat [loai:Fix bug] [tokens:15000] [ver:260718tcopen1]",
-   "loai": "Fix bug",
-   "tokens": 15000,
-   "ver": "260718tcopen1",
-   "files": 4,
-   "additions": 61,
-   "deletions": 21
   }
  ]
 }
