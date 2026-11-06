@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T12:28:32.339Z",
+ "generated": "2026-11-06T12:42:08.100Z",
  "repo": "zentea-qlch",
- "appVer": "261106vp2",
+ "appVer": "261106vp3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a7652e5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T19:41:50+07:00",
+   "message": "Van phong AI: nut Ket noi OpenRouter (OAuth PKCE, tu nhan khoa), danh sach model lay that tu OpenRouter [loai:Thêm tính năng] [tokens:40000] [ver:261106vp3]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261106vp3",
+   "files": 5,
+   "additions": 91,
+   "deletions": 5
+  },
   {
    "hash": "b069e09",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 187,
    "deletions": 8
-  },
-  {
-   "hash": "f5c9fd4",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-19T14:39:47+07:00",
-   "message": "Mo duong deploy models/ cho Face ID + console job zalo-logs [loai:Config] [tokens:2000] [ver:260719faceid1]",
-   "loai": "Config",
-   "tokens": 2000,
-   "ver": "260719faceid1",
-   "files": 1,
-   "additions": 154,
-   "deletions": 1
   }
  ]
 }
