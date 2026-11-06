@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T10:07:39.113Z",
+ "generated": "2026-11-06T10:09:30.438Z",
  "repo": "zentea-qlch",
  "appVer": "261106vp1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "84a3012",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T17:09:12+07:00",
+   "message": "Van phong AI: sua xuat Word/PDF (LibreOffice mo HTML bang Writer thuong, thu nhieu cach) [loai:Fix bug] [tokens:10000] [ver:261106vp1]",
+   "loai": "Fix bug",
+   "tokens": 10000,
+   "ver": "261106vp1",
+   "files": 1,
+   "additions": 13,
+   "deletions": 2
+  },
   {
    "hash": "13b842e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 14,
    "additions": 180,
    "deletions": 12
-  },
-  {
-   "hash": "5d24f34",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-19T14:03:32+07:00",
-   "message": "Dong bo thu viec LLV len server, het mat badge TV khi doi may/F5 [loai:Fix bug] [tokens:12000] [ver:260719tvsync1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260719tvsync1",
-   "files": 4,
-   "additions": 20,
-   "deletions": 4
   }
  ]
 }
