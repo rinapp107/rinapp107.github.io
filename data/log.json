@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T08:24:33.543Z",
+ "generated": "2026-11-06T08:33:09.557Z",
  "repo": "zentea-qlch",
- "appVer": "261106th3",
+ "appVer": "261106ui4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "437c6a1",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T15:32:52+07:00",
+   "message": "Zalo AI: tab Chat tran het man hinh (rong + cao), an chan trang, khong cuon ca trang [loai:Fix bug] [tokens:15000] [ver:261106ui4]",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "261106ui4",
+   "files": 3,
+   "additions": 19,
+   "deletions": 5
+  },
   {
    "hash": "04fd3c4",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 45,
    "deletions": 1
-  },
-  {
-   "hash": "30589be",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-18T13:03:21+07:00",
-   "message": "Du Bao Ca LLV nhap toi dau luu toi do, chong mat khi reload [loai:Fix bug] [tokens:14000] [ver:260718fcautosave1]",
-   "loai": "Fix bug",
-   "tokens": 14000,
-   "ver": "260718fcautosave1",
-   "files": 4,
-   "additions": 51,
-   "deletions": 8
   }
  ]
 }
