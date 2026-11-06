@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T08:33:09.557Z",
+ "generated": "2026-11-06T09:03:29.014Z",
  "repo": "zentea-qlch",
- "appVer": "261106ui4",
+ "appVer": "261106tk1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "bcffe95",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T16:03:09+07:00",
+   "message": "Zalo AI: da tai khoan Zalo (them/dang nhap QR/go TK phu, chat gop co nhan TK, chon group theo TK); sua @nhac ten khong gui duoc; can the Cai dat [loai:Thêm tính năng] [tokens:200000] [ver:261106tk1]",
+   "loai": "Thêm tính năng",
+   "tokens": 200000,
+   "ver": "261106tk1",
+   "files": 6,
+   "additions": 663,
+   "deletions": 85
+  },
   {
    "hash": "437c6a1",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 56,
    "deletions": 6
-  },
-  {
-   "hash": "b523342",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-18T22:32:30+07:00",
-   "message": "Them console job zalo-lockdown va zalo-gateway-start [loai:Fix bug] [tokens:12000] [ver:260718zalolock1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260718zalolock1",
-   "files": 1,
-   "additions": 45,
-   "deletions": 1
   }
  ]
 }
