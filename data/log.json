@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T07:30:17.543Z",
+ "generated": "2026-11-06T07:49:16.047Z",
  "repo": "zentea-qlch",
- "appVer": "261106zth1",
+ "appVer": "261106zth2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9cd7eb0",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T14:48:53+07:00",
+   "message": "Zalo AI: sua nut da quet QR bao fetch failed (cho toi 60s), them job zth-restart-api khong tat listener [loai:Fix bug] [tokens:40000] [ver:261106zth2]",
+   "loai": "Fix bug",
+   "tokens": 40000,
+   "ver": "261106zth2",
+   "files": 5,
+   "additions": 40,
+   "deletions": 9
+  },
   {
    "hash": "6a82d1b",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 61,
    "deletions": 21
-  },
-  {
-   "hash": "ca0dea6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-18T11:33:44+07:00",
-   "message": "Them tai lieu ke hoach nang cap game Vuon ZEN [loai:Config] [tokens:1000] [ver:260718tcopen1]",
-   "loai": "Config",
-   "tokens": 1000,
-   "ver": "260718tcopen1",
-   "files": 1,
-   "additions": 166,
-   "deletions": 0
   }
  ]
 }
