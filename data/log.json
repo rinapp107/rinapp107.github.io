@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T09:03:29.014Z",
+ "generated": "2026-11-06T09:05:19.548Z",
  "repo": "zentea-qlch",
  "appVer": "261106tk1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "213aacc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T16:04:56+07:00",
+   "message": "Zalo AI: job zth-acc-thu-qr chay thu bot TK phu tao QR [loai:Config] [tokens:3000] [ver:261106tk1]",
+   "loai": "Config",
+   "tokens": 3000,
+   "ver": "261106tk1",
+   "files": 1,
+   "additions": 8,
+   "deletions": 0
+  },
   {
    "hash": "bcffe95",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "9b38354",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-18T23:25:44+07:00",
-   "message": "Sua AI doc ghi chu NK: Gemini 2.5 Flash + luat uu tien type + fallback Groq [loai:Fix bug] [tokens:16000] [ver:260718fcautosave1]",
-   "loai": "Fix bug",
-   "tokens": 16000,
-   "ver": "260718fcautosave1",
-   "files": 3,
-   "additions": 56,
-   "deletions": 6
   }
  ]
 }
