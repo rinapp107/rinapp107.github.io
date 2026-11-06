@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-06T09:05:19.548Z",
+ "generated": "2026-11-06T09:25:04.232Z",
  "repo": "zentea-qlch",
- "appVer": "261106tk1",
+ "appVer": "261106xv1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "682b152",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-06T16:24:44+07:00",
+   "message": "Them Xuong Video AI: du an, nhan vat (anh tham chieu), AI viet kich ban chia canh, keyframe dau/cuoi (AI/tai len), prompt cho Kling/Veo/Runway/Midjourney/HeyGen, tai video [loai:Thêm tính năng] [tokens:220000] [ver:261106xv1]",
+   "loai": "Thêm tính năng",
+   "tokens": 220000,
+   "ver": "261106xv1",
+   "files": 7,
+   "additions": 873,
+   "deletions": 5
+  },
   {
    "hash": "213aacc",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 43,
    "deletions": 21
-  },
-  {
-   "hash": "2ed876a",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-19T07:45:20+07:00",
-   "message": "Ghi chu van hanh Zalo AI: lockdown auto-reply + bat gateway [loai:Config] [tokens:8000] [ver:260718zalolock1]",
-   "loai": "Config",
-   "tokens": 8000,
-   "ver": "260718zalolock1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
