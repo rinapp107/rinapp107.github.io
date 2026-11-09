@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T15:57:37.115Z",
+ "generated": "2026-11-09T16:00:16.460Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa4",
+ "appVer": "261109qa5",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "b103fee",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-09T22:59:54+07:00",
+   "message": "Fix: nut Quan ao khong hien - Cloudflare luu dem van-phong.js/css cu duoi ?v=261109qa1, doi ?v=261109qa5 [loai:Fix bug] [tokens:5000] [ver:261109qa5]",
+   "loai": "Fix bug",
+   "tokens": 5000,
+   "ver": "261109qa5",
+   "files": 2,
+   "additions": 4,
+   "deletions": 4
+  },
   {
    "hash": "ee5971b",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 56,
    "deletions": 21
-  },
-  {
-   "hash": "31e53bc",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-20T17:50:40+07:00",
-   "message": "Sua them trung ten nhan su LLV: dedup theo dbEmpId, da co thi cap nhat [loai:Fix bug] [tokens:10000] [ver:260720empdup1]",
-   "loai": "Fix bug",
-   "tokens": 10000,
-   "ver": "260720empdup1",
-   "files": 4,
-   "additions": 33,
-   "deletions": 7
   }
  ]
 }
