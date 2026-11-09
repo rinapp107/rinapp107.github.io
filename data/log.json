@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T15:35:02.094Z",
+ "generated": "2026-11-09T15:47:18.729Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa1",
+ "appVer": "261109qa2",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3452942",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-09T22:46:56+07:00",
+   "message": "Quan ao: chinh theo video quan that - san da xam, cot nan go, op go chan tuong + mang xanh, tuong cam ke noi sau quay, ban tron ghe dem, bang ghe liền tuong, ke sach dung, den ray, goc nhin Tu cua vao [loai:Thêm tính năng] [tokens:60000] [ver:261109qa2]",
+   "loai": "Thêm tính năng",
+   "tokens": 60000,
+   "ver": "261109qa2",
+   "files": 6,
+   "additions": 127,
+   "deletions": 38
+  },
   {
    "hash": "ccc5009",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 18,
    "deletions": 4
-  },
-  {
-   "hash": "56cb8a6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-20T11:09:04+07:00",
-   "message": "Siet Face ID: chan sai mat khong cho cham, 3 mau + landmark full + nguong 0.45, khoa dang ky de [loai:Fix bug] [tokens:16000] [ver:260720facestrict1]",
-   "loai": "Fix bug",
-   "tokens": 16000,
-   "ver": "260720facestrict1",
-   "files": 6,
-   "additions": 178,
-   "deletions": 45
   }
  ]
 }
