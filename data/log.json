@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T16:18:10.280Z",
+ "generated": "2026-11-09T16:40:44.908Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa7",
+ "appVer": "261109qa8",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "88e50d0",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-09T23:40:24+07:00",
+   "message": "Quan ao: cau thang chu U theo video (bac den, bac re quat), di len tang lung duoc (anh + khach + phuc vu), luoi duong di 2 tang, ghe chi chon khi toi duoc [loai:Thêm tính năng] [tokens:60000] [ver:261109qa8]",
+   "loai": "Thêm tính năng",
+   "tokens": 60000,
+   "ver": "261109qa8",
+   "files": 4,
+   "additions": 189,
+   "deletions": 65
+  },
   {
    "hash": "6c269b6",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 40,
    "deletions": 3
-  },
-  {
-   "hash": "a56646b",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-21T08:08:14+07:00",
-   "message": "Zalo AI: bat thu hoi tin that + tu dong tao ban nhap Nhat Ky tu tin group LLV [loai:Thêm tính năng] [tokens:45000] [ver:260720zalonk1]",
-   "loai": "Thêm tính năng",
-   "tokens": 45000,
-   "ver": "260720zalonk1",
-   "files": 4,
-   "additions": 358,
-   "deletions": 36
   }
  ]
 }
