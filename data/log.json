@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T16:08:31.050Z",
+ "generated": "2026-11-09T16:18:10.280Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa6",
+ "appVer": "261109qa7",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6c269b6",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-09T23:17:47+07:00",
+   "message": "Quan ao: di chuyen chuan hon - khong xuyen do/ghe, bam vao do dung o cho trong, nguoi tranh nhau + chong ket, WASD tang toc muot + Shift chay, phim 1-8 / bam nhan may de di thang toi may [loai:Thêm tính năng] [tokens:30000] [ver:261109qa7]",
+   "loai": "Thêm tính năng",
+   "tokens": 30000,
+   "ver": "261109qa7",
+   "files": 5,
+   "additions": 103,
+   "deletions": 27
+  },
   {
    "hash": "3757829",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 358,
    "deletions": 36
-  },
-  {
-   "hash": "427b6af",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-20T20:51:00+07:00",
-   "message": "Lam dep popup nhac viec ve sinh: tong xanh brand + hieu ung [loai:Nang cap] [tokens:7000] [ver:260720vspopup1]",
-   "loai": "Nang cap",
-   "tokens": 7000,
-   "ver": "260720vspopup1",
-   "files": 4,
-   "additions": 28,
-   "deletions": 14
   }
  ]
 }
