@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T15:47:18.729Z",
+ "generated": "2026-11-09T15:55:23.562Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa2",
+ "appVer": "261109qa3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "138361f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-09T22:55:00+07:00",
+   "message": "Quan ao: dung tang lung theo ban ve + video (lan can kinh, ban ghe, khach ngoi, tuong tang tren), nut Tang lung Tu dong/Luon hien/An, goc Tren tang lung, camera xuong ngang tam mat [loai:Thêm tính năng] [tokens:45000] [ver:261109qa3]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261109qa3",
+   "files": 4,
+   "additions": 106,
+   "deletions": 12
+  },
   {
    "hash": "3452942",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 39,
    "deletions": 7
-  },
-  {
-   "hash": "8f3f289",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-20T11:42:56+07:00",
-   "message": "Sua dang ky off LLV chan oan khi lich con trong (o trong bi coi la off) [loai:Fix bug] [tokens:9000] [ver:260720offpos1]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260720offpos1",
-   "files": 4,
-   "additions": 18,
-   "deletions": 4
   }
  ]
 }
