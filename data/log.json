@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T15:55:23.562Z",
+ "generated": "2026-11-09T15:57:37.115Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa3",
+ "appVer": "261109qa4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ee5971b",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-09T22:57:17+07:00",
+   "message": "Deploy: doi ?v quan-ao.js (Cloudflare luu dem ban cu duoi ?v=261109qa3), deploy-http.bat upload index.html + sw.js sau CSS/JS de khong lap lai [loai:Fix bug] [tokens:8000] [ver:261109qa4]",
+   "loai": "Fix bug",
+   "tokens": 8000,
+   "ver": "261109qa4",
+   "files": 3,
+   "additions": 7,
+   "deletions": 5
+  },
   {
    "hash": "138361f",
    "agent": "Claude Code",
@@ -6489,19 +6502,6 @@
    "ver": "260720empdup1",
    "files": 4,
    "additions": 33,
-   "deletions": 7
-  },
-  {
-   "hash": "c602d7f",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-20T17:36:28+07:00",
-   "message": "Sua triet de mat ngay thu viec LLV: khoa theo dbEmpId thay vi id slot [loai:Fix bug] [tokens:11000] [ver:260720tvkey1]",
-   "loai": "Fix bug",
-   "tokens": 11000,
-   "ver": "260720tvkey1",
-   "files": 4,
-   "additions": 39,
    "deletions": 7
   }
  ]
