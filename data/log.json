@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T16:00:16.460Z",
+ "generated": "2026-11-09T16:08:31.050Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa5",
+ "appVer": "261109qa6",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3757829",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-09T23:08:09+07:00",
+   "message": "An Van phong AI, them tab Quan ao rong het man hinh + nut Toan man hinh, link #van-phong cu mo Quan ao [loai:Thêm tính năng] [tokens:20000] [ver:261109qa6]",
+   "loai": "Thêm tính năng",
+   "tokens": 20000,
+   "ver": "261109qa6",
+   "files": 6,
+   "additions": 50,
+   "deletions": 9
+  },
   {
    "hash": "b103fee",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 28,
    "deletions": 14
-  },
-  {
-   "hash": "2642515",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-20T18:00:14+07:00",
-   "message": "Sua du bao ca dung chung giua cac thang: tach theo thang [loai:Fix bug] [tokens:13000] [ver:260720fcmonth1]",
-   "loai": "Fix bug",
-   "tokens": 13000,
-   "ver": "260720fcmonth1",
-   "files": 4,
-   "additions": 56,
-   "deletions": 21
   }
  ]
 }
