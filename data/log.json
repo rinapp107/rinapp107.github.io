@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-10T01:32:08.434Z",
+ "generated": "2026-11-10T02:09:41.382Z",
  "repo": "zentea-qlch",
- "appVer": "261110qa9",
+ "appVer": "261110qa10",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "110fd11",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-10T09:09:19+07:00",
+   "message": "Quan ao: bam cau thang theo dung vat nhin thay (bac/vach/tuong den/thap sach/san chan thang = len-xuong tang lung, khong con di lac ra sau tuong), leo bang phim theo huong phim, che do Xem bam cau thang -> goc tang lung [loai:Fix bug] [tokens:40000] [ver:261110qa10]",
+   "loai": "Fix bug",
+   "tokens": 40000,
+   "ver": "261110qa10",
+   "files": 5,
+   "additions": 31,
+   "deletions": 8
+  },
   {
    "hash": "6d5ce48",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 38,
    "deletions": 3
-  },
-  {
-   "hash": "319204a",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-21T08:35:50+07:00",
-   "message": "Sua LLV trang bang du du lieu con: gioi han 5 request/luot + moi request tu bat loi [loai:Fix bug] [tokens:12000] [ver:260721llvload1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260721llvload1",
-   "files": 4,
-   "additions": 42,
-   "deletions": 20
   }
  ]
 }
