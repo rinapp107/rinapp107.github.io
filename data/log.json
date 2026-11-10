@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-10T17:22:05.972Z",
+ "generated": "2026-11-10T17:38:27.889Z",
  "repo": "zentea-qlch",
- "appVer": "261111qa14",
+ "appVer": "261111qa15",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9d1a052",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-11T00:38:08+07:00",
+   "message": "Quan ao: goc nhin FPS cua nhan vat (phim V / nut Goc nhin FPS) - mat o tam nhan vat, keo chuot nhin quanh, WASD theo huong nhin, bam van di/ngoi/len thang/mo may; Dao quan + ca Pha che [loai:Thêm tính năng] [tokens:45000] [ver:261111qa15]",
+   "loai": "Thêm tính năng",
+   "tokens": 45000,
+   "ver": "261111qa15",
+   "files": 5,
+   "additions": 58,
+   "deletions": 8
+  },
   {
    "hash": "c86cd8e",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 95,
    "deletions": 3
-  },
-  {
-   "hash": "cd0c7bb",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-21T16:37:51+07:00",
-   "message": "Sua trung du lieu Vue Sinh + toggle nhac viec theo cua hang + UX them viec de dung hon [loai:Fix bug] [tokens:38000] [ver:260721vsdedup1]",
-   "loai": "Fix bug",
-   "tokens": 38000,
-   "ver": "260721vsdedup1",
-   "files": 4,
-   "additions": 330,
-   "deletions": 51
   }
  ]
 }
