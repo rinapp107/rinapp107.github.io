@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-10T16:06:13.589Z",
+ "generated": "2026-11-10T16:43:41.803Z",
  "repo": "zentea-qlch",
- "appVer": "261110qa12",
+ "appVer": "261110qa13",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ea760b7",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-10T23:43:21+07:00",
+   "message": "Quan ao: keo dai ve duoi cau thang 0,6m ra sanh cho du 7 bac thang nhu video (21 bac cao 16cm), doi chan thang/vung cam dat do/vung bam/nhan theo [loai:Fix bug] [tokens:25000] [ver:261110qa13]",
+   "loai": "Fix bug",
+   "tokens": 25000,
+   "ver": "261110qa13",
+   "files": 5,
+   "additions": 15,
+   "deletions": 12
+  },
   {
    "hash": "89fe4dd",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 30,
    "deletions": 3
-  },
-  {
-   "hash": "f3a9e92",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-21T15:01:13+07:00",
-   "message": "Sua quy tac dang ky nghi reload bi mat: co dirty chong server cu de rule moi [loai:Fix bug] [tokens:11000] [ver:260721offrule1]",
-   "loai": "Fix bug",
-   "tokens": 11000,
-   "ver": "260721offrule1",
-   "files": 4,
-   "additions": 25,
-   "deletions": 6
   }
  ]
 }
