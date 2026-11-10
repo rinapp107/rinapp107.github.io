@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-10T16:43:41.803Z",
+ "generated": "2026-11-10T17:22:05.972Z",
  "repo": "zentea-qlch",
- "appVer": "261110qa13",
+ "appVer": "261111qa14",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c86cd8e",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-11T00:21:48+07:00",
+   "message": "Quan ao: mat tien kinh 2 tang co khung (khong cat thap), cua khung go cao + cot ke sach + bien EXIT; tang lung co ke sach go lon tren tuong xanh (tren quay bar), tran trang + den ray, lan can kinh khung den - theo anh quan that [loai:Thêm tính năng] [tokens:80000] [ver:261111qa14]",
+   "loai": "Thêm tính năng",
+   "tokens": 80000,
+   "ver": "261111qa14",
+   "files": 5,
+   "additions": 57,
+   "deletions": 13
+  },
   {
    "hash": "ea760b7",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 330,
    "deletions": 51
-  },
-  {
-   "hash": "8327da9",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-21T15:34:00+07:00",
-   "message": "Them ktrarule() soi quy tac off theo chi nhanh staff doc [loai:Config] [tokens:5000] [ver:260721ktrarule1]",
-   "loai": "Config",
-   "tokens": 5000,
-   "ver": "260721ktrarule1",
-   "files": 3,
-   "additions": 30,
-   "deletions": 3
   }
  ]
 }
