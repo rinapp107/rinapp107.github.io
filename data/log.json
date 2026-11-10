@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-10T15:28:44.391Z",
+ "generated": "2026-11-10T16:06:13.589Z",
  "repo": "zentea-qlch",
- "appVer": "261110qa11",
+ "appVer": "261110qa12",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "89fe4dd",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-10T23:05:55+07:00",
+   "message": "Quan ao: dung lai cau thang kin theo video - bac dac cham tuong (het khe ho 0,3m phia tay + 2 ben), bac re quat kin goc, ve tren chi chua trong cho thap sach, lanh to + op den, tuong lung quanh lo thang tren tang lung, tang lung hien khi da len toi noi [loai:Fix bug] [tokens:60000] [ver:261110qa12]",
+   "loai": "Fix bug",
+   "tokens": 60000,
+   "ver": "261110qa12",
+   "files": 5,
+   "additions": 45,
+   "deletions": 19
+  },
   {
    "hash": "0ebe62a",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 25,
    "deletions": 6
-  },
-  {
-   "hash": "39d2523",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-21T09:02:53+07:00",
-   "message": "Them ktra3()/khoiphuc() do va phuc hoi ban nhap LLV tren server [loai:Config] [tokens:6000] [ver:260721ktra3]",
-   "loai": "Config",
-   "tokens": 6000,
-   "ver": "260721ktra3",
-   "files": 3,
-   "additions": 46,
-   "deletions": 3
   }
  ]
 }
