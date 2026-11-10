@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-09T16:40:44.908Z",
+ "generated": "2026-11-10T01:32:08.434Z",
  "repo": "zentea-qlch",
- "appVer": "261109qa8",
+ "appVer": "261110qa9",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6d5ce48",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-10T08:31:47+07:00",
+   "message": "Quan ao: bam vao bac cau thang / nhan de len-xuong tang lung, giu lenh bam luc dang leo; sua Action deploy-vps.yml (danh sach file web cu -> web that chay JS cu duoi ?v= moi) [loai:Fix bug] [tokens:45000] [ver:261110qa9]",
+   "loai": "Fix bug",
+   "tokens": 45000,
+   "ver": "261110qa9",
+   "files": 7,
+   "additions": 82,
+   "deletions": 37
+  },
   {
    "hash": "88e50d0",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 42,
    "deletions": 20
-  },
-  {
-   "hash": "8c1f8c0",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-21T08:23:11+07:00",
-   "message": "Them lenh ktra() kiem tra du lieu LLV con tren server khong [loai:Config] [tokens:6000] [ver:260721ktra1]",
-   "loai": "Config",
-   "tokens": 6000,
-   "ver": "260721ktra1",
-   "files": 3,
-   "additions": 40,
-   "deletions": 3
   }
  ]
 }
