@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-10T02:09:41.382Z",
+ "generated": "2026-11-10T15:28:44.391Z",
  "repo": "zentea-qlch",
- "appVer": "261110qa10",
+ "appVer": "261110qa11",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "0ebe62a",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-10T22:28:25+07:00",
+   "message": "Quan ao: nhan vat anh ngoi ghe (bam ghe/ban, phim N) + uong nuoc (phim U, 3 ngum, ly rong de tren ban cho phuc vu don), che do moi Dao quan khong tinh gio; dung ca trong ca Pha che [loai:Thêm tính năng] [tokens:70000] [ver:261110qa11]",
+   "loai": "Thêm tính năng",
+   "tokens": 70000,
+   "ver": "261110qa11",
+   "files": 6,
+   "additions": 190,
+   "deletions": 50
+  },
   {
    "hash": "110fd11",
    "agent": "Claude Code",
@@ -6489,19 +6502,6 @@
    "ver": "260721ktra3",
    "files": 3,
    "additions": 46,
-   "deletions": 3
-  },
-  {
-   "hash": "a27acb6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-21T08:43:24+07:00",
-   "message": "Them ktra2() soi o lich lech ma nhan vien [loai:Config] [tokens:5000] [ver:260721ktra2]",
-   "loai": "Config",
-   "tokens": 5000,
-   "ver": "260721ktra2",
-   "files": 3,
-   "additions": 38,
    "deletions": 3
   }
  ]
