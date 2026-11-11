@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-11T09:06:41.503Z",
+ "generated": "2026-11-11T12:36:08.979Z",
  "repo": "zentea-qlch",
- "appVer": "261111qa18",
+ "appVer": "261111qa19",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6499b0a",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-11T19:35:50+07:00",
+   "message": "Quan ao: bo tri lai quay theo clip quay that - 2 day song song, may dinh luong tu cao, may espresso phia khach, day nap tay (khong co may dan nap), POS mat da den + tu banh kinh dung, 2 man hinh menu [loai:Thêm tính năng] [tokens:60000] [ver:261111qa19]",
+   "loai": "Thêm tính năng",
+   "tokens": 60000,
+   "ver": "261111qa19",
+   "files": 5,
+   "additions": 76,
+   "deletions": 25
+  },
   {
    "hash": "9684f1c",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 174,
    "deletions": 61
-  },
-  {
-   "hash": "6d524ea",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-22T10:39:00+07:00",
-   "message": "Sua toggle nhac viec ve sinh khong luu duoc: tach key rieng, doc/ghi truc tiep khong qua cache [loai:Fix bug] [tokens:9000] [ver:260722vsremind2]",
-   "loai": "Fix bug",
-   "tokens": 9000,
-   "ver": "260722vsremind2",
-   "files": 3,
-   "additions": 36,
-   "deletions": 15
   }
  ]
 }
