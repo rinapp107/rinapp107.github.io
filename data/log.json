@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-11T14:52:22.886Z",
+ "generated": "2026-11-11T15:15:30.954Z",
  "repo": "zentea-qlch",
- "appVer": "261111qa20",
+ "appVer": "261111qa21",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "16a0a04",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-11T22:15:10+07:00",
+   "message": "Quan ao: mon ca phe cung qua may dong duong (quet tem de them duong/sua), bo qua bi tru diem [loai:Thêm tính năng] [tokens:15000] [ver:261111qa21]",
+   "loai": "Thêm tính năng",
+   "tokens": 15000,
+   "ver": "261111qa21",
+   "files": 5,
+   "additions": 16,
+   "deletions": 9
+  },
   {
    "hash": "19d7c10",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 4,
    "deletions": 4
-  },
-  {
-   "hash": "91eb924",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-22T11:57:26+07:00",
-   "message": "Cap nhat WEB_CONTEXT: sua do chinh xac ban nhap NK tu Zalo + toggle nhac viec ve sinh [loai:Config] [tokens:3000] [ver:260722zalonk2]",
-   "loai": "Config",
-   "tokens": 3000,
-   "ver": "260722zalonk2",
-   "files": 1,
-   "additions": 4,
-   "deletions": 0
   }
  ]
 }
