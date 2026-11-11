@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-11T00:21:11.716Z",
+ "generated": "2026-11-11T08:18:16.995Z",
  "repo": "zentea-qlch",
- "appVer": "261111qa16",
+ "appVer": "261111qa17",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a030a78",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-11T15:17:58+07:00",
+   "message": "Quan ao: tuong kho luon hien du cao (khong nhin thang vao kho), chi cat khi nhan vat dang dung trong kho [loai:Fix bug] [tokens:15000] [ver:261111qa17]",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "261111qa17",
+   "files": 5,
+   "additions": 11,
+   "deletions": 5
+  },
   {
    "hash": "7b42787",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 21,
    "deletions": 3
-  },
-  {
-   "hash": "1759ac1",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-21T16:58:20+07:00",
-   "message": "Cap nhat WEB_CONTEXT: fix trung du lieu Ve Sinh + toggle nhac viec + UX them viec [loai:Config] [tokens:2000] [ver:260721vsdedup1]",
-   "loai": "Config",
-   "tokens": 2000,
-   "ver": "260721vsdedup1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
