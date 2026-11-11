@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-11T15:15:30.954Z",
+ "generated": "2026-11-11T22:56:19.082Z",
  "repo": "zentea-qlch",
- "appVer": "261111qa21",
+ "appVer": "261112qa22",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "019aaf5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-12T05:55:57+07:00",
+   "message": "Quan ao: chi con 2 vai Khach hang / Nhan vien (man chon vai), vai khach goi mon o thu ngan -> the rung -> lay nuoc o quay giao -> ngoi uong -> ra ve; nhan vien = ca Pha che + Bo tri [loai:Thêm tính năng] [tokens:70000] [ver:261112qa22]",
+   "loai": "Thêm tính năng",
+   "tokens": 70000,
+   "ver": "261112qa22",
+   "files": 6,
+   "additions": 120,
+   "deletions": 27
+  },
   {
    "hash": "16a0a04",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 38,
    "deletions": 2
-  },
-  {
-   "hash": "42b605c",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-22T12:27:49+07:00",
-   "message": "Hotfix: tab Nhat Ky trang trang do goi ham esc() khong ton tai trong pham vi ham [loai:Fix bug] [tokens:4000] [ver:260722nkfix3]",
-   "loai": "Fix bug",
-   "tokens": 4000,
-   "ver": "260722nkfix3",
-   "files": 3,
-   "additions": 4,
-   "deletions": 4
   }
  ]
 }
