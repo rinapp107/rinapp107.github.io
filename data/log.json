@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-10T17:38:27.889Z",
+ "generated": "2026-11-11T00:21:11.716Z",
  "repo": "zentea-qlch",
- "appVer": "261111qa15",
+ "appVer": "261111qa16",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7b42787",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-11T07:20:53+07:00",
+   "message": "Quan ao: nhan vat nam & keo ban ghe (G nam/tha, WASD keo, R xoay, tha = luu bo tri), tay dua ra giu, khong xuyen tuong/de do/chan loi; Dao quan + Pha che + FPS [loai:Thêm tính năng] [tokens:70000] [ver:261111qa16]",
+   "loai": "Thêm tính năng",
+   "tokens": 70000,
+   "ver": "261111qa16",
+   "files": 5,
+   "additions": 144,
+   "deletions": 25
+  },
   {
    "hash": "9d1a052",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "e093654",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-21T16:44:51+07:00",
-   "message": "Them dang nhap theo cua hang: chon CH + NV + PIN, bo qua cong danh tinh [loai:Thêm tính năng] [tokens:30000] [ver:260721storelogin1]",
-   "loai": "Thêm tính năng",
-   "tokens": 30000,
-   "ver": "260721storelogin1",
-   "files": 4,
-   "additions": 95,
-   "deletions": 3
   }
  ]
 }
