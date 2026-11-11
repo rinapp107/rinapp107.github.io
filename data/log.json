@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-11T08:18:16.995Z",
+ "generated": "2026-11-11T09:06:41.503Z",
  "repo": "zentea-qlch",
- "appVer": "261111qa17",
+ "appVer": "261111qa18",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9684f1c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-11T16:05:39+07:00",
+   "message": "Quan ao: dung Lau 3 (mat bang tho + goc kho ke sat) + cau thang len lau 3 sau cua ONLY STAFF, hop thang cao kin tren lau 2 (EXIT, ke sach den), doi ten tang lung -> Lau 2, duong di 3 tang [loai:Thêm tính năng] [tokens:90000] [ver:261111qa18]",
+   "loai": "Thêm tính năng",
+   "tokens": 90000,
+   "ver": "261111qa18",
+   "files": 5,
+   "additions": 165,
+   "deletions": 51
+  },
   {
    "hash": "a030a78",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 36,
    "deletions": 15
-  },
-  {
-   "hash": "c880c7f",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T10:28:30+07:00",
-   "message": "Store-login: vao thang ho so ca nhan, khong bat nhap PIN lan 2 [loai:Fix bug] [tokens:6000] [ver:260721storelogin2]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260721storelogin2",
-   "files": 3,
-   "additions": 21,
-   "deletions": 3
   }
  ]
 }
