@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-13T10:21:42.646Z",
+ "generated": "2026-11-13T10:45:36.282Z",
  "repo": "zentea-qlch",
- "appVer": "261113qa25",
+ "appVer": "261113qa26",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1f16625",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-13T17:45:04+07:00",
+   "message": "Quan ao: Choi chung GD1 - 1 quan chung toi da 20 nguoi thay nhau (di lai, ngoi, do tren 2 tay, ten tren dau), link moi khach khong can tai khoan (/?moi=MA#quan-ao, chi mo Quan ao; chep/doi/tat link), server phong trong RAM + SSE [loai:Thêm tính năng] [tokens:120000] [ver:261113qa26]",
+   "loai": "Thêm tính năng",
+   "tokens": 120000,
+   "ver": "261113qa26",
+   "files": 7,
+   "additions": 314,
+   "deletions": 8
+  },
   {
    "hash": "b6b95c6",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 1
-  },
-  {
-   "hash": "679c0f6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T15:34:47+07:00",
-   "message": "Them console job claude-test (goi thang Claude Opus 4.8 kiem tra ket noi/structured-output truoc khi tin dung cho NK Parse) [loai:Config] [tokens:1500] [ver:260722nkfix3]",
-   "loai": "Config",
-   "tokens": 1500,
-   "ver": "260722nkfix3",
-   "files": 1,
-   "additions": 10,
-   "deletions": 0
   }
  ]
 }
