@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-13T11:54:02.198Z",
+ "generated": "2026-11-13T23:01:36.456Z",
  "repo": "zentea-qlch",
- "appVer": "261113qa29",
+ "appVer": "261114qa30",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "3b00c20",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-14T06:01:13+07:00",
+   "message": "Quan ao: choi chung GD2c + 2d - khach may chung (may chu phong chay khach may / thu ngan / pha che may / phuc vu may, gui anh chup, may khac ve theo; don khach may sang nhan vien that, khong ai pha thi pha che may chu phong lam ca don khach that may khac; don ly / lau / ngoi gui lenh ve chu phong; doi chu khi chu roi / an tab > 5 s / im lang > 15 s) + ghe dong bo [loai:Thêm tính năng] [tokens:200000] [ver:261114qa30]",
+   "loai": "Thêm tính năng",
+   "tokens": 200000,
+   "ver": "261114qa30",
+   "files": 6,
+   "additions": 284,
+   "deletions": 57
+  },
   {
    "hash": "e0014fc",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 13,
    "deletions": 13
-  },
-  {
-   "hash": "4985578",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T17:03:49+07:00",
-   "message": "Cap nhat WEB_CONTEXT: fix hinhThuc ban nhap Zalo NK [loai:Config] [tokens:800] [ver:260722nkfix3]",
-   "loai": "Config",
-   "tokens": 800,
-   "ver": "260722nkfix3",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
