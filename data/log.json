@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-13T10:45:36.282Z",
+ "generated": "2026-11-13T11:16:34.621Z",
  "repo": "zentea-qlch",
- "appVer": "261113qa26",
+ "appVer": "261113qa27",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "6418bdf",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-13T18:16:15+07:00",
+   "message": "Quan ao: co tuong o ban co (do roi banCo, tu dat 2 bo; ngoi vao mo bang co 2D; 2 nguoi cung ban danh voi nhau, mot minh danh voi may; mat ban 3D ve the co) + chat ca quan (Enter, khung chat + bong bong) [loai:Thêm tính năng] [tokens:150000] [ver:261113qa27]",
+   "loai": "Thêm tính năng",
+   "tokens": 150000,
+   "ver": "261113qa27",
+   "files": 7,
+   "additions": 378,
+   "deletions": 15
+  },
   {
    "hash": "1f16625",
    "agent": "Claude Code",
@@ -6489,19 +6502,6 @@
    "ver": "260722nkfix3",
    "files": 1,
    "additions": 3,
-   "deletions": 1
-  },
-  {
-   "hash": "40eb3a6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T15:43:10+07:00",
-   "message": "Cap nhat WEB_CONTEXT: ANTHROPIC_API_KEY da duoc cau hinh + kiem chung chay that tren VPS [loai:Config] [tokens:1000] [ver:260722nkfix3]",
-   "loai": "Config",
-   "tokens": 1000,
-   "ver": "260722nkfix3",
-   "files": 1,
-   "additions": 1,
    "deletions": 1
   }
  ]
