@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-11T23:38:04.092Z",
+ "generated": "2026-11-13T08:47:14.970Z",
  "repo": "zentea-qlch",
- "appVer": "261112qa23",
+ "appVer": "261113qa24",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "432aadf",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-13T15:46:54+07:00",
+   "message": "Quan ao: Ca Phuc vu - cam mam bam tung ly tren ban len mam (toi da 6) mang ve bon rua, cam khan giu chuot re tren mat ban de lau, thay tay nguoi don o goc FPS; phuc vu may nghi trong ca nay [loai:Thêm tính năng] [tokens:90000] [ver:261113qa24]",
+   "loai": "Thêm tính năng",
+   "tokens": 90000,
+   "ver": "261113qa24",
+   "files": 5,
+   "additions": 208,
+   "deletions": 16
+  },
   {
    "hash": "d7bd35f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 21,
    "deletions": 0
-  },
-  {
-   "hash": "4738fbc",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T13:57:07+07:00",
-   "message": "Them Claude Opus 4.8 lam model chinh cho NK Parse (structured outputs, thay the khi Gemini/Groq loi) [loai:Thêm tính năng] [tokens:14000] [ver:260722nkfix3]",
-   "loai": "Thêm tính năng",
-   "tokens": 14000,
-   "ver": "260722nkfix3",
-   "files": 3,
-   "additions": 66,
-   "deletions": 9
   }
  ]
 }
