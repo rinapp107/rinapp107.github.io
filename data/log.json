@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-13T11:42:14.800Z",
+ "generated": "2026-11-13T11:54:02.198Z",
  "repo": "zentea-qlch",
- "appVer": "261113qa28",
+ "appVer": "261113qa29",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e0014fc",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-13T18:53:42+07:00",
+   "message": "Quan ao: choi chung GD2b - ly / mam / khan dung chung (dat xuong ca quan thay, ai nhat truoc duoc, khan 1 cai, chong mam chung, khach chi cam ly minh, ly rong khach bo lai cho phuc vu that don) [loai:Thêm tính năng] [tokens:80000] [ver:261113qa29]",
+   "loai": "Thêm tính năng",
+   "tokens": 80000,
+   "ver": "261113qa29",
+   "files": 6,
+   "additions": 147,
+   "deletions": 18
+  },
   {
    "hash": "06f1197",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "7bc5b1c",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T16:15:39+07:00",
-   "message": "Sua field hinhThuc luc tao ban nhap NK tu Zalo: khop dung bang _ZALO_HT_MAP (Tang Cuong/Lam The) thay vi hardcode Chinh Thuc cho moi loai [loai:Fix bug] [tokens:4000] [ver:260722nkfix3]",
-   "loai": "Fix bug",
-   "tokens": 4000,
-   "ver": "260722nkfix3",
-   "files": 2,
-   "additions": 25,
-   "deletions": 1
   }
  ]
 }
