@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-14T04:36:46.090Z",
+ "generated": "2026-11-14T05:03:05.600Z",
  "repo": "zentea-qlch",
- "appVer": "261114qa31",
+ "appVer": "261114qa32",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "afb6db4",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-14T12:02:44+07:00",
+   "message": "Quan ao: doc dang bao nhan su moi (he thong tu gui, khong nhan Phu) - dong co dau dau dong = nhan vien quay; nhan vi tri phai co dau : [loai:Fix bug] [tokens:40000] [ver:261114qa32]",
+   "loai": "Fix bug",
+   "tokens": 40000,
+   "ver": "261114qa32",
+   "files": 5,
+   "additions": 18,
+   "deletions": 10
+  },
   {
    "hash": "a96fdbf",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "9b67f23",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T17:18:45+07:00",
-   "message": "Sua quyen xem Lich Quan Ly (ql-cua-hang): admin duoc xem het (nhu superadmin, khong sua), role manager chi thay dung dong cua minh - truoc do manager thay het tat ca quan ly moi chi nhanh. Kem thay doi favicon/meta OG dang co san trong working tree (khong phai cua task nay) [loai:Fix bug] [tokens:6000] [ver:260722logo1]",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260722logo1",
-   "files": 2,
-   "additions": 16,
-   "deletions": 5
   }
  ]
 }
