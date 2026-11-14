@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-14T05:03:05.600Z",
+ "generated": "2026-11-14T05:18:15.269Z",
  "repo": "zentea-qlch",
- "appVer": "261114qa32",
+ "appVer": "261114qa33",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "4c2d3b3",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-14T12:17:13+07:00",
+   "message": "Quan ao: nut Nhan chi bat/tat nhan khu vuc, quay, may, do vat - ten nhan vien van hien [loai:Thêm tính năng] [tokens:15000] [ver:261114qa33]",
+   "loai": "Thêm tính năng",
+   "tokens": 15000,
+   "ver": "261114qa33",
+   "files": 4,
+   "additions": 6,
+   "deletions": 6
+  },
   {
    "hash": "afb6db4",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 155,
    "deletions": 35
-  },
-  {
-   "hash": "a44a6da",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T17:29:32+07:00",
-   "message": "Cap nhat WEB_CONTEXT: fix quyen xem Lich Quan Ly [loai:Config] [tokens:1000] [ver:260722logo1]",
-   "loai": "Config",
-   "tokens": 1000,
-   "ver": "260722logo1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
