@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-13T23:01:36.456Z",
+ "generated": "2026-11-14T04:36:46.090Z",
  "repo": "zentea-qlch",
- "appVer": "261114qa30",
+ "appVer": "261114qa31",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a96fdbf",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-14T11:36:25+07:00",
+   "message": "Quan ao: 4 pha che may + thu ngan may mang ten that theo tin \"bao nhan su\" group lich lam viec NTMK (Phu 1/2/3 -> pha che, thieu thi Kiem bill; Thu ngan -> thu ngan; ca dang dien ra, chua co thi ban gan nhat; chi ten goi tren dau + ghi chu bang chon vai; tin moi -> doi ten ngay) + 4 pha che thay nhau lam don [loai:Thêm tính năng] [tokens:150000] [ver:261114qa31]",
+   "loai": "Thêm tính năng",
+   "tokens": 150000,
+   "ver": "261114qa31",
+   "files": 7,
+   "additions": 208,
+   "deletions": 33
+  },
   {
    "hash": "3b00c20",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 2,
    "additions": 16,
    "deletions": 5
-  },
-  {
-   "hash": "8b94529",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-22T17:18:38+07:00",
-   "message": "Sua cau hook mo ta web (SEO) + gan logo favicon that de Google hien logo thay vi qua dia cau [loai:Cai tien] [tokens:3000] [ver:260722logo1]",
-   "loai": "Cai tien",
-   "tokens": 3000,
-   "ver": "260722logo1",
-   "files": 4,
-   "additions": 13,
-   "deletions": 13
   }
  ]
 }
