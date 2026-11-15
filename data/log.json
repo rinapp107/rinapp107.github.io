@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-15T05:43:33.042Z",
+ "generated": "2026-11-15T06:42:38.864Z",
  "repo": "zentea-qlch",
- "appVer": "261115vs1",
+ "appVer": "261115bnd1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "04edf96",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-15T13:41:45+07:00",
+   "message": "Quan ao: game Bai Noi Doi (ban banBai 4 ghe, bo 20 la Tra Sua / Ca Phe / Tra Dao / ZEN, up 1-3 la hoac bat Noi doi, thua uong ly tra may rui 1/6 ly cay bi loai; nguoi that + may ten pha che; server giu van, moi nguoi chi thay bai minh) [loai:Thêm tính năng] [tokens:160000] [ver:261115bnd1]",
+   "loai": "Thêm tính năng",
+   "tokens": 160000,
+   "ver": "261115bnd1",
+   "files": 10,
+   "additions": 485,
+   "deletions": 17
+  },
   {
    "hash": "1b20259",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 101,
    "deletions": 15
-  },
-  {
-   "hash": "65fc77a",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T20:27:40+07:00",
-   "message": "Cap nhat WEB_CONTEXT: hien ten NV that trong widget Nguoi dang hoat dong [loai:Config] [tokens:900] [ver:260722logo1]",
-   "loai": "Config",
-   "tokens": 900,
-   "ver": "260722logo1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
