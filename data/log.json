@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-14T05:18:15.269Z",
+ "generated": "2026-11-15T05:35:48.702Z",
  "repo": "zentea-qlch",
- "appVer": "261114qa33",
+ "appVer": "261115vs1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "d2b6605",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-15T12:35:25+07:00",
+   "message": "Lich Ve Sinh NTMK mo lai: tab Ve Sinh (xem, tich, phan cong, tu phan chia, tao theo mau tuan) + tu tich tu group BAO CAO CONG VIEC + tu nhac giong anh chay lai du ZT_NEN_OFF=1 + tin bao nhan su tu chia viec hom nay [loai:Thêm tính năng] [tokens:180000] [ver:261115vs1]",
+   "loai": "Thêm tính năng",
+   "tokens": 180000,
+   "ver": "261115vs1",
+   "files": 11,
+   "additions": 556,
+   "deletions": 9
+  },
   {
    "hash": "4c2d3b3",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 28,
    "deletions": 12
-  },
-  {
-   "hash": "32a7923",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T19:18:18+07:00",
-   "message": "Fix tai khoan manager thieu entry trong roster Lich Quan Ly (data.managers) sau khi gioi han quyen xem theo role - them console job qlch-sync-managers dong bo tu Users, da chay fix 1 tai khoan thieu (Nguyen Yen Nhi) + 1 lech du lieu [loai:Fix bug] [tokens:7000] [ver:260722logo1]",
-   "loai": "Fix bug",
-   "tokens": 7000,
-   "ver": "260722logo1",
-   "files": 2,
-   "additions": 155,
-   "deletions": 35
   }
  ]
 }
