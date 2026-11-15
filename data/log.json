@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-15T05:35:48.702Z",
+ "generated": "2026-11-15T05:43:33.042Z",
  "repo": "zentea-qlch",
  "appVer": "261115vs1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1b20259",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-15T12:43:08+07:00",
+   "message": "Lich Ve Sinh: cho /api/deploy nhan zentea-mern/ve-sinh.js + nap module an toan (thieu file khong sap API) [loai:Fix bug] [tokens:20000] [ver:261115vs1]",
+   "loai": "Fix bug",
+   "tokens": 20000,
+   "ver": "261115vs1",
+   "files": 2,
+   "additions": 13,
+   "deletions": 7
+  },
   {
    "hash": "d2b6605",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "a9a570c",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T20:24:03+07:00",
-   "message": "Widget \"Nguoi dang hoat dong\": hien ten that cua nhan vien da tu nhan dang (Ban la ai?) thay vi ten tai khoan dung chung theo cua hang. Ping gui kem staffName/staffEmpId tu localStorage, /api/users/online gom theo (tai khoan+danh tinh) de tach rieng nhieu NV chung 1 login [loai:Thêm tính năng] [tokens:8000] [ver:260722logo1]",
-   "loai": "Thêm tính năng",
-   "tokens": 8000,
-   "ver": "260722logo1",
-   "files": 3,
-   "additions": 28,
-   "deletions": 12
   }
  ]
 }
