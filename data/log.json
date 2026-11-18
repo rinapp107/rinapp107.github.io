@@ -1,9 +1,35 @@
 {
- "generated": "2026-11-15T06:42:38.864Z",
+ "generated": "2026-11-18T17:39:57.358Z",
  "repo": "zentea-qlch",
- "appVer": "261115bnd1",
+ "appVer": "261118mong0",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7d729bb",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-19T00:39:34+07:00",
+   "message": "Deploy Quan ao mong GD0: APP_VER 261118mong0, sw zentea-zth-v599 [loai:Deploy] [tokens:5000] [ver:261118mong0]",
+   "loai": "Deploy",
+   "tokens": 5000,
+   "ver": "261118mong0",
+   "files": 3,
+   "additions": 3,
+   "deletions": 3
+  },
+  {
+   "hash": "c4786da",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-19T00:30:24+07:00",
+   "message": "Quan ao mong GD0: file 3D chi tai khi mo tab (JS luc mo web 518KB -> 128KB) + bo do F3 / ?do=1 / QUANAO.so() [loai:Refactor] [tokens:300000] [ver:261118mong0]",
+   "loai": "Refactor",
+   "tokens": 300000,
+   "ver": "261118mong0",
+   "files": 6,
+   "additions": 160,
+   "deletions": 18
+  },
   {
    "hash": "04edf96",
    "agent": "Claude Code",
@@ -6477,32 +6503,6 @@
    "files": 5,
    "additions": 39,
    "deletions": 18
-  },
-  {
-   "hash": "488b5c7",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T22:14:44+07:00",
-   "message": "Cap nhat WEB_CONTEXT: superadmin bypass man bao tri Vuon ZEN [loai:Config] [tokens:700] [ver:260722logo1]",
-   "loai": "Config",
-   "tokens": 700,
-   "ver": "260722logo1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
-  },
-  {
-   "hash": "5f431a1",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T22:13:47+07:00",
-   "message": "Vuon ZEN: superadmin xem truoc duoc vuon that ngay ca khi dang bao tri nang cap (staff/quan ly van thay man bao tri nhu cu). Them console job cn-debug-superadmin (doi chieu lien ket ho so NV cua tai khoan superadmin, phuc vu chan doan) [loai:Thêm tính năng] [tokens:6000] [ver:260722logo1]",
-   "loai": "Thêm tính năng",
-   "tokens": 6000,
-   "ver": "260722logo1",
-   "files": 3,
-   "additions": 101,
-   "deletions": 15
   }
  ]
 }
