@@ -1,9 +1,35 @@
 {
- "generated": "2026-11-18T17:39:57.358Z",
+ "generated": "2026-11-19T02:13:02.482Z",
  "repo": "zentea-qlch",
- "appVer": "261118mong0",
+ "appVer": "261119mong1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e57a43f",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-19T09:12:43+07:00",
+   "message": "Deploy Quan ao mong GD1a: APP_VER 261119mong1, sw zentea-zth-v600 [loai:Deploy] [tokens:5000] [ver:261119mong1]",
+   "loai": "Deploy",
+   "tokens": 5000,
+   "ver": "261119mong1",
+   "files": 3,
+   "additions": 3,
+   "deletions": 3
+  },
+  {
+   "hash": "6ad17ba",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-19T07:28:45+07:00",
+   "message": "Quan ao mong GD1a: bo nao nhip co dinh 10 lan/giay (nhan vat may + gio quan + sinh khach), phan ve noi suy moi khung, may cham van dung gio [loai:Refactor] [tokens:150000] [ver:261119mong1]",
+   "loai": "Refactor",
+   "tokens": 150000,
+   "ver": "261119mong1",
+   "files": 4,
+   "additions": 75,
+   "deletions": 25
+  },
   {
    "hash": "7d729bb",
    "agent": "Claude Code",
@@ -6477,32 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 0
-  },
-  {
-   "hash": "a256566",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T22:46:45+07:00",
-   "message": "Fix that (dung goc): man bao tri Vuon ZEN thuc su hien qua tab 'vuon' hardcode rieng trong js/api-core-v68.js (kpiProfileTab), KHONG qua window.renderGardenGame nhu ban sua truoc - fix truoc do vao nham cho nen khong co tac dung. Gio superadmin vao dung tab se goi renderGardenGame that, role khac van thay man bao tri [loai:Fix bug] [tokens:5000] [ver:260722zalopxl1]",
-   "loai": "Fix bug",
-   "tokens": 5000,
-   "ver": "260722zalopxl1",
-   "files": 2,
-   "additions": 9,
-   "deletions": 2
-  },
-  {
-   "hash": "7e2a741",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-22T22:24:46+07:00",
-   "message": "Mo Zalo Chat AI cho quan ly cua hang (read-only, chi thay group LLV chi nhanh minh): backend _zaloRequireView + scope theo req.user.branch cho cac endpoint xem, chan gui (send van admin-only); frontend cho manager xem + an o gui + bo pin NTMK cung; config canViewSection mo zalo-chat cho role manager [loai:Thêm tính năng] [tokens:22000] [ver:260722zalopxl1]",
-   "loai": "Thêm tính năng",
-   "tokens": 22000,
-   "ver": "260722zalopxl1",
-   "files": 5,
-   "additions": 39,
-   "deletions": 18
   }
  ]
 }
