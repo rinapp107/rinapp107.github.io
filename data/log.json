@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-19T02:13:02.482Z",
+ "generated": "2026-11-19T04:26:36.612Z",
  "repo": "zentea-qlch",
- "appVer": "261119mong1",
+ "appVer": "261119chia1",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "18b37ed",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-19T11:26:18+07:00",
+   "message": "Quan ao mong GD1b: chia 7 file (nen/hinh/nao/choi/mang/giai-tri/quan-ao) noi ten qua khoi NOI tu sinh (cong-cu/noi-quan-ao.js, deploy chan neu lech), tai truoc song song [loai:Refactor] [tokens:250000] [ver:261119chia1]",
+   "loai": "Refactor",
+   "tokens": 250000,
+   "ver": "261119chia1",
+   "files": 17,
+   "additions": 3869,
+   "deletions": 3406
+  },
   {
    "hash": "e57a43f",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 6,
    "deletions": 1
-  },
-  {
-   "hash": "63351ce",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-22T22:49:32+07:00",
-   "message": "Cap nhat WEB_CONTEXT: sua dung goc bypass Vuon ZEN (ban truoc sua nham cho) [loai:Config] [tokens:1000] [ver:260722zalopxl1]",
-   "loai": "Config",
-   "tokens": 1000,
-   "ver": "260722zalopxl1",
-   "files": 1,
-   "additions": 1,
-   "deletions": 0
   }
  ]
 }
