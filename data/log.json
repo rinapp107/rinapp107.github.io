@@ -1,9 +1,35 @@
 {
- "generated": "2026-11-21T10:30:26.980Z",
+ "generated": "2026-11-21T11:09:32.491Z",
  "repo": "zentea-qlch",
- "appVer": "261121mau2",
+ "appVer": "261121mau3",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "095f8d9",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-21T18:09:12+07:00",
+   "message": "Deploy Quan ao GD2 mau: bon rua sat mep loi vao quay, bo bon cu, day ban lien toi thu ngan (?mau=1) [loai:Deploy] [tokens:5000] [ver:261121mau3]",
+   "loai": "Deploy",
+   "tokens": 5000,
+   "ver": "261121mau3",
+   "files": 5,
+   "additions": 7,
+   "deletions": 7
+  },
+  {
+   "hash": "f91a6df",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-21T18:04:20+07:00",
+   "message": "Quan ao GD2 mau: bon rua sat mep loi vao quay, bo bon cu (theo gop y anh); day ban tu loi vao lien toi thu ngan sat kinh, bon + may pha 1 ban; rua ly / vat khan Ca Phuc vu dung bon co voi (bonRua) [loai:Fix bug] [tokens:90000] [ver:261121mau2]",
+   "loai": "Fix bug",
+   "tokens": 90000,
+   "ver": "261121mau2",
+   "files": 8,
+   "additions": 85,
+   "deletions": 54
+  },
   {
    "hash": "8e1737a",
    "agent": "Claude Code",
@@ -6477,32 +6503,6 @@
    "files": 3,
    "additions": 86,
    "deletions": 5
-  },
-  {
-   "hash": "5050f9d",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T15:47:22+07:00",
-   "message": "Them doi soat cham cong XUYEN CHI NHANH cho Phan Ca: NV lich o chi nhanh A nhung cham cong that o chi nhanh B (di ho tro) gio Phan Ca cua A van nhan ra \"da cham\" dung, hover vao ca hien ro cham tai chi nhanh nao neu khac chi nhanh dang xem. Endpoint moi GET /api/time-clock-cross-branch (tra field gon, khong anh/GPS, loc theo thang). Xac nhan qua du lieu that: Minh Tan co ban ghi cham cong rieng o cn16 (26) va cn02 (6) [loai:Thêm tính năng] [tokens:12000] [ver:260722zalopxl1]",
-   "loai": "Thêm tính năng",
-   "tokens": 12000,
-   "ver": "260722zalopxl1",
-   "files": 3,
-   "additions": 242,
-   "deletions": 41
-  },
-  {
-   "hash": "6b070ea",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T15:24:20+07:00",
-   "message": "Cap nhat WEB_CONTEXT: revert fix cham cong + xac dinh loi that o doi soat Phan Ca xuyen chi nhanh [loai:Config] [tokens:1200] [ver:260722zalopxl1]",
-   "loai": "Config",
-   "tokens": 1200,
-   "ver": "260722zalopxl1",
-   "files": 1,
-   "additions": 1,
-   "deletions": 0
   }
  ]
 }
