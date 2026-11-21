@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-21T11:09:32.491Z",
+ "generated": "2026-11-21T11:38:28.726Z",
  "repo": "zentea-qlch",
- "appVer": "261121mau3",
+ "appVer": "261121mau4",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "1068cd7",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-21T18:38:09+07:00",
+   "message": "Quan ao GD2 mau: ban bon rua co voi canh bep nau tran chau (day tuong sau, sat cot cua kho), bep thu 0,9 m; deploy (?mau=1) [loai:Thêm tính năng] [tokens:40000] [ver:261121mau4]",
+   "loai": "Thêm tính năng",
+   "tokens": 40000,
+   "ver": "261121mau4",
+   "files": 6,
+   "additions": 30,
+   "deletions": 21
+  },
   {
    "hash": "095f8d9",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "e0c9a0f",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T15:48:45+07:00",
-   "message": "Zalo Chat AI: tha cam xuc len tin nhan nhu Zalo that (6 icon Tim/Thich/Haha/Wow/Buon/Gian)",
-   "loai": "Thêm tính năng",
-   "tokens": 20000,
-   "ver": "260723react1",
-   "files": 3,
-   "additions": 86,
-   "deletions": 5
   }
  ]
 }
