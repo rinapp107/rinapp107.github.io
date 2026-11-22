@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-22T01:49:13.344Z",
+ "generated": "2026-11-22T04:28:29.667Z",
  "repo": "zentea-qlch",
- "appVer": "261121mau5",
+ "appVer": "261122mau6",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "9ec7144",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-22T11:22:32+07:00",
+   "message": "Quan ao GD2 mau: quay thu ngan theo anh (mat da den lien toi mep khach, man POS 2 mat tren ket tien, the rung, mam go) + tu banh chan go nan, khay may, tui qua; deploy (?mau=1) [loai:Fix bug] [tokens:50000] [ver:261122mau6]",
+   "loai": "Fix bug",
+   "tokens": 50000,
+   "ver": "261122mau6",
+   "files": 5,
+   "additions": 34,
+   "deletions": 13
+  },
   {
    "hash": "818e304",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 63,
    "deletions": 9
-  },
-  {
-   "hash": "0ae5fc7",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T16:09:04+07:00",
-   "message": "Fix tha cam xuc tu web loi \"Cannot read properties of undefined (reading msgId)\"",
-   "loai": "Fix bug",
-   "tokens": 6000,
-   "ver": "260723react2",
-   "files": 4,
-   "additions": 12,
-   "deletions": 5
   }
  ]
 }
