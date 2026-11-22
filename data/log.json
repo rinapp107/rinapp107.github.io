@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-22T04:28:29.667Z",
+ "generated": "2026-11-22T06:32:50.774Z",
  "repo": "zentea-qlch",
- "appVer": "261122mau6",
+ "appVer": "261122mau7",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "fb1baa8",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-22T13:32:28+07:00",
+   "message": "Quan ao GD2 mau: tu bat khi dang nhap superadmin (vao thang cung thay mau), link moi khach van ban cu, ?mau=0 xem ban cu [loai:Config] [tokens:15000] [ver:261122mau7]",
+   "loai": "Config",
+   "tokens": 15000,
+   "ver": "261122mau7",
+   "files": 5,
+   "additions": 12,
+   "deletions": 5
+  },
   {
    "hash": "9ec7144",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "c068c70",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T16:37:07+07:00",
-   "message": "Fix goc re Quan Ly Cham Cong (qc.js) hien sai NV theo chi nhanh: module co dropdown chi nhanh RIENG nhung danh sach nhan vien lai lay tu bien toan cuc employeesData (bam theo sidebar, khong doi theo dropdown nay) - gio tai rieng roster dung branchVal moi lan doi chi nhanh/thang. Phat hien them: ca 198 ban ghi NV trong he thong deu THIEU field branch/_branchId (loc theo field nay tu truoc gio la vo tac dung). Them doi soat cham cong xuyen chi nhanh (dung chung endpoint /api/time-clock-cross-branch da them cho Phan Ca) - modal chi tiet khi bam vao ca hien ro \"Cham tai: <chi nhanh>\" neu khac chi nhanh dang xem [loai:Fix bug] [tokens:15000] [ver:260722zalopxl1]",
-   "loai": "Fix bug",
-   "tokens": 15000,
-   "ver": "260722zalopxl1",
-   "files": 3,
-   "additions": 63,
-   "deletions": 9
   }
  ]
 }
