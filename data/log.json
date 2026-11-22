@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-22T07:35:22.110Z",
+ "generated": "2026-11-22T07:40:44.114Z",
  "repo": "zentea-qlch",
- "appVer": "261122rem10",
+ "appVer": "261122kinh11",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "bbc8fd5",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-22T14:40:23+07:00",
+   "message": "Quan ao: kinh mat tien tam lon lien san len tang lung khong khung ngang, rem cuon tu tang lung xuong; deploy [loai:Fix bug] [tokens:15000] [ver:261122kinh11]",
+   "loai": "Fix bug",
+   "tokens": 15000,
+   "ver": "261122kinh11",
+   "files": 4,
+   "additions": 10,
+   "deletions": 7
+  },
   {
    "hash": "01328e4",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 3,
    "additions": 17,
    "deletions": 4
-  },
-  {
-   "hash": "c0d3bf9",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T20:23:42+07:00",
-   "message": "Ten file gui Zalo gon dep: bo ma chong trung + rut gon ten chi nhanh",
-   "loai": "Cai tien",
-   "tokens": 6000,
-   "ver": "260723zlname1",
-   "files": 4,
-   "additions": 27,
-   "deletions": 13
   }
  ]
 }
