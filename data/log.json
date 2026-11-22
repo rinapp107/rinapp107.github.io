@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-22T06:52:04.501Z",
+ "generated": "2026-11-22T07:22:41.300Z",
  "repo": "zentea-qlch",
- "appVer": "261122moi8",
+ "appVer": "261122tt9",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "49d8429",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-22T14:21:40+07:00",
+   "message": "Quan ao: tu banh doi khoi vach kinh + cua kinh lua mo duoc, rem cuon hoa la keo duoc, phim E dung do gan (voi nuoc, thung rac, rem, tu banh) [loai:Thêm tính năng] [tokens:70000] [ver:261122tt9]",
+   "loai": "Thêm tính năng",
+   "tokens": 70000,
+   "ver": "261122tt9",
+   "files": 7,
+   "additions": 77,
+   "deletions": 15
+  },
   {
    "hash": "da59fe3",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 20,
    "deletions": 5
-  },
-  {
-   "hash": "abdbc25",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T17:39:03+07:00",
-   "message": "Gui file Thong Ke LLV qua Zalo bang 1 nut (nguoi dung tu bam, khong tu dong gui)",
-   "loai": "Thêm tính năng",
-   "tokens": 26000,
-   "ver": "260723zlfile1",
-   "files": 4,
-   "additions": 254,
-   "deletions": 35
   }
  ]
 }
