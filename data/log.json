@@ -1,9 +1,35 @@
 {
- "generated": "2026-11-22T07:22:41.300Z",
+ "generated": "2026-11-22T07:35:22.110Z",
  "repo": "zentea-qlch",
- "appVer": "261122tt9",
+ "appVer": "261122rem10",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "01328e4",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-22T14:34:57+07:00",
+   "message": "Deploy Quan ao: 2 rem keo duoc, tu banh khong cham vach kinh [loai:Deploy] [tokens:3000] [ver:261122rem10]",
+   "loai": "Deploy",
+   "tokens": 3000,
+   "ver": "261122rem10",
+   "files": 2,
+   "additions": 3,
+   "deletions": 3
+  },
+  {
+   "hash": "f1584ca",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-22T14:33:44+07:00",
+   "message": "Quan ao: 2 rem cuon keo duoc phu het kinh trong quay (bo phim la co dinh), tu banh hep 1,0 m khong cham vach kinh [loai:Fix bug] [tokens:30000] [ver:261122tt9]",
+   "loai": "Fix bug",
+   "tokens": 30000,
+   "ver": "261122tt9",
+   "files": 2,
+   "additions": 15,
+   "deletions": 23
+  },
   {
    "hash": "49d8429",
    "agent": "Claude Code",
@@ -6477,32 +6503,6 @@
    "files": 4,
    "additions": 27,
    "deletions": 13
-  },
-  {
-   "hash": "10f8ab6",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T19:59:54+07:00",
-   "message": "Chon nguoi nhan Zalo bang o GO TIM thay vi dropdown cuon tay",
-   "loai": "Cai tien",
-   "tokens": 7000,
-   "ver": "260723zlfind1",
-   "files": 3,
-   "additions": 71,
-   "deletions": 20
-  },
-  {
-   "hash": "0abf5f2",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T19:15:02+07:00",
-   "message": "Fix ten file gui Zalo bi vo ma ky tu khien Excel khong mo duoc",
-   "loai": "Fix bug",
-   "tokens": 5000,
-   "ver": "260723zlfile2",
-   "files": 4,
-   "additions": 20,
-   "deletions": 5
   }
  ]
 }
