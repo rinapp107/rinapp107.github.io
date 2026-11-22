@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-21T11:38:28.726Z",
+ "generated": "2026-11-22T01:49:13.344Z",
  "repo": "zentea-qlch",
- "appVer": "261121mau4",
+ "appVer": "261121mau5",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "818e304",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-22T08:48:55+07:00",
+   "message": "Quan ao GD2 mau: tuong sau quay theo anh lan 3 - 2 TV giua tuong, ke 2 ben bang nhau, may dong tra thap va lot duoi mep TV phai, quay may xay ngan, ban bep mat den dai; deploy (?mau=1) [loai:Fix bug] [tokens:60000] [ver:261121mau5]",
+   "loai": "Fix bug",
+   "tokens": 60000,
+   "ver": "261121mau5",
+   "files": 5,
+   "additions": 47,
+   "deletions": 30
+  },
   {
    "hash": "1068cd7",
    "agent": "Claude Code",
@@ -6490,19 +6503,6 @@
    "files": 4,
    "additions": 12,
    "deletions": 5
-  },
-  {
-   "hash": "db1a061",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-23T15:48:48+07:00",
-   "message": "Cap nhat WEB_CONTEXT: doi soat cham cong xuyen chi nhanh cho Phan Ca [loai:Config] [tokens:1500] [ver:260722zalopxl1]",
-   "loai": "Config",
-   "tokens": 1500,
-   "ver": "260722zalopxl1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
