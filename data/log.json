@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-24T07:17:17.068Z",
+ "generated": "2026-11-24T07:42:18.541Z",
  "repo": "zentea-qlch",
- "appVer": "261124hitbox37",
+ "appVer": "261124staff38",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "ce85989",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-11-24T14:41:59+07:00",
+   "message": "Quan ao: phan cong cong viec thuc te cho tung nhan vien (thu ngan, 4 pha che chuyen khau, phuc vu tuan ban) [loai:Thêm tính năng] [tokens:15000] [ver:261124staff38]",
+   "loai": "Thêm tính năng",
+   "tokens": 15000,
+   "ver": "261124staff38",
+   "files": 3,
+   "additions": 182,
+   "deletions": 18
+  },
   {
    "hash": "a006ec7",
    "agent": "Antigravity",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "3a83e53",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-26T15:37:07+07:00",
-   "message": "Them buoc phan loai \"chi dao chung\" vs \"bao cao rieng 1 cua hang\" truoc khi tao nhap Thong Bao",
-   "loai": "Fix bug",
-   "tokens": 22000,
-   "ver": "260726classify1",
-   "files": 1,
-   "additions": 60,
-   "deletions": 17
   }
  ]
 }
