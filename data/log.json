@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-24T07:42:18.541Z",
+ "generated": "2026-11-24T08:32:21.236Z",
  "repo": "zentea-qlch",
- "appVer": "261124staff38",
+ "appVer": "261124khach39",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c14770a",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-11-24T15:31:37+07:00",
+   "message": "Quan ao: fix timer NPC staff (countdown dt thay clock), khach ra vo tu nhien moi mode [loai:Fix bug] [tokens:5000] [ver:261124khach39]",
+   "loai": "Fix bug",
+   "tokens": 5000,
+   "ver": "261124khach39",
+   "files": 17,
+   "additions": 31,
+   "deletions": 17
+  },
   {
    "hash": "ce85989",
    "agent": "Antigravity",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 9,
    "deletions": 3
-  },
-  {
-   "hash": "5846cfe",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-26T15:46:15+07:00",
-   "message": "Cap nhat WEB_CONTEXT: fix tao nham nhap Thong Bao tu bao cao rieng 1 cua hang",
-   "loai": "Docs",
-   "tokens": 400,
-   "ver": "260726classify1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
