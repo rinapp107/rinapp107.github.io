@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-24T06:22:44.362Z",
+ "generated": "2026-11-24T07:17:17.068Z",
  "repo": "zentea-qlch",
- "appVer": "261124bcc36",
+ "appVer": "261124hitbox37",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "a006ec7",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-11-24T14:16:55+07:00",
+   "message": "Quan ao: fix hitbox nguoi khong bi lun vao ban bep, chinh ke tuong khong de TV va khong chong cheo [loai:Fix bug] [tokens:12000] [ver:261124hitbox37]",
+   "loai": "Fix bug",
+   "tokens": 12000,
+   "ver": "261124hitbox37",
+   "files": 4,
+   "additions": 11,
+   "deletions": 11
+  },
   {
    "hash": "5394bc2",
    "agent": "Antigravity",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 60,
    "deletions": 17
-  },
-  {
-   "hash": "9dede42",
-   "agent": "Claude Code",
-   "author": "Claude Code",
-   "date": "2026-07-26T15:22:55+07:00",
-   "message": "Fix duyet Nhat Ky khong xu ly duoc ca CA4 (ca dem) -> ca nguoi nho khong mat",
-   "loai": "Fix bug",
-   "tokens": 16000,
-   "ver": "260726ca4nk",
-   "files": 4,
-   "additions": 62,
-   "deletions": 32
   }
  ]
 }
