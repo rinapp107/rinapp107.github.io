@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-24T08:32:21.236Z",
+ "generated": "2026-11-24T08:55:33.181Z",
  "repo": "zentea-qlch",
- "appVer": "261124khach39",
+ "appVer": "261124khach40",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "2959e7a",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-11-24T15:54:49+07:00",
+   "message": "Quan ao: bat khach may mac dinh (khachMay=true), chi tat khi ?khach=0 [loai:Fix bug] [tokens:2000] [ver:261124khach40]",
+   "loai": "Fix bug",
+   "tokens": 2000,
+   "ver": "261124khach40",
+   "files": 3,
+   "additions": 4,
+   "deletions": 4
+  },
   {
    "hash": "c14770a",
    "agent": "Antigravity",
@@ -6490,19 +6503,6 @@
    "files": 1,
    "additions": 2,
    "deletions": 0
-  },
-  {
-   "hash": "8bf513f",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-26T16:00:08+07:00",
-   "message": "Fix loi_cham_cong bi chan hoan toan: thieu trong supported-types + keyword bo sot dao thu tu",
-   "loai": "Fix bug",
-   "tokens": 10000,
-   "ver": "260726loicc1",
-   "files": 1,
-   "additions": 9,
-   "deletions": 3
   }
  ]
 }
