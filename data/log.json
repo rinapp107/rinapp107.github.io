@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-24T08:55:33.181Z",
+ "generated": "2026-11-24T09:30:53.978Z",
  "repo": "zentea-qlch",
- "appVer": "261124khach40",
+ "appVer": "261124bactam41",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "7d74e81",
+   "agent": "Antigravity",
+   "author": "Antigravity",
+   "date": "2026-11-24T16:30:25+07:00",
+   "message": "Quan ao: bo sung nhan vat bac Tam bao ve phia truoc quan, nhanh nhen, hay noi chuyen voi khach, quet san lan xan [loai:Thêm tính năng] [tokens:4000] [ver:261124bactam41]",
+   "loai": "Thêm tính năng",
+   "tokens": 4000,
+   "ver": "261124bactam41",
+   "files": 5,
+   "additions": 181,
+   "deletions": 30
+  },
   {
    "hash": "2959e7a",
    "agent": "Antigravity",
@@ -6490,19 +6503,6 @@
    "files": 8,
    "additions": 502,
    "deletions": 5
-  },
-  {
-   "hash": "7acd5d6",
-   "agent": "Người",
-   "author": "ZenTea Admin",
-   "date": "2026-07-26T16:01:02+07:00",
-   "message": "Cap nhat WEB_CONTEXT: fix loi_cham_cong bi chan hoan toan o Zalo NK auto",
-   "loai": "Docs",
-   "tokens": 400,
-   "ver": "260726loicc1",
-   "files": 1,
-   "additions": 2,
-   "deletions": 0
   }
  ]
 }
