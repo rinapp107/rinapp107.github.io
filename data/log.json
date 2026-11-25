@@ -1,9 +1,35 @@
 {
- "generated": "2026-11-25T10:52:44.695Z",
+ "generated": "2026-11-25T10:57:44.941Z",
  "repo": "zentea-qlch",
- "appVer": "261125pho44",
+ "appVer": "261125full45",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "c70906c",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-25T17:57:22+07:00",
+   "message": "Deploy: Quan ao toan man hinh dien thoai [loai:Deploy] [tokens:1500] [ver:261125full45]",
+   "loai": "Deploy",
+   "tokens": 1500,
+   "ver": "261125full45",
+   "files": 2,
+   "additions": 3,
+   "deletions": 3
+  },
+  {
+   "hash": "fd22b5b",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-25T17:56:58+07:00",
+   "message": "Quan ao: toan man hinh cho dien thoai (phu kin man hinh ca iPhone, nut Cong cu / Thoat goc tren phai, Android khoa man hinh ngang) [loai:Thêm tính năng] [tokens:8000] [ver:261125pho44]",
+   "loai": "Thêm tính năng",
+   "tokens": 8000,
+   "ver": "261125pho44",
+   "files": 4,
+   "additions": 29,
+   "deletions": 2
+  },
   {
    "hash": "9dafb00",
    "agent": "Claude Code",
@@ -6477,32 +6503,6 @@
    "files": 1,
    "additions": 1,
    "deletions": 1
-  },
-  {
-   "hash": "6c1d8d4",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-28T20:01:04+07:00",
-   "message": "Sửa phục hồi LLV ghép ca chéo nhóm [loai:Fix bug] [tokens:12000] [ver:260728llvrecover1]",
-   "loai": "Fix bug",
-   "tokens": 12000,
-   "ver": "260728llvrecover1",
-   "files": 3,
-   "additions": 59,
-   "deletions": 4
-  },
-  {
-   "hash": "3e7c921",
-   "agent": "Codex",
-   "author": "Codex",
-   "date": "2026-07-28T19:55:06+07:00",
-   "message": "Bổ sung đối chiếu ô LLV nhiều ca [loai:Fix bug] [tokens:5000] [ver:260728llvrecover1]",
-   "loai": "Fix bug",
-   "tokens": 5000,
-   "ver": "260728llvrecover1",
-   "files": 1,
-   "additions": 11,
-   "deletions": 0
   }
  ]
 }
