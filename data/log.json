@@ -1,9 +1,35 @@
 {
- "generated": "2026-11-24T10:15:32.522Z",
+ "generated": "2026-11-25T03:17:31.329Z",
  "repo": "zentea-qlch",
- "appVer": "261124mysays42",
+ "appVer": "261125chon43",
  "totalCommits": 500,
  "commits": [
+  {
+   "hash": "e0e9eef",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-25T10:17:11+07:00",
+   "message": "Deploy: trang chu chon Zalo AI / Quan ao (vao khong can mat khau) + cac sua Quan ao [loai:Deploy] [tokens:2000] [ver:261125chon43]",
+   "loai": "Deploy",
+   "tokens": 2000,
+   "ver": "261125chon43",
+   "files": 2,
+   "additions": 3,
+   "deletions": 3
+  },
+  {
+   "hash": "b79e2d8",
+   "agent": "Claude Code",
+   "author": "Claude Code",
+   "date": "2026-11-25T10:11:36+07:00",
+   "message": "Trang chu chon Zalo AI / Quan ao; Quan ao vao khong can mat khau (khach cong khai), header chi Quan ao + nut Trang chu [loai:Thêm tính năng] [tokens:15000] [ver:261124mysays42]",
+   "loai": "Thêm tính năng",
+   "tokens": 15000,
+   "ver": "261124mysays42",
+   "files": 6,
+   "additions": 81,
+   "deletions": 14
+  },
   {
    "hash": "d0f08db",
    "agent": "Antigravity",
@@ -6476,32 +6502,6 @@
    "ver": "260726lbv4",
    "files": 3,
    "additions": 7,
-   "deletions": 6
-  },
-  {
-   "hash": "d9174b5",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-07-26T20:14:20+07:00",
-   "message": "Cau hinh lich-bao-ve la Public Section de luon hien thi tren sidebar cho moi tai khoan [loai:Fix bug] [tokens:1500] [ver:260726lbv3]",
-   "loai": "Fix bug",
-   "tokens": 1500,
-   "ver": "260726lbv3",
-   "files": 5,
-   "additions": 5,
-   "deletions": 5
-  },
-  {
-   "hash": "01d7eca",
-   "agent": "Antigravity",
-   "author": "Antigravity",
-   "date": "2026-07-26T20:07:01+07:00",
-   "message": "Chuyen module Lich Bao Ve vao nhom Van Hanh Cua Hang theo phan phoi sidebar [loai:Config] [tokens:2000] [ver:260726lbv2]",
-   "loai": "Config",
-   "tokens": 2000,
-   "ver": "260726lbv2",
-   "files": 4,
-   "additions": 6,
    "deletions": 6
   }
  ]
